@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Memoria de cálculo — Edificio Los Álamos — Zapata Z-1 (eje B-3) — ALT-031</title>
+<style>
+@page { size: A4; margin: 18mm 15mm 16mm 15mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 10.5pt; line-height: 1.45; color: #14171f; margin: 0;
+  padding: 22px 26px 60px; max-width: 1000px; margin: 0 auto; background: #fff;
+}
+h1 { font-size: 17pt; margin: 0 0 3px; letter-spacing: -0.2px; }
+h2 {
+  font-size: 12pt; margin: 26px 0 9px; padding-bottom: 4px;
+  border-bottom: 1.6px solid #14171f; page-break-after: avoid;
+}
+h3 { font-size: 10.8pt; margin: 15px 0 6px; color: #1e4d8c; page-break-after: avoid; }
+h4 { font-size: 10pt; margin: 11px 0 5px; color: #5a6172; page-break-after: avoid; }
+p { margin: 0 0 8px; }
+
+.masthead { border-bottom: 2.5px solid #14171f; padding-bottom: 11px; margin-bottom: 6px; }
+.masthead .sub { color: #5a6172; font-size: 9.5pt; }
+.meta { display: flex; gap: 22px; flex-wrap: wrap; font-size: 9pt; color: #5a6172; margin-top: 7px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-bottom: 10px; page-break-inside: avoid; }
+th {
+  text-align: left; background: #f2f4f7; border-bottom: 1.4px solid #98a2b3;
+  padding: 5px 7px; font-size: 8.6pt; text-transform: uppercase; letter-spacing: 0.3px; color: #475065;
+}
+td { padding: 4px 7px; border-bottom: 1px solid #e3e7ee; vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.kv td:first-child { width: 34%; color: #5a6172; }
+.kv td:nth-child(2) { font-weight: 600; }
+.ref { color: #7a8395; font-size: 8.8pt; }
+
+.eq { border: 1px solid #dfe3ea; border-left: 3px solid #98a2b3; border-radius: 3px;
+      margin-bottom: 9px; page-break-inside: avoid; }
+.eq.PASS { border-left-color: #1f7a44; }
+.eq.INFO { border-left-color: #4a5a8a; }
+.eq.WARNING { border-left-color: #9a6a00; }
+.eq.NOVER { border-left-color: #7a5aa8; }
+.eq.FAIL { border-left-color: #a32a2a; }
+.eq-head { background: #fafbfc; padding: 6px 9px; border-bottom: 1px solid #e3e7ee;
+           display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.eq-title { font-weight: 600; font-size: 10pt; }
+.eq-body { padding: 8px 9px; }
+.lbl { font-size: 8.2pt; text-transform: uppercase; letter-spacing: 0.4px; color: #7a8395;
+       font-weight: 700; margin-bottom: 2px; margin-top: 7px; }
+.lbl:first-child { margin-top: 0; }
+.formula {
+  font-family: "Consolas", "SFMono-Regular", monospace; font-size: 8.8pt;
+  background: #f6f8fa; border: 1px solid #e3e7ee; border-radius: 2px;
+  padding: 5px 7px; white-space: pre-wrap; word-break: break-word; line-height: 1.55;
+}
+.hyp { font-size: 9pt; color: #475065; padding-left: 12px; position: relative; margin-bottom: 2px; }
+.hyp::before { content: "–"; position: absolute; left: 2px; }
+.cite { font-size: 8.8pt; color: #1e4d8c; font-weight: 600; }
+
+.badge { display: inline-block; padding: 1px 6px; border-radius: 2px;
+         font-size: 8.2pt; font-weight: 700; border: 1px solid; }
+.badge.PASS { background: #e8f5ee; color: #1f7a44; border-color: #a8d5bd; }
+.badge.INFO { background: #eceffa; color: #4a5a8a; border-color: #c2cbe8; }
+.badge.WARNING { background: #fdf3e0; color: #9a6a00; border-color: #e8d5a8; }
+.badge.NOVER { background: #f2ecfa; color: #7a5aa8; border-color: #d5c5ea; }
+.badge.FAIL { background: #fbeaea; color: #a32a2a; border-color: #eec5c5; }
+
+.note { border: 1px solid; border-radius: 3px; padding: 8px 11px; font-size: 9.5pt; margin-bottom: 11px; }
+.note.info { background: #eceffa; border-color: #ccd4ee; color: #33406b; }
+.note.warn { background: #fdf3e0; border-color: #e8d5a8; color: #6b4b00; }
+.note.pass { background: #e8f5ee; border-color: #bfe0cd; color: #145c33; }
+.note.fail { background: #fbeaea; border-color: #eec5c5; color: #7d1f1f; }
+.note strong { display: block; margin-bottom: 3px; }
+
+.conclusion { border: 2px solid #14171f; border-radius: 4px; padding: 13px 15px; margin: 14px 0; }
+.conclusion .verdict { font-size: 13pt; font-weight: 700; margin-bottom: 6px; }
+
+ol, ul { margin: 0 0 9px; padding-left: 20px; }
+li { margin-bottom: 3px; }
+.section { page-break-before: always; }
+.section:first-of-type { page-break-before: avoid; }
+.toc { columns: 2; font-size: 9.5pt; }
+.footer { margin-top: 30px; padding-top: 9px; border-top: 1px solid #dfe3ea;
+          font-size: 8.6pt; color: #7a8395; }
+
+@media print {
+  body { padding: 0; max-width: none; }
+  .no-print { display: none !important; }
+  .eq-body { padding: 6px 8px; }
+  a { text-decoration: none; color: inherit; }
+}
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <h1>Memoria de cálculo — Zapata aislada</h1>
+  <div class="sub">Norma Técnica E.060 (Concreto Armado) y E.050 (Suelos y Cimentaciones) —
+  Reglamento Nacional de Edificaciones del Perú</div>
+  <div class="meta">
+    <span><strong>Proyecto:</strong> Edificio Los Álamos — Zapata Z-1 (eje B-3)</span>
+    <span><strong>Alternativa:</strong> ALT-031</span>
+    <span><strong>Emitido:</strong> 16/08/2026 21:34</span>
+    <span><strong>Motor:</strong> v0.7.0</span>
+  </div>
+</div>
+
+<div class="no-print" style="margin:14px 0;padding:9px 12px;background:#eceffa;
+     border:1px solid #ccd4ee;border-radius:4px;font-size:9.5pt;color:#33406b;">
+  <strong>Para obtener el PDF:</strong> use Ctrl+P (o Cmd+P) y elija «Guardar como PDF».
+  Este bloque no aparece en la impresión.
+</div>
+
+<h2>Contenido</h2>
+<div class="toc">
+  <ol>
+    <li>Datos del proyecto</li><li>Datos de la columna</li><li>Datos del suelo</li>
+    <li>Combinaciones de carga</li><li>Hipótesis utilizadas</li><li>Geometría seleccionada</li>
+    <li>Cálculo de presiones de contacto</li><li>Verificación de excentricidad y estabilidad</li>
+    <li>Diseño por flexión</li><li>Verificación de cortante</li>
+    <li>Verificación de punzonamiento</li><li>Diseño del acero</li>
+    <li>Verificaciones normativas</li><li>Resultado final</li>
+    <li>Alternativas descartadas</li><li>Tabla comparativa</li>
+  </ol>
+</div>
+
+<div class="section">
+<h2>1. Datos del proyecto</h2>
+<table class='kv'><tbody><tr><td>Proyecto</td><td>Edificio Los Álamos — Zapata Z-1 (eje B-3)</td><td class='ref'></td></tr><tr><td>Alternativa analizada</td><td>ALT-031</td><td class='ref'></td></tr><tr><td>Norma aplicada</td><td>E.060</td><td class='ref'></td></tr><tr><td>Estado del resultado</td><td>PASS — ACEPTADA</td><td class='ref'></td></tr></tbody></table>
+<h3>Parámetros de búsqueda ejecutados</h3>
+<table class='kv'><tbody><tr><td>Rango de B</td><td>1.00 – 4.00 <span class='ref'>m</span></td><td class='ref'>incremento 0.10 m</td></tr><tr><td>Rango de L</td><td>1.00 – 4.00 <span class='ref'>m</span></td><td class='ref'>incremento 0.10 m</td></tr><tr><td>Rango de h</td><td>0.40 – 1.00 <span class='ref'>m</span></td><td class='ref'>incremento 0.05 m</td></tr><tr><td>Relación L/B máxima</td><td>2.00</td><td class='ref'></td></tr><tr><td>Gancho declarado en X</td><td>ninguno</td><td class='ref'></td></tr><tr><td>Gancho declarado en Y</td><td>ninguno</td><td class='ref'></td></tr><tr><td>Interpretación de E.060 §15.7</td><td>EFFECTIVE_DEPTH</td><td class='ref'>Interpretación adoptada, no certeza normativa</td></tr></tbody></table>
+<h3>Resumen de la corrida</h3>
+<table class='kv'><tbody><tr><td>Geometrías evaluadas</td><td>741</td><td class='ref'></td></tr><tr><td>Alternativas válidas</td><td>475</td><td class='ref'></td></tr><tr><td>Alternativas descartadas</td><td>266</td><td class='ref'></td></tr><tr><td>Tiempo de cálculo</td><td>2.69 <span class='ref'>s</span></td><td class='ref'></td></tr></tbody></table>
+</div>
+
+<div class="section">
+<h2>2. Datos de la columna</h2>
+<table class='kv'><tbody><tr><td>Sección</td><td>cuadrada</td><td class='ref'></td></tr><tr><td>Dimensión bx</td><td>0.40 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Dimensión by</td><td>0.40 <span class='ref'>m</span></td><td class='ref'></td></tr></tbody></table>
+<h3>Materiales</h3>
+<table class='kv'><tbody><tr><td>f&#x27;c</td><td>21.0 <span class='ref'>MPa</span></td><td class='ref'>E.060 §9.4: mínimo 17 MPa</td></tr><tr><td>fy</td><td>420.0 <span class='ref'>MPa</span></td><td class='ref'>E.060 §9.5: máximo 550 MPa</td></tr><tr><td>Tipo de barra</td><td>corrugada</td><td class='ref'></td></tr><tr><td>Peso unitario del concreto</td><td>24.00 <span class='ref'>kN/m³</span></td><td class='ref'></td></tr><tr><td>Recubrimiento</td><td>70 <span class='ref'>mm</span></td><td class='ref'>E.060 §7.7(a)</td></tr></tbody></table>
+</div>
+
+<div class="section">
+<h2>3. Datos del suelo</h2>
+<table class='kv'><tbody><tr><td>Presión admisible</td><td>150.0 <span class='ref'>kPa</span></td><td class='ref'>Base BRUTA</td></tr><tr><td>Peso unitario del suelo</td><td>18.00 <span class='ref'>kN/m³</span></td><td class='ref'></td></tr><tr><td>Profundidad de cimentación Df</td><td>1.20 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Coef. fricción suelo-concreto μ</td><td>0.450</td><td class='ref'></td></tr><tr><td>FS deslizamiento adoptado</td><td>1.50</td><td class='ref'>E.050 no lo prescribe para zapatas aisladas</td></tr><tr><td>FS volcamiento adoptado</td><td>1.50</td><td class='ref'>E.050 no lo prescribe para zapatas aisladas</td></tr><tr><td>Cohesión</td><td>no declarada <span class='ref'>kPa</span></td><td class='ref'></td></tr><tr><td>Origen de los datos</td><td>EMS N.º 2026-114, Laboratorio de Geotecnia</td><td class='ref'></td></tr></tbody></table>
+<div class="note info">
+  <strong>Sobre los parámetros no declarados</strong>
+  El motor no asume ningún parámetro geotécnico que el usuario no haya
+  proporcionado. Las verificaciones que dependen de un dato ausente se reportan
+  como NO VERIFICADO, nunca como conformes.
+</div>
+</div>
+
+<div class="section">
+<h2>4. Combinaciones de carga</h2>
+<div class="note info">Las combinaciones de SERVICIO dimensionan la zapata frente al suelo (E.060 §15.2 y E.050 art. 17.1); las FACTORIZADAS diseñan el elemento de concreto. El motor las mantiene separadas y nunca las mezcla.</div>
+<table>
+<thead><tr><th>Nombre</th><th>Tipo</th><th class="num">P (kN)</th><th class="num">Mx (kN·m)</th>
+<th class="num">My (kN·m)</th><th class="num">Hx (kN)</th><th class="num">Hy (kN)</th><th>Sismo</th></tr></thead>
+<tbody><tr><td><strong>S1</strong></td><td>SERVICIO</td><td class='num'>450.0</td><td class='num'>40.0</td><td class='num'>25.0</td><td class='num'>0.0</td><td class='num'>0.0</td><td>—</td></tr><tr><td><strong>S2</strong></td><td>SERVICIO</td><td class='num'>380.0</td><td class='num'>75.0</td><td class='num'>20.0</td><td class='num'>45.0</td><td class='num'>0.0</td><td>Sí</td></tr><tr><td><strong>U1</strong></td><td>FACTORIZADA</td><td class='num'>630.0</td><td class='num'>56.0</td><td class='num'>35.0</td><td class='num'>0.0</td><td class='num'>0.0</td><td>—</td></tr><tr><td><strong>U2</strong></td><td>FACTORIZADA</td><td class='num'>520.0</td><td class='num'>110.0</td><td class='num'>28.0</td><td class='num'>63.0</td><td class='num'>0.0</td><td>Sí</td></tr></tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>5. Hipótesis utilizadas</h2>
+<p>Supuestos que el motor registró durante el cálculo, con la verificación que los originó.</p>
+<ul><li>Peso propio recalculado para este h específico (no reutilizado de otra iteración). <span class='ref'>(Peso propio de la zapata y del relleno de suelo sobre ella)</span></li><li>within_kern=True <span class='ref'>(Presión de contacto)</span></li><li>Interpretación de §15.7 documentada en docs/normativa/peralte_minimo_zapatas.md (razonada, no una certeza normativa; configurable en E060ConcreteCode). <span class='ref'>(Peralte mínimo · interpretación adoptada)</span></li><li>As gobernado por cuantía mínima (E.060 §9.7). <span class='ref'>(Flexión dirección X)</span></li><li>alpha_s=40 (columna interior: en zapata aislada con columna concéntrica la sección crítica se cierra por los cuatro lados). <span class='ref'>(Punzonamiento)</span></li><li>Verificación COMPLETA incluyendo transferencia de momento (E.060 §11.12.6). Punzonamiento con transferencia de momento CUMPLE: vu = 0.7864 MPa &lt;= φvn = 1.2854 MPa (ratio 0.612). La transferencia de momento amplifica el esfuerzo un 25.7%. <span class='ref'>(Punzonamiento)</span></li><li>Reparto §15.4.4: gamma_s=0.8889 del acero en la franja central de 2.00 m; el resto en 0.50 m exteriores. Las franjas exteriores se elevaron a la cuantía mínima de §9.7 (interacción no resuelta por la norma -- decisión conservadora, ver módulo). <span class='ref'>(Distribución del refuerzo en la dirección corta (X))</span></li><li>Cumple As requerido con separación constructiva. <span class='ref'>(Selección preliminar de acero, dirección X)</span></li><li>Cada diámetro se verifica con su propia ld: no se extrapola desde la barra seleccionada por select_rebar. <span class='ref'>(Desarrollo verificado en cada opción de armado, dirección X)</span></li><li>Desarrollo suficiente: ld requerida 335 mm &lt;= disponible 730 mm (barra recta sin gancho (no se asume ningún gancho)). Holgura 395 mm. <span class='ref'>(Longitud de desarrollo X)</span></li><li>Ganchos: NO se asume ningún gancho. <span class='ref'>(Longitud de desarrollo X)</span></li><li>El d usado coincide con el d real de la capa más desfavorable. <span class='ref'>(Longitud de desarrollo X)</span></li><li>Desarrollo suficiente: ld requerida 335 mm &lt;= disponible 980 mm (barra recta sin gancho (no se asume ningún gancho)). Holgura 645 mm. <span class='ref'>(Longitud de desarrollo Y)</span></li><li>Deslizamiento cumple: FS = 5.00 &gt;= 1.50 requerido (combinación S2). <span class='ref'>(Deslizamiento)</span></li><li>Volcamiento eje X cumple: FS = 13.16 &gt;= 1.50 (combinación S2). <span class='ref'>(Volcamiento eje X)</span></li><li>Arista inferior de la zapata perpendicular al eje X, a 1.000 m del centro (borde de la base). Empuje pasivo no considerado. <span class='ref'>(Volcamiento eje X)</span></li><li>Volcamiento eje Y cumple: FS = 8.33 &gt;= 1.50 (combinación S2). <span class='ref'>(Volcamiento eje Y)</span></li><li>Arista inferior de la zapata perpendicular al eje Y, a 1.250 m del centro (borde de la base). Empuje pasivo no considerado. <span class='ref'>(Volcamiento eje Y)</span></li></ul>
+</div>
+
+<div class="section">
+<h2>6. Geometría seleccionada</h2>
+<table class='kv'><tbody><tr><td>Ancho B (eje X)</td><td>2.00 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Largo L (eje Y)</td><td>2.50 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Peralte total h</td><td>0.40 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Peralte efectivo d</td><td>0.3158 <span class='ref'>m</span></td><td class='ref'>Capa superior de la parrilla (criterio conservador)</td></tr><tr><td>Área en planta</td><td>5.000 <span class='ref'>m²</span></td><td class='ref'></td></tr><tr><td>Volumen de concreto</td><td>2.000 <span class='ref'>m³</span></td><td class='ref'></td></tr><tr><td>Masa de acero</td><td>54.6 <span class='ref'>kg</span></td><td class='ref'>Longitud recta; sin ganchos ni traslapes</td></tr><tr><td>Volumen de excavación</td><td>6.000 <span class='ref'>m³</span></td><td class='ref'></td></tr></tbody></table>
+</div>
+
+<div class='section'><h2>7. Cálculo de presiones de contacto</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Peso propio de la zapata y del relleno de suelo sobre ella</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">W = gamma_concreto*B*L*h + gamma_suelo*B*L*max(Df-h,0)</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">W = 24.0*2.0*2.5*0.4 + 18.0*2.0*2.5*max(1.2-0.4,0) = 120.00 kN</div>
+    <div class="lbl">Resultado</div>
+    <div>120 <span class="ref">kN</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Peso propio recalculado para este h específico (no reutilizado de otra iteración).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">N/A — N/A (geometría + peso unitario, no es una ecuación normativa numerada)</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Presión de contacto máxima suelo-zapata (modelo KernCheck)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">q = P/A * (1 ± 6ex/B ± 6ey/L), válido solo si within_kern</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">q_avg=P/A=570.0/5.000=114.00 kPa | q=q_avg*(1 ± 6ex/B ± 6ey/L) = 114.00*(1 ± 0.1316 ± 0.1684) -&gt; qmax=148.20 kPa, qmin=79.80 kPa</div>
+    <div class="lbl">Resultado</div>
+    <div>148.2 <span class="ref">kPa</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>within_kern=True</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — Mecánica de materiales estándar (no es un artículo numerado); prohibición de tracciones: E.060 §15.2 &middot; gobierna <strong>S1</strong></div>
+  </div>
+</div></div><div class='section'><h2>8. Verificación de excentricidad y estabilidad</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Estabilidad — Deslizamiento</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">FS = (μ·N + c·A) / H</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">H = sqrt(45.0² + 0.0²) = 45.00 kN | N = 380.0 + 120.0 = 500.00 kN | F_fricción = μ·N = 0.450·500.00 = 225.00 kN | cohesión no proporcionada: no se considera | FS = 225.00/45.00 = 5.000 (requerido 1.50)</div>
+    <div class="lbl">Resultado</div>
+    <div>5 <span class="ref">FS</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Deslizamiento cumple: FS = 5.00 &gt;= 1.50 requerido (combinación S2).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.050 — E.050 art. 17.1 (cargas de servicio); FS adoptado por el proyectista &middot; gobierna <strong>S2</strong></div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Estabilidad — Volcamiento eje X</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">FS = M_estabilizador / M_volcador</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">Punto de giro: Arista inferior de la zapata perpendicular al eje X, a 1.000 m del centro (borde de la base). Empuje pasivo no considerado. | M_estab = N·dim/2 = (380.0+120.0)·1.000 = 500.00 kN·m | M_volc = |M| + |H|·h = 20.00 + 45.00·0.400 = 38.00 kN·m | FS = 13.158 (requerido 1.50)</div>
+    <div class="lbl">Resultado</div>
+    <div>13.1579 <span class="ref">FS</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Volcamiento eje X cumple: FS = 13.16 &gt;= 1.50 (combinación S2).</div><div class='hyp'>Arista inferior de la zapata perpendicular al eje X, a 1.000 m del centro (borde de la base). Empuje pasivo no considerado.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.050 — E.050 art. 17.1 (cargas de servicio); FS adoptado por el proyectista &middot; gobierna <strong>S2</strong></div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Estabilidad — Volcamiento eje Y</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">FS = M_estabilizador / M_volcador</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">Punto de giro: Arista inferior de la zapata perpendicular al eje Y, a 1.250 m del centro (borde de la base). Empuje pasivo no considerado. | M_estab = N·dim/2 = (380.0+120.0)·1.250 = 625.00 kN·m | M_volc = |M| + |H|·h = 75.00 + 0.00·0.400 = 75.00 kN·m | FS = 8.333 (requerido 1.50)</div>
+    <div class="lbl">Resultado</div>
+    <div>8.33333 <span class="ref">FS</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Volcamiento eje Y cumple: FS = 8.33 &gt;= 1.50 (combinación S2).</div><div class='hyp'>Arista inferior de la zapata perpendicular al eje Y, a 1.250 m del centro (borde de la base). Empuje pasivo no considerado.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.050 — E.050 art. 17.1 (cargas de servicio); FS adoptado por el proyectista &middot; gobierna <strong>S2</strong></div>
+  </div>
+</div><h3>8b. Resumen numérico de excentricidad y presiones</h3><table class='kv'><tbody><tr><td>Excentricidad ex</td><td>0.0439 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>Excentricidad ey</td><td>0.0702 <span class='ref'>m</span></td><td class='ref'></td></tr><tr><td>q máximo</td><td>148.20 <span class='ref'>kPa</span></td><td class='ref'></td></tr><tr><td>q mínimo</td><td>79.80 <span class='ref'>kPa</span></td><td class='ref'></td></tr><tr><td>q promedio</td><td>114.00 <span class='ref'>kPa</span></td><td class='ref'></td></tr><tr><td>Resultante dentro del núcleo central</td><td>Sí</td><td class='ref'>E.060 §15.2: no se consideran tracciones</td></tr><tr><td>Modelo de contacto</td><td>KernCheck</td><td class='ref'></td></tr></tbody></table></div><div class='section'><h2>9. Diseño por flexión</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Peralte mínimo de zapatas apoyadas sobre el suelo</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">d &gt;= 0.300 m</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">h_total=0.400 m, d=0.316 m, umbral=0.300 m ; magnitud gobernante=0.316 m -- interpretación EFFECTIVE_DEPTH: &#x27;altura medida sobre el refuerzo inferior&#x27; = peralte efectivo d</div>
+    <div class="lbl">Resultado</div>
+    <div>0.31575 <span class="ref">m</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Interpretación de §15.7 documentada en docs/normativa/peralte_minimo_zapatas.md (razonada, no una certeza normativa; configurable en E060ConcreteCode).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §15.7 (EFFECTIVE_DEPTH, interpretación documentada)</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Diseño a flexión, dirección X (cara de columna)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">As = (0.85 f&#x27;c b / fy) * (d - sqrt(d^2 - 2*Mu/(phi*0.85*f&#x27;c*b)))</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">Mu=113.12 kN*m -&gt; As_req=9.62 cm2, As_min=18.00 cm2 -&gt; As_diseño=18.00 cm2 (As gobernado por cuantía mínima (E.060 §9.7).)</div>
+    <div class="lbl">Resultado</div>
+    <div>0.0018 <span class="ref">m2</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>As gobernado por cuantía mínima (E.060 §9.7).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §15.4(a) sección crítica, §10.2 hipótesis de diseño, §9.4 phi=0.90, As_min: E.060 §9.7 (barras corrugadas, fy&gt;=420 MPa), vía §10.6 y exclusión de §10.5.1 para zapatas &middot; gobierna <strong>U1</strong></div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Diseño a flexión, dirección Y (cara de columna)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">As = (0.85 f&#x27;c b / fy) * (d - sqrt(d^2 - 2*Mu/(phi*0.85*f&#x27;c*b)))</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">Mu=160.25 kN*m -&gt; As_req=13.78 cm2, As_min=14.40 cm2 -&gt; As_diseño=14.40 cm2 (As gobernado por cuantía mínima (E.060 §9.7).)</div>
+    <div class="lbl">Resultado</div>
+    <div>0.00144 <span class="ref">m2</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>As gobernado por cuantía mínima (E.060 §9.7).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §15.4(a) sección crítica, §10.2 hipótesis de diseño, §9.4 phi=0.90, As_min: E.060 §9.7 (barras corrugadas, fy&gt;=420 MPa), vía §10.6 y exclusión de §10.5.1 para zapatas &middot; gobierna <strong>U1</strong></div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Distribución del refuerzo en la dirección corta (X)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">gamma_s = 2/(beta+1) ; As_franja_central = gamma_s*As_total</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">beta=1.2500 -&gt; gamma_s=0.8889 | franja central (ancho = lado corto): ancho=2.00 m, As=16.00 cm2 | franjas exteriores (suma de ambos lados): ancho=0.50 m, As=3.60 cm2 (elevado al mínimo §9.7)</div>
+    <div class="lbl">Resultado</div>
+    <div>0.888889 <span class="ref">adimensional</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Reparto §15.4.4: gamma_s=0.8889 del acero en la franja central de 2.00 m; el resto en 0.50 m exteriores. Las franjas exteriores se elevaron a la cuantía mínima de §9.7 (interacción no resuelta por la norma -- decisión conservadora, ver módulo).</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §15.4.4 y ec. 15-1; mínimos por §9.7 vía §10.6</div>
+  </div>
+</div></div><div class='section'><h2>10. Verificación de cortante</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Cortante unidireccional, dirección X (a d de la cara de columna)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">phi*Vc = phi*0.17*sqrt(f&#x27;c)*bw*d ; PASS si Vu &lt;= phi*Vc</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">phi*Vc = 0.85 * 614.95 = 522.71 kN ; Vu = 171.81 kN</div>
+    <div class="lbl">Resultado</div>
+    <div>0.328684 <span class="ref">adimensional (Vu/phiVc)</span></div>
+    
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §11.3.1.1, ec. 11-3 (aplicable a zapatas vía §15.5.1-15.5.2) &middot; gobierna <strong>U1</strong></div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Cortante unidireccional, dirección Y (a d de la cara de columna)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">phi*Vc = phi*0.17*sqrt(f&#x27;c)*bw*d ; PASS si Vu &lt;= phi*Vc</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">phi*Vc = 0.85 * 491.96 = 418.17 kN ; Vu = 212.91 kN</div>
+    <div class="lbl">Resultado</div>
+    <div>0.509152 <span class="ref">adimensional (Vu/phiVc)</span></div>
+    
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §11.3.1.1, ec. 11-3 (aplicable a zapatas vía §15.5.1-15.5.2) &middot; gobierna <strong>U1</strong></div>
+  </div>
+</div></div><div class='section'><h2>11. Verificación de punzonamiento</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Punzonamiento alrededor de la columna</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">Vu = Pu - qu*A_crit ; phi*Vc = phi*min(ec.11-33,11-34,11-35) ; PASS si Vu &lt;= phi*Vc</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">Sección crítica a d/2=0.158 m de las caras: (0.716 x 0.716) m, bo=2.863 m, A_crit=0.5123 m2 | qu_avg=126.00 kPa, alivio del suelo=64.55 kN | Vu=630.00-64.55=565.45 kN | beta=1.00, alpha_s=40 | (a) ec.11-33 = 0.17*(1+2/1.00)*sqrt(21.0)*2863*316 = 2112.73 kN | (b) ec.11-34 = 0.083*(40*316/2863+2)*sqrt(21.0)*2863*316 = 2204.50 kN | (c) ec.11-35 = 0.33*sqrt(21.0)*2863*316 = 1367.06 kN | GOBIERNA 11-35: Vc = 1367.06 kN | phi*Vc=0.85*1367.06=1162.00 kN | ratio=0.487 || §11.12.6: Sección crítica 0.7158 x 0.7158 m, bo=2.8630 m, d=0.3158 m | v_directo = Vu/(bo·d) = 565.45kN/(2863·316) = 0.6255 MPa | eje Y: b1=0.7158 m, b2=0.7158 m -&gt; γf = 1/(1+(2/3)·sqrt(1.0000)) = 0.6000, γv = 0.4000 | Jc = 8.094084e-02 m⁴, c = 0.3579 m | v = γv·Mu·c/Jc = 0.4000·56.00·0.3579/8.094084e-02 = 0.0990 MPa | eje X: b1=0.7158 m, b2=0.7158 m -&gt; γf = 1/(1+(2/3)·sqrt(1.0000)) = 0.6000, γv = 0.4000 | Jc = 8.094084e-02 m⁴, c = 0.3579 m | v = γv·Mu·c/Jc = 0.4000·35.00·0.3579/8.094084e-02 = 0.0619 MPa | vu_max = 0.6255 + 0.1609 = 0.7864 MPa | φvn = φ·Vc/(bo·d) = 0.85·1367.06kN/(2863·316) = 1.2854 MPa | ratio = 0.612 | Verificación COMPLETA incluyendo transferencia de momento (E.060 §11.12.6). Punzonamiento con transferencia de momento CUMPLE: vu = 0.7864 MPa &lt;= φvn = 1.2854 MPa (ratio 0.612). La transferencia de momento amplifica el esfuerzo un 25.7%.</div>
+    <div class="lbl">Resultado</div>
+    <div>0.486617 <span class="ref">adimensional (Vu/phiVc)</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>alpha_s=40 (columna interior: en zapata aislada con columna concéntrica la sección crítica se cierra por los cuatro lados).</div><div class='hyp'>Verificación COMPLETA incluyendo transferencia de momento (E.060 §11.12.6). Punzonamiento con transferencia de momento CUMPLE: vu = 0.7864 MPa &lt;= φvn = 1.2854 MPa (ratio 0.612). La transferencia de momento amplifica el esfuerzo un 25.7%.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §11.12.2.1, ec. 11-35 (gobernante de las tres); sección crítica §11.12.1.2; phi §9.4; transferencia de momento §11.12.6 (ec. 11-39, 11-40, 13-1) &middot; gobierna <strong>U1</strong></div>
+  </div>
+</div></div><div class='section'><h2>12. Diseño y desarrollo del acero</h2>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Selección preliminar de acero, dirección X</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">n_barras = floor(ancho/separación)+1 ; As_prov = n_barras * area_barra</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">3/8&quot; @ 10.0 cm -&gt; 26 barras, As_prov=18.46 cm2 (req 18.00 cm2)</div>
+    <div class="lbl">Resultado</div>
+    <div>0.001846 <span class="ref">m2</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Cumple As requerido con separación constructiva.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §7.6.6 (separación mínima), §9.7.3 (separación máxima)</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Selección preliminar de acero, dirección Y</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">n_barras = floor(ancho/separación)+1 ; As_prov = n_barras * area_barra</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">3/8&quot; @ 10.0 cm -&gt; 21 barras, As_prov=14.91 cm2 (req 14.40 cm2)</div>
+    <div class="lbl">Resultado</div>
+    <div>0.001491 <span class="ref">m2</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Cumple As requerido con separación constructiva.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §7.6.6 (separación mínima), §9.7.3 (separación máxima)</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Desarrollo verificado en cada opción de armado, dirección X</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">ld(db_i) &lt;= ld_disponible para cada opción i</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">aceptadas: 3/8&quot; @ 7.5 cm (ld=335 mm), 1/2&quot; @ 17.5 cm (ld=448 mm), 5/8&quot; @ 25.0 cm (ld=560 mm) | descartadas por desarrollo: 3/4&quot; @ 35.0 cm (ld=834 mm &gt; 730 mm)</div>
+    <div class="lbl">Resultado</div>
+    <div>3 <span class="ref">opciones desarrollables</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Cada diámetro se verifica con su propia ld: no se extrapola desde la barra seleccionada por select_rebar.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §15.6 → Cap. 12</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Desarrollo verificado en cada opción de armado, dirección Y</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">ld(db_i) &lt;= ld_disponible para cada opción i</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">aceptadas: 3/8&quot; @ 7.5 cm (ld=335 mm), 1/2&quot; @ 17.5 cm (ld=448 mm), 5/8&quot; @ 25.0 cm (ld=560 mm), 3/4&quot; @ 35.0 cm (ld=834 mm) | descartadas por desarrollo: ninguna</div>
+    <div class="lbl">Resultado</div>
+    <div>4 <span class="ref">opciones desarrollables</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Cada diámetro se verifica con su propia ld: no se extrapola desde la barra seleccionada por select_rebar.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — §15.6 → Cap. 12</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Longitud de desarrollo del refuerzo, dirección X (capa superior)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">ld = fy·ψt·ψe / (2.6·λ·sqrt(f&#x27;c)) · db   [barras 3/4&quot; y menores]  ;  PASS si ld &lt;= disponible</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">[Tabla 12.1] ld = 420·1.000 / (2.6·1.0·4.5826) · 9.5 mm = 334.9 mm || disponible = voladizo 800 − recubrimiento 70 = 730 mm || requerida 335 mm, déficit -395 mm</div>
+    <div class="lbl">Resultado</div>
+    <div>0.45874 <span class="ref">adimensional (ld_req/ld_disp)</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Desarrollo suficiente: ld requerida 335 mm &lt;= disponible 730 mm (barra recta sin gancho (no se asume ningún gancho)). Holgura 395 mm.</div><div class='hyp'>Ganchos: NO se asume ningún gancho.</div><div class='hyp'>El d usado coincide con el d real de la capa más desfavorable.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §15.6 (sección crítica en cara de columna) → Cap. 12; E.060 §12.2.2, Tabla 12.1; mínimo §12.2.1; factores Tabla 12.2</div>
+  </div>
+</div>
+<div class="eq PASS">
+  <div class="eq-head">
+    <span class="eq-title">Longitud de desarrollo del refuerzo, dirección Y (capa inferior)</span>
+    <span class="badge PASS">PASS</span>
+  </div>
+  <div class="eq-body">
+    <div class="lbl">Ecuación</div>
+    <div class="formula">ld = fy·ψt·ψe / (2.6·λ·sqrt(f&#x27;c)) · db   [barras 3/4&quot; y menores]  ;  PASS si ld &lt;= disponible</div>
+    <div class="lbl">Sustitución numérica (variables y unidades)</div>
+    <div class="formula">[Tabla 12.1] ld = 420·1.000 / (2.6·1.0·4.5826) · 9.5 mm = 334.9 mm || disponible = voladizo 1050 − recubrimiento 70 = 980 mm || requerida 335 mm, déficit -645 mm</div>
+    <div class="lbl">Resultado</div>
+    <div>0.341715 <span class="ref">adimensional (ld_req/ld_disp)</span></div>
+    <div class="lbl">Supuestos</div><div class='hyp'>Desarrollo suficiente: ld requerida 335 mm &lt;= disponible 980 mm (barra recta sin gancho (no se asume ningún gancho)). Holgura 645 mm.</div><div class='hyp'>Ganchos: NO se asume ningún gancho.</div><div class='hyp'>El d usado coincide con el d real de la capa más desfavorable.</div>
+    <div class="lbl">Fuente normativa</div>
+    <div class="cite">E.060 — E.060 §15.6 (sección crítica en cara de columna) → Cap. 12; E.060 §12.2.2, Tabla 12.1; mínimo §12.2.1; factores Tabla 12.2</div>
+  </div>
+</div><h3>12b. Detalle del armado adoptado</h3><h4>Dirección X — armado adoptado: 3/8&quot; @ 10.0 cm</h4><table><thead><tr><th>Opción</th><th>N.º barras</th><th>As req. (cm²)</th><th>As mín. (cm²)</th><th>As prov. (cm²)</th><th>Utilización</th><th>Gobierna</th><th>ld req. (mm)</th><th>ld disp. (mm)</th></tr></thead><tbody><tr><td>3/8&quot; @ 7.5 cm</td><td>34</td><td>9.62</td><td>18.00</td><td>24.14</td><td>75 %</td><td>cuantía mínima §9.7</td><td>335</td><td>730</td></tr><tr><td>1/2&quot; @ 17.5 cm</td><td>15</td><td>9.62</td><td>18.00</td><td>19.35</td><td>93 %</td><td>cuantía mínima §9.7</td><td>448</td><td>730</td></tr><tr><td>5/8&quot; @ 25.0 cm</td><td>11</td><td>9.62</td><td>18.00</td><td>21.89</td><td>82 %</td><td>cuantía mínima §9.7</td><td>560</td><td>730</td></tr></tbody></table><p class='ref'>Solo se listan opciones cuya longitud de desarrollo cabe en el voladizo disponible (E.060 §15.6 → Cap. 12).</p><h4>Dirección Y — armado adoptado: 3/8&quot; @ 10.0 cm</h4><table><thead><tr><th>Opción</th><th>N.º barras</th><th>As req. (cm²)</th><th>As mín. (cm²)</th><th>As prov. (cm²)</th><th>Utilización</th><th>Gobierna</th><th>ld req. (mm)</th><th>ld disp. (mm)</th></tr></thead><tbody><tr><td>3/8&quot; @ 7.5 cm</td><td>27</td><td>13.78</td><td>14.40</td><td>19.17</td><td>75 %</td><td>cuantía mínima §9.7</td><td>335</td><td>980</td></tr><tr><td>1/2&quot; @ 17.5 cm</td><td>12</td><td>13.78</td><td>14.40</td><td>15.48</td><td>93 %</td><td>cuantía mínima §9.7</td><td>448</td><td>980</td></tr><tr><td>5/8&quot; @ 25.0 cm</td><td>9</td><td>13.78</td><td>14.40</td><td>17.91</td><td>80 %</td><td>cuantía mínima §9.7</td><td>560</td><td>980</td></tr><tr><td>3/4&quot; @ 35.0 cm</td><td>6</td><td>13.78</td><td>14.40</td><td>17.04</td><td>85 %</td><td>cuantía mínima §9.7</td><td>834</td><td>980</td></tr></tbody></table><p class='ref'>Solo se listan opciones cuya longitud de desarrollo cabe en el voladizo disponible (E.060 §15.6 → Cap. 12).</p><h4>Distribución en dirección corta — β = 1.2500, γs = 0.8889</h4><table><thead><tr><th>Franja</th><th>Ancho (m)</th><th>As asignado (cm²)</th><th>As mínimo (cm²)</th><th>Observación</th></tr></thead><tbody><tr><td>franja central (ancho = lado corto)</td><td>2.00</td><td>16.00</td><td>14.40</td><td>—</td></tr><tr><td>franjas exteriores (suma de ambos lados)</td><td>0.50</td><td>3.60</td><td>3.60</td><td>Elevado al mínimo §9.7</td></tr></tbody></table><p class='ref'>Reparto §15.4.4: gamma_s=0.8889 del acero en la franja central de 2.00 m; el resto en 0.50 m exteriores. Las franjas exteriores se elevaron a la cuantía mínima de §9.7 (interacción no resuelta por la norma -- decisión conservadora, ver módulo). Referencia: E.060 §15.4.4 y ec. 15-1; mínimos por §9.7 vía §10.6.</p></div>
+
+<div class="section">
+<h2>13. Verificaciones normativas</h2>
+<h3>Combinación gobernante por verificación</h3>
+<p class="ref">Cada verificación selecciona su combinación gobernante de forma independiente.</p>
+<table>
+<thead><tr><th>Verificación</th><th>Combinación gobernante</th><th>Estado</th></tr></thead>
+<tbody><tr><td>Presión de contacto</td><td><strong>S1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Flexión dirección X</td><td><strong>U1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Flexión dirección Y</td><td><strong>U1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Cortante unidireccional X</td><td><strong>U1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Cortante unidireccional Y</td><td><strong>U1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Punzonamiento</td><td><strong>U1</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Deslizamiento</td><td><strong>S2</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Volcamiento eje X</td><td><strong>S2</strong></td><td><span class="badge PASS">PASS</span></td></tr><tr><td>Volcamiento eje Y</td><td><strong>S2</strong></td><td><span class="badge PASS">PASS</span></td></tr></tbody>
+</table>
+
+<h3>Limitaciones declaradas del motor</h3>
+<table>
+<thead><tr><th>Limitación</th><th>Estado</th><th>Referencia</th><th>Impacto</th>
+<th>¿Puede producir falso PASS?</th></tr></thead>
+<tbody><tr><td>Transferencia de momento en punzonamiento</td><td>IMPLEMENTADO</td><td class='ref'>E.060 §11.12.6 (ec. 11-39, 11-40) y ec. 13-1 para γf</td><td class='ref'>Con momento no balanceado, el criterio de §11.12.6 SUSTITUYE al de la resultante sola. Residual declarado: la expresión de Jc es una derivación geométrica estándar, no una ecuación numerada de E.060.</td><td>No</td></tr><tr><td>Fuerzas horizontales: deslizamiento y volcamiento</td><td>IMPLEMENTADO</td><td class='ref'>E.050 art. 17.1 (cargas de servicio); FS adoptado por el proyectista</td><td class='ref'>Si el usuario no declara μ y los FS, los checks quedan NO VERIFICADO -- nunca PASS. No se inventa ningún parámetro geotécnico.</td><td>No</td></tr><tr><td>Longitud de desarrollo y anclaje del refuerzo</td><td>IMPLEMENTADO</td><td class='ref'>E.060 §15.6 → Cap. 12; §12.2.2 Tabla 12.1, §12.2.3 ec. 12-1, §12.5 ganchos</td><td class='ref'>Si ld requerida &gt; disponible, la alternativa es FAIL con el déficit exacto en mm. Los ganchos nunca se asumen.</td><td>No</td></tr><tr><td>Reducción sísmica al 80% para esfuerzos en el suelo</td><td>NO IMPLEMENTADO</td><td class='ref'>E.060 §15.2 (disposición opcional: &#x27;podrán reducirse al 80%&#x27;)</td><td class='ref'>Se procede SIN la reducción permitida. El resultado es más conservador que el mínimo normativo: no puede producir un diseño inseguro.</td><td>No</td></tr><tr><td>Interpretación de §15.7 (peralte mínimo)</td><td>INTERPRETACIÓN ADOPTADA</td><td class='ref'>E.060 §15.7</td><td class='ref'>Es la lectura MÁS EXIGENTE de las posibles: exige h total ~0.38 m en vez de 0.30 m. Puede rechazar zapatas que otra interpretación aceptaría, nunca al revés.</td><td>No</td></tr><tr><td>Columnas circulares o de polígono regular</td><td>FUERA DE ALCANCE</td><td class='ref'>E.060 §15.3 (permite tratarlas como cuadradas de área equivalente)</td><td class='ref'>No puede producir un falso PASS: una columna circular es rechazada por validación de entrada antes de calcular nada.</td><td>No</td></tr></tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>14. Resultado final</h2>
+<div class="conclusion">
+  <div class="verdict">ACEPTADA &nbsp; <span class="badge PASS">PASS</span></div>
+  <p>La alternativa ALT-031 (B = 2.00 m, L = 2.50 m, h = 0.40 m, d = 0.316 m) resulta ACEPTADA. Todas las verificaciones aplicables se ejecutaron completas y cumplen los requisitos de las normas E.060 y E.050 implementados por el motor, dentro de las limitaciones declaradas en la sección 13.</p>
+</div>
+<div class="note pass">
+  <strong>Condiciones bajo las cuales este programa emite un resultado conforme</strong>
+  <ol><li>Todas las verificaciones de resistencia cumplen: presión de contacto dentro del núcleo y ≤ qadm, flexión, cortante unidireccional, punzonamiento (incluyendo transferencia de momento §11.12.6) y peralte mínimo §15.7.</li><li>La longitud de desarrollo (§15.6 → Cap. 12) es suficiente para la barra seleccionada y existe al menos una opción de armado desarrollable en cada dirección.</li><li>Si hay fuerzas horizontales o momentos, el usuario declaró μ, FS de deslizamiento y FS de volcamiento. Sin ellos el resultado es NO VERIFICADO, nunca PASS.</li><li>Deslizamiento y volcamiento cumplen los factores de seguridad declarados.</li><li>Ninguna limitación relevante con capacidad de producir un falso PASS sigue pendiente.</li></ol>
+</div>
+</div>
+
+<div class="section">
+<h2>15. Alternativas descartadas</h2>
+<p>De 741 geometrías evaluadas, 475 resultaron válidas y 266 fueron descartadas por los motivos siguientes.</p>
+<table>
+<thead><tr><th>Motivo del descarte</th><th class="num">Geometrías</th><th>Ejemplo</th><th>Geometría del ejemplo</th></tr></thead>
+<tbody><tr><td>qmax &gt; qadm en la combinación de servicio gobernante &quot;S2&quot;.</td><td class='num'>190</td><td>DESC-006</td><td class='ref'>B = 1.00 m, L = 1.50 m</td></tr><tr><td>Ninguna opción de armado en dirección X puede desarrollarse en la longitud disponible.</td><td class='num'>53</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>Ninguna opción de armado en dirección Y puede desarrollarse en la longitud disponible.</td><td class='num'>47</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>Sección crítica de punzonamiento no cabe en la zapata (d/2 excede el voladizo disponible).</td><td class='num'>41</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>Excentricidad fuera del núcleo central: el modelo KernCheck (E.060 §15.2, sin tracciones) no es válido para esta combinación; requeriría el modelo EffectiveArea (E.050 Art.28), no implementado en el MVP.</td><td class='num'>40</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>qmax &gt; qadm en la combinación de servicio gobernante &quot;S1&quot;.</td><td class='num'>36</td><td>DESC-024</td><td class='ref'>B = 1.10 m, L = 2.20 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 280 mm.</td><td class='num'>13</td><td>DESC-002</td><td class='ref'>B = 1.00 m, L = 1.10 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 330 mm.</td><td class='num'>11</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 230 mm.</td><td class='num'>9</td><td>DESC-003</td><td class='ref'>B = 1.00 m, L = 1.20 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 55 mm.</td><td class='num'>7</td><td>DESC-017</td><td class='ref'>B = 1.10 m, L = 1.50 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 5 mm.</td><td class='num'>7</td><td>DESC-030</td><td class='ref'>B = 1.20 m, L = 1.50 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 330 mm.</td><td class='num'>6</td><td>DESC-001</td><td class='ref'>B = 1.00 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 18 mm.</td><td class='num'>6</td><td>DESC-029</td><td class='ref'>B = 1.20 m, L = 1.40 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 180 mm.</td><td class='num'>5</td><td>DESC-004</td><td class='ref'>B = 1.00 m, L = 1.30 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 280 mm.</td><td class='num'>5</td><td>DESC-012</td><td class='ref'>B = 1.10 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 18 mm.</td><td class='num'>5</td><td>DESC-061</td><td class='ref'>B = 1.40 m, L = 1.40 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 105 mm.</td><td class='num'>4</td><td>DESC-007</td><td class='ref'>B = 1.00 m, L = 1.60 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 230 mm.</td><td class='num'>4</td><td>DESC-025</td><td class='ref'>B = 1.20 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 118 mm.</td><td class='num'>4</td><td>DESC-029</td><td class='ref'>B = 1.20 m, L = 1.40 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 180 mm.</td><td class='num'>4</td><td>DESC-040</td><td class='ref'>B = 1.30 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 68 mm.</td><td class='num'>4</td><td>DESC-044</td><td class='ref'>B = 1.30 m, L = 1.40 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 130 mm.</td><td class='num'>4</td><td>DESC-057</td><td class='ref'>B = 1.40 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 80 mm.</td><td class='num'>3</td><td>DESC-076</td><td class='ref'>B = 1.50 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 30 mm.</td><td class='num'>3</td><td>DESC-097</td><td class='ref'>B = 1.60 m, L = 1.00 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 118 mm.</td><td class='num'>3</td><td>DESC-157</td><td class='ref'>B = 1.90 m, L = 1.20 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 68 mm.</td><td class='num'>3</td><td>DESC-158</td><td class='ref'>B = 1.90 m, L = 1.30 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 5 mm.</td><td class='num'>3</td><td>DESC-173</td><td class='ref'>B = 2.00 m, L = 1.20 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 130 mm.</td><td class='num'>2</td><td>DESC-005</td><td class='ref'>B = 1.00 m, L = 1.40 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección Y: faltan 80 mm.</td><td class='num'>1</td><td>DESC-006</td><td class='ref'>B = 1.00 m, L = 1.50 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 218 mm.</td><td class='num'>1</td><td>DESC-010</td><td class='ref'>B = 1.00 m, L = 1.90 m</td></tr><tr><td>Longitud de desarrollo insuficiente en dirección X: faltan 168 mm.</td><td class='num'>1</td><td>DESC-021</td><td class='ref'>B = 1.10 m, L = 1.90 m</td></tr></tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>16. Tabla comparativa</h2>
+<h4>Alternativas válidas</h4><table><thead><tr><th>ID</th><th>B (m)</th><th>L (m)</th><th>h (m)</th><th>Acero X</th><th>Acero Y</th><th>q máx (kPa)</th><th>V. concreto (m³)</th><th>Acero (kg)</th><th>Estado</th></tr></thead><tbody><tr><td>ALT-001</td><td>1.60</td><td>3.10</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>149.2</td><td>1.984</td><td>77.0</td><td>PASS</td></tr><tr><td>ALT-002</td><td>1.60</td><td>3.20</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>144.8</td><td>2.048</td><td>79.5</td><td>PASS</td></tr><tr><td>ALT-003</td><td>1.70</td><td>2.90</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 12.5</td><td>150.0</td><td>1.972</td><td>66.0</td><td>PASS</td></tr><tr><td>ALT-004</td><td>1.70</td><td>3.00</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 12.5</td><td>145.2</td><td>2.040</td><td>67.5</td><td>PASS</td></tr><tr><td>ALT-005</td><td>1.70</td><td>3.10</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>140.8</td><td>2.108</td><td>81.8</td><td>PASS</td></tr><tr><td>ALT-006</td><td>1.70</td><td>3.20</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>136.7</td><td>2.176</td><td>84.5</td><td>PASS</td></tr><tr><td>ALT-007</td><td>1.70</td><td>3.30</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 10.0</td><td>132.9</td><td>2.244</td><td>87.6</td><td>PASS</td></tr><tr><td>ALT-008</td><td>1.70</td><td>3.40</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>129.3</td><td>2.312</td><td>89.9</td><td>PASS</td></tr><tr><td>ALT-009</td><td>1.80</td><td>2.80</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 12.5</td><td>146.8</td><td>2.016</td><td>69.0</td><td>PASS</td></tr><tr><td>ALT-010</td><td>1.80</td><td>2.90</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 12.5</td><td>142.0</td><td>2.088</td><td>70.5</td><td>PASS</td></tr><tr><td>ALT-011</td><td>1.80</td><td>3.00</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 12.5</td><td>137.6</td><td>2.160</td><td>72.1</td><td>PASS</td></tr><tr><td>ALT-012</td><td>1.80</td><td>3.10</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 12.5</td><td>133.5</td><td>2.232</td><td>74.6</td><td>PASS</td></tr><tr><td>ALT-013</td><td>1.80</td><td>3.20</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>129.6</td><td>2.304</td><td>89.4</td><td>PASS</td></tr><tr><td>ALT-014</td><td>1.80</td><td>3.30</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 10.0</td><td>126.0</td><td>2.376</td><td>92.7</td><td>PASS</td></tr><tr><td>ALT-015</td><td>1.80</td><td>3.40</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>122.7</td><td>2.448</td><td>95.1</td><td>PASS</td></tr><tr><td>ALT-016</td><td>1.80</td><td>3.50</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>119.5</td><td>2.520</td><td>98.0</td><td>PASS</td></tr><tr><td>ALT-017</td><td>1.80</td><td>3.60</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 10.0</td><td>116.6</td><td>2.592</td><td>100.8</td><td>PASS</td></tr><tr><td>ALT-018</td><td>1.90</td><td>2.60</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 15.0</td><td>149.8</td><td>1.976</td><td>58.9</td><td>PASS</td></tr><tr><td>ALT-019</td><td>1.90</td><td>2.70</td><td>0.40</td><td>3/8&quot; @ 10.0</td><td>1/2&quot; @ 15.0</td><td>144.4</td><td>2.052</td><td>61.2</td><td>PASS</td></tr><tr><td>ALT-020</td><td>1.90</td><td>2.80</td><td>0.40</td><td>1/2&quot; @ 17.5</td><td>1/2&quot; @ 15.0</td><td>139.5</td><td>2.128</td><td>65.3</td><td>PASS</td></tr></tbody></table><p class='ref'>Se muestran 20 de 475 alternativas válidas.</p>
+</div>
+
+<div class="footer">
+  Documento generado automáticamente por el motor de diseño de zapatas aisladas
+  v0.7.0 el 16/08/2026 a las 21:34.
+  Las ecuaciones, sus sustituciones numéricas y sus referencias normativas provienen
+  íntegramente del registro de cálculo del motor. Este documento no sustituye la
+  revisión de un ingeniero civil colegiado.
+</div>
+
+</body>
+</html>

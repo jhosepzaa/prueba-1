@@ -1,0 +1,3271 @@
+NORMA E.050
+SUELOS Y CIMENTACIONES
+NORMA E.050 SUELOS Y CIMENTACIONES
+Reglamento Nacional de Edificaciones
+Edición:
+Servicio Nacional de Capacitación para la Industria de la Construcción – SENCICO
+Gerencia de Investigación y Normalización del SENCICO
+Av. De la Poesía Nº 351 San Borja, Lima - Perú
+Teléfono: 211 6300 anexo 2602
+Primera edición digital: Diciembre de 2020
+ISBN: 978-612-48427-3-3
+Derechos Reservados
+Prohibida la Reproducción total o parcial de este libro por cualquier medio sin el permiso
+expreso del autor.
+Editado en el Perú
+Libro electrónico disponible en www.gob.pe/sencico.
+RESOLUCIÓN MINISTERIAL
+Nº 406 -2018-VIVIENDA
+Lima, 30 de noviembre del 2018
+VISTOS, el Memorándum Nº 1013-2018-VIVIENDA/VMCS-DGPRCS, por el cual el Director
+General de la Dirección General de Políticas y Regulación en Construcción y Saneamiento hace suyo el
+Informe Nº 1744-2018-VIVIENDA/ VMCS-DGPRCS-DC, de la Dirección de Construcción; el Informe Nº
+006-2018-CPARNE de la Comisión Permanente de Actualización del Reglamento Nacional de
+Edificaciones; el Acta de la Décima Quinta Sesión del Comité Técnico de Normalización de la Norma
+Técnica E.050 “Suelos y Cimentaciones” del Reglamento Nacional de Edificaciones; y,
+CONSIDERANDO
+Que, el artículo 6 de la Ley Nº 30156, Ley de Organización y Funciones del Ministerio de
+Vivienda, Construcción y Saneamiento - MVCS, establece que este Ministerio es el órgano rector de las
+políticas nacionales y sectoriales dentro de su ámbito de competencia, que son de obligatorio
+cumplimiento por los tres niveles de gobierno en el marco del proceso de descentralización y en todo el
+territorio nacional; tiene entre otras competencias exclusivas, dictar normas y lineamientos técnicos para
+la adecuada ejecución y supervisión de las políticas nacionales y sectoriales;
+Que, el numeral 1 del artículo 9 de la citada Ley dispone como función exclusiva del MVCS,
+desarrollar y aprobar tecnologías, metodologías o mecanismos que sean necesarios para el cumplimiento
+de las políticas nacionales y sectoriales, en el ámbito de su competencia;
+Que, el literal d) del artículo 82 del Reglamento de Organización y Funciones del MVCS,
+aprobado por el Decreto Supremo Nº 010-2014-VIVIENDA, modificado por el Decreto Supremo Nº 006-
+2015-VIVIENDA señala que, la Dirección General de Políticas y Regulación en Construcción y
+Saneamiento - DGPRCS tiene como función proponer actualizaciones del Reglamento Nacional de
+Edificaciones, en coordinación con los sectores que se vinculen, en el marco de los Comités Técnicos de
+Normalización, según la normativa vigente;
+Que, el Decreto Supremo Nº 015-2004-VIVIENDA aprueba el Índice y la Estructura del
+Reglamento Nacional de Edificaciones - RNE, aplicable a las Habilitaciones Urbanas y a las Edificaciones,
+como instrumento técnico normativo que rige a nivel nacional, el cual contempla sesenta y nueve (69)
+Normas Técnicas; asimismo, en los artículos 1 y 3 señala que corresponde al MVCS aprobar mediante
+Resolución Ministerial, las normas técnicas de acuerdo al citado Índice, así como sus variaciones según
+los avances tecnológicos;
+Que, mediante Decreto Supremo Nº 011-2006-VIVIENDA se aprueba sesenta y seis (66)
+Normas Técnicas del RNE, comprendidas en el referido Índice y, se constituye la Comisión Permanente
+de Actualización del Reglamento Nacional de Edificaciones, encargada de analizar y formular las
+propuestas para la actualización de las Normas Técnicas;
+Que, con el Informe Nº 006-2018-CPARNE, el Presidente de la Comisión Permanente de
+Actualización del Reglamento Nacional de Edificaciones, eleva la propuesta de modificación de la Norma
+Técnica E.050 “Suelos y Cimentaciones” contenida en el numeral III.2 Estructuras, del Título III
+Edificaciones del RNE, aprobada por Decreto Supremo Nº 011-2006-VIVIENDA, la misma que ha sido
+materia de evaluación y aprobación por la mencionada Comisión conforme al Acta de aprobación de la
+Septuagésima Sesión de fecha 03 de octubre de 2018, que forma parte del expediente correspondiente;
+Que, mediante Resolución Ministerial Nº 346-2018-VIVIENDA se dispone la publicación del
+proyecto de la Norma Técnica E.050 “Suelos y Cimentaciones” del RNE, a efectos de recibir las
+sugerencias y comentarios de las entidades públicas, privadas y de la ciudadanía en general, dentro del
+plazo de tres (03) días hábiles;
+Que, habiendo transcurrido el señalado plazo, la Dirección de Construcción de la DGPRCS
+convoca al Comité Técnico de Normalización, el cual, en su Décima Quinta Sesión, realizada con fecha
+22 de octubre de 2018 evalúa y acoge las sugerencias y comentarios correspondientes sobre la propuesta
+normativa durante la etapa de publicación del citado proyecto, conforme se advierte en el Acta suscrita
+en dicha Sesión y en el anexo adjunto que forma parte del expediente;
+Que, con el documento del visto, la Dirección General de Políticas y Regulación en
+Construcción y Saneamiento sustenta la propuesta de modificación de la Norma Técnica E.050 “Suelos y
+Cimentaciones” contenida en el Numeral III.2 Estructuras, del Título III Edificaciones del RNE, aprobada
+por Decreto Supremo Nº 011-2006-VIVIENDA, la cual tiene por finalidad brindar una regulación técnica
+adecuada en el sostenimiento de excavaciones profundas ante el crecimiento vertical de las edificaciones,
+situación que se presenta por la limitación de expansión horizontal; proporciona una herramienta de
+control para la actividad de fiscalización de los gobiernos locales; así como, garantiza la integridad física
+de los usuarios al incentivar edificaciones que cuenten con estructuras de sostenimiento de excavaciones
+y que preserven las inversiones en infraestructura a nivel nacional;
+Que, el citado informe indica además que el proyecto normativo incorpora lineamientos
+técnicos mínimos para la ejecución de estructuras de sostenimiento, desarrollando entre otros temas:
+Estructuras de sostenimiento ancladas, calzaduras y muros de contención, monitoreo de las
+excavaciones, control de calidad de sistemas de sostenimiento, entre otros;
+Que, de acuerdo a lo expuesto en los considerandos precedentes, es necesario modificar
+la Norma Técnica E.050 “Suelos y Cimentaciones” del RNE, por lo que corresponde su aprobación,
+conforme a lo señalado por la Comisión Permanente de Actualización del Reglamento Nacional de
+Edificaciones, la DGPRCS, así como el Comité Técnico de Normalización conformado para la evaluación
+de la aludida norma técnica;
+De conformidad con lo dispuesto en el literal b) del artículo 23 de la Ley Nº 29158, Ley
+Orgánica del Poder Ejecutivo; Ley Nº 30156, Ley de Organización y Funciones del Ministerio de Vivienda,
+Construcción y Saneamiento y su Reglamento de Organización y Funciones, aprobado por Decreto
+Supremo Nº 010-2014-VIVIENDA, modificado por Decreto Supremo Nº 006-2015-VIVIENDA; y, el Decreto
+Supremo Nº 015-2004-VIVIENDA que aprueba el Índice del Reglamento Nacional Edificaciones;
+SE RESUELVE:
+Artículo 1.- Modificación de la Norma Técnica E.050 Suelos y cimentaciones del
+Reglamento Nacional de Edificaciones
+Modificase la Norma Técnica E.050 “Suelos y Cimentaciones”, del Numeral III.2
+Estructuras, del Título III Edificaciones del Reglamento Nacional de Edificaciones - RNE, aprobada por
+Decreto Supremo Nº 011-2006-VIVIENDA, que forma parte integrante de la presente Resolución
+Ministerial.
+Artículo 2.- Publicación y Difusión
+Encárguese a la Oficina General de Estadística e Informática la publicación de la presente
+Resolución Ministerial y de la Norma Técnica a que se refiere el artículo precedente, en el Portal
+Institucional del Ministerio de Vivienda, Construcción y Saneamiento (www.vivienda.gob.pe), el mismo día
+de su publicación en el Diario Oficial El Peruano.
+DISPOSICIÓN COMPLEMENTARIA TRANSITORIA
+Única. - Normativa aplicable a proyectos de inversión pública y privada en ejecución
+Los proyectos de inversión pública o privada comprendidos en los alcances de la Norma
+Técnica E.050 “Suelos y Cimentaciones” del RNE, que a la entrada en vigencia de la presente Resolución
+Ministerial, cuenten con expediente técnico aprobado en el marco del Sistema Nacional de Programación
+Multianual y Gestión de Inversiones - Invierte.pe, o que se haya solicitado a las Municipalidades la licencia
+de edificación correspondiente, se rigen por las disposiciones del texto de la citada Norma Técnica
+aprobado por Decreto Supremo Nº 011-2006-VIVIENDA.
+Regístrese, comuníquese y publíquese.
+JAVIER PIQUÉ DEL POZO
+Ministro de Vivienda, Construcción y Saneamiento
+NTE E.050 SUELOS Y CIMENTACIONES
+5
+ÍNDICE
+Pág.
+CAPÍTULO I DISPOSICIONES GENERALES
+Artículo 1.- Objeto ................................................................................................................ 7
+Artículo 2.- Finalidad ............................................................................................................ 7
+Artículo 3. Ámbito de aplicación .......................................................................................... 7
+Artículo 4.- Consideraciones generales ............................................................................... 7
+Artículo 5.- Definiciones ....................................................................................................... 7
+Artículo 6.- Obligatoriedad de los Estudios ........................................................................ 12
+Artículo 7.- Estudios de Mecánica de Suelos (EMS) ......................................................... 13
+Artículo 8.- Alcance del EMS ............................................................................................. 14
+Artículo 9.- Responsabilidad profesional por el EMS ........................................................ 14
+Artículo 10.- Responsabilidad por aplicación de la norma ................................................ 14
+Artículo 11.- Interpretación de la norma ............................................................................ 14
+Artículo 12.- Obligaciones del solicitante ........................................................................... 14
+CAPÍTULO II. ESTUDIOS
+Artículo 13.- Información previa ......................................................................................... 15
+Artículo 14.- Técnicas de exploración de Campo para ITS y EMS ................................... 16
+Artículo 15.- Programa de exploración de campo y ensayos de laboratorio ..................... 22
+Artículo 16.- Informe del EMS ............................................................................................ 27
+CAPÍTULO III ANÁLISIS DE LAS CONDICIONES DE CIMENTACIÓN
+Artículo 17.- Cargas a utilizar............................................................................................. 32
+Artículo 18.- Asentamientos ............................................................................................... 32
+Artículo 19.- Asentamiento tolerable .................................................................................. 32
+Artículo 20.- Capacidad de carga ...................................................................................... 33
+Artículo 21.- Factor de seguridad frente a una falla por corte ........................................... 34
+Artículo 22.- Presión admisible .......................................................................................... 34
+CAPÍTULO IV CIMENTACIONES SUPERFICIALES
+Artículo 23.- Deﬁnición ....................................................................................................... 35
+Artículo 24.- Suelos no permitidos para apoyar las cimentaciones ................................... 37
+Artículo 25.- Rellenos ......................................................................................................... 37
+Artículo 26.- Profundidad de cimentación .......................................................................... 38
+Artículo 27.- Presión admisible .......................................................................................... 38
+Artículo 28.- Cargas excéntricas ........................................................................................ 38
+Artículo 29.- Cargas inclinadas .......................................................................................... 39
+Artículo 30.- Cimentaciones superﬁciales en taludes o en su cercanía ............................ 39
+CAPÍTULO V CIMENTACIONES PROFUNDAS
+Artículo 31.- Deﬁnición ....................................................................................................... 41
+Artículo 32.- Cimentación por pilotes ................................................................................. 41
+Artículo 33.- Cimentación por pilares ................................................................................. 45
+Artículo 34.- Cajones de cimentación ................................................................................ 46
+NTE E.050 SUELOS Y CIMENTACIONES
+6
+Pág.
+CAPÍTULO VI PROBLEMAS ESPECIALES DE CIMENTACIÓN
+Artículo 35.- Suelos colapsables ....................................................................................... 47
+Artículo 36.- Ataque químico por suelos y aguas subterráneas ........................................ 48
+Artículo 37.- Suelos expansivos ........................................................................................ 49
+Artículo 38.- Licuación de suelos ....................................................................................... 51
+Artículo 39.- Sostenimiento de excavaciones .................................................................... 55
+ANEXO I FORMATO OBLIGATORIO DE LA HOJA DE RESUMEN DE LAS
+CONDICIONES DE CIMENTACIÓN ..................................................................................... 74
+ANEXO II NORMA ESPAÑOLA – UNE 103-801-94 ............................................................. 75
+ANEXO III AUSCULTACIÓN DINÁMICA MEDIANTE EL CONO TIPO PECK (CTP) ......... 80
+NTE E.050 SUELOS Y CIMENTACIONES
+7
+CAPÍTULO I
+DISPOSICIONES GENERALES
+Artículo 1.- Objeto
+El objeto de esta Norma es establecer los requisitos mínimos para la ejecución de Estudios
+de Mecánica de Suelos (EMS), con fines de cimentación de edificaciones y otras obras
+indicadas en esta Norma. Los EMS se ejecutan con la finalidad de asegurar la estabilidad y
+permanencia de las obras y para promover la utilización racional de los recursos.
+Artículo 2.- Finalidad
+2.1. Asegurar la continuidad de los servicios básicos y edificaciones esenciales según lo
+establecido en la Norma E.030.
+2.2. Minimizar los daños al proyecto y estructuras o vías colindantes.
+Artículo 3. Ámbito de aplicación
+El ámbito de aplicación de la presente Norma comprende todo el territorio nacional, en
+concordancia a lo establecido en la norma G.010 Consideraciones Básicas del Reglamento
+Nacional de Edificaciones (RNE).
+Artículo 4.- Consideraciones generales
+En concordancia con la finalidad de la presente norma, se establecen las siguientes
+consideraciones respecto al comportamiento del suelo o roca:
+4.1. En el caso de cimentaciones debe tomar en cuenta las cargas generadas por las
+estructuras que se proyecte edificar (materia del EMS), los sismos u otras
+solicitaciones (viento, agua, etc.) de tal manera que las deformaciones que se
+generen en el suelo o roca causen una distorsión angular menor que la permitida
+por la presente norma y produzcan presiones menores que las admisibles
+(considerando el estado límite del suelo y el Factor de Seguridad correspondiente).
+4.2. En el caso de excavaciones o cortes del terreno el diseño del sistema de
+sostenimiento debe tomar en cuenta además del procedimiento constructivo, todas
+las solicitaciones actuantes en el talud a contener (sismos, sobrecargas, efectos
+generados por el flujo de agua, etc.). Asimismo, el diseño debe garantizar la
+estabilidad global de la excavación contemplando los factores de seguridad
+establecidos en la presente norma. Se debe minimizar el efecto de la excavación en
+las estructuras y vías contiguas colindantes con el perímetro del terreno en el que
+se edifica la obra motivo del EMS, garantizando que los esfuerzos y deformaciones
+que se producen en el suelo o roca a sostener cumplan con lo establecido en el
+numeral 4.1.
+4.3. Las exigencias de esta Norma se consideran mínimas.
+4.4. La presente Norma no toma en cuenta los efectos de los fenómenos de geodinámica
+externa y no se aplica en los casos que haya evidencia y presunción de la existencia
+de ruinas arqueológicas; galerías u oquedades subterráneas de origen natural o
+artificial. En ambos casos deben efectuarse estudios específicamente orientados a
+confirmar y solucionar dichos problemas por un profesional competente de
+especialidad diferente del PR, pudiendo ser arqueólogo o geólogo.
+Artículo 5.- Definiciones
+5.1 Anclaje.- Elemento estructural instalado en suelo o roca que se utiliza para
+transmitir al terreno una carga de tracción aplicada.
+NTE E.050 SUELOS Y CIMENTACIONES
+8
+5.2 Anclaje Activo.- Anclaje instalado y tensado posteriormente a su instalación,
+introduciendo una fuerza adicional al suelo o a la estructura en una magnitud y
+dirección determinada por el PRS.
+5.3 Asentamiento Diferencial.- Máxima diferencia de nivel entre dos cimentaciones
+adyacentes unidos por un elemento estructural, que pertenecen a la misma
+estructura.
+5.4 Asentamiento Diferencial Tolerable.- Máximo asentamiento diferencial entre dos
+elementos adyacentes unidos por un elemento estructural, que pertenecen a la
+misma estructura, que al ocurrir no produce daños visibles ni causa problemas.
+5.5 Bulbo.- Es el elemento estructural de acero fijado al suelo o roca mediante un
+material cementante. El bulbo recibe la carga del cabezal del anclaje a través del
+tramo libre y la transmite al suelo circundante.
+5.6 Bulbo de Presiones.- También conocido como bulbo de esfuerzos, es la zona
+situada bajo la superficie cargada, donde los esfuerzos verticales son más
+importantes. Este corresponde a la zona bajo la cimentación comprendida dentro
+del contorno de la isóbara igual al 10 % de la presión de contacto.
+5.7 Cabezal.- Es el elemento de fijación mecánica de la carga aplicada a través del
+tendón a la pantalla o muro estructural que se transmite al bulbo del anclaje.
+5.8 Cajón (caisson).- Elemento prefabricado de cimentación que se construye
+inicialmente hueco, pudiendo ser rellenado después de colocado en su posición
+final.
+5.9 Capacidad de Carga.- Presión requerida para producir la falla del suelo por corte
+que sirve de apoyo a la cimentación (sin factor de seguridad).
+5.10 Carga Admisible.- Sinónimo de presión admisible.
+5.11 Carga de Servicio.- Carga viva más carga muerta más cargas inducidas por los
+sismos (sin factores de ampliación).
+5.12 Carga de Trabajo.- Sinónimo de Presión Admisible.
+5.13 Carga Muerta.- Ver NTE E.020 Cargas.
+5.14 Carga Viva.- Ver NTE E.020 Cargas.
+5.15 Carga Inducida por Sismo.- Ver NTE E.030.
+5.16 Cimentación.- Elemento que transmite al suelo las cargas de la estructura.
+5.17 Cimentación Continua.- Cimentación superficial en la que el largo L es mayor que
+diez veces el ancho B.
+5.18 Cimentación Cuadrada.- Cimentación superficial en la que el largo L es igual al
+ancho B.
+5.19 Cimentación Rectangular.- Cimentación superficial en la que el largo L es igual o
+menor que diez veces el ancho B.
+5.20 Cimentación Circular.- Cimentación superficial en la que el diámetro es B.
+5.21 Cimentación Anular Continua.- Cimentación superficial en la que el perímetro
+medio P es mayor o igual a diez veces el ancho B.
+NTE E.050 SUELOS Y CIMENTACIONES
+9
+5.22 Cimentación por Pilares.- Cimentación profunda, en la cual la relación
+Profundidad / Ancho (Dƒ/B) es mayor o igual que 5, siendo Dƒ
+la profundidad
+enterrada y B el ancho enterrada del pilar. El pilar es excavado y vaciado en el sitio.
+5.23 Cimentación por Pilotes.- Cimentación profunda en la cual la relación
+Profundidad / Ancho (d/b) es mayor o igual a 10, siendo d la longitud enterrada del
+pilote y b el ancho o diámetro del pilote.
+5.24 Cimentación por Platea o Losa de Cimentación.- Cimentación constituida por una
+losa rígida sobre la cual se apoyan varias columnas o placas.
+5.25 Cimentación Profunda.- Aquella que transmite cargas a capas del suelo mediante
+pilotes, pilares u otros elementos que transmitan las cargas no comprendidas en el
+numeral 5.26.
+5.26 Cimentación Superficial.- Aquella en la cual la relación Profundidad/Ancho (Dƒ/B)
+es menor o igual a 5, siendo Dƒ
+la profundidad de la cimentación y B el ancho o
+diámetro de la misma.
+5.27 CRR.- Se define como el menor esfuerzo cortante cíclico resistente mínimo
+normalizado por la presión efectiva de tapada  que produce licuación para un
+valor dado de (N1)60, el porcentaje de finos (% < 75 μ m) y para un valor de magnitud
+momento (Mw) igual a 7.5.
+Donde: (N1)60 es la medida de la resistencia a la penetración estándar de un suelo
+bajo una presión efectiva de 1 kg/cm2.
+CR = corrección por longitud corta de barras
+CB = corrección por diámetro de la perforación
+CS = corrección por muestreador no estándar
+CE = corrección por energía
+5.28 CRRM
+.- Se deﬁne como el valor de CRR modiﬁcado por el valor de la magnitud
+momento (Mw) diferente de 7.5
+CRRM
+= FSM × CRR7.5
+5.29 CSR.- Se deﬁne como el esfuerzo cortante promedio τav
+actuante en un estrato
+generado por el sismo, normalizado por el esfuerzo efectivo de sobre tapada ’vo
+.
+Donde:
+vo
+: presión total de tapada
+’vo
+: presión efectiva de tapada
+amax
+/g : aceleración máxima normalizada
+rd : factor de corrección rígido-deformable
+5.30 Ensayos de Arrancamiento.- Ensayos realizados antes de construir los anclajes
+previstos en el proyecto, practicados en anclajes construidos solo para pruebas. El
+objetivo de los ensayos es encontrar el valor de la resistencia cortante en la interfase
+suelo - material cementante.
+5.31 Estabilidad Global.- Es el análisis de estabilidad de un talud que incluye todas las
+cargas adicionales diferentes a las producidas por los materiales que conforman el
+talud y que afecten el equilibrio estático y pseudo-dinámico.
+NTE E.050 SUELOS Y CIMENTACIONES
+10
+5.32 Estrato Típico.- Estrato de suelo con características tales que puede ser
+representativo de otros iguales o similares en un terreno dado.
+5.33 Estudio de Mecánica de Suelos (EMS).- Conjunto de exploraciones e
+investigaciones de campo, ensayos de laboratorio y análisis de gabinete que tienen
+por objeto estudiar el comportamiento de los suelos y sus respuestas ante las
+solicitaciones estáticas y dinámicas de una ediﬁcación. Que debe ser
+obligatoriamente considerado en el diseño: estructural y del sostenimiento de las
+excavaciones y durante la construcción del proyecto.
+5.34 FSM.- Es el factor de corrección del CRR para considerar el esfuerzo cortante cíclico
+resistente mínimo normalizado para un sismo de magnitud momento (Mw) diferente
+de 7.5.
+5.35 Geodinámica Externa.- Conjunto de fenómenos geológicos de carácter dinámico,
+que pueden actuar sobre el terreno materia del Estudio de Mecánica de Suelos,
+tales como: erupciones volcánicas, inundaciones, huaycos, avalanchas, tsunamis,
+activación de fallas geológicas.
+5.36 Informe Técnico de Suelos (ITS).- Informe técnico sin la rigurosidad técnica del
+EMS y comprende la realización de no menos de 3 puntos de exploración a 3 m de
+profundidad, ensayos de laboratorio y análisis de gabinete que tienen por objeto
+estimar el comportamiento de los suelos y sus respuestas ante las solicitaciones
+estáticas y dinámicas de una ediﬁcación con un número de pisos no mayor a 3, cuya
+área en planta de primer piso sea menor a 500 m2, sin sótanos y que no requiera
+Platea o Solado de Cimentación. Debe incluir la Hoja de Resumen establecida en
+el Anexo I. Que debe ser obligatoriamente considerado en el diseño: estructural y
+del sostenimiento de las excavaciones y durante la construcción del proyecto.
+5.37 Licuación.- Fenómeno causado por la vibración de los sismos en los suelos
+granulares sumergidos y que produce el incremento de la presión del agua dentro
+del suelo con la consecuente reducción de la tensión efectiva. La licuación reduce
+la capacidad de carga y la rigidez del suelo. Dependiendo del estado del suelo
+granular saturado al ocurrir la licuación se produce el hundimiento y colapso de las
+estructuras cimentadas sobre dicho suelo.
+5.38 Longitud Libre (Tramo libre).- Es la zona del elemento estructural de acero (cables
+o barras) comprendida entre el cabezal y el bulbo, convenientemente protegida del
+intemperismo y agentes agresivos con una tubería plástica ﬂexible, interiormente
+llena de grasa para evitar fricción con el suelo o roca, de manera que permita la
+transferencia de la carga del cabezal al bulbo.
+5.39 Material Cementante.- Es el relleno dispuesto en toda la longitud del bulbo, que
+recubre el acero de refuerzo del anclaje. Usualmente es lechada de cemento con
+aditivos, resinas o algún otro producto químico que garantice la ﬁjación del anclaje.
+Este material será el considerado en el diseño presentado por el PRS.
+5.40 Nivel Freático.- Nivel superior del agua subterránea en el momento de la
+exploración. El nivel se puede dar respecto a la superﬁcie del terreno o a una cota
+de referencia.
+5.41 Obra Deﬁnitiva.- Obra cuya duración se extiende por un período mayor a dos (02)
+años.
+5.42 Pilar.- Elemento de cimentación profunda (con diámetros mayores a 90 cm) en el
+cual la relación Profundidad/ Ancho (Dƒ/B) es mayor a 5.
+5.43 Pilote.- Elemento de cimentación profunda (con diámetros menores o iguales a
+90 cm) en el cual la relación Profundidad/Ancho (Dƒ/B) es mayor a 5.
+NTE E.050 SUELOS Y CIMENTACIONES
+11
+5.44 Pilotes de Carga por Fricción.- Aquellos que transmiten la carga a lo largo de su
+cuerpo por fricción con el suelo que los circunda.
+5.45 Pilotes de Carga por Punta.- Aquellos que transmiten la carga a un estrato
+resistente ubicado bajo la punta.
+5.46 Pilotes para Densiﬁcación.- Aquellos que se instalan para mejorar las propiedades
+físico - mecánicas de los suelos en los que se instalan.
+5.47 Presión Admisible.- Máxima presión que la cimentación puede transmitir al terreno
+sin que ocurran asentamientos excesivos (mayores que el admisible) ni el factor de
+seguridad frente a una falla por corte sea menor que el valor indicado en el artículo
+21.
+5.48 Presión Admisible por Asentamiento.- Presión que al ser aplicada por la
+cimentación adyacente a una estructura, ocasiona un asentamiento diferencial igual
+al asentamiento admisible. En este caso no es aplicable el concepto de factor de
+seguridad, ya que se trata de asentamientos.
+5.49 Presión Aplicada o Presión de Contacto (qap
+).- Carga transmitida por las
+estructuras al terreno en el nivel de cimentación. Valor de la presión uniforme
+aplicada por el área efectiva de la zapata (deﬁnida como B´ x L´) sobre el suelo en
+el plano de apoyo de la cimentación.
+5.50 Presión de Trabajo.- Sinónimo de Presión Admisible.
+5.51 Profesional Responsable (PR).- Ingeniero Civil, registrado y habilitado por el
+Colegio de Ingenieros del Perú.
+5.52 Profesional Responsable del Diseño del Sostenimiento (PRS).- Ingeniero Civil,
+registrado y habilitado por el Colegio de Ingenieros del Perú, con experiencia en
+diseño de sistemas de sostenimiento.
+5.53 Profundidad Activa.- Es la que corresponde a la zona del suelo ubicada entre el
+nivel de cimentación y la isóbara (línea de igual presión) correspondiente al 10% de
+la presión aplicada por la cimentación. Esta profundidad presupone que el suelo
+continúa por debajo de ella sin la presencia de rellenos no controlados.
+5.54 Profundidad de Cimentación (Dƒ).- Profundidad a la que se encuentra el nivel de
+fondo o desplante de la cimentación de una estructura, medida respecto al nivel de
+terreno natural o al nivel de piso terminado, el que resulte menor. En el caso de
+sótanos es la profundidad desde el nivel de piso terminado del sótano más profundo
+al fondo de cimentación.
+5.55 Provisional.- Se reﬁere a las obras con una duración no mayor a dos (02) años
+contados a partir del inicio de las obras de excavación. En el eventual caso que la
+obra se extienda por un plazo mayor, el contratista debe tomar las medidas del caso
+para que el sistema de sostenimiento pase a ser deﬁnitivo y se rediseñe y construya
+con un F.S. mínimo de 1.50 en condición estática y 1.25 en condición
+pseudodinámica.
+5.56 Punto de Exploración.- Lugar en el que se ejecuta cualquiera de las Técnicas de
+Exploración indicadas en el numeral 14.2.
+5.57 Relleno Controlado o de Ingeniería.- Son aquellos que se construyen con Material
+Seleccionado, compactado y controlado de acuerdo a lo indicado en el numeral
+25.4.
+NTE E.050 SUELOS Y CIMENTACIONES
+12
+5.58 Relleno No Controlado.- Depósitos artiﬁciales descritos en el numeral 25.5 y que
+deben ser eliminados y reemplazados en su totalidad de acuerdo en lo indicado en
+el numeral 25.5 antes de iniciar las obras de cimentación.
+5.59 Roca.- Material sólido de origen natural formado por minerales y otras sustancias
+endurecidas, que a diferencia del suelo fundamentalmente cuaternario, no pueden
+ser disgregados o excavados con herramientas manuales. Las rocas adecuadas
+para servir de apoyo a las cimentaciones deben presentar una alteración menor al
+10% del área de la cimentación. Las rocas blandas o aquellas que puedan ser
+disgregadas o excavadas con herramientas manuales, deben ser tratadas como
+suelo para efectos de cálculos geotécnicos.
+5.60 Solicitante.- Persona natural o jurídica con quien el PR contrata el EMS o el ITS.
+5.61 Suelo Colapsable.- Suelos que al ser humedecidos sufren un asentamiento o
+colapso relativamente rápido, que pone en peligro a las estructuras cimentadas
+sobre ellos.
+5.62 Suelo Expansivo.- Suelos que al ser humedecidos sufren una expansión que pone
+en peligro a las estructuras cimentadas sobre ellos.
+5.63 Suelo Orgánico.- Suelo de color oscuro que presenta una variación mayor al 25%
+entre los límites líquidos de la muestra secada al aire y la muestra secada al horno
+a una temperatura de 110 °C ± 5 °C durante 24 horas.
+5.64 Superﬁcie Crítica de Falla.- Lugar geométrico de los puntos resultantes de un
+análisis de estabilidad en la que existe la mayor probabilidad de deslizamiento de la
+masa de suelo, es decir es la superﬁcie que posee el menor factor de seguridad en
+la estabilidad local o global.
+5.65 Tierra de Cultivo.- Suelo superﬁcial sometido a labores de labranza para propósitos
+agrícolas o jardinería.
+Artículo 6.- Obligatoriedad de los Estudios
+6.1 Todo proyecto de ediﬁcación debe contar con EMS o ITS según sea el caso.
+6.2 Casos donde existe obligatoriedad de un EMS
+6.2.1 Los casos donde existe obligatoriedad de un EMS son los siguientes:
+a) Ediﬁcaciones en general, que alojen gran cantidad de personas, equipos
+costosos o peligrosos, tales como: colegios, universidades, hospitales y clínicas,
+estadios, cárceles, auditorios, templos, salas de espectáculos, museos,
+centrales telefónicas, estaciones de radio y televisión, estaciones de bomberos,
+archivos y registros públicos, centrales de generación de electricidad, sub-
+estaciones eléctricas, silos, tanques de agua (incluyendo reservorios enterrados
+y tanques elevados), casetas de estaciones de bombeo de pozos (superﬁciales
+y subterráneas), estaciones de expendio de combustible, tanques y reservorios
+de combustible. Cuando las excavaciones para las siguientes obras: redes de
+agua y alcantarillado, instalaciones eléctricas, gas y telecomunicaciones
+requieran una excavación mayor a 1.50 m. Empresas prestadoras de servicios
+públicos, entidades públicas y privadas e instalaciones militares y policiales en
+general.
+b) Cualquier ediﬁcación no mencionada en a) de uno a tres pisos, que ocupen
+individual o conjuntamente más de 500 m2 de área techada en planta.
+c) Cualquier ediﬁcación no mencionada en a) de cuatro o más pisos de altura,
+cualquiera que sea su área.
+d) Ediﬁcaciones industriales, fábricas, talleres o similares.
+NTE E.050 SUELOS Y CIMENTACIONES
+13
+e) Ediﬁcaciones especiales cuya falla, además del propio colapso, represente
+peligros adicionales importantes, tales como: reactores atómicos, grandes
+hornos, depósitos de materiales inﬂamables, corrosivos o combustibles, torres
+de soporte para sistemas eléctricos, torres de telecomunicaciones, paneles de
+publicidad de grandes dimensiones cuyos soportes tengan un diámetro mayor o
+igual a 0,20 m y otros de similar riesgo.
+f) Cualquier ediﬁcación con sótanos o que requiera el uso de pilotes, pilares,
+plateas de fundación o cualquier tipo de cimentación profunda.
+g) Muros de contención con alturas mayores a 2.00 m y cercos perimétricos
+ubicados en terrenos que no tengan EMS.
+h) Cualquier ediﬁcación adyacente a taludes o suelos que puedan poner en peligro
+su estabilidad.
+6.2.2 En los casos en que es obligatorio efectuar un EMS, de acuerdo a lo indicado en
+este numeral, el informe del EMS correspondiente es ﬁrmado por un Profesional
+Responsable (PR).
+6.2.3 Es obligatorio incluir en el EMS una hoja con el “Resumen de las Condiciones de
+Cimentación” (Ver sub numeral 16.2.1), la misma que es transcrita obligatoriamente
+en el plano de cimentación. En el Anexo I se adjunta el formato obligatorio de la hoja
+de resumen de las condiciones de cimentación que se debe emplear en los EMS.
+6.3 Caso donde existe obligatoriedad de elaborar un ITS.
+6.3.1 Se aplica a lugares con condiciones de cimentación conocida debidas a depósitos
+de suelos uniformes tanto vertical como horizontalmente, sin los problemas
+especiales de cimentación indicados en el Capítulo VI, con áreas techadas en planta
+de primer piso menores que 500 m2, de hasta tres pisos y sin sótano, el PR puede
+asumir los valores de la Presión Admisible del Suelo, profundidad de cimentación y
+cualquier otra consideración concerniente a la Mecánica de Suelos, basándose en
+la ejecución de no menos de 3 puntos de exploración hasta la profundidad mínima
+de 3 m. Estos datos, incluyendo los perﬁles de suelos, plano de ubicación de los
+puntos de exploración deben ﬁgurar en el ITS elaborado por el PR.
+6.3.2 En caso que la estimación indique la necesidad de usar cimentación especial,
+profunda o por platea, se debe efectuar un EMS de acuerdo a los artículos 15 y 16.
+6.3.3 En los casos en que es obligatorio efectuar un ITS, de acuerdo a lo indicado en este
+numeral, el informe del ITS correspondiente es ﬁrmado por un Profesional
+Responsable (PR).
+6.3.4 Es obligatorio incluir en el ITS una hoja con el “Resumen de las Condiciones de
+Cimentación” (Ver sub numeral 16.2.1), la misma que es transcrita obligatoriamente
+en el plano de cimentación.
+Artículo 7.- Estudios de Mecánica de Suelos (EMS)
+7.1. Son aquellos que cumplen con todos los requisitos de la presente Norma, con el
+Programa de Exploración descrito en el artículo 15 y que se plasman en un informe
+técnico (EMS) según lo indicado en el artículo 16.
+7.2. Los Estudios de Mecánica de Suelos se realizan con ﬁnes de:
+a. Diseño de Cimentaciones
+b. Diseño de Pavimentos
+c. Estabilidad de Taludes
+d. Diseño de instalaciones sanitarias de agua y alcantarillado
+e. Cualquier combinación de los cuatro anteriores.
+NTE E.050 SUELOS Y CIMENTACIONES
+14
+Artículo 8.- Alcance del EMS
+8.1. La información del EMS es válida solamente para el área y tipo de obra indicadas
+en el informe ﬁrmado por el PR.
+8.2 Los resultados y exploraciones de campo y laboratorio, así como el análisis,
+conclusiones y recomendaciones del EMS, sólo se aplican al terreno y ediﬁcaciones
+comprendidas en el mismo. No se emplean en otros terrenos, para otras
+ediﬁcaciones, o para otro tipo de obra. En el caso que se trate de la veriﬁcación de
+un EMS, el PR puede optar por validar los resultados de la exploración de campo y
+laboratorio, si lo considera pertinente, asumiendo la responsabilidad indicada en el
+artículo 9.
+Artículo 9.- Responsabilidad profesional por el EMS
+Todo EMS es ﬁrmado por el PR, quien asume la responsabilidad del contenido y de las
+conclusiones del informe. No está permitido que el PR delegue a terceros dicha
+responsabilidad.
+Artículo 10.- Responsabilidad por aplicación de la norma
+Las entidades encargadas de otorgar la ejecución de las obras y la Licencia de Ediﬁcación
+son las responsables de hacer cumplir esta Norma. Dichas entidades no autorizan la
+ejecución de las obras, si el proyecto no cuenta con un EMS o ITS en el caso del numeral 6.3
+para el área y tipo de obra especíﬁco. Las entidades encargadas de hacer cumplir estas
+normas no pueden exigir al PR o al PRS la ejecución de trabajos o ensayos que no se
+encuentren indicados en esta Norma.
+Artículo 11.- Interpretación de la norma
+Corresponde al Ingeniero Civil, colegiado y habilitado, la aplicación, el cumplimiento y la
+interpretación de la presenta Norma Técnica, cuando interviene en calidad de cualquier actor
+de los procesos de ediﬁcación, conforme lo dispuesto en la Norma Técnica G.030 – Derechos
+y Responsabilidades.
+Artículo 12.- Obligaciones del solicitante
+Proporcionar la información indicada en el artículo 13 y garantizar el libre acceso al terreno
+para efectuar la exploración del campo.
+NTE E.050 SUELOS Y CIMENTACIONES
+15
+CAPÍTULO II.
+ESTUDIOS
+Artículo 13.- Información previa
+13.1. Es la que se requiere para ejecutar el EMS.
+13.2. Los datos indicados en los numerales 13.4, 13.5.1, 13.5.2. y 13.6 son
+proporcionados por quien solicita el EMS (el Solicitante) al PR antes de ejecutarlo.
+13.3. Los datos indicados en los numerales restantes son obtenidos por el PR.
+13.4. Del terreno a explorar
+13.4.1. Plano de ubicación, plano de planta y cortes donde se visualice los niveles de piso
+terminado y cualquier tipo de estructura enterrada (cisternas, pit del ascensor, etc.)
+y accesos.
+13.4.2. Plano topográﬁco con curvas de nivel y perﬁles longitudinales. Si la pendiente
+promedio del terreno fuera inferior al 5%, basta un plano planimétrico. En todos los
+casos se hacen indicaciones de linderos, usos del terreno, obras anteriores, obras
+existentes, zonas con restos arqueológicos, situación y disposición de acequias y
+drenajes. El plano debe indicar obligatoriamente la ubicación prevista de las obras
+a ediﬁcar. De no ser así, el programa de exploración de campo (Ver artículo 15),
+cubre toda el área del terreno.
+13.4.3. Las características de las ediﬁcaciones u otras obras colindantes al proyecto,
+accesos al sitio, servidumbre de paso y limitaciones de servidumbre.
+13.4.4. El permiso para el ingreso al terreno del proyecto, el cual debe encontrarse libre
+(completamente desocupado en la zona de trabajo) para poder efectuar la
+exploración de campo y de ser el caso, contar con las autorizaciones respectivas de
+la entidad competente para efectuar el trabajo de exploración de campo.
+13.5. De la obra a cimentar
+13.5.1. Características generales acerca del uso de la ediﬁcación, número de pisos, niveles
+de piso terminado, área aproximada, tipo de estructura, número de sótanos
+profundidad, luces y cargas estimadas.
+13.5.2. En el caso de ediﬁcaciones especiales (que transmitan cargas concentradas
+importantes, que presenten luces grandes, alberguen maquinaria pesada o que
+vibren, que generen calor o frío o que usen cantidades importantes de agua), debe
+contarse con la indicación de la magnitud de las cargas a transmitirse a la
+cimentación y niveles de piso terminado, o los parámetros dinámicos de la máquina,
+las tolerancias de las estructuras a movimientos totales o diferenciales y sus
+condiciones límite de servicio y las eventuales vibraciones o efectos térmicos
+generados en la utilización de la estructura.
+13.5.3. Plano de plataformado indicando los niveles correspondientes, si la obra requiere
+cortes y Rellenos Controlados.
+13.5.4. Para los ﬁnes de la determinación del Programa de Exploración Mínimo (PM) del
+EMS (Ver sub numeral 15.3), las ediﬁcaciones son caliﬁcadas, según la Tabla 1,
+donde I, II, III y IV designan la importancia relativa de la estructura desde el punto
+de vista de la exploración de suelos necesaria para cada tipo de ediﬁcación, siendo
+el I más exigente que el II, éste que el III y éste que el IV.
+NTE E.050 SUELOS Y CIMENTACIONES
+16
+TABLA 1
+TIPO DE EDIFICACIÓN U OBRA PARA DETERMINAR
+EL NÚMERO DE PUNTOS DE EXPLORACIÓN (TABLA 6)
+DESCRIPCIÓN
+DISTANCIA
+MAYOR
+ENTRE
+APOYOS  (m)
+NÚMERO DE PISOS
+(Incluidos los sótanos)
+≤ 3 4 a 8 9 a 12 > 12
+APORTICADA DE ACERO < 12 III III III II
+PÓRTICOS Y/O MUROS DE
+CONCRETO
+< 10 III III II I
+MUROS PORTANTES DE
+ALBAÑILERÍA
+< 12 II I --- ---
+BASES DE MÁQUINAS Y
+SIMILARES
+Cualquiera I --- --- ---
+ESTRUCTURAS ESPECIALES Cualquiera I I I I
+OTRAS ESTRUCTURAS Cualquiera II I I I
+ Cuando la distancia sobrepasa la indicada, se clasiﬁcará en el tipo de ediﬁcación
+inmediato superior.
+TANQUES ELEVADOS Y SIMILARES
+≤ 9 m de altura > 9 m de altura
+II I
+PLANTAS DE TRATAMIENTO DE AGUA III
+INSTALACIONES SANITARIAS DE AGUA Y
+ALCANTARILLADO EN OBRAS URBANAS.
+IV
+13.6. Datos generales de la zona
+El PR recibe del solicitante los datos disponibles del terreno sobre:
+13.6.1. Usos anteriores (terreno de cultivo, cantera, explotación minera, botadero, relleno
+sanitario, etc.).
+13.6.2. Construcciones antiguas, restos arqueológicos u obras semejantes que puedan
+afectar al EMS.
+13.7. De las ediﬁcaciones colindantes
+Números de pisos incluidos sótanos, tipo y estado de las estructuras relativas al
+comportamiento del suelo. De ser posible, tipo y nivel de cimentación.
+13.8. Otra información
+Cuando el PR lo considere necesario, debe incluir cualquier otra información de
+carácter técnico, relacionada con el EMS, que pueda afectar la capacidad portante,
+deformabilidad y/o la estabilidad del terreno.
+Artículo 14.- Técnicas de exploración de Campo para ITS y EMS
+14.1. Técnicas de Exploración de Campo
+Las Técnicas de Exploración de Campo aplicables en los ITS y EMS son las
+indicadas en la Tabla 2.
+NTE E.050 SUELOS Y CIMENTACIONES
+17
+TABLA 2
+DESCRIPCIÓN
+NORMA
+APLICABLE*
+SUELOS. Método de ensayo de penetración estándar SPT. NTP 339.133
+SUELOS. Método para la clasiﬁcación de suelos con propósitos de
+ingeniería (sistema uniﬁcado de clasiﬁcación de suelos SUCS).
+NTP 339.134
+SUELOS. Método de ensayo estándar para la densidad y peso unitario
+del suelo in situ mediante el método del cono de arena. **
+NTP 339.143
+SUELOS. Métodos de ensayos estándar para densidad in situ del suelo
+y suelo agregado por medio de métodos nucleares (profundidad
+superﬁcial).
+NTP 339.144
+SUELOS. Ensayo de penetración cuasi-estática profunda de suelos con
+cono y cono de fricción (CPT).***
+NTP 339.148
+SUELOS. Descripción e identiﬁcación de suelos. Procedimiento visual –
+manual.
+NTP 339.150
+SUELOS. Método de ensayo normalizado para la capacidad portante del
+suelo por carga estática y para cimientos aislados.
+NTP 339.153
+SUELOS. Método normalizado para ensayo de corte por veleta de
+campo de suelos cohesivos.
+NTP 339.155
+SUELOS. Método de ensayo normalizado para la auscultación con
+penetrómetro dinámico ligero de punta cónica (DPL).
+NTP 339.159
+SUELOS. Práctica para la investigación y muestreo de suelos por
+perforaciones con barrena.
+NTP 339.161
+SUELOS. Guía normalizada para caracterización de campo con ﬁnes de
+diseño de ingeniería y construcción.
+NTP 339.162
+SUELOS. Método de ensayo normalizado de corte por veleta en
+miniatura de laboratorio en suelos ﬁnos arcillosos saturados.
+NTP 339.168
+SUELOS. Práctica normalizada para la perforación de núcleos de roca
+para la investigación del sitio.
+NTP 339.173
+SUELOS. Método de ensayo normalizado para la medición de la
+densidad de suelos y rocas in-situ por el método de reemplazo con agua
+en un pozo de exploración. **
+NTP 339.253
+SUELOS. Métodos de ensayo estándar para la determinación de la
+densidad y peso unitario de suelos in situ por el método del balón de
+jebe. **
+NTP 339.256
+Método de ensayo normalizado para la medición del potencial de
+colapso de suelos.
+NTP 339.163
+Cono Dinámico Superpesado (DPSH) - ver ANEXO II UNE 103-801
+Auscultación Dinámica mediante el Cono Tipo Peck (CTP) (ver ANEXO III)
+Método de ensayo estándar para pruebas de integridad de impacto con
+baja deformación en cimentaciones profundas (Standard test method for
+low strain impact integrity testing of deep foundations)
+ASTM D5882
+Métodos de ensayo estándar para cimentaciones profundas bajo carga
+lateral (Standard test methods for deep foundations under lateral load)
+ASTM D3966.
+* En todos los casos se utiliza la última versión de la Norma.
+** Estos ensayos solo se emplean para el control de la compactación de rellenos Controlados o de
+Ingeniería.
+*** También conocido como “Ensayo de cono estático”
+NOTA: Los ensayos de densidad de campo, no se emplean para determinar la
+densidad relativa y la presión admisible de un suelo granular. Solo se emplean para
+el control de la densidad de los Rellenos Controlados o de Ingeniería.
+14.2. Aplicación de las Técnicas de Exploración
+La exploración de campo se realiza de acuerdo a lo indicado en el presente Capítulo,
+respetando las cantidades, valores mínimos y limitaciones que se indican en esta
+Norma y adicionalmente, en todo aquello que no se contradiga, se aplica lo indicado
+en la NTP 339.162.
+NTE E.050 SUELOS Y CIMENTACIONES
+18
+14.2.1. Pozos o Calicatas y Trincheras
+Son excavaciones de formas diversas que permiten una observación directa del
+terreno, así como la toma de muestras y la realización de ensayos in situ que no
+requieran conﬁnamiento. Las calicatas y trincheras son realizadas según la NTP
+339.162. El PR debe tomar las precauciones necesarias a ﬁn de evitar accidentes.
+Se prohíbe el uso de este tipo de técnica de exploración en suelos arenosos con un
+porcentaje de ﬁnos menores e iguales a 5%.
+14.2.2. Perforaciones Manuales y Mecánicas
+Son sondeos que permiten reconocer la naturaleza y localización de las diferentes
+capas del terreno, así como extraer muestras del mismo y realizar ensayos in situ.
+La profundidad máxima es 10 metros en perforación manual, sin limitación en
+perforación mecánica.
+Las perforaciones manuales o mecánicas tienen las siguientes limitaciones:
+a) Perforaciones mediante Espiral Mecánico
+Los espirales mecánicos que no dispongan de un dispositivo para introducir
+herramientas de muestreo en el eje, no deben usarse en terrenos donde sea
+necesario conocer con precisión la cota de los estratos, o donde el espesor de
+los mismos sea menor de 0,30 m.
+b) Perforaciones por Lavado con Agua (Wash Boring).
+El diámetro de la perforación no debe ser mayor a 4 pulgadas. En ningún caso,
+las muestras procedentes del agua del lavado deben emplearse para ensayos
+de laboratorio.
+14.2.3. Método de Ensayo de Penetración Estándar (SPT) NTP 339.133
+Los Ensayos de Penetración Estándar (SPT) son aplicables según se indica en la
+Tabla 3.
+Se prohíbe ejecutar ensayos SPT en el fondo de calicatas, trincheras o cualquier
+tipo de excavación en suelos naturales, debido a la pérdida de conﬁnamiento. Solo
+pueden ejecutarse en perforaciones manuales o mecánicas indicadas en el sub
+numeral 14.2.2.
+En el eventual caso de detectar Rellenos No Controlados a profundidades no
+mayores a 3 m, se permite retirar estos materiales hasta dejar una superﬁcie de
+terreno natural sobre la que se inicia la ejecución de los ensayos SPT. En el caso
+que la profundidad sea mayor que 3 m, se debe cambiar el sistema de perforación
+a rotativo mecánico sin la necesidad de eliminar el Relleno No Controlado.
+14.2.4. Ensayo de Penetración Cuasi-Estática Profunda de Suelos con Cono y Cono
+de Fricción (CPT) NTP 339.148
+Este método se conoce también como el Cono Holandés. Véase aplicación en la
+Tabla 3.
+14.2.5. Prueba de Penetración Dinámica Superpesada (DPSH) UNE 103-801 (ver
+ANEXO II)
+Se utiliza para auscultaciones dinámicas que requieren investigación adicional de
+suelos para su interpretación y no sustituyen al Ensayo de Penetración Estándar.
+Los parámetros obtenidos con este ensayo (N20) deben ser obligatoriamente
+correlacionados con los parámetros de los ensayos SPT (N) en el terreno en el cual
+se está efectuando el EMS.
+NTE E.050 SUELOS Y CIMENTACIONES
+19
+Se prohíbe ejecutar ensayos DPSH en el fondo de calicatas, trincheras o cualquier
+tipo de excavación, debido a la pérdida de conﬁnamiento.
+14.2.6. Auscultación Dinámica Mediante el Cono Dinámico Tipo Peck (CTP ver
+ANEXO III)
+Es un ensayo desarrollado en el Perú que se utiliza para efectuar auscultaciones
+dinámicas que, como en los casos del DPSH y el DPL, requieren de investigación
+adicional de suelos para su interpretación y no sustituyen al Ensayo de Penetración
+Estándar (SPT). Los parámetros obtenidos con este ensayo (Cn) deben ser
+obligatoriamente correlacionados con los parámetros de los ensayos SPT (N) en el
+terreno en el cual se está efectuando el EMS.
+Se prohíbe ejecutar ensayos Cono Dinámico Tipo Peck (CTP) en el fondo de
+calicatas, trincheras o cualquier tipo de excavación, debido a la pérdida de
+conﬁnamiento.
+14.2.7. Método de ensayo normalizado para la auscultación con penetrómetro
+dinámico ligero de punta cónica (DPL) NTP 339.159
+Las auscultaciones dinámicas son ensayos que requieren investigación adicional de
+suelos para su interpretación y no sustituyen al Ensayo de Penetración Estándar
+(SPT). Los parámetros obtenidos con este ensayo (n) deben ser obligatoriamente
+correlacionados con los parámetros de los ensayos SPT (N) en el terreno en el cual
+se está efectuando el EMS.
+Se prohíbe ejecutar ensayos DPL en el fondo de calicatas, trincheras o cualquier
+tipo de excavación, debido a la pérdida de conﬁnamiento.
+Se prohíbe emplear este tipo de ensayo a profundidades mayores de 3.00 metros.
+14.2.8. Método Normalizado para Ensayo de Corte con Veleta de Campo en Suelos
+Cohesivos NTP 339.155
+Este ensayo es aplicable únicamente cuando se trata de suelos cohesivos
+saturados desprovistos de arena o grava, como complemento de la información
+obtenida mediante calicatas o perforaciones. Su aplicación se indica en la Tabla 3.
+14.2.9. Método de Ensayo Normalizado para la Capacidad Portante del Suelo por
+Carga Estática y para Cimientos Aislados NTP 339.153
+Las pruebas de carga deben ser precedidas por un EMS y se recomienda su uso
+únicamente cuando el suelo a ensayar es tridimensionalmente homogéneo,
+comprende la profundidad activa de la cimentación y es semejante al ubicado bajo
+el plato de carga. Las aplicaciones y limitaciones de estos ensayos, se indican en la
+Tabla 3.
+NTE E.050 SUELOS Y CIMENTACIONES
+20
+TABLA 3
+APLICACIÓN Y LIMITACIONES DE LOS ENSAYOS
+Ensayos
+In Situ
+Norma
+Aplicable
+Permitida No Permitida
+Técnica de
+Exploración
+Tipo de Suelo(1)
+Parámetro a
+obtener(2)
+Técnica de
+Exploración
+Tipo de
+Suelo(1)
+SPT NTP 339.133 Perforación
+Todos excepto
+gravas
+N Calicata Gravas
+CPT NTP 339.148 Auscultación
+Todos excepto
+gravas
+qc, fc Calicata Gravas
+DPSH
+UNE 103
+801:1994
+Auscultación
+Todos excepto
+gravas
+N20 Calicata Gravas
+CTP ANEXO III Auscultación
+Todos excepto
+gravas
+Cn Calicata Gravas
+DPL NTP 339.159 Auscultación
+SP, SW, SM (con
+limos no plásticos)
+n Calicata Lo restante
+Veleta de
+Campo(3)
+NTP 339.155
+Perforación/
+Calicata
+CL, ML, CH, MH.
+Para todos los
+casos con IP > 0 y
+saturados
+Cu, St --- Lo restante
+Prueba
+de carga
+NTP 339.153 ---
+Rocas blandas y
+todo tipo de suelo
+excepto gravas
+Asentamiento
+vs. Presión
+--- Gravas
+(1) Según Clasificación SUCS, cuando los ensayos son aplicables a suelos de
+doble simbología, ambos están incluidos.
+(2) Leyenda:
+Cu = Cohesión en condiciones no drenadas.
+N = Número de golpes por cada 0,30 m de penetración en el
+ensayo estándar de penetración.
+N20 = Número de golpes por cada 0,20 m de penetración mediante
+auscultación con DPSH.
+Cn = Número de golpes por cada 0,30 m de penetración mediante
+auscultación con Cono Tipo Peck.
+n = Número de golpes por cada 0,10 m de penetración mediante
+auscultación con DPL.
+qc = Resistencia de punta del cono en unidades de presión.
+fc = Fricción en el manguito.
+St = Sensibilidad.
+(3) Sólo para suelos finos saturados, sin arenas ni gravas.
+Nota: Ver títulos de las Normas en la Tabla 2.
+14.3. Correlación entre ensayos y propiedades de los suelos
+En base a los parámetros obtenidos en los ensayos “in situ” y mediante
+correlaciones debidamente comprobadas, el PR puede obtener valores de
+resistencia al corte no drenado, ángulo de fricción interna, relación de pre
+consolidación, relación entre asentamientos y carga, coeﬁciente de balasto, módulo
+de elasticidad, entre otros. En el caso de los ensayos de campo Cono tipo Peck
+(CPT) y auscultación con penetrómetro dinámico ligero de punta cónica (DPL), los
+parámetros obtenidos con estos ensayos deben ser obligatoriamente
+correlacionados con los parámetros de los ensayos SPT (N) en el terreno en el cual
+se está efectuando el EMS.
+14.4. Tipos de Muestras
+Se considera los cuatro tipos de muestras que se indican en la Tabla 4, en función
+de las exigencias que deben atenderse en cada caso, respecto del terreno que
+representan.
+NTE E.050 SUELOS Y CIMENTACIONES
+21
+TABLA 4
+TIPO DE
+MUESTRA
+NORMA APLICABLE
+FORMAS DE
+OBTENER Y
+TRANSPORTAR
+ESTADO DE
+LA
+MUESTRA
+CARACTERÍSTICAS
+Muestra
+inalterada en
+bloque (Mib)
+NTP 339.151
+SUELOS. Prácticas
+normalizadas para la
+preservación y
+transporte de suelos
+Bloques
+Inalterada
+Debe mantener inalteradas
+las propiedades físicas y
+mecánicas del suelo en su
+estado natural al momento
+del muestreo (Aplicable
+solamente a suelos
+cohesivos, rocas blandas o
+suelos granulares ﬁnos
+suﬁcientemente cementados
+para permitir su obtención).
+Muestra
+inalterada en
+tubo de
+pared
+delgada (Mit)
+NTP 339.169
+SUELOS. Muestreo
+geotécnico de suelos
+con tubo de pared
+delgada
+Tubos de pared
+delgada
+Muestra
+alterada en
+bolsa de
+plástico
+(Mab)
+NTP 339.151
+SUELOS. Prácticas
+normalizadas para la
+preservación y
+transporte de suelos
+Con bolsas de
+plástico
+Alterada
+Debe mantener inalterada la
+granulometría del suelo en su
+estado natural al momento
+del muestreo.
+Muestra
+alterada para
+humedad en
+lata sellada
+(Mah)
+NTP 339.151
+SUELOS. Prácticas
+normalizadas para la
+preservación y
+transporte de suelos
+En lata sellada Alterada
+Debe mantener inalterado el
+contenido de agua.
+14.5. Ensayos de Laboratorio
+Se realizan de acuerdo con las normas que se indican en la Tabla 5.
+TABLA 5
+ENSAYOS DE LABORATORIO
+DESCRIPCIÓN
+NORMA
+APLICABLE *
+SUELOS. Métodos de ensayo para determinar el contenido de humedad
+de un suelo
+NTP 339.127
+SUELOS. Método de ensayo para el análisis granulométrico NTP 339.128
+SUELOS. Método de ensayo para determinar el límite líquido, límite
+Plástico e índice de plasticidad de suelos
+NTP 339.129
+SUELOS. Método de ensayo para determinar el peso especíﬁco relativo
+de las partículas sólidas de un suelo
+NTP 339.131
+SUELOS. Método para la clasiﬁcación de suelos con propósitos de
+ingeniería (sistema uniﬁcado de clasiﬁcación de suelos, SUCS).
+NTP 339.134
+SUELOS. Determinación del peso volumétrico de suelo cohesivo NTP 339.139
+SUELOS. Determinación de los factores de contracción de suelos
+mediante el método del mercurio
+NTP 339.140
+SUELOS. Método de ensayo para la compactación de suelos en
+Laboratorio utilizando una energía modiﬁcada **
+(2700 kN- m/m3(56000 pie-lbf/ pie3))
+NTP 339.141
+SUELOS. Descripción e identiﬁcación de suelos. Procedimiento visual -
+manual
+NTP 339.150
+SUELOS. Método de ensayo normalizado para la determinación del
+contenido de sales solubles en suelos y agua subterránea
+NTP 339.152
+SUELOS. Método normalizado de ensayo para propiedades de
+consolidación unidimensional de suelos.
+NTP 339.154
+SUELOS. Método de ensayo normalizado para la medición del potencial
+de colapso de suelos
+NTP 339.163
+SUELOS. Método de ensayo normalizado de compresión triaxial no
+consolidado no drenado para suelos cohesivos
+NTP 339.164
+SUELOS. Método de ensayo normalizado de compresión triaxial
+consolidado no drenado para suelos cohesivos
+NTP 339.166
+SUELOS. Método de ensayo estándar para la resistencia a la
+compresión no conﬁnada de suelos cohesivos
+NTP 339.167
+SUELOS. Método de ensayo para la determinación cuantitativa de
+sulfatos solubles en suelos y agua subterránea.
+NTP 339.169
+NTE E.050 SUELOS Y CIMENTACIONES
+22
+TABLA 5
+ENSAYOS DE LABORATORIO
+DESCRIPCIÓN
+NORMA
+APLICABLE *
+SUELOS. Método de ensayo normalizado para la determinación del
+hinchamiento unidimensional o potencial de asentamiento de suelos
+cohesivos.
+NTP 339.170
+SUELOS. Método de ensayo normalizado para el ensayo de corte
+directo en suelos bajo condiciones consolidadas drenadas ***
+NTP 339.171
+SUELOS. Método de ensayo para la determinación cuantitativa de
+cloruros solubles en suelos y agua subterránea.
+NTP 339.177
+* En todos los casos se utiliza la última versión de la Norma.
+** Este ensayo se emplea únicamente para el control de Rellenos de Ingeniería o
+Rellenos Controlados.
+*** Este ensayo se emplea únicamente para determinar las propiedades mecánicas
+de los Rellenos de Ingeniería o Rellenos Controlados.
+14.6. Compatibilización de perﬁles estratigráﬁcos
+El PR selecciona y deﬁne las muestras para ejecutar con ellas ensayos de
+clasiﬁcación. Como resultado de estos ensayos, las muestras se clasiﬁcan, en todos
+los casos, de acuerdo al Sistema Uniﬁcado de Clasiﬁcación de Suelos – SUCS NTP
+339.134 y los resultados de esta clasiﬁcación son comparados con la descripción
+visual – manual NTP 339.150 obtenida para el perﬁl estratigráﬁco de campo,
+procediéndose a compatibilizar las diferencias existentes a ﬁn de obtener el perﬁl
+estratigráﬁco deﬁnitivo, que se incluye en el informe del EMS.
+Artículo 15.- Programa de exploración de campo y ensayos de laboratorio
+15.1. El programa de exploración de campo y ensayos de laboratorio comprende:
+15.1.1. Condiciones de frontera.
+15.1.2. Número n de puntos de exploración.
+15.1.3. Profundidad p a alcanzar en cada punto.
+15.1.4. Distribución de los puntos en la superﬁcie del terreno.
+15.1.5. Número y tipo de muestras a extraer.
+15.1.6. Ensayos a realizar “In situ” y en el laboratorio.
+15.2. Un EMS puede plantearse inicialmente con un PM (Programa Mínimo), debiendo
+aumentarse los alcances del programa en cualquiera de sus partes si las
+condiciones encontradas así lo exigieran.
+15.3. Programa Mínimo – PM
+15.3.1. El Programa de Exploración aquí detallado constituye el programa mínimo requerido
+por un EMS, siempre y cuando se cumplan las condiciones dadas en el literal a) del
+sub numeral 15.3.2.
+15.3.2. En el caso de no detectar un suelo adecuado para apoyar las cimentaciones
+superﬁciales dentro de la Profundidad Activa de la cimentación (Ver Capítulo VI,
+Artículo 24), el PR debe informar al solicitante ampliar el programa de la manera
+más adecuada para lograr los objetivos del EMS.
+a) Condiciones de Frontera
+Tienen como objetivo la comprobación de las características del suelo,
+supuestamente iguales a las de los terrenos colindantes ya ediﬁcados. Son de
+aplicación cuando se cumplan simultáneamente las siguientes condiciones:
+NTE E.050 SUELOS Y CIMENTACIONES
+23
+a-1) No existen en los terrenos colindantes grandes irregularidades como
+aﬂoramientos rocosos, fallas, ruinas arqueológicas, estratos erráticos,
+rellenos o cavidades.
+a-2) No existen ediﬁcaciones situadas a menos de 100 m del terreno a ediﬁcar
+que presenten anomalías como grietas o desplomes originados por el
+terreno de cimentación.
+a-3) El tipo de ediﬁcación (Tabla 1) a cimentar es de la misma o de menor
+exigencia que las ediﬁcaciones situadas a menos de 100 m.
+a-4) El número de plantas del ediﬁcio a cimentar (incluidos los sótanos y
+estructuras soterradas tales como pit de ascensores, cisternas, cuarto de
+máquinas, etc.), la modulación media entre apoyos y las cargas en éstos
+son iguales o inferiores que las correspondientes a las ediﬁcaciones
+situadas a menos de 100 m.
+a-5) Las cimentaciones de los ediﬁcios situados a menos de 100 m y la prevista
+para el ediﬁcio a cimentar son de tipo superﬁcial.
+a-6) La cimentación prevista para el ediﬁcio en estudio no profundiza respecto
+de las inmediatamente contiguas más de 1,5 m.
+b) Número “n” de puntos de exploración
+El número de puntos de exploración se determina en la Tabla 6 en función del
+tipo de ediﬁcación y del área de la superﬁcie a ocupar por ésta.
+TABLA 6
+NÚMERO DE PUNTOS DE EXPLORACION
+Tipo de ediﬁcación u obra (Tabla 1) Número de puntos de exploración (n)
+I
+uno por cada 225 m2 de área techada del
+primer piso
+II
+uno por cada 450 m2 de área techada del
+primer piso
+III
+uno por cada 900 m2 de área techada del
+primer piso*
+IV
+uno por cada 100 m de instalaciones
+sanitarias de agua y alcantarillado en
+obras urbanas
+Habilitación urbana para Viviendas
+Unifamiliares de hasta 3 pisos
+3 por cada hectárea de terreno por
+habilitar
+* Dentro de esta categoría se incluyen las plantas de tratamiento de agua en
+la que se considera en lugar de área techada, el área en planta de la misma.
+n nunca será menor de 3.
+Cuando se conozca el emplazamiento exacto de la estructura, n se determina
+en función del área techada en planta del primer piso de la misma; cuando no se
+conozca dicho emplazamiento, n se determina en función del área total del
+terreno.
+c) Profundidad “p” mínima a alcanzar en cada punto de exploración.
+c-1) Cimentación Superﬁcial
+Se determina de la siguiente manera:
+NTE E.050 SUELOS Y CIMENTACIONES
+24
+EDIFICACIÓN SIN SÓTANO:
+z
+f
+D
+p 
+
+EDIFICACIÓN CON SÓTANO:
+z
+f
+D
+h
+p 
+
+
+Donde:
+Df = En una edificación sin sótano, es la distancia vertical desde la
+superficie del terreno o desde el nivel del piso terminado, hasta el
+fondo de la cimentación, la que resulte menor. En edificaciones con
+sótano, es la distancia vertical entre el nivel de piso terminado del
+sótano y el fondo de la cimentación, excepto en el caso de
+cimentación con plateas o subsolados. Ver figura 1(c-1) (iii)
+h = Distancia vertical entre el nivel de piso terminado del sótano y la
+superficie del terreno natural.
+z = 1,5 B; siendo B el ancho de la cimentación prevista de mayor área.
+En el caso de ser ubicado dentro de la profundidad activa de cimentación el
+estrato resistente típico de la zona, que normalmente se utiliza como plano
+de apoyo de la cimentación, a juicio y bajo responsabilidad del PR, se puede
+adoptar una profundidad z menor a 1,5 B. En este caso la profundidad
+mínima de exploración es la profundidad del estrato resistente más una
+profundidad de veriﬁcación no menor a 3 m. Uno de los puntos debe llegar
+hasta el nivel más bajo de las estructuras soterradas más 3 m.
+En ningún caso p es menor de 3 m en el caso de estructuras sin sótano y
+de 6 m en el caso de estructuras con sótano, excepto si se encontrase roca
+antes de alcanzar la profundidad p, en cuyo caso el PR debe llevar a cabo
+una veriﬁcación de su calidad por un método adecuado.
+FIGURA 1 (c-1)
+(i) Profundidad de Cimentación (Df) en Zapatas Superficiales
+NTE E.050 SUELOS Y CIMENTACIONES
+25
+(ii) Profundidad de Cimentación (Df) en Zapatas Bajo Sótanos
+(iii) Profundidad de Cimentación (Df) en Plateas o Losas (incluyendo
+reservorios y tanques elevados apoyados en estos elementos)
+e: espesor de la cama de arena
+NTE E.050 SUELOS Y CIMENTACIONES
+26
+(iv) Profundidad de Cimentación (Df) en tuberías
+(v) Profundidad de cimentación (Df) en canales
+Nota: Las zapatas ubicadas en el límite de propiedad no
+deben invadir el terreno vecino.
+c-2) Cimentación Profunda
+La profundidad mínima de exploración, corresponde a la longitud del
+elemento que transmite la carga a mayores profundidades (pilote, pilar,
+etc.), más la profundidad z.
+z
+D
+h
+p
+f
+
+
+
+Donde:
+Df = En una edificación sin sótano, es la distancia vertical desde la
+superficie del terreno hasta el extremo de la cimentación profunda
+(pilote, pilares, etc.). En edificaciones con sótano, es la distancia
+vertical entre el nivel de piso terminado del sótano más profundo y el
+extremo de la cimentación profunda.
+h = Distancia vertical entre el nivel de piso terminado del sótano y la
+superficie del terreno natural.
+z = 6,00 metros, en el 80 % de los sondeos y 1,5 B, en el 20 % de los
+sondeos, siendo B el ancho de la cimentación, delimitada por los
+puntos de todos los pilotes o las bases de todos los pilares.
+En el caso de ser conocida la existencia de un estrato de suelo resistente
+que normalmente se utiliza como plano de apoyo de la cimentación en la
+zona, a juicio y bajo responsabilidad del PR, se podrá adoptar para p, la
+profundidad del estrato resistente más una profundidad de verificación, la
+cual en el caso de cimentaciones profundas no deberá ser menor de 5
+metros o de 15 metros si existen antecedentes de licuación en la zona o si
+se considera que se dan las condiciones indicadas en los numerales 38.1,
+38.2 y 38.3 para la ocurrencia de este fenómeno. Si se encontrase roca
+antes de alcanzar la profundidad p, el PR deberá llevar a cabo una
+verificación de su calidad, por un método adecuado, en una longitud mínima
+de 3 metros.
+NTE E.050 SUELOS Y CIMENTACIONES
+27
+FIGURA 2 (c-2)
+Nota: Las zapatas ubicadas en el límite de propiedad no deberán invadir el
+terreno vecino.
+d) Distribución de los puntos de Investigación
+Se distribuyen adecuadamente, teniendo en cuenta las características y
+dimensiones del terreno, así como la ubicación de las estructuras previstas
+cuando éstas estén definidas.
+e) Número y tipo de muestras a extraer
+Cuando el plano de apoyo de la cimentación prevista no sea roca, el PR
+determina el número de muestras muestras que deben tomarse tipo Mab, hasta
+el plano de apoyo de la cimentación prevista Df y a partir de esta profundidad se
+debe tomar las muestras tipo Mib o Mit en suelos cohesivos o ejecutar los
+ensayos “in situ” de los indicados en la Tabla 3 en los suelos granulares y una
+muestra tipo Mab en cada uno de los ensayos SPT que se ejecuten. El PR es
+responsable de seleccionar y determinar el número de muestras y/o ensayos
+necesarios a fin de determinar las propiedades físico-mecánicas requeridas para
+el análisis de la cimentación y sistemas de sostenimiento.
+f) Ensayos a realizar “in situ” y en laboratorio
+Se realizan sobre los estratos típicos y/o sobre las muestras extraídas según las
+normas aplicables indicadas en las Tablas 3 y 5 de la presente norma. Las
+determinaciones a realizar, así como el número de muestras a ensayar son
+determinadas por el PR.
+Artículo 16.- Informe del EMS
+16.1. El informe del EMS comprende:
+16.1.1. Memoria Descriptiva
+16.1.2. Planos de Ubicación de las Obras y de Distribución de los Puntos de Investigación.
+16.1.3. Perfiles de Suelos
+16.1.4. Resultados de los Ensayos “in situ” y de Laboratorio.
+NTE E.050 SUELOS Y CIMENTACIONES
+28
+16.2. Memoria Descriptiva
+16.2.1. Resumen de las Condiciones de Cimentación
+Descripción resumida de todos y cada uno de los temas principales del informe:
+a) Tipo de cimentación.
+b) Estrato de apoyo de la cimentación.
+c) Parámetros de diseño para la cimentación (Profundidad de la Cimentación,
+Presión Admisible, Factor de Seguridad por Corte y Asentamiento Diferencial o
+Total).
+d) Agresividad del suelo a la cimentación.
+e) Recomendaciones adicionales.
+16.2.2. Información Previa
+Descripción detallada de la información recibida de quien solicita el EMS y de la
+recolectada por el PR de acuerdo al artículo 13.
+16.2.3. Exploración de Campo
+Descripción de los pozos, calicatas, trincheras, perforaciones y auscultaciones, así
+como de los ensayos efectuados, con referencia a las Normas empleadas.
+16.2.4. Ensayos de Laboratorio
+Descripción de los ensayos efectuados, con referencia a las Normas empleadas.
+16.2.5. Perfil del Suelo
+Descripción de los diferentes estratos que constituyen el terreno investigado
+indicando para cada uno de ellos: origen, nombre y símbolo del grupo del suelo,
+según el Sistema Unificado de Clasificación de Suelos - SUCS, NTP 339.134,
+plasticidad de los finos, consistencia o densidad relativa, humedad, color, tamaño
+máximo y angularidad de las partículas, olor, cementación y otros comentarios
+(raíces, cavidades, etc.), de acuerdo a la NTP 339.150.
+16.2.6. Nivel de la Napa Freática
+Ubicación de la Napa Freática dentro de la profundidad de exploración, indicando la
+fecha de medición.
+16.2.7. Análisis de la Cimentación
+Descripción de las características físico – mecánicas de los suelos que controlan el
+diseño de la cimentación. Análisis y diseño de solución para cimentación. Se incluye
+memorias de cálculo en cada caso, en las que se indican todos los parámetros
+utilizados y los resultados obtenidos. En este numeral se incluye como mínimo:
+a) Memoria de cálculo. Se utiliza cualquier método de diseño geotécnico
+sustentado en teorías y experiencias a largo plazo comúnmente empleadas en
+el Perú. El uso de cualquier otra metodología de diseño obliga a incluirla como
+anexo a la Memoria Descriptiva.
+b) Tipo de cimentación y otras soluciones si las hubiera.
+c) Profundidad de cimentación (Df)
+d) Cálculo de la carga de rotura por corte y cálculo del factor de seguridad (FS).
+e) Estimación de los asentamientos que sufriría la estructura con la carga aplicada
+(diferenciales y/o totales).
+NTE E.050 SUELOS Y CIMENTACIONES
+29
+f) Presión admisible del terreno.
+g) Otros parámetros que se requieran para el diseño o construcción de las
+estructuras y cuyo valor dependan directamente del suelo.
+16.2.8. Efecto del Sismo
+En concordancia con la NTE E.030 Diseño Sismorresistente, el EMS o el PM,
+proporcionan de acuerdo al perﬁl encontrado lo siguiente:
+a) Zona sísmica
+b) Tipo de perﬁl del suelo
+c) Factor del suelo (S)
+d) Período TP (s)
+e) Período TL (s)
+En el caso que se encuentren suelos granulares sumergidos de los tipos: arenas y
+limos no plásticos, el PR debe obligatoriamente efectuar los análisis determinísticos
+y probabilísticos del potencial de licuación de los suelos, de acuerdo con el
+artículo 36.
+16.2.9. Parámetros para el diseño y construcción de obras de sostenimiento.
+Luego del análisis de los perﬁles encontrados el PR debe indicar los siguientes
+parámetros que se deben emplear para los diseños de las obras de sostenimiento:
+a) Peso unitario  (ton/m3)
+b) Cohesión c (kg/cm2)
+c) Ángulo de fricción  (°)
+d) Coeﬁciente Activo Estático Ka
+e) Coeﬁciente en Reposo Estático Ko
+f) Coeﬁciente Pasivo Estático Kp
+g) Factor de Reducción del Empuje Pasivo R
+h) Coeﬁciente Activo Dinámico Kas
+i) Coeﬁciente en Reposo Dinámico Kos
+j) Coeﬁciente Pasivo Dinámico Kps
+k) Coeﬁciente de Fricción bajo la cimentación Tan 
+16.2.10. Análisis Adicionales
+Indicación de las precauciones especiales que toma el proyectista o el constructor
+de la obra, como consecuencia de las características particulares del terreno
+investigado (efecto de la Napa Freática, contenido de sales agresivas al concreto,
+expansión o colapso del suelo, licuación y otros que considere pertinente el PR.)
+16.3. Planos y Perﬁles de puntos investigados
+16.3.1. Plano de Ubicación de los puntos de exploración
+Plano planimétrico o topográﬁco (Ver numeral 13.4) del terreno, relacionado a una
+base de referencia (BM). En el plano de ubicación se indica la ubicación física de
+los puntos investigados empleándose la simbología indicada en la Tabla 7.
+NTE E.050 SUELOS Y CIMENTACIONES
+30
+TABLA 7
+TÉCNICAS DE EXPLORACIÓN
+TÉCNICA DE
+EXPLORACIÓN
+SÍMBOLO
+Pozo o Calicata C – n
+Perforación P – n
+Trinchera T – n
+Auscultación A – n
+n = número correlativo de sondaje o punto de exploración.
+16.3.2. Perﬁl Estratigráﬁco por Punto explorado
+Se incluye la información de cada estrato de suelo como se indica en el sub numeral
+16.2.5, así como las muestras obtenidas y los resultados de los ensayos “in situ”.
+En caso se requiera un plano topográﬁco para el EMS, se debe indicar la cota de
+arranque del punto investigado y la cota de fondo. Se sugiere incluir los símbolos
+gráﬁcos indicados en la Figura 3.
+16.4. Resultados de los Ensayos de Laboratorio
+Se incluyen todos los gráﬁcos y resultados obtenidos en el Laboratorio según la
+aplicación de las normas de la Tabla 5.
+NTE E.050 SUELOS Y CIMENTACIONES
+31
+FIGURA 3
+Simbología de Suelos (Referencial)
+DIVISIONES MAYORES
+SÍMBOLO
+DESCRIPCIÓN
+SUCS GRÁFICO
+SUELOS GRANULARES
+GRAVA Y
+SUELOS
+GRAVOSOS
+GW GRAVA BIEN GRADUADA
+GP GRAVA MAL GRADUADA
+GM GRAVA LIMOSA
+GC GRAVA ARCILLOSA
+ARENA Y
+SUELOS
+ARENOSOS
+SW ARENA BIEN GRADUADA
+SP ARENA MAL GRADUADA
+SM ARENA LIMOSA
+SC ARENA ARCILLOSA
+SUELOS FINOS
+LIMOS Y
+ARCILLAS
+(LL < 50)
+ML
+LIMO INORGÁNICO DE
+BAJA PLASTICIDAD
+CL
+ARCILLA INORGÁNICA DE
+BAJA PLASTICIDAD
+OL
+LIMO ORGÁNICO O
+ARCILLA ORGÁNICA DE
+BAJA PLASTICIDAD
+LIMOS Y
+ARCILLAS
+(LL > 50)
+MH
+LIMO INORGÁNICO DE
+ALTA PLASTICIDAD
+CH
+ARCILLA INORGÁNICA DE
+ALTA PLASTICIDAD
+OH
+LIMO ORGÁNICO O
+ARCILLA ORGÁNICA DE
+ALTA PLASTICIDAD
+SUELOS ALTAMENTE
+ORGÁNICOS
+Pt
+TURBA Y OTROS SUELOS
+ALTAMENTE ORGÁNICOS.
+NTE E.050 SUELOS Y CIMENTACIONES
+32
+CAPÍTULO III
+ANÁLISIS DE LAS CONDICIONES DE CIMENTACIÓN
+Artículo 17.- Cargas a utilizar
+Para la elaboración de las conclusiones del EMS, y en caso de contar con la información de
+las cargas de la ediﬁcación, se consideran:
+17.1. Para el cálculo del factor de seguridad de cimentaciones: se utilizan como cargas
+aplicadas a la cimentación, las Cargas de Servicio que se utilizan para el diseño
+estructural de las columnas del nivel más bajo de la ediﬁcación.
+17.2. Para el cálculo del asentamiento de cimentaciones apoyadas sobre suelos
+granulares y cohesivos: se considera la Carga obtenida de acuerdo a la Norma
+Técnica de Ediﬁcación E.020 Cargas.
+17.3. Para el cálculo de asentamientos, en el caso de ediﬁcaciones con sótanos en las
+cuales se emplee plateas o losas de cimentación, se puede descontar de la carga
+total de la estructura (carga muerta más sobrecarga más el peso de losa de
+cimentación) el peso del suelo excavado para la construcción de los sótanos, si el
+PR lo considera necesario.
+Artículo 18.- Asentamientos
+Los asentamientos se estiman utilizando las fórmulas aceptadas por la mecánica de suelos a
+partir de parámetros obtenidos mediante los ensayos in situ indicados en la Tabla 3 o los
+ensayos de laboratorio indicados en la Tabla 5.
+Artículo 19.- Asentamiento tolerable
+19.1. Todo EMS debe indicar el asentamiento tolerable que se ha considerado para la
+ediﬁcación o estructura motivo del estudio. El Asentamiento Diferencial (Figura 4)
+no debe ocasionar una distorsión angular mayor que la indicada en la Tabla 8.
+19.2. En el caso de suelos granulares el asentamiento diferencial se puede estimar como
+el 75% del asentamiento total.
+FIGURA 4
+Asentamiento Diferencial
+NTE E.050 SUELOS Y CIMENTACIONES
+33
+TABLA 8
+DISTORSIÓN ANGULAR = α
+α = δ/L DESCRIPCIÓN
+1/150 Límite en el que se debe esperar daño estructural en ediﬁcios
+convencionales.
+1/250 Límite en que la pérdida de verticalidad de ediﬁcios altos y rígidos
+puede ser visible.
+1/300 Límite en que se debe esperar diﬁcultades con puentes grúas.
+1/300 Límite en que se debe esperar las primeras grietas en paredes.
+1/500 Límite seguro para ediﬁcios en los que no se permiten grietas.
+1/500 Límite para cimentaciones rígidas circulares o para anillos de
+cimentación de estructuras rígidas, altas y esbeltas.
+1/650 Límite para ediﬁcios rígidos de concreto cimentados sobre un solado
+con espesor aproximado de 1,20 m.
+1/750 Límite donde se esperan diﬁcultades en maquinaria sensible a
+asentamientos.
+Ref.: NAVFAC DM 7
+Artículo 20.- Capacidad de carga
+20.1. La capacidad de carga (qd) es la presión última o de falla por corte del suelo y se
+determina utilizando las fórmulas aceptadas por la mecánica de suelos a partir de
+parámetros determinados mediante los ensayos in situ indicados en la Tabla 3 o los
+ensayos de laboratorio indicados en la Tabla 5.
+20.2. En suelos cohesivos (arcilla, arcilla limosa y limo-arcilloso), se emplea un ángulo de
+fricción interna () igual a cero.
+qd
+= sc
+ic
+c Nc
+20.3. En suelos friccionantes (gravas, arenas y gravas-arenosas), se emplea una
+cohesión (c) igual a cero.
+qd
+= iq
+1
+Dƒ
+Nq
++ 0,5 s i 2
+B´ N
+20.4. Para las ecuaciones indicadas en los numerales 20.2 y 20.3 se tiene:
+Donde:
+c = cohesión del suelo ubicado bajo la zapata.
+ic = coeﬁciente de corrección por inclinación de la carga correspondiente a la
+cohesión
+NTE E.050 SUELOS Y CIMENTACIONES
+34
+iq = coeﬁciente de corrección por inclinación de la carga correspondiente a la sobre
+carga (Dƒ)
+sc = coeﬁciente de corrección por la forma de la cimentación correspondiente a la
+cohesión
+s = coeﬁciente de corrección por la forma de la cimentación correspondiente a la
+fricción
+i = coeﬁciente de corrección por inclinación de la carga correspondiente a la fricción
+1
+= peso unitario volumétrico de suelo ubicado sobre el nivel de cimentación.
+2
+= peso unitario volumétrico efectivo de suelo ubicado bajo el nivel de cimentación.
+Nc = coeﬁciente de capacidad de carga correspondiente a la cohesión = 5.14
+Nq = coeﬁciente de capacidad de carga correspondiente a la sobre carga (Dƒ)
+N
+= coeﬁciente de capacidad de carga correspondiente a la fricción
+B’ = ancho del “área efectiva”
+α° = ángulo en grados que hace la carga con la vertical
+Referencia: Bowles, Joseph E. (1996) Foundation Analysis and Design. New York:
+Mc Graw – Hill Book Co.
+Artículo 21.- Factor de seguridad frente a una falla por corte
+Los factores de seguridad mínimos que deben tener las cimentaciones son los siguientes:
+21.1. Para cargas estáticas: 3,0
+21.2. Para solicitación máxima de sismo o viento (la que sea más desfavorable): 2,5
+Artículo 22.- Presión admisible
+22.1. La determinación de la Presión Admisible, se efectúa tomando en cuenta los
+siguientes factores:
+a) Profundidad de cimentación.
+b) Dimensión de los elementos de la cimentación.
+c) Características físico – mecánicas de los suelos ubicados dentro de la zona
+activa de la cimentación.
+d) Ubicación del Nivel Freático, considerando su probable variación durante la vida
+útil de la ediﬁcación
+e) Probable modiﬁcación de las características físico – mecánicas de los suelos,
+como consecuencia de los cambios en el contenido de humedad.
+f) Asentamiento tolerable de la ediﬁcación
+22.2. La presión admisible es la menor de la que se obtenga mediante:
+22.2.1. La aplicación de las ecuaciones de capacidad de carga por corte afectada por el
+factor de seguridad correspondiente (Ver artículo 20).
+22.2.2. La presión que cause el asentamiento admisible.
+NTE E.050 SUELOS Y CIMENTACIONES
+35
+CAPÍTULO IV
+CIMENTACIONES SUPERFICIALES
+Artículo 23.- Deﬁnición
+23.1. Son aquellas en las cuales la relación Profundidad / ancho (Dƒ/ B) es menor o igual
+a cinco (5), siendo Dƒ la profundidad de la cimentación y B el ancho o diámetro de
+la misma.
+23.2. Son cimentaciones superﬁciales las zapatas aisladas, conectadas y combinadas;
+las cimentaciones continuas (cimientos corridos) y las plateas de cimentación.
+23.3. Las zapatas y plateas deberán tener una forma regular: cuadrada, rectangular,
+continua o circular como las mostradas a continuación. Las cimentaciones no
+rectangulares podrán asimilarse a otras similares conservando la misma área y el
+mismo momento de inercia respecto al eje del momento resultante. Calculadas esas
+dimensiones equivalentes, se obtiene el valor de la presión uniforme aplicada
+deﬁnida como:
+B´ y L´ se calcularán de acuerdo a lo indicado en 4.5
+Ref. Código Técnico de Ediﬁcación Español 314/2006
+Zapata Dimensiones Forma
+Cuadrada L = B
+Rectangular L ≤ 10 B
+NTE E.050 SUELOS Y CIMENTACIONES
+36
+Zapata Dimensiones Forma
+Circular Diámetro = B
+Continua L > 10 B
+Combinada L ≤ 10 B
+Anillo continuo
+Perímetro medio
+P ≥ 10 B
+Nota: El peralte de la cimentación (h) debe ser determinado por el ingeniero que efectúa el diseño
+estructural del proyecto.
+Ref. Donald P. Coduto (1994) Foundation design: Principles and Practices. Englewood Cliffs, NS:
+Prentice-Hall
+NTE E.050 SUELOS Y CIMENTACIONES
+37
+Artículo 24.- Suelos no permitidos para apoyar las cimentaciones
+No se cimienta sobre los siguientes tipos de materiales: turba, suelo orgánico, tierra vegetal,
+relleno de desmonte o rellenos sanitario o industrial, ni Rellenos No Controlados. Estos
+materiales no permitidos tienen que ser removidos en la totalidad del terreno, antes de
+ejecutar cualquier tipo de obra en el terreno y ser reemplazados con materiales que cumplan
+lo indicado en el numeral 25.4.
+Artículo 25.- Rellenos
+25.1. Los rellenos por su origen pueden ser naturales si son formados por la naturaleza y
+artiﬁciales si son formados por la acción del hombre.
+25.2. Los rellenos artiﬁciales de acuerdo al material que lo constituye pueden ser:
+25.2.1. Materiales seleccionados: todo tipo de suelo compactable, con partículas no
+mayores de 7,5 cm (3”), con 30% o menos de material retenido en la malla ¾”, con
+un contenido de material que pasa la malla 200 menor al 50%, con IP no mayor a 6
+y sin elementos distintos de los suelos naturales.
+25.2.2. Materiales no seleccionados: todo aquél que no cumpla con la condición anterior.
+25.3. Los rellenos artiﬁciales por las condiciones bajo las que son colocados pueden ser:
+a) Controlados.
+b) No Controlados.
+25.4. Rellenos Controlados o de Ingeniería
+25.4.1. Los Rellenos Controlados son aquellos que se construyen con Material
+Seleccionado, tienen las mismas condiciones de apoyo que las cimentaciones
+superﬁciales. Los métodos empleados en su conformación, compactación y control,
+dependen principalmente de las propiedades físicas del material. Las cimentaciones
+pueden apoyarse sobre este tipo de Relleno Controlado o de Ingeniería.
+25.4.2. El Material Seleccionado con el que se construye el Relleno Controlado es
+compactado de la siguiente manera:
+a) Si tiene más de 12% de ﬁnos, se compacta a una densidad mayor o igual del
+90% de la máxima densidad seca del método de ensayo Proctor Modiﬁcado,
+NTP 339.141, en todo su espesor.
+b) Si tiene igual o menos de 12% de ﬁnos, se compacta a una densidad no menor
+del 95% de la máxima densidad seca del método de ensayo Proctor Modiﬁcado,
+NTP 339.141, en todo su espesor.
+25.4.3. En los Rellenos Controlados o de Ingeniería es obligatorio realizar controles de
+compactación en cada una de las capas compactadas, necesariamente a razón, de
+un control por cada 250 m2 o fracción, con un mínimo de tres controles por capa. En
+áreas pequeñas (igual o menores a 25 m2) un ensayo como mínimo. En cualquier
+caso, el espesor máximo a controlar es de 0,30 m de espesor.
+25.5. Rellenos No Controlados
+Los Rellenos No Controlados son aquellos que no cumplen con el numeral 25.4.1 Las
+cimentaciones superﬁciales no se deben apoyar sobre estos Rellenos No Controlados, los
+cuales deben ser reemplazados en su totalidad en todo el terreno, objeto del EMS, por
+materiales seleccionados debidamente compactados, como se indica en el numeral 25.4.1
+antes de iniciar cualquier tipo de obra en el terreno.
+NTE E.050 SUELOS Y CIMENTACIONES
+38
+Artículo 26.- Profundidad de cimentación
+26.1. La profundidad de cimentación de zapatas y cimientos corridos, es la distancia
+desde el nivel de la superﬁcie del terreno a la base de la cimentación, excepto en el
+caso de ediﬁcaciones con sótano, en que la profundidad de cimentación está
+referida al nivel del piso terminado del sótano más profundo. En el caso de plateas
+o losas, la profundidad de cimentación es la distancia del fondo de la losa a la
+superﬁcie del terreno natural.
+26.2. La profundidad de cimentación es definida por el PR y está condicionada por la
+estratigrafía del suelo, a cambios de volumen por humedecimiento-secado, hielo-
+deshielo o condiciones particulares de uso de la estructura, no siendo menor de
+0,80 metros en cualquier tipo de cimentación de elementos portantes o no portantes
+no arriostrados lateralmente. En el caso de cimentación sobre roca, el PR define la
+profundidad de cimentación, pudiendo en este caso ser menor a 0,80 metros. La
+profundidad de cimentación de las losas o plateas se verá en el párrafo siguiente.
+26.3. Las plateas de cimentación son losas rígidas de concreto armado con acero en dos
+direcciones, apoyadas en toda su extensión sobre un Relleno Controlado con una
+viga perimetral confinante de concreto armado. El fondo de la viga debe llegar hasta
+el nivel de la sub-rasante, con un peralte mínimo de 0,40 metros, en el caso de
+viviendas de interés social con altura no mayor a dos pisos el ingeniero estructural
+podrá reducir el espesor de 0.40 m. bajo su responsabilidad diseñando dicha losa
+para que su comportamiento garantice la rigidez de la cimentación con un mínimo
+de tres veces el espesor de la platea. En el caso que el Relleno Controlado tuviera
+un espesor mayor de 0,80 metros la viga debe tener un peralte mínimo de 0,80
+metros. La necesidad de incluir vigas interiores rigidizantes adicionales a las
+perimetrales, el espesor de la losa y el peralte de las vigas, son determinados por
+el proyectista estructural, para garantizar la rigidez de la cimentación.
+26.4. Si para una estructura se plantean varias profundidades de cimentación, deben
+determinarse la carga admisible y el asentamiento diferencial para cada caso.
+Deben evitarse la interacción entre las zonas de influencia de los cimientos
+adyacentes, de lo contrario es necesario tenerla en cuenta en el dimensionamiento
+de los nuevos cimientos.
+26.5. Cuando la edificación tenga sus cimientos adyacentes a los de las edificaciones
+vecinas deberán tomarse las provisiones necesarias en el diseño de las
+cimentaciones, para evitar afectar a los cimientos existentes ya sea por incremento
+de carga vertical que generen una reducción en el factor de seguridad o un
+incremento de las deformaciones. Estas consideraciones deberán ser evaluadas
+durante y después del proceso constructivo de la edificación.
+26.6. Cuando una cimentación quede por debajo del nivel de desplante de una
+cimentación vecina existente, el PR analiza el requerimiento de sostenimiento de la
+cimentación vecina, según lo indicado en el numeral 39.8.
+Artículo 27.- Presión admisible
+Se determina según lo indicado en el Capítulo III.
+Artículo 28.- Cargas excéntricas
+28.1. En el caso de cimentaciones superﬁciales que transmiten al terreno una carga
+vertical Q y dos momentos Mx y My que actúan simultáneamente según los ejes x
+e y respectivamente, el sistema formado por estas tres solicitaciones es
+estáticamente equivalente a una carga vertical excéntrica de valor Q, ubicada en el
+punto (ex, ey) siendo:
+NTE E.050 SUELOS Y CIMENTACIONES
+39
+28.2. El ancho (B) o largo (L), se corrige por excentricidad reduciéndolo en dos veces la
+excentricidad para ubicar la carga en el centro de gravedad del «área
+efectiva = B’L’»
+28.3. El centro de gravedad del «área efectiva» coincide con la posición de la carga
+excéntrica y sigue el contorno más próximo de la base real con la mayor precisión
+posible. Su forma es rectangular, aún en el caso de cimentaciones circulares. (Ver
+Figura 5). Las cimentaciones no rectangulares se dimensionan de acuerdo a lo
+indicado en el numeral 23.3.
+Artículo 29.- Cargas inclinadas
+La carga inclinada modiﬁca la conﬁguración de la superﬁcie de falla, por lo que la ecuación
+de capacidad de carga es calculada tomando en cuenta su efecto.
+Artículo 30.- Cimentaciones superﬁciales en taludes o en su cercanía
+30.1. En el caso de cimientos ubicados en terrenos próximos a taludes o sobre taludes o
+en terreno inclinado, la ecuación de capacidad de carga es calculada teniendo en
+cuenta la inclinación de la superﬁcie y la inclinación de la base de la cimentación, si
+la hubiera.
+30.2. Adicionalmente, se debe analizar la estabilidad global del talud, considerando las
+cargas que genera la presencia de la estructura.
+30.3. El factor de seguridad mínimo del talud, en consideraciones estáticas debe ser 1,5
+y en condiciones sísmicas 1,25.
+NTE E.050 SUELOS Y CIMENTACIONES
+40
+FIGURA 5
+CIMIENTOS CARGADOS EXCÉNTRICAMENTE
+Ref.: NAVFAC DM 7
+A) CARGAS EQUIVALENTES
+Q
+M
+e 
+La fuerza resultante actúa en el
+centroide del área reducida.
+B) ÁREA REDUCIDA – CIMIENTO RECTANGULAR
+Para cimientos rectangulares se reducen las
+dimensiones siguientes:
+1
+e
+2
+L
+'
+L 
+
+Q
+M
+e 1
+1
+
+2
+e
+2
+B
+'
+B 
+
+Q
+M
+e 2
+2
+
+C) ÁREA REDUCIDA – CIMIENTO CIRCULAR
+Para un cimiento circular de radio R, el área efectiva,
+A'e = 2 x (Área del segmento circular ADC),
+considerar A'e como un rectángulo con L’ y B’
+(L’ > B’)
+Q
+M
+e 
+'
+L
+'
+B
+S
+2
+'
+A e
+
+
+2
+/
+1
+2
+2
+e
+R
+e
+R
+S
+2
+'
+L
+
+
+
+
+
+
+
+
+
+
+
+Q
+M
+e 2
+2
+
+OD
+R
+D
+'
+O
+B
+'
+O
+
+
+2
+2
+e
+R
+e
+R
+'
+L
+'
+B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+R
+e
+Sen
+R
+e
+R
+e
+2
+R
+S 2
+1
+2
+2
+2
+2
+2
+2
+Las cimentaciones no rectangulares podrán asimilarse a otras similares conservando la
+misma área y el mismo momento de inercia respecto al eje del momento resultante.
+Calculadas esas dimensiones equivalentes, se obtiene el valor de la presión uniforme
+aplicada definida de acuerdo a 23.3.
+NTE E.050 SUELOS Y CIMENTACIONES
+41
+CAPÍTULO V
+CIMENTACIONES PROFUNDAS
+Artículo 31.- Deﬁnición
+31.1. Son aquellas en las que la relación profundidad / ancho (Dƒ / B) es mayor a cinco
+(5), siendo Dƒ la profundidad de la cimentación y B el ancho o diámetro de la misma.
+31.2. Son cimentaciones profundas: los pilotes y micropilotes, los pilotes para
+densiﬁcación, los pilares, los cajones de cimentación y cualquier otro tipo de
+elemento estructural que transmita las cargas de la estructura a estratos profundos.
+31.3. La cimentación profunda es usada cuando las cimentaciones superﬁciales generen
+una capacidad de carga que no permita obtener los factores de seguridad indicados
+en el artículo 20 o cuando los asentamientos generen asentamientos diferenciales
+mayores a los indicados en el artículo 18. Las cimentaciones profundas se pueden
+usar también para anclar estructuras contra fuerzas de levantamiento y para
+colaborar con la resistencia de fuerzas laterales y de volteo. Las cimentaciones
+profundas pueden además ser requeridas para situaciones especiales tales como
+suelos expansivos, colapsables, licuables o erosionables.
+31.4. Algunas de las condiciones que hacen obligatorio el uso de cimentaciones
+profundas, se indican a continuación:
+a) Cuando el estrato o estratos superiores del suelo son altamente compresibles y
+de baja resistencia, las estructuras deben transmitir sus cargas a un estrato más
+profundo resistente.
+b) Cuando las estructuras están sometidas a fuerzas horizontales que no puedan
+ser tomadas por las cimentaciones superﬁciales.
+c) Cuando existen suelos expansivos, colapsables, licuables o suelos sujetos a
+erosión que impiden cimentar las obras por medio de cimentaciones
+superﬁciales.
+d) Las cimentaciones de algunas estructuras, como torres de transmisión,
+estructuras en el mar, ríos o lagos, y losas de sótanos debajo del nivel freático,
+están sometidas a fuerzas de levantamiento.
+Artículo 32.- Cimentación por pilotes
+32.1. Los pilotes son elementos estructurales con diámetros menores o iguales a 90 cm,
+hechos de concreto, acero o madera y son usados para construir cimentaciones en
+los casos en que sea necesario apoyar la cimentación en estratos ubicados a una
+mayor profundidad que el usual para cimentaciones superﬁciales. Los pilotes deben
+diseñarse para absorber los esfuerzos que generen las cargas por gravedad,
+sísmicas, viento, etc.
+32.2. Programa de exploración para pilotes
+El programa de exploración para cimentaciones por pilotes se sujeta a lo indicado
+en el artículo 15.
+32.3. Estimación de la longitud y de la capacidad de carga del pilote
+Los pilotes se dividen en dos categorías principales, dependiendo de sus longitudes
+y del mecanismo de transferencia de carga al suelo, como se indica a continuación:
+NTE E.050 SUELOS Y CIMENTACIONES
+42
+32.3.1. Si los registros de la perforación establecen la presencia de roca dentro de la zona
+Dƒ de la ﬁgura 2 (C-2), los pilotes se apoyan en el material rocoso que el PR
+considere adecuado. En este caso la capacidad última de los pilotes depende por
+completo de la capacidad de carga de este material.
+32.3.2. En el caso de suelos granulares resistentes, el PR debe determinar la longitud de
+los pilotes que garanticen la carga última del pilote que se expresa como:
+Q u
+ Q p
+  Q f
+Donde:
+Q u  Capacidad última del pilote.
+Q p  Capacidad última tomada por la punta del pilote.
+ Q f  Capacidad última tomada por la fricción superﬁcial desarrollada en los
+lados del pilote, por los estratos que intervienen en el efecto de fricción.
+Si  Q f es muy pequeña:
+Q u
+ Q p
+32.3.3. En el caso de suelos ﬁnos, el PR debe determinar la longitud de los pilotes que
+garanticen la carga última del pilote que se expresa como
+Q u
+ Q p
+  Q f
+Donde:
+Q u  Capacidad última del pilote.
+Q p  Capacidad última tomada por la punta del pilote.
+ Q f  Capacidad última tomada por la fricción superﬁcial desarrollada en los
+lados del pilote, por los estratos que intervienen en el efecto de fricción.
+Sin embargo, si el valor de Q P es pequeño:
+Q u
+  Q f
+Éstos se denominan pilotes de fricción porque la mayor parte de la resistencia se
+deriva de la fricción lateral. La longitud de estos pilotes depende de la resistencia
+cortante del suelo, de la carga aplicada y del tamaño del pilote.
+32.3.4. Procedimientos teóricos para el análisis del pilote
+a) Consideraciones en el cálculo de capacidad de carga
+Dentro de los cálculos de la capacidad de carga de los pilotes, no se consideran
+los estratos licuables, aquellos de muy baja resistencia, suelos orgánicos ni
+turbas ni los suelos sujetos a erosión. Los pilotes deben diseñarse para absorber
+los esfuerzos que generen las cargas por gravedad, sísmicas, viento, etc.
+b) Capacidad de carga del grupo de pilotes
+b-1) En el caso de un grupo de pilotes de fricción hincados en arcilla, se analiza
+el efecto de grupo.
+NTE E.050 SUELOS Y CIMENTACIONES
+43
+b-2) En el caso de pilotes de punta apoyados sobre un estrato resistente de poco
+espesor, debajo del cual se tiene un suelo menos resistente, se analiza la
+capacidad de carga por punzonamiento de dicho suelo.
+b-3) En el caso de pilotes perforados, el PR analiza el efecto del grupo.
+c) Factores de seguridad
+c-1) En pilotes, para el cálculo de la capacidad de carga admisible, mediante
+métodos estáticos, a partir de la carga última, se utilizan los factores de
+seguridad estipulados siguientes:
+- En pilotes individuales FS ≥ 2.0;
+- En grupos de pilotes: para cargas estáticas FS ≥ 3.0 y para cargas
+dinámicas FS ≥ 2.5
+c-2) En pilotes hincados, para el cálculo mediante fórmulas dinámicas, se utiliza
+el factor de seguridad correspondiente a la fórmula utilizada. En ningún caso
+el factor de seguridad en pilotes individuales es menor de 2.
+d) Espaciamiento de pilotes
+d-1) El espaciamiento mínimo entre pilotes es el indicado en las Tabla 9.
+TABLA 9
+ESPACIAMIENTO MÍNIMO ENTRE PILOTES
+LONGITUD (m) ESPACIAMIENTO ENTRE EJES
+L < 10 3b
+10 ≤ L < 25 4b
+L ≥ 25 5b
+Donde b = diámetro o mayor dimensión del pilote.
+Ref.: Tomlinson (1977)
+d-2) Para el caso de pilotes por fricción, este espaciamiento no es menor de
+1.20 m.
+d-3) En casos especiales el PR propone y sustenta mediante un análisis un
+espaciamiento distinto al indicado en la Tabla 9.
+e) Fricción negativa
+e-1) La fricción negativa es una fuerza de arrastre hacia abajo ejercida sobre el
+pilote por el suelo que lo rodea, la cual se presenta bajo las siguientes
+condiciones:
+- Si un relleno de suelo arcilloso se coloca sobre un estrato de suelo
+granular en el que se ejecuta un pilote, el relleno se consolida
+gradualmente, ejerciendo una fuerza de arrastre hacia abajo sobre el
+pilote durante el período de consolidación.
+- Si un relleno de suelo granular se coloca sobre un estrato de arcilla blanda,
+induce el proceso de consolidación en el estrato de arcilla y ejerce una
+fuerza de arrastre hacia abajo sobre el pilote.
+- Si existe un suelo orgánico por encima del estrato donde está cimentado
+el pilote, el suelo orgánico se consolida gradualmente, debido a la alta
+compresibilidad propia de este material, ejerciendo una fuerza de arrastre
+hacia abajo sobre el pilote.
+- El descenso del nivel freático incrementa el esfuerzo vertical efectivo
+sobre el suelo a cualquier profundidad, lo que induce asentamientos por
+consolidación en la arcilla. Si un pilote se localiza en el estrato de arcilla,
+queda sometido a una fuerza de arrastre hacia abajo.
+NTE E.050 SUELOS Y CIMENTACIONES
+44
+e-2) Este efecto incrementa la carga que actúa en el pilote y es generado por el
+desplazamiento relativo hacia abajo del suelo con respecto al pilote; se toma
+en cuenta cuando se efectúa pilotaje en suelos compresibles.
+f) Análisis del efecto de la fricción negativa
+f-1) Para analizar el efecto de la fricción lateral negativa se utilizan los métodos
+estáticos, considerando únicamente en ellos la fricción lateral suelo – pilote,
+actuando hacia abajo.
+f-2) La fricción negativa se considera como una carga adicional a la que trasmite
+la estructura.
+32.3.5. Asentamientos
+Los asentamientos se determinan utilizando las fórmulas aceptadas por la mecánica
+de suelos a partir de parámetros obtenidos mediante los ensayos in situ indicados
+en la Tabla 3 o los ensayos de laboratorio indicados en la Tabla 5.
+a) Se estima primero el asentamiento tolerable por la estructura y luego se calcula
+el asentamiento del pilote aislado o grupo de pilotes para luego compararlos.
+b) En el cálculo del asentamiento del pilote aislado se consideran: el asentamiento
+debido a la deformación axial del pilote, el asentamiento generado por la acción
+de punta y el asentamiento generado por la carga transmitida por fricción.
+c) En el caso de pilotes en suelos granulares, el asentamiento del grupo está en
+función del asentamiento del pilote aislado. El asentamiento del pilote aislado
+puede determinarse preliminarmente mediante las fórmulas aceptadas por la
+mecánica de suelos y luego de la prueba de carga debe veriﬁcarse el
+asentamiento empleando los resultados obtenidos de ella.
+d) En el caso de pilotes en suelo cohesivo, el principal componente del
+asentamiento del grupo proviene de la consolidación de la arcilla. Para estimar
+el asentamiento, en este caso, puede reemplazarse al grupo de pilotes por una
+zapata imaginaria ubicada a 2/3 de la profundidad del grupo de pilotes, de
+dimensiones iguales a la sección del grupo y que aplica la carga transmitida por
+la estructura.
+FIGURA 6
+NTE E.050 SUELOS Y CIMENTACIONES
+45
+32.4. Consideraciones durante la ejecución de la obra
+Durante la ejecución de la obra, se efectúan pruebas de carga y la capacidad de
+carga es veriﬁcada por una fórmula adecuada al sistema de instalación del pilote.
+32.4.1. Pruebas de carga
+a) Se deben efectuar pruebas de carga estáticas de compresión axial según lo
+indicado en la Norma ASTM D 1143, pruebas de carga estáticas de tracción axial
+según lo indicado en la Norma ASTM D 3689 o mediante pruebas de carga
+dinámicas a gran escala según lo indicado en la Norma ASTM D 4945.
+b) En caso que el PR lo indique se deben efectuar pruebas estándar para cimientos
+profundos bajo carga lateral según lo indicado en la Norma ASTM D3966. El PR
+debe indicar el número mínimo de pruebas a ejecutar.
+c) El número de pruebas de carga es de una por cada lote o grupos de pilotes, con
+un mínimo de una prueba por cada cincuenta pilotes.
+d) Las pruebas se efectúan en zonas con el perﬁl de suelo previamente conocido y
+el más desfavorable.
+32.4.2. Pruebas de integridad
+Se debe efectuar la veriﬁcación del buen estado físico al 100% de los pilotes
+instalados mediante la ejecución de pruebas de integridad de bajo impacto según lo
+indicado en la Norma ASTM D 5882.
+32.4.3. Tolerancias constructivas
+El pilote debe ser ejecutado considerando las siguientes exigencias mínimas:
+a) Desplazamiento del eje en planta del pilote instalado con respecto al eje del
+pilote en el plano ≤ a 0.10 m.
+b) Inclinación del eje del pilote instalado respecto a la inclinación del eje indicado
+en el plano ≤ a 2°.
+Referencia: NAVFAC DM7.2 (a y b)
+c) En el eventual caso que se incumpla lo indicado en los literales a) y b), el
+Supervisor de la Obra y el ingeniero estructural que diseñó la cimentación
+decidirán las acciones que debe tomar el contratista que ejecutó la instalación
+de los pilotes para corregir, si se requiere, el problema generado por el
+cumplimiento, de manera que la ubicación ﬁnal de los pilotes no genere
+esfuerzos que no sean tolerados por la cimentación.
+Artículo 33.- Cimentación por pilares
+33.1. Los pilares son elementos estructurales de concreto, vaciados “in situ” con diámetro
+mayor a 0.90 m, con o sin refuerzo de acero y con o sin fondo ampliado.
+33.2. Capacidad de carga
+La capacidad de carga de un pilar es evaluada de acuerdo a los mismos métodos
+estáticos utilizados en el cálculo de pilotes. Se toma en cuenta los efectos por punta
+y/o fricción de acuerdo al tipo de suelo en el cual son instalados.
+NTE E.050 SUELOS Y CIMENTACIONES
+46
+33.3. Factor de seguridad
+La capacidad admisible se obtiene dividiendo la capacidad última por el factor de
+seguridad. Se utilizan los factores estipulados en el artículo 21.
+33.4. Acampanamiento en la base del pilar
+Se puede acampanar el pilar mediante el ensanchamiento de su base a ﬁn de
+incrementar la capacidad de carga del pilar, siempre y cuando no exista peligro de
+derrumbes.
+33.5. Aﬂojamiento del suelo circundante
+El aﬂojamiento del suelo circundante se controla mediante:
+33.5.1. Una rápida excavación y vaciado del concreto.
+33.5.2. El uso de un forro en la excavación.
+33.5.3. La aplicación del Lodo Bentonítico.
+33.6. Asentamientos
+Los asentamientos se determinan utilizando lo indicado en el sub numeral 32.3.5.
+Artículo 34.- Cajones de cimentación
+34.1. Los cajones de cimentación son elementos estructurales de concreto armado que
+se construyen sobre el terreno y luego son introducidos en el mismo por su propio
+peso al excavarse el suelo ubicado en su interior. El PR indica el valor de la fricción
+lateral del suelo para determinar el peso requerido por el cajón para su instalación.
+34.2. Capacidad de carga
+La capacidad de carga de un cajón de cimentación es evaluada de acuerdo a los
+mismos métodos estáticos utilizados en el cálculo de zapatas o pilares y depende
+de la relación profundidad /ancho (Df / B). Si es menor o igual a cinco (5) se diseña
+como cimentación superﬁcial, si es mayor a cinco (5) se diseña como un pilar.
+34.3. Factor de seguridad
+La capacidad admisible se obtiene dividiendo la capacidad de carga última entre el
+factor de seguridad. Se utilizan los factores estipulados en el artículo 21.
+34.4. Asentamientos
+Los asentamientos de un cajón de cimentación se estiman de acuerdo a los mismos
+métodos utilizados en el cálculo de los asentamientos de las zapatas o pilares y
+depende de la relación profundidad /ancho (Df / B). Si es menor o igual a cinco (5)
+se estima el asentamiento como si se tratara de una cimentación superﬁcial, si es
+mayor a cinco (5) se estima el asentamiento como si se tratara de un pilar.
+NTE E.050 SUELOS Y CIMENTACIONES
+47
+CAPÍTULO VI
+PROBLEMAS ESPECIALES DE CIMENTACIÓN
+Artículo 35.- Suelos colapsables
+35.1. Son suelos que cambian violentamente de volumen por la acción combinada o
+individual de las siguientes acciones:
+a) Al ser sometidos a un incremento de carga o
+b) Al humedecerse o saturarse
+35.2. Obligatoriedad de los Estudios
+35.2.1. En los lugares donde se conozca o sea evidente la ocurrencia de hundimientos
+debido a la existencia de suelos colapsables, el PR incluye en su EMS un análisis
+basado en la determinación de la plasticidad del suelo NTP 339.129:1999, del
+ensayo para determinar el peso volumétrico NTP 339.139:1999, y del ensayo de
+humedad NTP 339.127:1998, con la ﬁnalidad de evaluar el potencial de colapso del
+suelo en función del Límite Liquido (LL) y del peso volumétrico seco (γ
+d
+).
+35.2.2. La relación entre los colapsables y no colapsables y los parámetros antes indicados
+se muestra en la ﬁgura siguiente:
+FIGURA 7
+Criterios del Potencial de Colapso
+Ref.: NAVFAC DM 7
+35.3. Evaluación del Índice de Colapso
+35.3.1. Cuando el análisis indicado en el sub numeral 35.2.2 da como resultado que el suelo
+es potencialmente colapsable, el PR debe veriﬁcar la existencia o no de la
+colapsabilidad mediante los resultados del ensayo Método de ensayo normalizado
+para la medición del potencial de colapso de suelos NTP 339.163.
+35.3.2. Las muestras utilizadas para la evaluación de colapso son obtenidas de pozos a
+cielo abierto, en condición inalterada, preferentemente del tipo Mib.
+35.3.3. El Índice de Colapso (IC
+) se deﬁne mediante la siguiente expresión:
+ 
+0
+h
+h
+%
+I
+o
+0
+e
+1
+e
+(%)
+I
+C
+C
+
+
+
+
+
+NTE E.050 SUELOS Y CIMENTACIONES
+48
+e = Cambio en la relación de vacíos debido al colapso bajo humedecimiento.
+e0
+= Relación de vacíos inicial.
+h = Cambio de altura de la muestra.
+h0
+= Altura inicial de la muestra.
+35.3.4. El PR establece la severidad del problema de colapso mediante los siguientes
+grados de colapso. Los suelos dentro de la zona activa de la cimentación no pueden
+tener un Ic > 6 por considerarse un colapso moderadamente severo.
+TABLA 10
+Clasificación del Índice de colapso Ic
+Grado de Colapso Índice de colapso Ic (%)
+Ninguno 0
+Leve 0,1 a 2,0
+Moderado 2,1 a 6,0
+Moderadamente severo 6,1 a 10,0
+Severo > 10,0
+Ref.: NTP 339:163
+35.3.5. En caso se veriﬁque un índice de colapso mayor a 6, el PR formula las
+recomendaciones correspondientes.
+35.4. Cimentaciones en áreas de suelos colapsables (Ic > 6)
+35.4.1. Las obras construidas sobre este tipo de suelos están sometidas a grandes fuerzas
+causadas por el hundimiento violento del suelo, el cual provoca asentamiento,
+agrietamiento y ruptura de la cimentación y de la estructura. Por lo tanto, no está
+permitido cimentar directamente sobre suelos colapsables.
+35.4.2. La cimentación y los pisos deben apoyarse sobre suelos no colapsables (Ic ≤ 6).
+35.4.3. Los pisos no deben apoyarse directamente sobre suelos colapsables (Ic > 6).
+35.5. Reemplazo de un suelo colapsable
+Cuando se encuentren suelos que presentan colapso moderado y a juicio del PR,
+poco profundos, deben ser retirados en su totalidad antes de iniciar las obras de
+construcción y reemplazados por Rellenos Controlados compactados
+adecuadamente de acuerdo al numeral 25.4. Rellenos Controlados o de ingeniería
+de la presente Norma.
+Artículo 36.- Ataque químico por suelos y aguas subterráneas
+36.1. Las aguas subterráneas que contienen sulfatos y/o cloruros actúan más
+rápidamente que un suelo seco que contenga estos elementos; sin embargo, el
+humedecimiento de un suelo seco por riego, ﬁltraciones de agua de lluvia, fugas de
+conductos de agua o cualquier otra causa, puede activar a las sales agresivas.
+36.2. Esta Norma sólo considera el ataque externo por suelos y aguas subterráneas que
+contengan sales agresivas y no toma en cuenta ningún otro tipo de agresión.
+36.3. Obligatoriedad de los Estudios
+En los lugares con Napa Freática en la zona activa de la cimentación o donde se
+conozca o sea evidente la ocurrencia de ataque químico de las sales contenidas en
+el suelo al concreto simple o armado de todas las estructuras soterradas, el PR debe
+incluir en su EMS un análisis basado en ensayos químicos del agua o del suelo en
+contacto con ellas, para descartar o contrarrestar tal evento de acuerdo a lo indicado
+en la NTE E.060 Concreto Armado.
+NTE E.050 SUELOS Y CIMENTACIONES
+49
+36.4. Ataque Químico por Suelos y Aguas Subterráneas
+36.4.1. Ataque Ácido
+Si el valor del pH es menor a 4,0, el PR propone medidas de protección adecuadas
+para proteger el concreto simple o armado de todas las estructuras soterradas del
+ataque ácido.
+36.4.2. Ataque por Sulfatos
+a) La mayor parte de los procesos de destrucción del concreto causados por la
+formación de sales agresivas son debidos a la acción de los sulfatos.
+b) La agresión de los sulfatos se diferencia de la causada por las aguas blandas,
+en que no tiene lugar una lixiviación, sino que la pasta endurecida de cemento,
+a consecuencia de un aumento de volumen, se desmorona y expansiona,
+formándose grietas y disgregación del concreto.
+c) En la NTE E.060 Concreto Armado se indican los requisitos para concreto
+expuesto a sulfatos en aguas y suelos subterráneos y la medida correctiva a usar
+en cada caso.
+d) En caso que se desee usar un material sintético para proteger la cimentación,
+este debe ser una geomembrana o geotextil impregnado con asfalto, cuyas
+características son deﬁnidas por el PR. Las propiedades de estos materiales
+están de acuerdo a las NTP. No está permitido el uso de elementos sintéticos
+(plásticos) que no cumplan con los requisitos de las NTP para ser empleados
+como elementos impermeabilizantes.
+e) La determinación cuantitativa de sales solubles de sulfatos en aguas y suelos se
+hace mediante las NTP 339:074, NTP 400.014, respectivamente.
+36.4.3. Ataque por Cloruros
+a) Los fenómenos corrosivos del ión cloro a las cimentaciones se restringe al
+ataque químico al acero de refuerzo del concreto armado.
+b) Cuando el contenido de ión cloro determinado mediante la NTP 400.014, sea
+mayor 0,15 %, el PR recomienda las medidas de protección necesarias.
+c) La determinación cuantitativa de cloruros en aguas y suelos se hace mediante
+las NTP 339.076 y 400.014, respectivamente.
+Artículo 37.- Suelos expansivos
+37.1. Son suelos cohesivos con bajo grado de saturación que aumentan de volumen al
+humedecerse o saturarse.
+37.2. Obligatoriedad de los Estudios
+37.2.1. En las zonas en las que se encuentren suelos cohesivos con bajo grado de
+saturación y plasticidad alta (LL  50), el PR incluye en su EMS un análisis basado
+en la determinación de la plasticidad del suelo NTP 339.129 y ensayos de
+granulometría por sedimentación NTP 339.128 con la ﬁnalidad de evaluar el
+potencial de expansión del suelo cohesivo en función del porcentaje de partículas
+menores a 2 m, del índice de plasticidad (IP) y de la actividad (A) de la arcilla.
+37.2.2. La relación entre la Expansión Potencial (Ep) y los parámetros antes indicados se
+muestra en la ﬁgura siguiente:
+NTE E.050 SUELOS Y CIMENTACIONES
+50
+FIGURA 8
+Clasiﬁcación de Cambio de Potencial de Volumen
+Ref.: NAVFAC DM 7
+ 
+m
+2
+%
+IP
+A
+Actividad
+
+
+
+37.3. Evaluación del Potencial de Expansión
+37.3.1. Cuando el PR encuentre evidencias de la existencia de suelos expansivos, sustenta
+su evaluación mediante los resultados del ensayo para la Determinación del
+Hinchamiento Unidimensional de suelos cohesivos según NTP 339.170.
+37.3.2. Las muestras utilizadas para la evaluación del hinchamiento son obtenidas de pozos
+a cielo abierto, en condición inalterada, preferentemente del tipo Mib. Véase
+aplicación en la tabla 11.
+TABLA 11
+CLASIFICACIÓN DE SUELOS EXPANSIVOS
+Potencial de
+expansión
+Ep
+Expansión en
+consolidómetro, bajo
+presión vertical de 7 kPa
+(0,07 kgf/cm2)
+Índice de
+plasticidad
+IP
+Porcentaje de
+partículas
+menores que dos
+micras
+% % % %
+Muy alto > 30 > 32 > 37
+Alto 20 – 30 23 – 45 18 – 37
+Medio 10 – 20 12 – 34 12 – 27
+Bajo < 10 < 20 < 17
+Ref.: Earth Manual, U.S. Bureau of Reclamation (1998)
+37.4. Cimentaciones en áreas de suelos expansivos.
+37.4.1. Las cimentaciones construidas sobre arcillas expansivas están sometidas a grandes
+fuerzas causadas por la expansión, las cuales provocan levantamiento,
+agrietamiento y ruptura de la cimentación y de la estructura. Por lo tanto, no está
+permitido cimentar directamente sobre suelos expansivos.
+37.4.2. Todos los elementos de cimentación deben apoyarse sobre suelos no expansivos o
+con potencial de expansión bajo.
+NTE E.050 SUELOS Y CIMENTACIONES
+51
+37.4.3. Los pisos no deben apoyarse directamente sobre suelos expansivos. Existen las
+siguientes alternativas:
+a) Se deja un espacio libre, suﬁcientemente holgado, para permitir que el suelo bajo
+el piso se expanda y no lo afecte. En este caso, el piso se diseña como una losa
+armada en dos direcciones conectada a los elementos de cimentación.
+b) Efectuar el reemplazo indicado en el numeral 37.5.
+37.5. Reemplazo de un suelo expansivo
+Cuando se encuentren suelos medianamente expansivos y a juicio del PR, poco
+profundos, éstos son retirados en su totalidad antes de iniciar las obras de
+construcción y son reemplazados por Rellenos Controlados compactados
+adecuadamente de acuerdo al numeral 25.4. Rellenos Controlados o de Ingeniería.
+Artículo 38.- Licuación de suelos
+38.1 En suelos granulares y en algunos suelos granulares con ﬁnos cohesivos ubicados
+bajo la Napa Freática, las vibraciones de los sismos pueden generar el fenómeno
+denominado Licuación, el cual consiste en la pérdida momentánea de la resistencia
+al corte del suelo, como consecuencia del incremento de la presión de poros que se
+genera en el agua contenida en sus vacíos. Esta pérdida de resistencia al corte
+genera la ocurrencia de falla por asentamiento en las obras apoyadas en estos tipos
+de suelos y por el desplazamiento lateral de taludes y terraplenes.
+38.2 Para que un suelo granular sea susceptible de licuar durante un sismo, debe
+presentar simultáneamente las características siguientes:
+a) Estar constituido por arena, arena limosa, arena arcillosa, limo arenoso no
+plástico o grava empacada en una matriz constituida por alguno de los materiales
+anteriores.
+b) Encontrarse sumergido.
+38.3 En estos casos, el PR debe incluir en su EMS un análisis determinístico y
+probabilístico del Potencial de Licuación de la zona, (Ver numeral 38.5) e indicar la
+probabilidad de ocurrencia o no del fenómeno de Licuación.
+38.4 Exploración de campo
+38.4.1 Cuando la historia sísmica del lugar haga sospechar la posibilidad de ocurrencia de
+Licuación, el programa de exploración de toda el área comprometida por la
+estructura se realiza de acuerdo a lo indicado en la Tabla 6 y con perforaciones
+hasta 15 m de profundidad como mínimo.
+38.4.2 Cuando en las Investigaciones Preliminares se encuentren las condiciones
+indicadas en los numerales 38.1, 38.2 y 38.3, se asume la probabilidad de
+ocurrencia del fenómeno de Licuación. En tal caso, el PR informa al Solicitante la
+necesidad de ampliar el Programa de Exploración para incluir el Análisis de
+Licuación. Esta ampliación del Programa de Exploración de Campo y Laboratorio
+debe ser pactada con el Solicitante.
+38.4.3 Las perforaciones deben tener una profundidad mínima de 15 m y deben ser
+realizadas por las técnicas de lavado o rotativa. Dentro de las perforaciones se
+llevan a cabo Ensayos de Penetración Estándar SPT (NTP 339.133) espaciados
+obligatoriamente cada 1 m. Las muestras que se obtengan en el penetrómetro
+utilizado para el ensayo SPT son recuperadas para efectuar en todas ellas los
+siguientes ensayos como mínimo: Véase aplicación en la Tabla 12.
+NTE E.050 SUELOS Y CIMENTACIONES
+52
+TABLA 12
+SUELOS. Método de ensayo para el análisis granulométrico. NTP 339.128
+SUELOS. Método de ensayo para determinar el límite líquido, límite
+plástico e índice de plasticidad de suelos
+NTP 339.129
+SUELOS. Método de ensayo para determinar el peso especíﬁco
+relativo de las partículas sólidas de un suelo
+NTP 339.131
+SUELOS. Método para la clasiﬁcación de suelos con propósitos de
+ingeniería (sistema uniﬁcado de clasiﬁcación de suelos, SUCS).
+NTP 339.134
+38.4.4 Los ensayos DPSH, CTP, CPT y la medición de las velocidades de propagación de
+las ondas de corte pueden ser usados para investigaciones preliminares, o como
+investigación complementaria de los ensayos SPT, previa calibración en el caso de
+los ensayos DPSH y CTP
+38.5 Análisis del Potencial de Licuación
+38.5.1. En el caso de suelos granulares que presenten las características indicadas en los
+numerales 38.1, 38.2 y 38.3, se realiza el Análisis del Potencial de Licuación
+utilizando el método propuesto por Seed e Idriss (1971, 1982) y actualizado por el
+National Center for Earthquake Research (1997, NCEER) y por el Earthquake
+Engineering Research Center (2003, 2004 EERC), como procedimiento para la
+evaluación del potencial de licuación. Este método fue desarrollado en base a
+observaciones in-situ del comportamiento de depósitos de arenas durante sismos
+pasados.
+38.5.2. El procedimiento involucra el uso de la resistencia a la penetración estándar N
+(Número de golpes del ensayo SPT). El valor de N obtenido en el campo se corrige
+por: energía, diámetro de la perforación, longitud de las barras y tensión efectiva
+para obtener el valor de (N1)60 .
+38.5.3. En forma complementaria al SPT, pueden emplearse la resistencia a la penetración
+del cono estático (CPT) qc1 o las velocidades de propagación de las ondas de corte
+Vs1 y calcular a partir de uno de esos valores el Potencial de Licuación de los suelos.
+Se considera también para el análisis: el porcentaje de ﬁnos (% < 75 μm), el factor
+de reducción de las tensiones (rd), la aceleración horizontal pico en el terreno (amax),
+la magnitud momento (Mw), la profundidad (d) y la velocidad de ondas de corte
+promedio sobre los 12m (V*s,12m).
+38.5.4. La aceleración máxima (amax
+) requerida para el análisis del potencial de licuación
+es estimada por el PR, la cual debe ser congruente con los valores empleados en
+el diseño estructural tomando en cuenta que, en el caso de licuación, la aceleración
+que se considera es la que puede ocurrir en el suelo de apoyo de la cimentación. Si
+a la fecha del proyecto se cuente con un mapa oﬁcial de aceleraciones máximas
+superﬁciales del territorio nacional, el PR debe emplear dicha información.
+38.5.5. El método determinístico permite calcular el esfuerzo cortante cíclico normalizado
+resistente mínimo que produce licuación (CRRM) y el esfuerzo cortante cíclico
+normalizado inducido por el sismo (CSR). Adicionalmente, se efectúa una
+evaluación probabilística basada en un análisis estadístico de los posibles sismos
+que puedan ocurrir en un lugar para determinar la Probabilidad de Licuación (PL).
+38.5.6. El PR calcula la Probabilidad de Licuación (PL) empleando los criterios y
+procedimientos más recientes, aceptados en Geotecnia.
+38.5.7. El PR establece la severidad del problema de licuación mediante los criterios de la
+Tabla 13.
+NTE E.050 SUELOS Y CIMENTACIONES
+53
+TABLA 13
+CLASIFICACIÓN DEL POTENCIAL DE LICUACIÓN
+Licuación PL
+Alta > 50%
+Moderada 10% < PL ≤ 50%
+Baja 5% < PL ≤ 10%
+Muy baja < 5%
+Ref.: Iwasaki (1984)
+38.5.8. El PR determina los Factores de Seguridad frente a la ocurrencia de la licuación
+(FSL) con el valor mínimo indicado en la Tabla 13.A, el que depende del tipo e
+importancia de la obra clasiﬁcada de acuerdo a la Norma E.030. Se debe también
+establecer la aceleración máxima de un sismo que causaría licuación para el Factor
+de Seguridad frente a la ocurrencia de la licuación (FSL) empleado en el diseño.
+Siendo: FSL = CRRM / CSR
+TABLA 13.A
+CATEGORÍA DE LAS
+EDIFICACIONES (E.030)
+FSL mínimo
+A 1.25
+B 1.15
+C 1.00
+38.6 Cimentaciones en áreas de suelos licuables.
+38.6.1 Las cimentaciones construidas sobre suelos que se licuan (PL>10%), están
+sometidas a grandes asentamientos, desplazamiento lateral y falla de la
+cimentación y de la estructura. Por lo tanto, no está permitido cimentar directamente
+sobre suelos licuables.
+38.6.2 La cimentación y los pisos deben apoyarse sobre suelos no licuables o con potencial
+de licuación baja (PL
+≤ 10%).
+38.6.3 Los pisos no deben apoyarse directamente sobre suelos licuables (PL
+>10%). En
+este caso, el piso se diseña como una losa armada en dos direcciones conectada a
+los elementos de cimentación.
+38.6.4 El PR propone el tipo de cimentación para apoyar la estructura sobre suelos no
+licuables o los procedimientos constructivos para mejorar las condiciones del suelo
+y lograr que la Probabilidad de Licuación (PL) sea ≤ 10%. En el caso de
+mejoramiento del suelo, es obligatorio veriﬁcar mediante un adecuado programa de
+exploración de campo de acuerdo a lo indicado en los numerales 38.5.2 y 38.5.3
+que permita realizar un nuevo Análisis del Potencial de Licuación de acuerdo a lo
+indicado en el numeral 38.4.
+NTE E.050 SUELOS Y CIMENTACIONES
+54
+FIGURA 9
+Curvas simpliﬁcadas para el cálculo del CRR a partir del SPT (N1)60
+Ref.: NCEER 1997
+FIGURA 10
+Curvas simpliﬁcadas para el cálculo del CRR a partir del CPT (qc1N)
+Ref.: NCEER 1997
+NTE E.050 SUELOS Y CIMENTACIONES
+55
+FIGURA 11
+Curvas simpliﬁcadas para el cálculo del CRR a partir
+velocidades de ondas de corte (Vs1
+).
+Ref.: NCEER 1997
+Artículo 39.- Sostenimiento de excavaciones
+39.1 Es obligatorio que el PR incluya en el EMS, de acuerdo a lo indicado en el literal g)
+del sub numeral 16.2.7, la evaluación geotécnica sobre la necesidad o no de la
+ejecución de obras de sostenimiento. En caso de requerirse la ejecución de obras
+de sostenimiento debe indicar los parámetros que se mencionan en el sub numeral
+16.2.9.
+39.2 Las excavaciones verticales de más de 1,50 m de profundidad, medidas a partir del
+nivel de terreno natural en el momento de iniciar la excavación, requeridas para
+alcanzar los niveles del proyecto (zanjas, sótanos y cimentaciones) no deben
+permanecer sin sostenimiento, salvo que el EMS realizado por el PR determine que
+no es necesario efectuar obras de sostenimiento, de acuerdo a lo indicado en el
+numeral 39.8.
+39.3 Los materiales productos de la excavación deben ser acumulados a una distancia
+no menor de 2 m del borde de la excavación, a menos que el PR indique una
+distancia mayor.
+39.4 El tipo de sostenimiento, su diseño y construcción son responsabilidad del
+constructor de la obra; quien debe contar para su diseño con un PRS y cumplir con
+lo indicado en el numeral 39.12.
+39.5 En caso el PRS, basándose en lo indicado por el PR en el EMS, determine la
+necesidad de ejecutar obras provisionales de sostenimiento en el límite de
+propiedad o debajo de las ediﬁcaciones vecinas colindantes con el proyecto; estas
+deben ejecutarse tomando en cuenta el artículo 959 del Código Civil.
+NTE E.050 SUELOS Y CIMENTACIONES
+56
+39.6 En caso de ser requerido el bombeo o abatimiento de la Napa Freática durante la
+excavación y la construcción de las obras de sostenimiento y/o calzaduras, el PR
+propone los coeficientes de permeabilidad horizontal y vertical del terreno aplicables
+al cálculo del caudal de agua a extraer y previene cualquier consecuencia negativa
+que pueda coaccionar a la obra o a las edificaciones vecinas, el acto de bombear o
+abatir la Napa Freática.
+39.7 Excavaciones sin estructuras de sostenimiento
+39.7.1. No se permiten excavaciones sin soporte cualquiera que fuera su profundidad, si
+las mismas reducen la capacidad de carga o producen inestabilidad en las
+cimentaciones vecinas.
+39.7.2. El PR determina, si procede, la profundidad máxima o altura crítica (Hc) a la cual
+puede llegar la excavación sin requerir soporte.
+39.8 Efectos de Sismo
+De producirse un sismo, el Constructor procede de inmediato, bajo su
+responsabilidad y tomando las precauciones del caso, a revisar el estado de las
+mismas y proceder a reforzar mediante sostenimiento adicional en el caso de
+observarse algún efecto, daño o desplazamiento del sistema de sostenimiento.
+39.9 Monitoreo de las Excavaciones
+39.9.1. El constructor efectúa de manera permanente el monitoreo de los trabajos de toda
+excavación y veriﬁca si se producen o no deformaciones en las estructuras
+adyacentes existentes a ﬁn de tomar las medidas correctivas del caso de manera
+oportuna.
+39.9.2. Se veriﬁca a través de un sistema de monitoreo que las deformaciones del sistema
+de sostenimiento y/o de las ediﬁcaciones contenidas y/o calzadas se encuentren
+dentro del rango establecido en el proyecto, elaborado por el PRS. En caso de ser
+superadas, se toman las medidas necesarias para garantizar la estabilidad del
+proyecto y de las ediﬁcaciones y vías adyacentes.
+39.10 Control de Calidad de los Sistemas de Sostenimiento
+La supervisión bajo su responsabilidad está obligada a veriﬁcar las pruebas que se
+efectúen para garantizar la calidad de todos los elementos que se empleen en los
+sistemas de sostenimiento.
+39.11 Tipos de Sostenimiento de Excavaciones
+39.11.1. Existen diversos tipos de sostenimiento: provisional y deﬁnitivo, para los taludes de
+corte, entre los cuales podemos mencionar: entibaciones, muros anclados,
+tablestacas, pilotes secantes, pilotes anclados, muros diafragma, muros pantalla,
+calzaduras, pernos de anclaje, cortinas de micropilotes, jet grouting, entre otros.
+39.11.2. El PRS basándose en el sistema de sostenimiento indicado por el PR en el EMS,
+evalúa su factibilidad técnica, para lo cual debe tomar en cuenta las características,
+ediﬁcaciones u otras obras colindantes al proyecto, servicios públicos, la agresividad
+del terreno y las aguas subterráneas, las condiciones y propiedades del suelo o roca
+en la zona de cimentación del anclaje, accesos al sitio.
+39.11.3. El PRS debe considerar el eventual daño potencial que pueda generar el sistema
+de sostenimiento sobre las estructuras adyacentes, vías en el límite de propiedad y
+servidumbre de paso.
+39.11.4. Las estructuras de sostenimiento ancladas son diseñadas para evitar las fallas
+previstas en la Figura 12.
+NTE E.050 SUELOS Y CIMENTACIONES
+57
+39.11.5. Para los diseños de las estructuras de sostenimiento, la altura (H) que se contempla
+en el análisis de estabilidad global, es la comprendida entre la superﬁcie del terreno
+y el nivel de fondo de cimentación.
+39.11.6. Estabilidad Global
+a) El análisis de la estabilidad global de una estructura de sostenimiento considera
+como mínimo los siguientes aspectos: el proceso constructivo del sistema de
+sostenimiento, la geometría de la excavación, sobrecargas actuantes, efectos
+sísmicos, las condiciones generales del terreno, las propiedades físico-
+mecánicas de los estratos de los suelos y rocas, esfuerzos prexistentes e
+inducidos y los niveles freáticos.
+b) La estabilidad global de las estructuras de sostenimiento, temporal o
+permanente, contempla un F.S. mínimo de 1.50 en condición estática y 1.25 en
+condición pseudo-dinámica; en ambos casos respecto al estado límite del suelo.
+FIGURA 12
+Posibles Fallas en Estructuras de Sostenimiento Ancladas
+a) Falla por tracción el tendón b) Falla por arrancamiento en la
+interfase suelo inyección
+c) Falla por arrancamiento en la
+interfase tendón - inyección
+d) Falla por flexión del muro
+e) Falla en el muro por una
+insuficiente resistencia (por
+empuje) pasiva
+f) Falla por rotación hacia adelante
+NTE E.050 SUELOS Y CIMENTACIONES
+58
+g) Falla por insuficiente capacidad
+axial
+h) Falla por volcamiento
+j) Falla circular de la masa de
+suelo
+i) Falla por deslizamiento
+Referencia: FHWA (1999), “Geotechnical Engineering Circular N° 4, Ground Anchor and
+Anchored Systems” Publication N° FHWA-IF-99-015, U.S. Department of Transportation
+Federal Highway Administration, Washington, D.C. 1999.
+39.11.7. Estructuras de Sostenimiento Ancladas
+En caso la estructura de sostenimiento requiera el uso de anclajes (muros anclados,
+pilotes anclados, soil nails, entre otros), se considera los siguientes aspectos:
+a) Acero de Refuerzo:
+a-1) El dimensionamiento del acero de refuerzo (cables o barras) depende del
+carácter provisional o permanente del sistema de sostenimiento. La carga
+de trabajo del anclaje es deﬁnida por la siguiente expresión:
+𝑷𝒘
+=
+𝟎. 𝟗𝟎 𝒇𝒚
+𝑨𝒔
+𝜼
+Referencia: ABNT (1996), “Execução de Tirantes Ancorados no Terreno”
+NBR 5629/1996. Associação Brasileira de Normas Técnicas, Rio de
+Janeiro, Agosto 1996.
+Donde:
+ƒy
+: esfuerzo de fluencia del acero
+As
+: área del acero de refuerzo
+Pw
+: carga de trabajo del anclaje
+η : coeficiente de seguridad. η = 1.50 para anclajes provisionales, o
+η = 1.75 para el caso de anclajes permanentes.
+a-2) Se considera anclajes provisionales aquellos que se ejecutan en obras que
+permanecen sin un sistema de sostenimiento deﬁnitivo que no exceda de dos
+años. Los anclajes permanentes son aquellos que permanecen como sistema
+de sostenimiento por más de dos años; para estos ﬁnes, todos los elementos
+NTE E.050 SUELOS Y CIMENTACIONES
+59
+conformantes del anclaje reciben tratamiento especial para garantizar su
+funcionamiento adecuado durante el tiempo de vida útil de la estructura en las
+que fueron instaladas.
+b) Longitud de Bulbo:
+b-1) La longitud del bulbo es determinada por:
+𝐿𝑏
+=
+𝑃𝑤
+𝜋 𝐷 𝜏𝑤
+Referencia: Post-Tensioning Institute (2004), “Recommendations for
+Prestressed Rock and Soil Anchors” Fourth Edition, U.S.A.
+Donde:
+Lb
+: longitud del bulbo del anclaje
+Pw
+: carga de trabajo del anclaje
+D : diámetro de la perforación
+w
+: capacidad de adherencia de trabajo en el contacto suelo - Material
+Cementante
+w = ult
+/ FS FS ≥ 2.00
+ult
+: capacidad de adherencia última en el contacto suelo - material
+cementante
+b-2) La longitud del bulbo no debe ser inferior a 4.50 m en anclajes formados por
+cables de acero, y de 3.00 m si se emplean barras de acero.
+b-3) En caso el material cementante sea lechada de cemento, el PRS a su juicio
+y bajo su responsabilidad puede usar los valores de la Tabla 14 para la
+determinación del parámetro ult
+; siempre y cuando el PRS tenga
+conocimiento del estrato resistente típico de la zona donde se cimientan los
+anclajes. Caso contrario, es obligatorio la ejecución de Ensayos de
+Arrancamiento.
+b-4) En caso de usar un Material Cementante diferente a lechada de cemento,
+el PRS se ciñe a las especiﬁcaciones técnicas del fabricante de dicho
+material; el mismo que debe contar con los certiﬁcados correspondientes.
+c) Longitud Libre de Anclaje:
+c-1) La longitud libre mínima debe garantizar: (1) la estabilidad del sistema suelo
+- estructura, (2) la localización del inicio de la cimentación del bulbo un
+mínimo de 1.50 m atrás de la Superﬁcie Crítica de Falla resultante del
+análisis de estabilidad global descrito en el sub numeral 39.12.6. (ver Figura
+13), y (3) la localización del bulbo en terreno natural (no puede cimentarse
+en Rellenos No Controlados. Ver numeral 25.5) y a profundidad suﬁciente
+para proveer la sobrecarga de suelo necesaria, bajo las siguientes
+consideraciones:
+- La distancia desde el centro del bulbo a la superﬁcie natural del terreno
+no debe ser menor a 4.50 m cuando no existan estructuras cimentadas
+sobre el anclaje. (ver Figura 13).
+- Cuando existan estructuras cimentadas sobre el anclaje, la distancia
+entre el inicio de la cimentación del bulbo y las estructuras existentes no
+debe ser inferior a 3.00 m. (ver Figura 14).
+c-2) La longitud libre mínima de anclajes no es inferior a: 4.50 m para anclajes
+de cables y 3.00 para anclajes de barras. Véase aplicación en la Tabla 14.
+NTE E.050 SUELOS Y CIMENTACIONES
+60
+TABLA 14
+Capacidad de Adherencia Última en la Interfase Suelo/Lechada de Cemento del Bulbo
+Roca Suelos Cohesivos Suelos No Cohesivos
+Tipo de roca
+Capacidad
+última de
+adherencia
+promedio
+(MPa)
+Tipo de anclaje
+Capacidad
+última de
+adherencia
+promedio
+(MPa)
+Tipo de anclaje
+Capacidad
+última de
+adherencia
+promedio
+(MPa)
+Granito y Basalto 1.70 - 3.10 Anclajes inyectados a
+gravedad (en dirección
+al eje)
+0.03 - 0.07 Anclajes inyectados a
+gravedad (en dirección
+al eje)
+0.07 - 0.14
+Caliza Dolomita 1.40 - 2.10 Anclajes inyectados a
+presión (en dirección al
+eje)
+Anclajes inyectados a
+presión (en dirección
+al eje)
+Caliza blanda 1.00 - 1.40 - Arcilla blanda limosa 0.03 - 0.07 - Arena ﬁna a media,
+medianamente densa
+a densa
+0.08 - 0.38
+Pizarras y Lutitas
+duras
+0.80 - 1.40 - Arcilla limosa 0.03 - 0.07 - Arena medianamente
+gruesa (con grava),
+medianamente densa
+0.11 - 0.66
+Lutitas blandas 0.20 - 0.80 - Arcilla rígida, mediana
+a alta plasticidad
+0.03 - 0.10 - Arena medianamente
+gruesa (con grava),
+densa a muy densa
+0.25 - 0.97
+Areniscas 0.80 - 1.70 - Arcilla muy rígida,
+mediana a alta
+plasticidad
+0.07 - 0.17 - Arenas limosas 0.17 - 0.41
+Areniscas
+intemperizadas
+0.70 - 0.80 - Arcilla rígida, mediana
+plasticidad
+0.10 - 0.25 - Morrena glacial
+densa
+0.30 - 0.52
+Tiza, Yeso 0.20 - 1.10 - Arcilla muy rígida,
+mediana plasticidad
+0.14 - 0.35 - Grava arenosa,
+medianamente densa
+a densa
+0.21 - 1.38
+Marga
+intemperizada
+(arcilla calcárea)
+0.15 - 0.25 - Limo arenoso muy
+rígido, mediana
+plasticidad
+0.28 - 0.38 - Grava arenosa,
+densa a muy densa
+0.28 - 1.38
+Concreto 1.40 - 2.80
+Nota: Los valores reales para anclajes inyectados a presión dependerán de la capacidad de desarrollar
+las presiones en cada tipo de suelo
+Referencia: Post-Tensioning Institute (2004), “Recommendations for Prestressed Rock and
+Soil Anchors” Fourth Edition, U.S.A.
+Referencia: FHWA (1999), “Geotechnical Engineering Circular N° 4, Ground Anchor and
+Anchored Systems” Publication N° FHWA-IF-99-015, U.S. Department of Transportation
+Federal Highway Administration, Washington, D.C. 1999.
+d) Aspectos Geométricos:
+d-1) El espaciamiento entre los ejes de los bulbos de anclajes no debe ser
+inferior a 1.20 m. Bajo responsabilidad del PRS puede reducirse el
+espaciamiento, en este caso, es obligatorio escalonar las longitudes de los
+bulbos o variar las inclinaciones de los anclajes adyacentes.
+d-2) Se debe garantizar un recubrimiento mínimo de 13 mm (0.5 pulgadas) en
+los elementos de acero del sistema de anclaje incluyendo su protección
+contra la corrosión.
+Para los literales d-1) y d-2) considerar: [Referencia: Post-Tensioning
+Institute (2004), “Recommendations for Prestressed Rock and Soil Anchors”
+Fourth Edition, U.S.A.]
+NTE E.050 SUELOS Y CIMENTACIONES
+61
+FIGURA 13
+Requerimientos Geométricos para Sistemas Anclados
+FIGURA 14
+Requerimientos Geométricos para Sistemas Anclados
+Referencia: FHWA (1999), “Geotechnical Engineering Circular N° 4, Ground Anchor and
+Anchored Systems” Publication N° FHWA-IF-99-015, U.S. Department of Transportation
+Federal Highway Administration, Washington, D.C. 1999.
+Nota: En el eventual caso que no existan los planos estructurales de la cimentación donde se
+especiﬁque la profundidad de fondo de las zapatas de la ediﬁcación vecina, se asume que
+estas cumplen con lo indicado en la presente norma en lo referente a profundidad mínima de
+cimentación (ver artículo 24).
+e) Aspectos Constructivos
+e-1) El PRS deﬁne el proceso constructivo y elabora las especiﬁcaciones
+técnicas tomando en cuenta las características del terreno, el proyecto y las
+estructuras colindantes.
+e-2) El proceso constructivo de las obras de sostenimiento garantiza la
+estabilidad global del talud de corte y minimiza su efecto en las ediﬁcaciones
+NTE E.050 SUELOS Y CIMENTACIONES
+62
+vecinas colindantes con el proyecto tomando en cuenta lo indicado en el
+artículo 959 del Código Civil.
+e-3) Todos los sistemas anclados cuentan con un protocolo de instalación,
+según lo establecido en el literal f) “Ensayos de Anclajes”.
+e-4) El residente de obra es el responsable de la correcta ejecución de los
+anclajes; para estos ﬁnes, el constructor genera, para cada uno de los
+anclajes instalados, los protocolos de las siguientes actividades: perforación
+e instalación de los anclajes, inyección para formación del bulbo y tensado
+de los anclajes. Asimismo, el residente de obra presencia las pruebas de
+carga de los anclajes o pernos de anclajes y es responsable por el
+cumplimiento de las exigencias de esta norma. Los resultados del control
+de calidad indicados en el presente numeral, deben estar disponibles en
+obra para ﬁnes de inspección municipal.
+f) Ensayos de Anclajes
+f-1) Con ﬁnes de veriﬁcar el correcto funcionamiento de cada uno de los anclajes
+instalados al terreno, es necesario seguir un programa de ensayos básicos
+deﬁnidos en tipo y número por el PRS. Estos ensayos son: (1) ensayos de
+arrancamiento, (2) ensayos de calidad o recibimiento, y (3) ensayos de
+capacidad o caliﬁcación.
+f-2) La carga máxima para cualquier tipo de ensayo es:
+Pe
+= Ps Lim.
+= 0.90 ƒy
+As
+f-3) El criterio de aceptación de un anclaje debe considerar que las
+deformaciones elásticas se encuentren dentro de los límites siguientes:
+- Deformación mínima: 0.80 de la deformación teórica de la longitud libre.
+- Deformación máxima: deformación teórica de la longitud libre, más la
+deformación elástica del 50% de la longitud del bulbo.
+f-4) Si durante los ensayos las deformaciones permanentes sufren un aumento
+brusco, signiﬁca que llegamos a la carga límite. De este modo, la carga de
+trabajo es:
+𝑃𝑤
+=
+𝑃𝑢𝑙𝑡
+𝐹𝑆𝜂
+Donde:
+Pult
+: carga correspondiente al aumento brusco de las deformaciones
+permanentes
+FSη
+: factor de seguridad del anclaje postensado
+f-5) Las Figuras 15, 16, 17 y 18 muestra el gráﬁco de Carga vs. Deformación de
+los ensayos de caliﬁcación y recibimiento, así como el análisis gráﬁco del
+criterio de aceptación para anclajes. En las Figuras 17 y 18 es opcional
+graﬁcar los desplazamientos residuales.
+f-6) Para las mediciones requeridas durante los ensayos se cumple con lo
+siguiente:
+- El manómetro del sistema para aplicación de carga gato-bomba debe
+tener un certiﬁcado de calibración con fecha no mayor a un año respecto
+a la fecha de ejecución del ensayo.
+NTE E.050 SUELOS Y CIMENTACIONES
+63
+- Las deformaciones del anclaje se miden desde la carga inicial Po
+, en
+relación con un punto de referencia ﬁja en el extremo del anclaje, en la
+dirección de la carga aplicada, con un extensómetro con precisión de
+0.01 mm. La base de lectura es un elemento de referencia ﬁjado en una
+zona segura fuera de la inﬂuencia de las deformaciones del terreno
+derivadas de las cargas aplicadas durante el ensayo o de cualquier otra
+fuente de perturbación.
+f-7) Ensayos de Capacidad o Caliﬁcación
+Estos ensayos se realizan obligatoriamente al 2% de los anclajes por obra,
+por tipo de terreno, materiales constituyentes del anclaje, con un mínimo de
+dos ensayos por obra. Véase la aplicación en la Tabla 15.
+Las cargas máximas para los ensayos de capacidad son las siguientes:
+Para anclajes permanentes: 1.75 Pw
+Para anclajes provisionales: 1.50 Pw
+TABLA 15
+Cargas a ser aplicadas en ensayos de capacidad o caliﬁcación
+Tipo Anclaje
+Estadíos de Carga y Descarga
+1 2 3 4 5 6 7
+Permanente Po 0.40 Pw 0.75 Pw 1.00 Pw 1.25 Pw 1.50 Pw 1.75 Pw
+Provisional Po 0.40 Pw 0.75 Pw 1.00 Pw 1.25 Pw 1.50 Pw
+La carga es mantenida en cada incremento sólo el tiempo suﬁciente para
+obtener las lecturas de los desplazamientos, pero no más de 1 minuto.
+Antes de cada alivio de carga (descarga), los desplazamientos bajo carga
+constante, son observados y medidos hasta la estabilización, de acuerdo
+con los siguientes criterios:
+- Para los estadios de carga inferiores o iguales a 0.75 Pw
+, con
+desplazamientos menores que 0.1 mm, el tiempo de espera no debe ser
+menor a 5 minutos antes de pasar al siguiente estadio;
+- Para los estadios de carga entre 0.75 Pw
+y 1.00 Pw
+, con desplazamientos
+menores que 0.1 mm para:
+ El tiempo de espera no debe ser menor a 15 minutos antes de pasar
+al siguiente estadio, en suelos granulares.
+ El tiempo de espera no debe ser menor a 30 minutos antes de pasar
+al siguiente estadio, en suelos cohesivos o no granulares.
+- Para las etapas de cargas superiores a 1.00 Pw
+hasta Pe
+, con
+desplazamientos menores que 0.1 mm, el tiempo de espera no debe ser
+menor a 60 minutos antes de pasar al siguiente estadio, para cualquier
+tipo de suelo.
+f-8) Ensayos de Calidad o Recibimiento
+Estos ensayos son ejecutados en todos los anclajes donde no se hayan
+realizado ensayos de capacidad o caliﬁcación. Véase la aplicación en la
+Tabla 16.
+Las cargas máximas para los ensayos de capacidad son las siguientes:
+Para anclajes permanentes: 1.40 Pw
+Para anclajes provisionales: 1.20 Pw
+NTE E.050 SUELOS Y CIMENTACIONES
+64
+TABLA 16
+Cargas a ser aplicadas en ensayos de calidad o recibimiento
+Tipo Anclaje
+Estadíos de Carga y Descarga
+1 2 3 4 5 6 7
+Permanente Po 0.30 Pw 0.60 Pw 0.80 Pw 1.00 Pw 1.20 Pw 1.40 Pw
+Provisional Po 0.30 Pw 0.60 Pw 0.80 Pw 1.00 Pw 1.20 Pw
+Un estadio de carga sólo puede ser aplicado después de la estabilización
+de la presión del manómetro del sistema de tensado. En la carga máxima,
+los desplazamientos del anclaje deben ser inferiores a 1 mm en los
+siguientes tiempos de espera:
+- No debe ser menor a 5 minutos antes de pasar al siguiente estadio, en
+suelos granulares;
+- No debe ser menor a 10 minutos antes de pasar al siguiente estadio, en
+suelos cohesivos o no granulares.
+f-9) Ensayos de Arrancamiento
+Estos ensayos se realizan con ﬁnes de determinar la capacidad de
+adherencia última en el contacto suelo – material cementante, en el bulbo
+del anclaje. El objetivo es causar la falla en la interacción suelo – material
+cementante, acero – material cementante u otros componentes del anclaje.
+La necesidad y cantidad de estos ensayos es deﬁnida por el PRS, con un
+mínimo de tres. Estos ensayos siguen los principios descritos en el literal
+f-7) (ciclos de carga y descarga hasta la rotura o falla del bulbo).
+Para todo el literal f) Ensayos de Anclajes, considerar: [Referencia: ABNT (1996),
+“Execução de Tirantes Ancorados no Terreno” NBR 5629/1996. Associação
+Brasileira de Normas Técnicas, Rio de Janeiro, Agosto 1996].
+g) Otros Elementos para el Sostenimiento de Estructuras
+En caso existan otro tipo de elementos estructurales distintos a los anclajes, el
+F.S. de los mismos está basado en las especiﬁcaciones técnicas propias del
+material que se utilice, deﬁnidos y justiﬁcados por el PRS.
+NTE E.050 SUELOS Y CIMENTACIONES
+65
+FIGURA 15
+Gráﬁcas del Ensayo de Caliﬁcación para Anclajes Permanente
+NTE E.050 SUELOS Y CIMENTACIONES
+66
+FIGURA 16
+Gráﬁcas del Ensayo de Caliﬁcación para Anclajes Provisionales
+NTE E.050 SUELOS Y CIMENTACIONES
+67
+FIGURA 17
+Gráﬁcas del Ensayo de Recibimiento para Anclajes Permanentes
+NTE E.050 SUELOS Y CIMENTACIONES
+68
+FIGURA 18
+Gráﬁcas del Ensayo de Recibimiento para Anclajes Provisionales
+NTE E.050 SUELOS Y CIMENTACIONES
+69
+39.12 Calzaduras
+39.12.1. Las calzaduras son estructuras provisionales que se diseñan y construyen para
+sostener las cimentaciones vecinas y el suelo de la pared expuesta, producto de las
+excavaciones efectuadas.
+39.12.2. Tienen por funciones prevenir las fallas por inestabilidad o asentamiento excesivo y
+mantener la integridad del terreno colindante y de las obras existentes en él, hasta
+que entren en funcionamiento las obras de sostenimiento deﬁnitivas.
+39.12.3. Las calzaduras están constituidas por paños de concreto que se construyen
+horizontalmente en forma alternada y progresiva, cuidando de no hacer coincidir los
+paños entre dos ﬁlas horizontales consecutivas.
+39.12.4. El espesor del primer paño es inicialmente igual al ancho (lado del cimiento
+perpendicular a la excavación) del cimiento por calzar y se incrementa con la
+profundidad en un mínimo equivalente al 10 % de la altura del paño previamente
+colocado (Figura 19).
+39.12.5. Las calzaduras son diseñadas para las cargas verticales de la estructura que
+soportan y para poder tomar las cargas horizontales que le inducen el suelo y los
+sismos.
+39.12.6. La altura total de la calzadura no debe ser mayor que 5.00 m en gravas arenosas
+densas con ﬁnos, ni mayor que 2.00 m en el caso de arenas medianamente densas,
+ni mayor que 3.00 m en el caso de arcillas duras.
+39.12.7. Procedimiento Constructivo de las Calzaduras
+a) Se construyen paneles alternados (Ver Figura 19) hasta construir un anillo
+continuo de apuntalamiento.
+b) El primer anillo se excava por debajo de la cimentación vecina. Cada panel tiene
+una dimensión horizontal máxima de 1,20 m, un espesor igual al ancho (lado del
+cimiento perpendicular a la excavación) de la cimentación por calzar y una altura
+máxima de 1 m. La excavación se encofra dejando una abertura superior para el
+vaciado del concreto ciclópeo, el cual se consolida usando una varilla de
+construcción.
+c) El concreto que se emplea es concreto ciclópeo en proporción 1:10 (cemento:
+hormigón) con un f’c mínimo de 80 kg/cm2 con adición de piedra grande de hasta
+8”, representando ésta un máximo de 30% del volumen total de la mezcla.
+d) Vaciado en su totalidad el primer anillo, se comienza a excavar el anillo inferior
+siguiendo el mismo procedimiento mostrado en la ﬁgura 19, pero cuidando de
+aumentar el ancho (lado del cimiento perpendicular a la excavación) en un 10%
+de la altura del panel previamente colocado y que las juntas entre paños de dos
+etapas consecutivas queden desplazadas medio paño para no coincidir.
+e) Cada ﬁla tiene un espesor diferente de manera que se vaya aumentando el
+espesor conforme se avance a profundidades mayores.
+NTE E.050 SUELOS Y CIMENTACIONES
+70
+FIGURA 19
+DETALLES TÍPICOS DE CALZADURA
+Nota:
+1) Los números indican la secuencia de construcción de los paños de la calzadura.
+2) La ﬁgura no está a escala.
+39.12.8. Consideraciones para el Diseño y Construcción de Obras de Calzadura
+a) El tipo de calzadura, su diseño y construcción son responsabilidad del
+constructor de la obra; quien debe contar para su diseño con un PRS y cumplir
+con los siguientes aspectos como mínimo:
+- Los empujes del suelo.
+- Las cargas de las ediﬁcaciones vecinas.
+- Efecto de la variación de la humedad del suelo.
+- Las sobrecargas dinámicas (sismos y vibraciones causadas artiﬁcialmente).
+- La disposición de los apoyos o puntales temporales (de ser requeridos).
+b) En las calzaduras, el Constructor no debe permitir que éstas permanezcan sin
+soporte horizontal, por un tiempo tal que permita la aparición de fuerzas no
+previstas en el cálculo que puedan producir el colapso de la calzadura.
+39.13 Muros de contención
+39.13.1. Existen diversos tipos de muros de contención entre los cuales podemos mencionar:
+en L, en T invertida, con contrafuertes, todos estos de concreto armado y muros de
+gravedad de concreto ciclópeo, entre otros.
+NTE E.050 SUELOS Y CIMENTACIONES
+71
+FIGURA 20
+TIPOS DE MUROS
+39.13.2. Los muros de contención son estructuras deﬁnitivas que la diseñan y construyen de
+acuerdo a la Norma E.060 “Concreto Armado”, basándose en lo indicado por el PR
+en el EMS.
+39.13.3. Tienen por funciones prevenir las fallas por inestabilidad o asentamiento excesivo y
+mantener la integridad del terreno colindante y de las obras existentes en la parte
+superior de él.
+39.13.4. Los muros de contención son diseñados para poder tomar las cargas horizontales
+que le inducen el suelo, los sismos y las estructuras adyacentes. Asimismo, se debe
+considerar el efecto de la inclinación del talud y de las sobrecargas de ser el caso.
+NTE E.050 SUELOS Y CIMENTACIONES
+72
+FIGURA 21
+DIAGRAMA DE CARGAS A CONSIDERAR PARA EL DISEÑO DE MUROS DE
+CONTENCIÓN (VOLTEO Y DESLIZAMIENTO)
+FIGURA 22
+DIAGRAMA DE CARGAS A CONSIDERAR PARA EL DISEÑO DE MUROS DE
+CONTENCIÓN (COMO ZAPATA)
+39.13.5. Para los diseños de los muros de contención, la altura (H) que se contempla en el
+análisis de estabilidad global de los muros de contención, es la comprendida entre
+la superﬁcie del terreno y el nivel de fondo de cimentación.
+39.13.6. El diseño del muro de contención debe cumplir con los siguientes factores de
+seguridad mínimos:
+a) Estabilidad Interna:
+a-1) Condición Estático 1.50 (por volteo y por deslizamiento)
+a-2) Condición Pseudo - dinámico: 1.25 (por volteo y por deslizamiento)
+b) La estabilidad global de los muros de contención contempla un F.S. mínimo de
+1.50 en condición estática y 1.25 en condición pseudo-dinámica.
+En todos los casos respecto al estado límite del suelo.
+NTE E.050 SUELOS Y CIMENTACIONES
+73
+39.13.7. El muro de contención debe cumplir con todo lo especiﬁcado en el Capítulo IV de la
+presente Norma.
+39.13.8. Los muros de contención deben tener un sistema de drenaje que evacúe el agua
+que ﬁltre hacia el para evitar que las fuerzas de ﬁltración reduzcan los factores de
+seguridad a valores menores que los indicados en el numeral 39.14.6. El sistema
+de drenaje estará formado por un ﬁltro graduado de material granular sin ﬁnos o por
+un geotextil o geodren.
+FIGURA 23
+ESQUEMA DEL SISTEMA DE DRENAJE PARA MUROS DE CONTENCIÓN
+*Geodrén usado como dren adyacente a la pared del muro
+Referencia: Manual de Drenaje para carreteras. Instituto Nacional de Vías 2009 –
+Ministerio de Transporte de Colombia
+NTE E.050 SUELOS Y CIMENTACIONES
+74
+ANEXO I
+FORMATO OBLIGATORIO DE LA HOJA DE RESUMEN DE LAS CONDICIONES DE
+CIMENTACIÓN
+Nombre del solicitante
+ESTUDIO DE MECÁNICA SUELOS PARA DISEÑO DE LA CIMENTACIÓN
+Nombre del proyecto
+Distrito – Provincia – Departamento
+De conformidad con la Norma Técnica E.050 “Suelos y Cimentaciones” la siguiente información
+deberá transcribirse literalmente en los planos de cimentación. Esta información no es limitativa,
+deberá cumplir con todo lo especiﬁcado en el presente Estudio de Mecánica de Suelos (EMS) y con el
+Reglamento Nacional de Ediﬁcaciones (RNE).
+RESUMEN DE LAS CONDICIONES DE CIMENTACIÓN
+Profesional Responsable (PR): Ing. Civil CIP:
+Tipo de Cimentación:
+Estrato de apoyo de la cimentación:
+Profundidad de la Napa Freática: Fecha:
+Parámetros de Diseño de la Cimentación
+Profundidad de Cimentación:
+Presión Admisible:
+Factor de Seguridad por Corte (Estático, Dinámico)
+Asentamiento Diferencial Máximo Aceptable:
+Parámetros Sísmicos del suelo (De acuerdo a la Norma E.030)
+Zona Sísmica:
+Tipo de perﬁl del suelo:
+Factor del suelo (S):
+Periodo TP (s):
+Periodo TL (s):
+Agresividad del Suelo a la Cimentación: (En caso de suelos agresivos se debe indicar tipo de
+agresión, tipo de cemento portland, relación a/c y f´c mínimo, recubrimiento mínimo y otros)
+Problemas Especiales de cimentación
+Licuación:
+Colapso:
+expansión:
+Indicaciones Adicionales:
+Fecha:
+Nombre del PR
+Ingeniero Civil CIP xxxxxx
+Sello y ﬁrma
+NTE E.050 SUELOS Y CIMENTACIONES
+75
+ANEXO II
+NORMA ESPAÑOLA – UNE 103-801-94
+GEOTECNIA
+PRUEBA DE PENETRACIÓN DINÁMICA SUPERPESADA
+1. OBJETIVO
+Esta norma tiene por objeto describir el procedimiento para la realización de la
+denominada prueba de penetración dinámica superpesada. Con esta prueba se
+determina la resistencia del terreno a la penetración de un cono cuando es golpeado
+según el procedimiento establecido.
+2. CAMPO DE APLICACIÓN
+La prueba de penetración dinámica está especialmente indicada para suelos
+granulares(1).
+Su utilización permite:
+- Determinar la resistencia a la penetración dinámica de un terreno.
+- Evaluar la compacidad de un suelo granular. Cuando el suelo contenga partículas
+de tamaños tales(2) que obstaculicen la penetración del cono en el terreno el
+resultado de la prueba puede no ser representativo.
+- Investigar la homogeneidad o anomalías de una capa de suelo.
+- Comprobar la situación en profundidad de una capa cuya existencia se conoce.
+3. SÍMBOLOS Y ABREVIATURAS
+D.P.S.H. Abreviatura de la prueba de penetración dinámica en su procedimiento
+superpesado, que proviene de su denominación de inglés (DPSH).
+N20 = Número de golpes necesarios para un penetración del cono en el terreno de
+20 cm de profundidad.
+R = Anotación a incluir cuando el número de golpes requerido para una penetración de
+20 cm es superior a 100 golpes.
+4. APARATOS Y MATERIAL NECESARIO
+4.1 Cono: Es una pieza de acero cilíndrica que termina en forma cónica con un ángulo de
+90º. El cono puede ser perdido o recuperable con las conﬁguraciones respectivas que
+se reﬂejan en la ﬁgura 1.
+(1) La ejecución de pruebas de penetración dinámica debe ser precedida por un reconocimiento mediante sondeos
+que permita identiﬁcar las capas de suelos en el área investigada.
+(2) La existencia de partículas con tamaño superior a 6 mm puede obstaculizar el avance del cono sin que ello
+suponga un incremento de compacidad.
+NTE E.050 SUELOS Y CIMENTACIONES
+76
+FIGURA 1. Alternativa de Cono.
+4.2 Varillaje: Conjunto de varillas de acero macizas que se utilizan para transmitir la
+energía de golpeo desde la cabeza del varillaje hasta el cono.
+4.3 Maza: Cuerpo de acero de 63,5 kg ± 0,5 kg de masa.
+4.4 Cabeza de impacto: Cuerpo de acero que recibe el impacto de la maza y que queda
+unido solidariamente a la parte superior de varillaje, sin que durante el golpeo pueda
+existir desplazamiento relativo entre ambos.
+4.5 Guiadera: Elemento de acero que guía suavemente la maza durante su caída.
+4.6 Sistema de elevación y escape: Mecanismo mediante el cual se eleva la maza a una
+altura de 760 mm ± 10 mm, se libera y se permite su caída libre por la guiadera hasta
+la cabeza de impacto. La velocidad de la maza cuando se libere será nula.
+4.7 Dispositivos de golpeo: Conjunto de elementos que comprende la maza, la cabeza
+de impacto, la guiadera y el sistema de elevación y escape.
+4.8 Martillo de seguridad: Dispositivo de golpeo automático en el que la maza, la cabeza
+de impacto, la guiadera, y el sistema de elevación y escape están integrados en un
+mismo elemento. Permite izar la maza y liberarla siempre a la misma altura sin producir
+movimientos sobre el varillaje de forma que la caída por la guiadera sea totalmente libre
+y la energía transferida a la cabeza de impacto sea la misma en todos los golpes. El
+martillo de seguridad permite igualmente establecer una frecuencia de golpeo
+uniforme(3).
+4.9 Guía soporte: Pieza que asegura la verticalidad y el soporte lateral en el tramo del
+varillaje que sobresale del suelo.
+5. DIMENSIONES Y MASAS
+En el procedimiento descrito en la Norma los aparatos deﬁnidos en el Capítulo IV
+tendrán las siguientes dimensiones y masas.
+(3) Utilización de otros dispositivos de golpeo que no cumplan las especiﬁcaciones descritas en esta norma implica
+que pueda obtenerse un número de golpes diferente de N20
+NTE E.050 SUELOS Y CIMENTACIONES
+77
+Cono
+A = Área nominal de la sección 20 cm²
+D = Diámetro 50,5 mm ± 0,5 mm.
+L1 = Longitud parte cónica 25 mm ± 0,2 mm.
+L2 = Longitud parte cilíndrica 50 mm ± 0,5 mm.
+L3 = Longitud parte troncocónica < 50 mm.
+Varillaje
+d = Diámetro – 33 mm ± 2 mm.
+Masa (máx.) – 8kg/m.
+Deﬂexión (máx.) – 0,2 % (4)
+Excentricidad en las conexiones (máx.) – 0,2 mm.
+Dispositivo de golpeo
+Maza: Masa – 63,5 kg ± 0,5 kg.
+Relación altura Lm al diámetro Dm – 1 ≤ Lm/Dm ≤ 2
+Altura de caída: 760 mm ± 10 mm.
+Cabeza de impacto: Diámetro dc – 100 mm < dc < 0,5 Dm.
+Masa total dispositivos de golpeo ≤ 115 kg.
+6. INSTRUMENTOS DE MEDIDA
+6.1 Contador de golpes: El dispositivo de golpeo utilizado, deberá disponer de un
+contador automático de golpes.
+6.2 Referencia de profundidad: el equipo de penetración deberá incluir una escala de
+profundidad de avance marcada de forma indeleble y visible.
+6.3 Medidor de par: Permitirá la media en N-m del par necesario para girar el varillaje. La
+capacidad de medida no será inferior a 200 N-m con una graduación de 10 N-m. Su
+exactitud será comprobada periódicamente.
+6.4 Referencia de Verticalidad: Inclinómetro que permitirá observar en grados o en tanto
+por ciento la desviación de verticalidad del varillaje durante la ejecución de la prueba.
+7. PROCEDIMIENTO OPERATIVO
+7.1. Selección del punto de ensayo: Con el ﬁn de que no haya habido perturbaciones en
+el punto de ensayo este debe distanciarse por lo menos metro y medio de cualquier
+otro punto ya ensayado y en el caso de existir sondeos previos, la separación deberá
+ser como mínimo de veinticinco diámetros.
+7.2. Emplazamiento y conexiones: En el punto seleccionado se emplazará el dispositivo
+de golpeo de tal forma que el soporte guía y el eje de la guiadera queden perfectamente
+verticales y centrados sobre el punto(5).
+El cono ya acoplado (perdido) o enroscado (recuperable) a un extremo del primer tramo
+de varillaje, se situará sobre el punto elegido a través del soporte guía, conectando
+posteriormente el otro extremo de varillaje al dispositivo de golpeo. Una vez efectuada
+esta conexión se comprobará que:
+- El varillaje y la guiadera quedan coaxiales.
+- Las desviaciones de la verticalidad del primer tramo de varillaje no supere el 2%.
+(4) Deﬂexión medida entre extremos de una misma varilla y entre los puntos medios de dos adyacentes.
+(5) Debe comprobarse que durante el proceso de golpeo el dispositivo no se desplaza de su posicionamiento inicial.
+Si es necesario se disponen anclajes o soportes.
+NTE E.050 SUELOS Y CIMENTACIONES
+78
+- La longitud libre de varillaje entre el soporte guía y la conexión al dispositivo de
+golpeo no supere 1,2 m.
+7.3. Golpeo y penetración: El golpeo se efectuará con una frecuencia comprendida entre
+15 golpes y 30 golpes por minuto registrando el número de golpes necesario para
+introducir en el terreno el cono cada intervalo de 20 cm. Este número de golpes se
+anota cono N20.
+Cuando sea necesario añadir una varilla debe asegurarse que al retirar el dispositivo
+de golpeo no se introduzcan movimientos de ascenso o rotación en el varillaje. Se
+comprobará cuando se añada la varilla que esta queda enroscada a tope y la
+desviación de su inclinación frente a la vertical no excede de 5%. El tramo que
+sobresalga a partir del soporte guía no será superior 1,2 m.
+Deberán anotarse todas las introducciones mayores de 15 minutos durante todo el
+proceso de penetración.
+7.4. Rotación: Cada metro de penetración debe medirse y anotarse el par necesario para
+girar el tren de varillaje una vuelta y media(6). Se considerará que el rozamiento no es
+signiﬁcativo por debajo del valor de 10 N.m.
+7.5. Finalización de la prueba: La prueba se dará por ﬁnalizada cuando se satisfagan
+algunas de las siguientes condiciones:
+- Se alcance la profundidad que previamente se haya establecido.
+- Se supere los 100 golpes para una penetración de 20 cm. Es decir N20 > 100.
+- Cuando tres valores consecutivos de N20 sean iguales o superiores a 75 golpes.
+- El valor del par de rozamiento supere los 200 N.m.
+8. PRESENTACIÓN DE RESULTADOS
+De cada prueba realizada con arreglo a esta norma se presentará un gráﬁco como el
+de la ﬁgura 2 en el que se incluyan los siguientes puntos:
+Comprobaciones antes de la prueba
+- Tipo de cono utilizado. Dimensiones y masa
+- Longitud de cada varilla. Masa por metro de varillaje, incluidos nicles de unión.
+- Masa de dispositivos de golpeo.
+- Fecha y hora de la prueba. Tiempo de duración.
+Comprobaciones después de la prueba
+- Diámetros del cono.
+- Excentricidad y deﬂexiones del varillaje.
+Observaciones
+- Interrupciones superiores a 5 min. pérdidas de verticalidad superiores al 5%.
+Penetraciones sin golpeo. Obstrucciones temporales, etc.
+(6) El par de rozamiento medido debe ser originado exclusivamente por el cono y tren de varillas introducidos en el
+terreno.
+NTE E.050 SUELOS Y CIMENTACIONES
+79
+9. CORRESPONDENCIA CON OTRAS NORMAS
+Para la redacción de esta norma se han consultado los documentos y normas que a
+continuación se relacionan:
+- Report of the ISSMFE Technical Comite on Penetration Testing of Soils 16 with
+Reference Test Procedures for Dynamic probing super heavy DPSH. Swedish
+Geotechnical, Linkoping, June 1989.
+- NFP 94 – 115 (December 1990). Sondage an penetrometro dynamique type B.
+- BS 1377: Part 9 (1990): Dynamic probing super heavy (DPSH).
+FIGURA 2
+NTE E.050 SUELOS Y CIMENTACIONES
+80
+ANEXO III
+AUSCULTACIÓN DINÁMICA MEDIANTE EL CONO TIPO PECK (CTP)
+1. OBJETIVO
+Este anexo tiene por objeto describir el procedimiento para la realización de la prueba
+de penetración dinámica con el Cono Tipo Peck. Con esta prueba se determina la
+resistencia del terreno a la penetración de un cono cuando es golpeado según el
+procedimiento establecido en este Anexo.
+2. CAMPO DE APLICACIÓN
+La prueba de penetración dinámica está especialmente indicada para suelos
+granulares(1), como se indica en la Tabla 3 de esta norma.
+Su utilización permite:
+- Determinar la resistencia a la penetración dinámica de un terreno.
+- Evaluar la compacidad de un suelo granular. Cuando el suelo contenga partículas
+de grava que obstaculicen la penetración del cono en el terreno el resultado de la
+prueba puede no ser representativo.
+- Investigar la homogeneidad o anomalías de una capa de suelo.
+- Comprobar la situación en profundidad de una capa de suelo cuya existencia se
+conoce.
+3. SÍMBOLOS Y ABREVIATURAS
+CTP = Abreviatura de la prueba de penetración dinámica con el Cono Tipo Peck.
+Cn
+= Número de golpes necesarios para una penetración del cono en el terreno de
+15 cm de profundidad.
+R = Anotación a incluir cuando el número de golpes requerido para una penetración
+de 15 cm es superior a 100 golpes. Signiﬁca “rechazo”.
+4. APARATOS Y MATERIAL NECESARIO
+4.1 Cono: Es una pieza de ﬁerro fundido cilíndrica que termina en forma cónica con un
+ángulo de 60º. El cono tiene la conﬁguración mostrada en la Figura 1.
+4.2 Varillaje: Conjunto de varillas de acero de unión rápida que se utilizan para conectar
+el cono con el ensamblaje de caída de peso para transmitir la energía de golpeo desde
+la cabeza del varillaje hasta el cono. Las varillas de muestreo tienen una rigidez
+(momento de inercia) igual o mayor a la de una varilla “AW”.
+4.3 Martillo: Cuerpo de acero sólido y rígido de 63,5 kg ± 1,0 kg de masa.
+4.4 Yunque o Cabeza de impacto: Cuerpo de acero que recibe el impacto del martillo y
+que queda unido solidariamente a la parte superior de varillaje, sin que durante el
+golpeo pueda existir desplazamiento relativo entre ambos.
+4.5 Guía: Elemento de acero que guía suavemente al martillo durante su caída.
+4.6 Sistema de caída del martillo: Puede utilizarse sistemas de malacate con soga de
+manila de una pulgada de diámetro, semi-automático o automático, siempre y cuando
+el aparato de izaje no cause penetración del cono cuando se engancha y levanta el
+martillo.
+(1) La ejecución de pruebas con el Cono Dinámico Tipo Peck requiere de la realización de perforaciones con la
+ejecución de ensayos SPT que permitan identiﬁcar las capas de suelos en el área investigada y la correlación de
+sus resultados.
+NTE E.050 SUELOS Y CIMENTACIONES
+81
+4.7 Equipo accesorio: Se proporcionan etiquetas, contenedores, hojas de datos y equipos
+para medir el nivel del agua, de acuerdo con los requisitos del Proyecto.
+FIGURA 1
+5. PROCEDIMIENTO OPERATIVO
+5.1 Selección del punto de ensayo: Con el ﬁn de que no haya perturbaciones en el punto
+de ensayo, este debe distanciarse por lo menos metro y medio de cualquier otro punto
+ya ensayado y en el caso de existir sondeos previos, la separación es como mínimo de
+veinticinco diámetros.
+5.2 Emplazamiento y conexiones: En el punto seleccionado se emplaza el dispositivo de
+golpeo de tal forma que el soporte guía y el eje de la guiadera queden perfectamente
+verticales y centrados sobre el punto(2).
+El cono ya acoplado a un extremo del primer tramo de varillaje, se sitúa sobre el punto
+elegido a través del soporte guía, conectando posteriormente el otro extremo de
+varillaje al dispositivo de golpeo. Una vez efectuada esta conexión se comprueba que:
+ El varillaje y la guiadera quedan coaxiales.
+ Las desviaciones de la verticalidad del primer tramo de varillaje no supera el 2%.
+5.3 Golpeo y penetración: El golpeo se efectúa con una frecuencia comprendida entre 15
+golpes y 30 golpes por minuto registrando el número de golpes necesario para
+introducir en el terreno el cono cada intervalo de 15 cm. La suma del número de golpes
+en dos intervalos consecutivos se anota cono Cn.
+Cuando sea necesario añadir una varilla debe asegurarse que al retirar el dispositivo
+de golpeo no se introduce movimientos de ascenso o rotación en el varillaje. Cuando
+se añada la varilla se comprueba que ésta quede enroscada a tope y la desviación de
+su inclinación frente a la vertical no exceda de 5%.
+Deben anotarse todas las interrupciones mayores de 15 minutos durante todo el
+proceso de penetración.
+5.4 Finalización de la prueba: La prueba se da por ﬁnalizada cuando se satisfagan
+algunas de las siguientes condiciones:
+ Se alcance la profundidad que previamente se haya establecido.
+ Se supere los 100 golpes para una penetración de 15 cm, es decir: Cn > 100.
+ Cuando tres valores consecutivos de Cn
+sean iguales o superiores a 75 golpes.
+2 Debe comprobarse que durante el proceso de golpeo el dispositivo no se desplaza de su posicionamiento inicial.
+Si es necesario se disponen anclajes o soportes.
+NTE E.050 SUELOS Y CIMENTACIONES
+82
+6. PRESENTACIÓN DE RESULTADOS
+De cada prueba realizada con arreglo a este anexo se presenta un gráﬁco N60 vs
+profundidad y se indica:
+ Fecha y hora de la prueba.
+ Excentricidad y deﬂexiones del varillaje si las hubiere.
+ Interrupciones superiores a 15 min. Perdidas de verticalidad superiores al 5%.
+Penetraciones sin golpeo. Obstrucciones temporales, etc.
+7. CORRESPONDENCIA CON OTRAS NORMAS
+Para la redacción de este anexo se han consultado los documentos y normas que a
+continuación se relacionan:
+- Norma Española – UNE 103-801-94 – Geotecnia - Prueba de Penetración Dinámica
+Superpesada.
+- NTP 339.133 :1999. SUELOS. Método de ensayo de penetración estándar SPT.
+

@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de uso del programa</title>
+<style>
+  /* ---------- Tokens: paleta clara completa ---------- */
+  :root {
+    --ground: #f6f7f9;
+    --surface: #ffffff;
+    --surface-sunk: #eef1f5;
+    --line: #dde2e9;
+    --line-firm: #c3cbd6;
+
+    --ink: #12151c;
+    --ink-soft: #565d6d;
+    --ink-faint: #838b9a;
+
+    --accent: #1e4d8c;
+    --accent-deep: #14345f;
+    --accent-wash: #e9f0f9;
+
+    --pass: #1f7a44;   --pass-wash: #e7f4ec;
+    --warn: #8f6200;   --warn-wash: #fbf2e0;
+    --notver: #6a4b9c; --notver-wash: #f0ebf9;
+    --fail: #a32a2a;   --fail-wash: #fbeaea;
+
+    --sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --serif: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --mono: "Cascadia Mono", Consolas, "SF Mono", "Liberation Mono", Menlo, monospace;
+
+    --shadow: 0 1px 2px rgba(18, 21, 28, .05), 0 4px 14px rgba(18, 21, 28, .04);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #101319;
+      --surface: #171b23;
+      --surface-sunk: #1d222c;
+      --line: #2a303c;
+      --line-firm: #3b4351;
+
+      --ink: #e7eaf0;
+      --ink-soft: #a2abbb;
+      --ink-faint: #7b8494;
+
+      --accent: #7fb0e8;
+      --accent-deep: #a8caf2;
+      --accent-wash: #16233a;
+
+      --pass: #5fc48c;   --pass-wash: #13291f;
+      --warn: #d9a63c;   --warn-wash: #2b2312;
+      --notver: #b294e0; --notver-wash: #221a33;
+      --fail: #e57a7a;   --fail-wash: #2e1717;
+
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #101319;
+    --surface: #171b23;
+    --surface-sunk: #1d222c;
+    --line: #2a303c;
+    --line-firm: #3b4351;
+
+    --ink: #e7eaf0;
+    --ink-soft: #a2abbb;
+    --ink-faint: #7b8494;
+
+    --accent: #7fb0e8;
+    --accent-deep: #a8caf2;
+    --accent-wash: #16233a;
+
+    --pass: #5fc48c;   --pass-wash: #13291f;
+    --warn: #d9a63c;   --warn-wash: #2b2312;
+    --notver: #b294e0; --notver-wash: #221a33;
+    --fail: #e57a7a;   --fail-wash: #2e1717;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Estructura ---------- */
+  .shell {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 56px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px 120px;
+    align-items: start;
+  }
+  @media (max-width: 940px) {
+    .shell { grid-template-columns: 1fr; gap: 0; padding: 0 20px 80px; }
+    nav.toc { position: static !important; margin-bottom: 40px; }
+  }
+
+  header.mast {
+    grid-column: 1 / -1;
+    padding: 64px 0 32px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 44px;
+  }
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: var(--sans);
+    font-size: clamp(30px, 4.6vw, 46px);
+    font-weight: 700;
+    letter-spacing: -.024em;
+    line-height: 1.08;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0;
+  }
+  .mast-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-top: 26px;
+    font-family: var(--sans);
+    font-size: 12.5px;
+    color: var(--ink-faint);
+  }
+  .mast-meta b { color: var(--ink-soft); font-weight: 600; }
+
+  /* ---------- Índice ---------- */
+  nav.toc {
+    position: sticky;
+    top: 28px;
+    font-family: var(--sans);
+    font-size: 13px;
+  }
+  nav.toc .toc-title {
+    font-size: 11px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-faint);
+    padding-bottom: 10px; margin-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1px; }
+  nav.toc a {
+    display: grid; grid-template-columns: 26px 1fr; gap: 4px;
+    padding: 5px 8px; border-radius: 4px;
+    color: var(--ink-soft); text-decoration: none; line-height: 1.35;
+  }
+  nav.toc a:hover { background: var(--accent-wash); color: var(--accent-deep); }
+  nav.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  nav.toc .n { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+
+  /* ---------- Secciones ---------- */
+  main { min-width: 0; }
+  section { margin-bottom: 68px; scroll-margin-top: 24px; }
+
+  h2 {
+    font-family: var(--sans);
+    font-size: 25px; font-weight: 700; letter-spacing: -.018em;
+    line-height: 1.2; margin: 0 0 6px;
+    display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: baseline;
+    text-wrap: balance;
+  }
+  h2 .num {
+    font-size: 13px; font-weight: 700; color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    border: 1.5px solid var(--accent); border-radius: 3px;
+    padding: 2px 7px; line-height: 1.2;
+  }
+  .section-lede {
+    color: var(--ink-soft); margin: 0 0 24px 44px; max-width: 62ch;
+  }
+  @media (max-width: 640px) { .section-lede { margin-left: 0; } }
+
+  h3 {
+    font-family: var(--sans);
+    font-size: 16.5px; font-weight: 650; letter-spacing: -.008em;
+    margin: 34px 0 10px; color: var(--ink);
+  }
+  h4 {
+    font-family: var(--sans);
+    font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-faint); margin: 26px 0 8px;
+  }
+  p { margin: 0 0 15px; max-width: 68ch; }
+  ul, ol.body-list { margin: 0 0 16px; padding-left: 22px; max-width: 66ch; }
+  li { margin-bottom: 7px; }
+  strong { font-weight: 650; }
+
+  /* elementos de interfaz nombrados: van en sans, no en serif */
+  .ui { font-family: var(--sans); font-size: .93em; font-weight: 600; color: var(--accent-deep); }
+  code, .val {
+    font-family: var(--mono); font-size: .86em;
+    background: var(--surface-sunk); border: 1px solid var(--line);
+    border-radius: 3px; padding: 1px 5px;
+  }
+
+  /* ---------- Bloques de comando ---------- */
+  .cmd {
+    font-family: var(--mono); font-size: 13.5px; line-height: 1.7;
+    background: var(--surface-sunk);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 12px 15px; margin: 0 0 14px;
+    overflow-x: auto; white-space: pre;
+    color: var(--ink);
+  }
+  .cmd-label {
+    font-family: var(--sans); font-size: 11px; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 5px;
+  }
+
+  /* ---------- Llamadas ---------- */
+  .call {
+    border: 1px solid var(--line); border-radius: 5px;
+    padding: 15px 18px; margin: 0 0 20px; max-width: 68ch;
+    background: var(--surface); box-shadow: var(--shadow);
+  }
+  .call-tag {
+    font-family: var(--sans); font-size: 10.5px; font-weight: 700;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 7px;
+  }
+  .call p:last-child { margin-bottom: 0; }
+  .call.norm { border-left: 3px solid var(--accent); }
+  .call.norm .call-tag { color: var(--accent); }
+  .call.why { border-left: 3px solid var(--notver); background: var(--notver-wash); }
+  .call.why .call-tag { color: var(--notver); }
+  .call.careful { border-left: 3px solid var(--warn); background: var(--warn-wash); }
+  .call.careful .call-tag { color: var(--warn); }
+
+  /* ---------- Tablas ---------- */
+  .tw { overflow-x: auto; margin: 0 0 20px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 13.5px; }
+  th {
+    text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--ink-faint);
+    background: var(--surface-sunk); padding: 9px 13px;
+    border-bottom: 1px solid var(--line-firm); white-space: nowrap;
+  }
+  td { padding: 9px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  td .sub { display: block; font-size: 12px; color: var(--ink-faint); margin-top: 2px; }
+
+  /* ---------- Píldoras de estado ---------- */
+  .st {
+    display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 700;
+    letter-spacing: .04em; padding: 2px 8px; border-radius: 3px; white-space: nowrap;
+    border: 1px solid;
+  }
+  .st.pass { color: var(--pass); background: var(--pass-wash); border-color: var(--pass); }
+  .st.warn { color: var(--warn); background: var(--warn-wash); border-color: var(--warn); }
+  .st.nv { color: var(--notver); background: var(--notver-wash); border-color: var(--notver); }
+  .st.fail { color: var(--fail); background: var(--fail-wash); border-color: var(--fail); }
+  .st.info { color: var(--accent); background: var(--accent-wash); border-color: var(--accent); }
+
+  /* ---------- Fichas de panel ---------- */
+  .cards { display: grid; gap: 12px; margin-bottom: 22px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 5px; padding: 14px 17px;
+    background: var(--surface); box-shadow: var(--shadow);
+  }
+  .card h5 {
+    font-family: var(--sans); font-size: 14.5px; font-weight: 650;
+    margin: 0 0 6px; color: var(--ink);
+  }
+  .card p { font-size: 15.5px; margin-bottom: 0; }
+  .card p + p { margin-top: 9px; }
+
+  hr.rule { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
+
+  footer.end {
+    grid-column: 1 / -1;
+    border-top: 2px solid var(--ink);
+    padding-top: 20px; margin-top: 30px;
+    font-family: var(--sans); font-size: 12.5px; color: var(--ink-faint);
+    max-width: 72ch;
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+</head>
+<body>
+<div class="shell">
+
+<header class="mast">
+  <div class="eyebrow">Cimentaciones de concreto armado · RNE E.050 / E.060 / E.030</div>
+  <h1>Guía de uso del programa</h1>
+  <p class="standfirst">Cómo abrir la interfaz, cómo recorrer cada una de sus cuatro pestañas y cómo
+  leer lo que el programa entrega: alternativas, estados, descartes y memoria de cálculo.</p>
+  <div class="mast-meta">
+    <span><b>Versión de la guía</b> 2026-09-24</span>
+    <span><b>Dirección</b> http://localhost:8000</span>
+    <span><b>Detalle técnico</b> docs/manual_usuario.html</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Contenido">
+  <div class="toc-title">Contenido</div>
+  <ol>
+    <li><a href="#abrir"><span class="n">1</span>Abrir el programa</a></li>
+    <li><a href="#pantalla"><span class="n">2</span>La pantalla</a></li>
+    <li><a href="#flujo"><span class="n">3</span>Flujo de trabajo</a></li>
+    <li><a href="#aislada"><span class="n">4</span>Zapata aislada</a></li>
+    <li><a href="#combinada"><span class="n">5</span>Zapata combinada</a></li>
+    <li><a href="#conectada"><span class="n">6</span>Cimentación conectada</a></li>
+    <li><a href="#viga"><span class="n">7</span>Viga de conexión</a></li>
+    <li><a href="#proyectos"><span class="n">8</span>Guardar y abrir proyectos</a></li>
+    <li><a href="#estados"><span class="n">9</span>Leer los estados</a></li>
+    <li><a href="#memoria"><span class="n">10</span>Memoria de cálculo</a></li>
+    <li><a href="#limites"><span class="n">11</span>Limitaciones actuales</a></li>
+    <li><a href="#problemas"><span class="n">12</span>Problemas frecuentes</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<!-- ============================================================ -->
+<section id="abrir">
+  <h2><span class="num">1</span>Abrir el programa</h2>
+  <p class="section-lede">El programa es una página web que corre en su propio equipo. Un servidor
+  local hace los cálculos y entrega la interfaz; el navegador solo la muestra. Mientras el servidor
+  esté encendido, la dirección es <code>http://localhost:8000</code>.</p>
+
+  <h3>Opción A — doble clic (uso normal)</h3>
+  <ol class="body-list">
+    <li>Abra la carpeta <code>D:\Programa diseño de zapata</code>.</li>
+    <li>Haga doble clic en <span class="ui">Abrir programa.bat</span>. Se abre una ventana negra
+      con el mensaje <code>Uvicorn running on http://127.0.0.1:8000</code>.</li>
+    <li>A los pocos segundos el navegador abre la interfaz. Si no lo hace, escriba
+      <code>http://localhost:8000</code> en la barra de direcciones.</li>
+  </ol>
+  <div class="call careful">
+    <div class="call-tag">No cierre la ventana negra</div>
+    <p>Esa ventana <em>es</em> el programa. Si la cierra, la página sigue visible pero cualquier
+    cálculo responde con error de conexión. Para terminar la sesión, ciérrela o pulse
+    <code>Ctrl+C</code> dentro de ella.</p>
+  </div>
+
+  <h3>Opción B — desde una terminal</h3>
+  <div class="cmd-label">En la carpeta del proyecto</div>
+  <div class="cmd">py -3 -m uvicorn api.server:app --port 8000</div>
+  <p>Luego abra <code>http://localhost:8000</code>. Es exactamente lo que hace el archivo
+  <code>.bat</code>.</p>
+
+  <h3>Opción C — modo desarrollo (solo si va a modificar la interfaz)</h3>
+  <p>Dos terminales: el servidor de la opción B en una, y el de Vite en otra. La interfaz se abre
+  entonces en <code>http://localhost:5173</code> y se recarga sola al editar el código de
+  <code>ui/src</code>; los cálculos siguen pasando por el puerto 8000.</p>
+  <div class="cmd">cd ui
+npm run dev</div>
+
+  <h3>Primera vez en un equipo nuevo</h3>
+  <p>Hace falta Python 3.11 o superior (este equipo tiene 3.14) con <code>fastapi</code>,
+  <code>uvicorn</code> y <code>pydantic</code>. La interfaz ya compilada vive en
+  <code>ui/dist</code>; solo hay que recompilarla si se cambió el código de <code>ui/src</code>:</p>
+  <div class="cmd">py -3 -m pip install fastapi uvicorn pydantic</div>
+  <div class="cmd">cd ui
+npm install
+set NODE_OPTIONS=--max-old-space-size=4096
+npm run build</div>
+  <p>La variable <code>NODE_OPTIONS</code> es necesaria en esta máquina: sin ella la compilación
+  se interrumpe por memoria durante <code>transforming</code>. No es un error del código.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="pantalla">
+  <h2><span class="num">2</span>La pantalla</h2>
+  <p class="section-lede">El modelo 3D ocupa el centro. Alrededor: la cabecera arriba, los datos
+  en un cajón a la izquierda, las propiedades a la derecha y los resultados abajo.</p>
+  <div class="cards">
+    <div class="card"><h5>Cabecera</h5>
+      <p><span class="ui">Tipo de cimentación</span> elige entre <span class="ui">Aislada</span>,
+      <span class="ui">Combinada</span>, <span class="ui">Conectada</span> y <span class="ui">Viga</span>;
+      un punto verde marca las que ya tienen resultado. Cada una conserva sus propios datos. A la
+      derecha: las unidades activas, <span class="ui">Datos</span>, <span class="ui">Guardar</span>,
+      <span class="ui">Abrir</span> y el botón de cálculo. Ese botón se deshabilita mientras falte
+      un dato obligatorio; el cajón de datos dice cuál.</p></div>
+    <div class="card"><h5>Datos (cajón izquierdo)</h5>
+      <p>Los paneles de entrada de siempre, con un <strong>ejemplo precargado</strong>: sustitúyalo
+      por los datos de su proyecto. En pantallas de menos de 1500&nbsp;px el cajón flota sobre el
+      visor y se cierra solo al llegar un resultado; <span class="ui">Datos</span> lo vuelve a abrir.</p></div>
+    <div class="card"><h5>Propiedades (derecha)</h5>
+      <p>La alternativa que muestra el visor, con su rótulo de estado, geometría, columnas,
+      materiales, armadura y resumen. <strong>Es de solo lectura</strong>: la geometría la decide
+      el motor. Para cambiar un dato, ábralo en <span class="ui">Datos</span> y vuelva a calcular.</p></div>
+    <div class="card"><h5>Resultados (abajo)</h5>
+      <p>La barra resume el cálculo (evaluadas, aceptadas, mejor alternativa).
+      <span class="ui">Mitad</span>, <span class="ui">Completo</span> y <span class="ui">Ocultar</span>
+      regulan su altura. Dentro están las mismas pestañas de resultados, descartes, alcance y
+      memoria. En la aislada, elegir otra alternativa en la tabla cambia también el modelo 3D.</p></div>
+  </div>
+
+  <h3>El visor 3D</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Control</th><th>Qué hace</th></tr></thead>
+    <tbody>
+      <tr><td><span class="ui">Modelo</span> · <span class="ui">Transparente</span> · <span class="ui">Armadura</span> · <span class="ui">Sección</span></td><td>Modos de vista; teclas <code>1</code>–<code>4</code>. En <span class="ui">Sección</span> se elige el corte <span class="ui">Longitudinal A–A</span> o <span class="ui">Transversal</span>.</td></tr>
+      <tr><td><span class="ui">Cotas</span> · <span class="ui">Suelo</span> · <span class="ui">Ejes</span> · <span class="ui">Cargas</span></td><td>Capas; <code>D</code> alterna las cotas y <code>S</code> el suelo. Las cotas se escriben en la unidad de longitud elegida.</td></tr>
+      <tr><td>Gizmo y vistas</td><td>Clic en un eje del gizmo para alinear la cámara; <span class="ui">Isométrica</span>, <span class="ui">Planta</span>, <span class="ui">Frontal</span>, <span class="ui">Lateral</span>; <span class="ui">Restablecer</span> o <code>R</code>. Arrastrar orbita, la rueda acerca.</td></tr>
+      <tr><td>Barra de pasos</td><td>Al cambiar de tipología o de alternativa el modelo se transforma por etapas (por ejemplo <em>Agregar columna C2 → Unificar zapata</em>), y la barra lo narra.</td></tr>
+      <tr><td><span class="ui">Exportar OBJ + MTL</span> · <span class="ui">Exportar GLB</span></td><td>Descarga el modelo visible para abrirlo en otro programa.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="call why">
+    <div class="call-tag">Lo que el visor no inventa</div>
+    <p>Antes de calcular se muestra un <strong>esquema</strong>: la planta aún no existe y solo se
+    acota lo que ya es dato. La <strong>armadura</strong> solo se dibuja en la aislada, cuyo motor
+    resuelve la posición de cada barra; en la combinada y en la conectada el motor diseña el acero
+    pero no lo posiciona, y el visor lo dice en vez de dibujar barras supuestas. El refuerzo de la
+    columna está fuera del alcance. Las <strong>cargas</strong> se rotulan solo en modo directo (la
+    mayor P de servicio de cada columna, con el nombre de su combinación); en modo por casos no hay
+    una única P que mostrar sin elegirla.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="flujo">
+  <h2><span class="num">3</span>Flujo de trabajo</h2>
+  <p class="section-lede">Es el mismo en las tres tipologías de zapata. La viga de conexión es un
+  diseño directo, sin búsqueda.</p>
+  <ol class="body-list">
+    <li><strong>Elegir la tipología</strong> en la barra superior.</li>
+    <li><strong>Declarar unidades</strong> (en la aislada). El programa convierte todo internamente.</li>
+    <li><strong>Describir columnas, materiales y suelo.</strong></li>
+    <li><strong>Introducir las cargas</strong>, en uno de los dos modos: <em>directo</em>
+      (combinaciones ya formadas) o <em>por casos</em> (CM, CV, CS… sin factorizar, más las
+      combinaciones con los factores que usted declara). El programa no inventa combinaciones.</li>
+    <li><strong>Acotar la búsqueda</strong>: rangos y pasos de B, L y h.</li>
+    <li><strong>Calcular.</strong> El programa recorre todas las geometrías del rango, verifica cada
+      una y conserva las que no fallan.</li>
+    <li><strong>Revisar el estado</strong> de la alternativa elegida (§8) y los descartes.</li>
+    <li><strong>Abrir la memoria</strong> y guardarla en PDF (§9).</li>
+  </ol>
+  <div class="call why">
+    <div class="call-tag">Servicio y factorizadas, siempre separadas</div>
+    <p>Las combinaciones de <strong>servicio</strong> dimensionan la planta (presiones sobre el
+    suelo, estabilidad). Las <strong>factorizadas</strong> dimensionan el concreto y el acero
+    (punzonamiento, cortante, flexión). Hacen falta las dos; nunca escriba una carga ya factorizada
+    en una combinación de servicio.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="aislada">
+  <h2><span class="num">4</span>Zapata aislada</h2>
+  <p class="section-lede">Es la pestaña más completa: expone todas las opciones del motor.</p>
+
+  <div class="tw"><table>
+    <thead><tr><th>Sección del panel</th><th>Qué se introduce</th></tr></thead>
+    <tbody>
+      <tr><td><b>Unidades</b></td><td>Fuerza (kN, tonf, kgf, N, lbf, kip), momento, presión del suelo (kPa, kgf/cm², tonf/m²…), resistencia (MPa, kgf/cm²), longitud y peso unitario. Puede cambiarlas en cualquier momento: los valores ya escritos se convierten solos (§10).</td></tr>
+      <tr><td><b>Proyecto</b></td><td>Nombre; aparece en la memoria.</td></tr>
+      <tr><td><b>Columna</b></td><td>Sección y dimensiones bx (dirección X) e by (dirección Y).</td></tr>
+      <tr><td><b>Posición sobre la zapata</b></td><td>Desplazamiento X / Y de la columna respecto al centro. 0 y 0 = columna centrada.</td></tr>
+      <tr><td><b>Materiales</b></td><td>f'c, fy y peso unitario del concreto.</td></tr>
+      <tr><td><b>Suelo</b></td><td>q admisible y su base (<span class="ui">Bruta</span> o <span class="ui">Neta</span>), γ del relleno, Df y si se apoya en roca.</td></tr>
+      <tr><td><b>Estabilidad</b></td><td>μ, FS al deslizamiento, FS al volcamiento y cohesión. Solo se usan si hay fuerzas horizontales. Sin μ, el deslizamiento queda NO VERIFICADO.</td></tr>
+      <tr><td><b>Disposiciones §15.2</b></td><td>Incremento del 30 % de la presión admisible (E.060 §15.2.4, potestativo) y reducción al 80 % (§15.2.5, solo con cargas por casos y sismo a nivel de resistencia).</td></tr>
+      <tr><td><b>Excentricidad fuera del núcleo</b></td><td>Activa el modelo de área efectiva de E.050 art. 28. Apagado por defecto; solo puede añadir alternativas, nunca cambia las que ya pasaban.</td></tr>
+      <tr><td><b>Combinaciones de carga</b></td><td>Modo directo o por casos. En directo: botones <span class="ui">+ combinación de servicio</span> y <span class="ui">+ combinación factorizada</span>; cada fila lleva tipo (gravedad / sismo), P, Mx, My, Hx, Hy. En casos: <span class="ui">+ caso de carga</span> y luego las combinaciones con sus factores.</td></tr>
+      <tr><td><b>Búsqueda</b></td><td>Límites e incrementos de B, L y h; L/B máxima; recubrimiento (70 mm por defecto); ganchos en X / Y.</td></tr>
+      <tr><td><b>Criterio de optimización</b></td><td>Pesos del ranking (volumen, acero…) e interpretación de E.060 §15.7.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Pulse <span class="ui">Generar alternativas</span>.</p>
+
+  <h3>Resultados de la aislada</h3>
+  <div class="tw"><table>
+    <thead><tr><th>Pestaña</th><th>Para qué sirve</th></tr></thead>
+    <tbody>
+      <tr><td><b>Mejores alternativas</b></td><td>Las mejores según el criterio de optimización. Al seleccionar una se abre su ficha, con sus propias pestañas: <span class="ui">Resumen técnico</span>, <span class="ui">Modelo 3D</span>, <span class="ui">Armado</span>, <span class="ui">Estabilidad</span> y <span class="ui">Memoria de cálculo (N)</span>, donde N es el número de entradas de traza.</td></tr>
+      <tr><td><b>Tabla comparativa</b></td><td>Todas las alternativas aceptadas, ordenables con <span class="ui">Ordenar por</span>.</td></tr>
+      <tr><td><b>Descartes</b></td><td>Cuántas geometrías se rechazaron y por qué motivo. Si no sale ninguna alternativa, la respuesta está aquí.</td></tr>
+      <tr><td><b>Alcance</b></td><td>Qué verificaciones se ejecutaron, cuáles no y las limitaciones declaradas.</td></tr>
+    </tbody>
+  </table></div>
+  <p>El botón <span class="ui">Generar memoria de A-…</span> abre la memoria de la alternativa
+  seleccionada en una pestaña nueva del navegador.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="combinada">
+  <h2><span class="num">5</span>Zapata combinada</h2>
+  <p class="section-lede">Una zapata para dos o más columnas alineadas. La dirección longitudinal
+  la definen las columnas.</p>
+
+  <div class="call norm">
+    <div class="call-tag">Unidades, materiales y suelo</div>
+    <p>Desde el 23-09-2026 esta pestaña tiene sus propios paneles de
+    <span class="ui">Unidades</span>, <span class="ui">Materiales</span> y
+    <span class="ui">Suelo</span>, con las disposiciones de §15.2 (incremento del 30 %) y el
+    área efectiva del art. 28, igual que la aislada. Cada tipología guarda los suyos: lo que
+    escriba aquí no cambia lo de otra pestaña.</p>
+  </div>
+
+  <div class="tw"><table>
+    <thead><tr><th>Sección</th><th>Qué se introduce</th></tr></thead>
+    <tbody>
+      <tr><td><b>Columnas</b></td><td>Por cada columna: sección, bx, by y <span class="ui">Dist. a C1</span> (distancia al eje de la primera, en m). Cargas de servicio y factorizadas: P, Mx, My. <span class="ui">+ Añadir columna</span> para más de dos.</td></tr>
+      <tr><td><b>Modo de cargas</b></td><td>Directo o por casos, como en la aislada. Con varias combinaciones factorizadas, cada efecto se diseña con la suya (envolvente): el momento positivo, el negativo y el cortante pueden venir de combinaciones distintas.</td></tr>
+      <tr><td><b>Recubrimiento cara superior</b></td><td>Cinco opciones según E.060 §7.7.1.</td></tr>
+      <tr><td><b>Límites del terreno</b></td><td>Distancia libre de la <strong>cara</strong> de la columna a cada lindero: tras la primera columna, tras la última y a los dos lados. Vacío = sin límite; 0 = columna al ras. El programa coloca la zapata centrando la resultante de la combinación permanente y la recorta contra los linderos: con la columna al lindero, queda al ras. Una planta que no cabe no se evalúa.</td></tr>
+      <tr><td><b>Búsqueda</b></td><td>Por defecto <span class="ui">El programa elige los rangos y la posición de la zapata</span>: estima largo, ancho y peralte a partir de ΣP/q<sub>disponible</sub> y busca en dos pasadas, gruesa y fina. Desmarcándolo vuelve el modo manual: L, B y h mínimos, máximos y paso, y la posición (automática o un <span class="ui">Extremo a C1</span> fijo).</td></tr>
+    </tbody>
+  </table></div>
+  <p>Pulse <span class="ui">Calcular zapata combinada</span>. Cada alternativa aparece como una
+  tarjeta con L × B × h, volumen, estado, tabla de caras (Mu, d, acero) y el botón
+  <span class="ui">Memoria</span>. La <span class="ui">Tabla comparativa</span> reúne todas.</p>
+  <div class="call why">
+    <div class="call-tag">Si la búsqueda se trunca</div>
+    <p>El programa evalúa como máximo un número fijo de geometrías. Si el rango es mayor, lo dice
+    y el resultado no es exhaustivo. Estreche los rangos o aumente el paso.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="conectada">
+  <h2><span class="num">6</span>Cimentación conectada</h2>
+  <p class="section-lede">Zapata exterior (junto al lindero) + viga de conexión + zapata interior,
+  buscadas como un único sistema.</p>
+  <div class="call norm">
+    <div class="call-tag">Unidades, materiales y suelo</div>
+    <p>También los tiene desde el 23-09-2026, con sus propios valores, independientes de los de
+    las otras tipologías.</p>
+  </div>
+  <div class="tw"><table>
+    <thead><tr><th>Sección</th><th>Qué se introduce</th></tr></thead>
+    <tbody>
+      <tr><td><b>Declaraciones obligatorias</b></td><td><span class="ui">Modelo de análisis</span> (articulado o cuerpo rígido) y <span class="ui">Reparto del par</span> (equilibrio en la cimentación o par puro en la zapata). Vienen vacías a propósito: son decisiones del proyectista. Cuerpo rígido solo admite equilibrio en la cimentación.</td></tr>
+      <tr><td><b>Columnas</b></td><td>Exterior e interior, con sus cargas de servicio y factorizadas, y el <span class="ui">Gancho X</span> / <span class="ui">Gancho Y</span> de cada zapata. El gancho nunca se supone; en la zapata de lindero casi siempre hace falta, porque hacia el lindero la barra solo tiene el ancho de la columna para anclarse (E.060 §15.6.2).</td></tr>
+      <tr><td><b>Geometría</b></td><td>Distancia entre ejes y holgura al lindero.</td></tr>
+      <tr><td><b>Viga</b></td><td>b, h, d; apoyo (solo <span class="ui">Sin apoyo</span> en esta versión); <span class="ui">Rigidez §15.2.6</span>; peso propio (explícito, incluido en las cargas de columna o despreciado). Apoyo y peso propio también vienen <strong>vacíos</strong>: hay que elegirlos.</td></tr>
+      <tr><td><b>Límites del terreno</b></td><td>Lindero tras la columna interior y linderos laterales. El de la zapata exterior es su <span class="ui">Holgura al lindero</span>. Aquí los linderos <strong>limitan</strong> el tamaño de las zapatas: el modelo las supone centradas sobre su columna en la dirección transversal y no las corre.</td></tr>
+      <tr><td><b>Búsqueda</b></td><td>Por defecto la elige el programa: estima las dos plantas y el peralte, busca en dos pasadas y ajusta el tope para no truncar; las dos zapatas comparten peralte. Desmarcándolo vuelve el modo manual, con dimensiones de cada zapata, h y el panel <span class="ui">Alcance del barrido</span> (tope de sistemas y mismo peralte).</td></tr>
+    </tbody>
+  </table></div>
+  <p>Pulse <span class="ui">Calcular cimentación conectada</span>.</p>
+  <div class="call norm">
+    <div class="call-tag">Rigidez de la viga (E.060 §15.2.6)</div>
+    <p>Mientras deje la rigidez como <span class="ui">no evaluada</span>, ninguna terna puede
+    salir CONFORME: queda NO VERIFICADA. Si usted evaluó que la viga es suficientemente rígida,
+    declárelo; eso levanta ese bloqueo y ningún otro. Con <span class="ui">par puro</span> la terna
+    sigue NO VERIFICADA por otro pendiente (TBD-C11).</p>
+  </div>
+  <p>En los resultados, cada terna tiene su botón de memoria (<em>Abrir la memoria de cálculo de
+  esta alternativa</em>) y, al pie, <span class="ui">Abrir memoria completa</span> para la mejor
+  por costo.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="viga">
+  <h2><span class="num">7</span>Viga de conexión</h2>
+  <p class="section-lede">Diseño directo de una viga con solicitaciones conocidas; no busca
+  geometría.</p>
+  <ul>
+    <li><b>Geometría:</b> b, h, d y luz libre.</li>
+    <li><b>Solicitaciones:</b> Mu⁻, Mu⁺, Vu y ΣPu.</li>
+    <li><b>Materiales y refuerzo:</b> f'c, fy, barra, estribo y número de ramas.</li>
+    <li><b>Suelo y contexto sísmico:</b> q<sub>adm</sub>, perfil de suelo (E.030 art. 14) y zona.</li>
+    <li><b>Sistema resistente:</b> casilla según el sistema de la estructura.</li>
+  </ul>
+  <p>Pulse <span class="ui">Diseñar viga de conexión</span>.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="proyectos">
+  <h2><span class="num">8</span>Guardar y abrir proyectos</h2>
+  <p class="section-lede">Para no volver a teclear los datos en cada sesión. Cada tipología
+  guarda los suyos.</p>
+
+  <h3>Guardar</h3>
+  <p>En el panel <span class="ui">Proyecto</span>, pulse <span class="ui">Guardar en
+  archivo</span>. Se descarga un archivo <code>.zapata.json</code> con el nombre del
+  proyecto y la tipología. Guárdelo donde guarde los demás documentos del proyecto.</p>
+
+  <h3>Abrir</h3>
+  <p><span class="ui">Abrir archivo…</span> y elija el archivo. Si es de otra tipología, el
+  programa cambia de pestaña y lo abre en la suya.</p>
+
+  <div class="call why">
+    <div class="call-tag">Qué contiene el archivo</div>
+    <p>Los <strong>datos de entrada</strong>: columnas, cargas, materiales, suelo, unidades
+    y rangos de búsqueda. <strong>No los resultados</strong>, que se vuelven a calcular al
+    abrirlo. Así lo que ve siempre corresponde al motor actual y no a una versión anterior
+    cuyos números pudieran haber cambiado por una corrección.</p>
+  </div>
+
+  <p>El archivo se valida al abrirlo. Si no es un proyecto del programa, si está en un
+  formato de otra versión o si el motor rechaza su contenido, aparece un aviso y
+  <strong>no se toca</strong> lo que tenga en pantalla.</p>
+
+  <h3>La pantalla recuerda</h3>
+  <p>Además del archivo, cada pestaña conserva lo último que escribió <em>en ese
+  navegador</em>: al volver a abrir el programa lo encuentra como lo dejó. Eso no sustituye
+  a guardar el archivo —vive solo en ese equipo y ese navegador—.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="estados">
+  <h2><span class="num">9</span>Leer los estados</h2>
+  <p class="section-lede">Cada verificación tiene un estado, y la alternativa toma el más severo.
+  El rótulo dice qué se puede afirmar de ella.</p>
+  <div class="tw"><table>
+    <thead><tr><th>Rótulo</th><th>Qué significa</th><th>Qué hacer</th></tr></thead>
+    <tbody>
+      <tr><td><span class="st pass">CONFORME</span></td><td>Todas las verificaciones implementadas pasan y no hay pendientes abiertos.</td><td>Es la única que puede presentarse como conforme. Aun así, revise el Alcance: lo no implementado no está verificado.</td></tr>
+      <tr><td><span class="st warn">ACEPTADA CON OBSERVACIONES</span></td><td>El motor se pronuncia, con reservas (WARNING).</td><td>Lea la observación en la traza antes de usarla.</td></tr>
+      <tr><td><span class="st nv">NO VERIFICADA</span></td><td>Hay algo que el motor no puede demostrar: un dato que falta (por ejemplo μ) o un pendiente del programa.</td><td>Complete el dato o resuelva el pendiente fuera del programa. <strong>No es conforme.</strong></td></tr>
+      <tr><td><span class="st fail">RECHAZADA</span></td><td>Falla una verificación implementada.</td><td>Aparece en Descartes con su motivo.</td></tr>
+    </tbody>
+  </table></div>
+  <p>«Aceptada» significa solo que sobrevivió al barrido (no falló). La mejor alternativa es la
+  mejor <em>dentro del rango buscado</em>, no la óptima absoluta.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="memoria">
+  <h2><span class="num">10</span>Memoria de cálculo</h2>
+  <ol class="body-list">
+    <li>Pulse el botón de memoria de la alternativa (<span class="ui">Generar memoria de A-…</span>
+      en la aislada, <span class="ui">Memoria</span> en la combinada, el de cada terna en la
+      conectada).</li>
+    <li>Se abre en una pestaña nueva. Si no aparece, el navegador bloqueó la ventana emergente:
+      permita las ventanas emergentes para <code>localhost:8000</code> y repita.</li>
+    <li>Para el PDF: <code>Ctrl+P</code> → <span class="ui">Guardar como PDF</span>.</li>
+  </ol>
+  <p>La memoria indica la alternativa, su estado y rótulo, las verificaciones ejecutadas y no
+  ejecutadas, los pendientes abiertos, los criterios propios del programa y la traza completa
+  (ecuación simbólica, sustituida, resultado, hipótesis y referencia normativa de cada paso).</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="limites">
+  <h2><span class="num">11</span>Limitaciones actuales</h2>
+  <p class="section-lede">Cómo se comportan las unidades, y cuatro decisiones de ingeniería de
+  la combinada que siguen abiertas.</p>
+
+  <h3>Unidades: cómo se comportan</h3>
+  <p>En cada tipología, el panel <span class="ui">Unidades</span> decide en qué unidades
+  <strong>escribe y lee</strong> sus datos. Al cambiar una unidad, los valores ya escritos se
+  convierten solos y el dato sigue siendo el mismo:</p>
+  <div class="cmd">f'c = 21 MPa   →   (cambia a kg/cm²)   →   214.14 kgf/cm²
+214.14 kgf/cm²  →   (vuelve a MPa)      →   21 MPa</div>
+  <p>No son 210: 210 kgf/cm² serían otro concreto (20,59 MPa). El programa convierte con el
+  factor exacto y redondea a seis cifras significativas; lo que ve en el campo es exactamente
+  lo que se calcula. El error de ese redondeo es de cinco partes por millón.</p>
+  <ul>
+    <li><b>Qué se convierte:</b> fuerzas, momentos, presiones, resistencias, longitudes y pesos
+      unitarios, en entradas, resultados y memoria.</li>
+    <li><b>Qué no:</b> volúmenes (m³), áreas de acero (cm²), masas (kg), diámetros de barra y
+      recubrimientos (mm). Son unidades de obra y no hay desplegable que las cambie.</li>
+    <li><b>La traza de cálculo se mantiene en SI</b> (kN, kPa, MPa, m). Es el registro del
+      cálculo tal como se ejecutó, no una tabla de resultados; la memoria lo declara.</li>
+    <li>Si el servidor no responde al cambiar de unidad, la unidad <em>no</em> cambia y aparece
+      un aviso: cambiar el rótulo sin convertir el número cambiaría el dato en silencio.</li>
+  </ul>
+  <p>El caso Aragón CR2 §3.5 (f'c 210 kg/cm², fy 4200 kg/cm², γ 1,8 t/m³, con el 30 %) ya puede
+  introducirse entero desde la pantalla de la combinada. La memoria que se obtuvo por script
+  antes de este cambio sigue en <code>docs/memoria_aragon_3_5.html</code>.</p>
+
+  <h3>Decisiones de ingeniería pendientes (zapata combinada)</h3>
+  <p>Surgieron en la validación con Aragón CR2 §3.5. No están resueltas; el programa aplica hoy
+  el criterio indicado y lo declara en la memoria:</p>
+  <div class="tw"><table>
+    <thead><tr><th>Tema</th><th>Criterio actual del programa</th></tr></thead>
+    <tbody>
+      <tr><td>Sección crítica del cortante longitudinal</td><td>En la cara de la columna (E.060 §11.1.3.1 permitiría tomarla a d).</td></tr>
+      <tr><td>Sección crítica de la flexión longitudinal</td><td>Máximo del diagrama en toda la longitud, incluidos los ejes de columna.</td></tr>
+      <tr><td>Punzonamiento de columna de borde</td><td>Pendiente de decidir si el momento de transferencia incluye el término Vu·e.</td></tr>
+      <tr><td>Ancho de las franjas transversales</td><td>Columna + d/2 a cada lado, tomado de la bibliografía (Aragón), sin fuente normativa.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="call careful">
+    <div class="call-tag">Manual anterior</div>
+    <p><code>docs/manual_usuario.html</code> (2026-09-20) sigue siendo la referencia de cada
+    campo, pero su apartado 13 dice que ninguna terna conectada llega a CONFORME. Desde la
+    decisión 4 sí puede, si se declara la rigidez de §15.2.6 y todo lo demás pasa.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="problemas">
+  <h2><span class="num">12</span>Problemas frecuentes</h2>
+  <div class="cards">
+    <div class="card"><h5>La página no carga («no se puede acceder a este sitio»)</h5>
+      <p>El servidor no está encendido. Abra <code>Abrir programa.bat</code> y espere el mensaje
+      <code>Uvicorn running</code>.</p></div>
+    <div class="card"><h5>«Address already in use» / puerto 8000 ocupado</h5>
+      <p>Ya hay otro servidor abierto: use esa ventana, o ciérrela y vuelva a abrir el programa.</p></div>
+    <div class="card"><h5>Al calcular aparece un error de conexión</h5>
+      <p>Se cerró la ventana del servidor. Vuelva a abrirlo; los datos escritos en la página se
+      conservan mientras no la recargue.</p></div>
+    <div class="card"><h5>No sale ninguna alternativa</h5>
+      <p>Mire la pestaña <span class="ui">Descartes</span>: indica cuántas geometrías cayeron por
+      cada motivo. Normalmente hay que ampliar el rango de B, L o h.</p></div>
+    <div class="card"><h5>La memoria no se abre</h5>
+      <p>Ventana emergente bloqueada; permítala para <code>localhost:8000</code>.</p></div>
+    <div class="card"><h5>Todas las alternativas salen NO VERIFICADAS</h5>
+      <p>Suele faltar un dato: μ con fuerzas horizontales, la composición de cargas para la
+      estabilidad (modo directo) o la declaración de rigidez en la conectada. La memoria, en su
+      apartado de verificaciones no conformes, dice cuál.</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="end">
+  Guía de uso · Programa de diseño de cimentaciones de concreto armado · RNE Perú.
+  Complementa a docs/manual_usuario.html; no es fuente normativa.
+</footer>
+</div>
+
+</body>
+</html>

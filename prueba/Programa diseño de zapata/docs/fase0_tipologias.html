@@ -1,0 +1,2108 @@
+<title>Auditoría de Tipologías</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink:        #171b20;
+  --ink-soft:   #59636e;
+  --ink-faint:  #8b949e;
+  --surface:    #fcfcfd;
+  --sunk:       #f1f4f7;
+  --sunk-2:     #e7ecf1;
+  --line:       #dce1e7;
+  --line-soft:  #e9edf1;
+  --accent:     #1b4f6b;
+  --accent-bg:  #e7eff4;
+
+  --c-direct:   #2c6e49;
+  --c-extend:   #1b4f6b;
+  --c-variant:  #8a5a0c;
+  --c-new:      #a03530;
+  --c-tbd:      #6b5b8a;
+
+  --direct-bg:  #e6f0ea;
+  --extend-bg:  #e7eff4;
+  --variant-bg: #f6eedf;
+  --new-bg:     #f7e8e7;
+  --tbd-bg:     #eeebf4;
+
+  --font-display: "IBM Plex Sans Condensed", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink:        #e4e8ec;
+    --ink-soft:   #9aa5b0;
+    --ink-faint:  #6b757f;
+    --surface:    #14171b;
+    --sunk:       #1c2126;
+    --sunk-2:     #242b32;
+    --line:       #2e363e;
+    --line-soft:  #232a31;
+    --accent:     #7db4d4;
+    --accent-bg:  #1a2830;
+
+    --c-direct:   #6fbc90;
+    --c-extend:   #7db4d4;
+    --c-variant:  #d9a441;
+    --c-new:      #e08b84;
+    --c-tbd:      #ab98d0;
+
+    --direct-bg:  #17281e;
+    --extend-bg:  #1a2830;
+    --variant-bg: #2b2416;
+    --new-bg:     #2c1c1b;
+    --tbd-bg:     #221e2c;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ink:        #e4e8ec;
+  --ink-soft:   #9aa5b0;
+  --ink-faint:  #6b757f;
+  --surface:    #14171b;
+  --sunk:       #1c2126;
+  --sunk-2:     #242b32;
+  --line:       #2e363e;
+  --line-soft:  #232a31;
+  --accent:     #7db4d4;
+  --accent-bg:  #1a2830;
+
+  --c-direct:   #6fbc90;
+  --c-extend:   #7db4d4;
+  --c-variant:  #d9a441;
+  --c-new:      #e08b84;
+  --c-tbd:      #ab98d0;
+
+  --direct-bg:  #17281e;
+  --extend-bg:  #1a2830;
+  --variant-bg: #2b2416;
+  --new-bg:     #2c1c1b;
+  --tbd-bg:     #221e2c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  line-height: 1.62;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 32px 120px;
+}
+
+/* ---------- Masthead ---------- */
+.mast {
+  padding: 72px 0 34px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 14px;
+}
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 18px;
+}
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(38px, 6vw, 62px);
+  line-height: 1.02;
+  letter-spacing: -0.018em;
+  margin: 0 0 20px;
+  text-wrap: balance;
+}
+.standfirst {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  max-width: 42em;
+  margin: 0;
+}
+.mast-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  margin-top: 28px;
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--ink-faint);
+}
+.mast-meta b { color: var(--ink-soft); font-weight: 500; }
+
+/* ---------- Banda de estado ---------- */
+.statusbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 0 52px;
+}
+.statusbar div {
+  flex: 1 1 150px;
+  padding: 14px 18px;
+  border-right: 1px solid var(--line);
+  background: var(--sunk);
+}
+.statusbar div:last-child { border-right: none; }
+.statusbar dt {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 5px;
+}
+.statusbar dd {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 19px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Índice ---------- */
+nav.toc {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 24px 28px 26px;
+  margin: 0 0 64px;
+  background: var(--sunk);
+}
+nav.toc h2 {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 16px;
+  border: none;
+  padding: 0;
+}
+nav.toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 44px;
+}
+nav.toc li {
+  break-inside: avoid;
+  margin-bottom: 7px;
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+nav.toc .tn {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent);
+  font-weight: 600;
+  min-width: 22px;
+}
+nav.toc a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  font-size: 15px;
+}
+nav.toc a:hover { border-bottom-color: var(--accent); }
+
+/* ---------- Secciones ---------- */
+section { margin-bottom: 68px; scroll-margin-top: 20px; }
+
+h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 31px;
+  letter-spacing: -0.012em;
+  line-height: 1.14;
+  margin: 0 0 10px;
+  padding-top: 22px;
+  border-top: 1px solid var(--ink);
+  text-wrap: balance;
+}
+h2 .num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 9px;
+  letter-spacing: 0.1em;
+}
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 20.5px;
+  letter-spacing: -0.005em;
+  margin: 40px 0 12px;
+  text-wrap: balance;
+}
+h4 {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 30px 0 10px;
+}
+.lede {
+  font-size: 18.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  max-width: 40em;
+  margin: 0 0 26px;
+}
+
+p { max-width: 40em; margin: 0 0 16px; }
+ul, ol.body-list { max-width: 40em; padding-left: 22px; margin: 0 0 18px; }
+li { margin-bottom: 7px; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.845em;
+  background: var(--sunk-2);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+b, strong { font-weight: 600; }
+em { font-style: italic; }
+
+/* ---------- Tablas ---------- */
+.tw {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  margin: 22px 0 26px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--font-display);
+  font-size: 14px;
+  min-width: 560px;
+}
+thead th {
+  background: var(--sunk-2);
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+  line-height: 1.45;
+}
+tbody tr:last-child td { border-bottom: none; }
+td.mono, th.mono { font-family: var(--font-mono); font-size: 12.5px; }
+td.num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+/* ---------- Píldoras de clasificación ---------- */
+.p {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.p-direct  { color: var(--c-direct);  background: var(--direct-bg); }
+.p-extend  { color: var(--c-extend);  background: var(--extend-bg); }
+.p-variant { color: var(--c-variant); background: var(--variant-bg); }
+.p-new     { color: var(--c-new);     background: var(--new-bg); }
+.p-tbd     { color: var(--c-tbd);     background: var(--tbd-bg); }
+
+/* ---------- Llamadas ---------- */
+.call {
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
+  padding: 16px 20px;
+  margin: 24px 0;
+  background: var(--sunk);
+  max-width: 46em;
+}
+.call.risk { border-left-color: var(--c-new); }
+.call.tbd  { border-left-color: var(--c-tbd); }
+.call.ok   { border-left-color: var(--c-direct); }
+.call h4 { margin-top: 0; }
+.call p:last-child, .call ul:last-child { margin-bottom: 0; }
+.call p, .call ul { max-width: none; }
+
+/* ---------- Bloques de datos ---------- */
+.blk {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.65;
+  background: var(--sunk);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  margin: 20px 0 24px;
+  white-space: pre;
+  color: var(--ink);
+}
+
+/* ---------- Tarjetas ---------- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+  gap: 14px;
+  margin: 24px 0 28px;
+}
+.card {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 15px 17px;
+  background: var(--sunk);
+}
+.card h5 {
+  font-family: var(--font-display);
+  font-size: 15.5px;
+  font-weight: 600;
+  margin: 0 0 7px;
+}
+.card p {
+  font-size: 14px;
+  line-height: 1.48;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: none;
+}
+.card .tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* ---------- Cadena de fases ---------- */
+.phases { margin: 26px 0 30px; }
+.phase {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 22px;
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+.phase:last-child { border-bottom: 1px solid var(--line); }
+.phase .pid {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  padding-top: 2px;
+}
+.phase .pid small {
+  display: block;
+  color: var(--ink-faint);
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: 5px;
+  font-size: 11px;
+  text-transform: none;
+}
+.phase h4 { margin: 0 0 8px; font-family: var(--font-display); font-size: 17.5px;
+            text-transform: none; letter-spacing: 0; color: var(--ink); font-weight: 600; }
+.phase dl { margin: 10px 0 0; display: grid; grid-template-columns: max-content 1fr; gap: 5px 16px; }
+.phase dt {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding-top: 3px;
+}
+.phase dd { margin: 0; font-size: 14.5px; color: var(--ink-soft); }
+.phase p { max-width: none; font-size: 15px; margin-bottom: 0; }
+
+footer.end {
+  border-top: 2px solid var(--ink);
+  padding-top: 22px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--ink-faint);
+  font-family: var(--font-display);
+}
+footer.end p { max-width: 46em; }
+
+a { color: var(--accent); }
+
+@media (max-width: 720px) {
+  .shell { padding: 0 20px 80px; }
+  nav.toc ol { columns: 1; }
+  .phase { grid-template-columns: 1fr; gap: 10px; }
+  h2 { font-size: 26px; }
+}
+</style>
+
+<div class="shell">
+
+<header class="mast">
+  <p class="eyebrow">Fase 0 · Auditoría previa a implementación</p>
+  <h1>Tres tipologías, un motor</h1>
+  <p class="standfirst">Auditoría normativa, arquitectónica y de planificación para ampliar el programa
+  de zapatas aisladas a zapatas combinadas y conectadas, sin alterar los resultados que hoy produce.</p>
+  <div class="mast-meta">
+    <span><b>Alcance</b> · análisis, sin modificación de código</span>
+    <span><b>Base</b> · E.050, E.060 y E.030 primarias</span>
+    <span><b>Motor auditado</b> · 7 096 líneas, 446 tests</span>
+    <span><b>Rev. 3 · 20 de agosto de 2026</b></span>
+  </div>
+</header>
+
+<dl class="statusbar">
+  <div><dt>Reutilización directa</dt><dd>≈ 21 %</dd></div>
+  <div><dt>Extensión</dt><dd>≈ 60 %</dd></div>
+  <div><dt>Variante o nuevo</dt><dd>≈ 19 %</dd></div>
+  <div><dt>TBD cerrados</dt><dd>7 de 7</dd></div>
+  <div><dt>Fases hechas</dt><dd>1A · 1B · 1C</dd></div>
+</dl>
+
+<nav class="toc">
+  <h2>Contenido</h2>
+  <ol>
+    <li><span class="tn">R</span><a href="#rev">Revisión normativa · Rev. 3</a></li>
+    <li><span class="tn">A</span><a href="#a">Diagnóstico de arquitectura</a></li>
+    <li><span class="tn">B</span><a href="#b">Matriz de reutilización</a></li>
+    <li><span class="tn">1</span><a href="#s1">Columna descentrada</a></li>
+    <li><span class="tn">2</span><a href="#s2">Zapata combinada</a></li>
+    <li><span class="tn">3</span><a href="#s3">Viga de conexión</a></li>
+    <li><span class="tn">4</span><a href="#s4">Zapata conectada</a></li>
+    <li><span class="tn">C</span><a href="#c">Matriz normativa</a></li>
+    <li><span class="tn">D</span><a href="#d">Modelo de datos</a></li>
+    <li><span class="tn">5</span><a href="#s5">CalculationTrace</a></li>
+    <li><span class="tn">6</span><a href="#s6">Optimización</a></li>
+    <li><span class="tn">7</span><a href="#s7">Estrategia de tests</a></li>
+    <li><span class="tn">E·G</span><a href="#eg">Fases y dependencias</a></li>
+    <li><span class="tn">F</span><a href="#f">Riesgos técnicos</a></li>
+    <li><span class="tn">H</span><a href="#h">Información faltante</a></li>
+    <li><span class="tn">I</span><a href="#i">Recomendación final</a></li>
+  </ol>
+</nav>
+
+<!-- ============================ R ============================ -->
+<section id="rev">
+<h2><span class="num">R</span>Revisión normativa · Rev. 3</h2>
+<p class="lede">Las tres normas incorporadas como fuentes primarias. Los siete TBD cerrados, tres reglas
+reclasificadas y una advertencia de la Rev. 1 corregida por la propia norma.</p>
+
+<div class="call ok">
+<h4>E.060 incorporada · Rev. 3</h4>
+<p>Las <b>tres normas están ahora disponibles como fuente primaria</b>. Con E.060 verificada,
+los <b>siete TBD quedan cerrados</b>: seis resueltos por texto normativo y uno —la
+clasificación de columna para α<sub>s</sub>— confirmado como ausente de la norma, lo que lo
+convierte en interpretación declarada en vez de bloqueo.</p>
+<p>El archivo <code>e060 actualizada.pdf</code> sigue conteniendo E.030 (octubre 2025). La
+E.060 llegó en <code>Norma E.060 Concreto armado.pdf</code>, 44 páginas, verificada.</p>
+</div>
+
+<h3>Estado de los TBD tras la revisión completa</h3>
+<div class="tw">
+<table>
+<thead><tr><th>TBD</th><th>Sección</th><th>¿La norma lo resuelve?</th><th>Qué establece</th><th>¿Implementado?</th><th>Qué falta</th></tr></thead>
+<tbody>
+<tr><td class="mono"><b>TBD-1</b></td><td>E.060 §11.12.1.2 y §11.12.2.1(b)</td>
+    <td><span class="p p-variant">Parcial</span></td>
+    <td><b>La geometría sí:</b> §11.12.1.2 exige la sección crítica «de modo que su perímetro,
+    b<sub>o</sub>, sea mínimo, pero no necesita estar más cerca de d/2 desde los bordes o las
+    esquinas». <b>Los valores sí:</b> α<sub>s</sub> = 40 / 30 / 20 literal. <b>La clasificación
+    no:</b> E.060 no define qué hace «de borde» a una columna</td>
+    <td>Solo perímetro cerrado</td>
+    <td>Nada normativo. La clasificación queda como interpretación declarada</td></tr>
+<tr><td class="mono"><b>TBD-2</b></td><td>E.060 §15.4</td>
+    <td><span class="p p-direct">Sí — en sentido negativo</span></td>
+    <td>§15.4 <b>no fija ancho de franja transversal</b> para zapatas de varias columnas.
+    §15.4.4 solo cubre zapatas rectangulares aisladas. En cambio §15.4.1 <b>sí</b> da la regla
+    general del momento en cualquier sección por estática</td>
+    <td>§15.4.4 sí; §15.4.1 general no</td>
+    <td>Nada. El «b + d/2» de Aragón queda confirmado como nivel C</td></tr>
+<tr><td class="mono"><b>TBD-3</b></td><td>E.060 §10.5</td>
+    <td><span class="p p-direct">Sí — resuelto</span></td>
+    <td>§10.5.1 M<sub>n</sub> ≥ 1,2M<sub>cr</sub> con f<sub>r</sub> = 0,62√f'c, <b>excepto
+    zapatas y losas macizas</b> · §10.5.2 ec. 10-3 As<sub>mín</sub> = (0,22√f'c/fy)·b<sub>w</sub>d ·
+    §10.5.3 exención por 4/3 · <b>§10.5.4 ρ ≥ 0,0012 en la cara traccionada cuando el mínimo se
+    reparte en dos caras</b></td>
+    <td>No</td><td>Nada</td></tr>
+<tr><td class="mono"><b>TBD-4</b></td><td>E.060 §11.5</td>
+    <td><span class="p p-direct">Sí — resuelto</span></td>
+    <td>§11.5.5.1 s ≤ d/2 y ≤ 600 mm · §11.5.5.3 se reduce a la mitad si V<sub>s</sub> &gt;
+    0,33√f'c·b<sub>w</sub>d · <b>§11.5.6.1(a) exime a losas y zapatas de A<sub>v,mín</sub></b> ·
+    §11.5.6.2 ec. 11-13 · §11.5.7.2 ec. 11-15 V<sub>s</sub> = A<sub>v</sub>f<sub>yt</sub>d/s ·
+    §11.5.7.9 V<sub>s</sub> ≤ 0,66√f'c·b<sub>w</sub>d</td>
+    <td>No</td><td>Nada</td></tr>
+<tr><td class="mono"><b>TBD-5</b></td><td>E.060 §7.7.1</td>
+    <td><span class="p p-direct">Sí — resuelto</span></td>
+    <td>Tabla completa: 70 mm contra suelo · 50/40 mm en contacto permanente con suelo o
+    intemperie · 20 mm losas no expuestas · <b>40 mm vigas y columnas no expuestas</b></td>
+    <td>Solo el caso de 70 mm</td>
+    <td>Nada. La exposición pasa a ser entrada declarada</td></tr>
+<tr><td class="mono"><b>TBD-6</b></td><td>E.030 art. 65.1 · E.060 §9.3.2</td>
+    <td><span class="p p-direct">Sí — resuelto</span></td>
+    <td>E.030 65.1: N ≥ 0,10·ΣP<sub>u</sub> en tracción o compresión. E.060 §9.3.2 aporta los φ
+    que faltaban: <b>0,90 tracción con o sin flexión</b>, <b>0,70 compresión con o sin
+    flexión</b> (otros elementos), con incremento lineal a 0,90 al disminuir P<sub>n</sub></td>
+    <td>No</td><td>Nada</td></tr>
+<tr><td class="mono"><b>TBD-7</b></td><td>E.060 §21.12.3.2</td>
+    <td><span class="p p-direct">Sí — resuelto</span></td>
+    <td>«la menor dimensión transversal sea igual o mayor que <b>el espacio libre entre columnas
+    conectadas dividido por 20</b>, pero no necesita ser mayor a 400 mm». Más estribos cerrados
+    con s ≤ mín(menor dimensión, 300 mm, 16d<sub>b</sub>)</td>
+    <td>No</td>
+    <td>Nada normativo. <b>No sustituye</b> a la verificación de la premisa de presión uniforme</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Cambios de clasificación que introduce E.060</h3>
+<p>Tres reglas que la Rev. 1 clasificó como derivación o criterio cambian de nivel al leer la
+norma completa. Dos suben a exigencia y una queda confirmada como criterio:</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Regla</th><th>Rev. 1</th><th>Rev. 3</th><th>Fundamento</th></tr></thead>
+<tbody>
+<tr><td>Perímetro crítico truncado en columna de borde</td>
+    <td><span class="p p-extend">B — derivación</span></td>
+    <td><span class="p p-direct">A — norma</span></td>
+    <td>§11.12.1.2 obliga a tomar la sección de b<sub>o</sub> mínimo</td></tr>
+<tr><td>Diagramas V(x) y M(x) en zapata combinada</td>
+    <td><span class="p p-extend">B — derivación</span></td>
+    <td><span class="p p-direct">A — norma</span></td>
+    <td>§15.4.1 define el momento en cualquier sección por estática; §15.10.1 lo admite para
+    zapatas de varias columnas</td></tr>
+<tr><td>Ancho de franja transversal b + d/2</td>
+    <td><span class="p p-tbd">C — pendiente</span></td>
+    <td><span class="p p-variant">C — confirmado</span></td>
+    <td>§15.4 no fija ancho de franja para varias columnas. Sigue siendo criterio de Aragón</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="call ok">
+<h4>Corrección a la propia auditoría: los estribos en zapata combinada</h4>
+<p>La Rev. 1 advirtió que una zapata combinada «puede necesitar estribos» y que eso creaba una
+segunda dependencia sobre §11.5. <b>§11.5.6.1(a) exime expresamente a losas y zapatas del
+refuerzo mínimo de cortante.</b> Una zapata combinada no requiere A<sub>v,mín</sub> aunque
+V<sub>u</sub> supere 0,5V<sub>c</sub>; solo requiere V<sub>s</sub> si V<sub>u</sub> &gt;
+φV<sub>c</sub>, y §11.12.3 permite ese refuerzo con d ≥ 150 mm. La dependencia queda muy
+acotada.</p>
+</div>
+
+<h3>Hallazgos nuevos de E.060</h3>
+<div class="tw">
+<table>
+<thead><tr><th>#</th><th>Hallazgo</th><th>Fuente</th><th>Efecto</th></tr></thead>
+<tbody>
+<tr><td class="mono">N10</td><td><b>Error de cita en el código.</b> <code>phi_factors</code>
+    devuelve <code>"E.060 §9.4"</code>. Los φ están en <b>§9.3.2</b>; §9.4 es «Resistencia
+    mínima del concreto estructural»</td><td>E.060 §9.3.2 y §9.4</td>
+    <td>Los valores 0,90 y 0,85 son correctos; la referencia no. <code>fc_min_MPa</code> sí cita
+    bien §9.4</td></tr>
+<tr><td class="mono">N11</td><td><b>§15.10 reconoce la zapata combinada</b> y prohíbe
+    expresamente el Método Directo del Capítulo 13</td><td>E.060 §15.10.1 y §15.10.2</td>
+    <td>Respaldo normativo del alcance, y una prohibición concreta que el motor debe respetar</td></tr>
+<tr><td class="mono">N12</td><td>La distribución de presión bajo zapata combinada debe ser
+    «consistente con las propiedades del suelo y la estructura y con los principios establecidos
+    de mecánica de suelos»</td><td>E.060 §15.10.3</td>
+    <td>La hipótesis de distribución lineal debe declararse, no darse por supuesta</td></tr>
+<tr><td class="mono">N13</td><td><b>Cláusula de §15.7 no implementada:</b> «El peralte de la
+    zapata deberá ser compatible con los requerimientos de anclaje de las armaduras de las
+    columnas… que se apoyen en la zapata»</td><td>E.060 §15.7</td>
+    <td>El motor verifica el anclaje del refuerzo <i>de la zapata</i>, no el de las barras
+    <i>de la columna</i> dentro de ella</td></tr>
+<tr><td class="mono">N14</td><td>§10.5.4 contempla el mínimo repartido en dos caras con
+    ρ ≥ 0,0012 en la traccionada</td><td>E.060 §10.5.4</td>
+    <td>Anclaje normativo directo del acero de cara superior de la combinada</td></tr>
+<tr><td class="mono">N15</td><td>§21.12.3.1 exige refuerzo longitudinal <b>continuo</b> en la
+    viga de conexión, anclado en la zapata en todas las discontinuidades</td>
+    <td>E.060 §21.12.3.1</td><td>Condición de compatibilidad viga-zapata, ahora con norma</td></tr>
+<tr><td class="mono">N16</td><td>§21.12.3.3 remite a §21.4 o §21.5 si la viga recibe flexión de
+    columnas del sistema sismorresistente</td><td>E.060 §21.12.3.3</td>
+    <td>Segundo nivel de detallado, dependiente del sistema estructural declarado</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Normativa por fase, situación final</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Fase</th><th>Secciones necesarias</th><th>¿Disponible?</th></tr></thead>
+<tbody>
+<tr><td><b>1A</b> congelamiento</td><td>E.050 26.2 · E.030 64.2 · E.030 29 y 62.2 · E.060 §9.3.2</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+<tr><td><b>1B</b> descentrada, perímetro cerrado</td><td>E.050 28 · E.060 §15.4.1</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+<tr><td><b>1C</b> perímetro truncado</td><td>E.060 §11.12.1.2 y §11.12.2.1</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+<tr><td><b>2</b> combinada</td>
+    <td>E.060 §15.10, §15.4.1, §10.5.4, §7.7.1, §11.5, §11.12.3 · E.050 23.3</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+<tr><td><b>3</b> vigas</td>
+    <td>E.060 §11.5, §10.5, §7.7.1, §9.3.2, §21.12.3 · E.030 65.1</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+<tr><td><b>4</b> conectada</td>
+    <td>Todo lo de la Fase 3 · E.030 14 y zonificación · E.060 §21.12.1.1</td>
+    <td><span class="p p-direct">Completa</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="call ok">
+<h4>Ninguna fase queda bloqueada por normativa</h4>
+<p>La Fase 3 deja de estar bloqueada: §11.5, §10.5, §7.7.1, §9.3.2 y §21.12.3 están todas
+disponibles. Con ello desaparece la dependencia que obligaba a esperar antes de programarla,
+y el plan puede ejecutarse de principio a fin.</p>
+<p>Quedan dos vacíos, ninguno bloqueante: las ecuaciones de E.050 28.1 no se extraen del PDF —
+son objeto gráfico y este equipo no tiene rasterizador—, y no existe criterio normativo para
+verificar la premisa de presión uniforme por rigidez del conjunto. §21.12.3.2 fija una
+dimensión mínima, que es distinto.</p>
+</div>
+
+<h3>Hallazgos nuevos, no previstos en la Rev. 1</h3>
+<div class="tw">
+<table>
+<thead><tr><th>#</th><th>Hallazgo</th><th>Fuente</th><th>Efecto</th></tr></thead>
+<tbody>
+<tr><td class="mono">N1</td><td><b>FS de volteo ≥ 1,2</b>, con las fuerzas del análisis y
+    <b>sin</b> la reducción de 0,8</td><td>E.030 art. 64.2</td>
+    <td>El motor reporta NO VERIFICADO por falta de criterio. La referencia existía y no se
+    conocía. Se puede cerrar en Fase 1A</td></tr>
+<tr><td class="mono">N2</td><td><b>D<sub>f</sub> ≥ 0,80 m</b>, salvo cimentación sobre roca</td>
+    <td>E.050 art. 26.2</td><td>Requisito normativo <b>no verificado</b> hoy: el motor acepta
+    cualquier D<sub>f</sub></td></tr>
+<tr><td class="mono">N3</td><td>Las tres tipologías son cimentaciones superficiales reconocidas</td>
+    <td>E.050 art. 23.2</td><td>Respaldo normativo explícito del alcance del proyecto</td></tr>
+<tr><td class="mono">N4</td><td><b>Combinada: L ≤ 10 B.</b> Por encima es cimentación continua</td>
+    <td>E.050 art. 23.3</td><td>Frontera tipológica normativa. No confundir con
+    <code>max_LB_ratio = 2,0</code>, que es heurística de barrido</td></tr>
+<tr><td class="mono">N5</td><td>El peralte h lo determina el ingeniero estructural</td>
+    <td>E.050 art. 23.3, nota</td><td>E.050 delega h en E.060 de forma explícita</td></tr>
+<tr><td class="mono">N6</td><td>El factor 0,8 tiene fuente primaria en E.030</td>
+    <td>E.030 art. 29 y 62.2</td><td>Hoy se cita solo E.060 §15.2. Corregir la referencia</td></tr>
+<tr><td class="mono">N7</td><td><b>39.13.6 aplica solo a muros de contención</b> — confirmado
+    literalmente</td><td>E.050 art. 39.13.6</td>
+    <td><span class="p p-direct">Valida</span> la advertencia que ya llevaba
+    <code>stability.py</code></td></tr>
+<tr><td class="mono">N8</td><td>FS por corte 3,0 estático / 2,5 sismo o viento — confirmado</td>
+    <td>E.050 art. 21</td><td>La ficha era correcta</td></tr>
+<tr><td class="mono">N9</td><td>Las ecuaciones de e<sub>x</sub>, e<sub>y</sub> <b>no se extraen
+    del PDF</b></td><td>E.050 art. 28.1</td>
+    <td>La redacción («momentos según los ejes x e y respectivamente») respalda la convención
+    vigente <code>ex = My/P</code>, pero <b>la ecuación literal no ha podido leerse</b></td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Correcciones a la ficha de referencias</h3>
+<p>Aplicadas en <code>docs/normativa/referencias_e060_e050.md</code>:</p>
+<div class="tw">
+<table>
+<thead><tr><th>#</th><th>Corrección</th><th>Gravedad</th></tr></thead>
+<tbody>
+<tr><td class="mono">D1</td><td>D<sub>f</sub> ≥ 0,80 m no se verifica — requisito omitido</td>
+    <td>Media</td></tr>
+<tr><td class="mono">D2</td><td>FS de volteo sin referencia, existiendo E.030 64.2</td>
+    <td>Media, conservadora</td></tr>
+<tr><td class="mono">D3</td><td>Reducción 0,8 atribuida solo a E.060 §15.2</td><td>Documental</td></tr>
+<tr><td class="mono">D4</td><td>§11.12.6 figuraba como <b>NO IMPLEMENTADO</b> estándolo desde
+    hace fases</td><td>Documental</td></tr>
+<tr><td class="mono">D5</td><td><code>max_LB_ratio</code> confundible con norma</td><td>Baja</td></tr>
+<tr><td class="mono">D6</td><td>Convención de ejes no contrastable contra la ecuación literal</td>
+    <td>Baja</td></tr>
+</tbody>
+</table>
+</div>
+
+<h4>Discrepancias entre los apuntes de Aragón y la norma</h4>
+<p>Se registran, no se ocultan. En los tres casos manda la norma:</p>
+<ul>
+<li><b>A1</b> — El ejemplo 3.4.1 omite §11.12.6. Incluirlo baja el margen de 2,5 % a 0,15 %.</li>
+<li><b>A2</b> — El ejemplo 3.4.1 usa h = 60 cm donde corresponde d = 50 cm al calcular
+V<sub>c</sub> (156,7 frente a 130,6 tonf).</li>
+<li><b>A3</b> — Los apuntes diseñan la viga de conexión sin considerar E.030 art. 65.1. Su
+h ≈ L/7 sigue siendo predimensionamiento válido, pero <b>no sustituye</b> al requisito de
+N ≥ 0,10·ΣP<sub>u</sub>.</li>
+</ul>
+
+<h3>Normativa necesaria por fase</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Fase</th><th>Secciones realmente necesarias</th><th>¿Disponible?</th></tr></thead>
+<tbody>
+<tr><td><b>1A</b> congelamiento</td>
+    <td>E.050 26.2 · E.030 64.2 · E.030 29 y 62.2</td>
+    <td><span class="p p-direct">Sí, completa</span></td></tr>
+<tr><td><b>1B</b> descentrada, perímetro cerrado</td>
+    <td>Ninguna nueva. E.050 28 como respaldo de la excentricidad</td>
+    <td><span class="p p-direct">Sí</span></td></tr>
+<tr><td><b>1C</b> perímetro truncado</td>
+    <td>E.060 §11.12.1.2 y §11.12.2.1 completos</td>
+    <td><span class="p p-new">No</span></td></tr>
+<tr><td><b>2</b> combinada</td>
+    <td>E.060 §15.4, §7.7, §11.5 · E.050 23.3 (L ≤ 10B)</td>
+    <td><span class="p p-variant">Parcial: solo E.050</span></td></tr>
+<tr><td><b>3</b> vigas</td>
+    <td>E.060 §11.5, §10.5, §7.7, §9.3 · <b>E.030 65.1</b></td>
+    <td><span class="p p-variant">Parcial: solo E.030</span></td></tr>
+<tr><td><b>4</b> conectada</td>
+    <td>Todo lo de la Fase 3 · E.030 14 (S3/S4) y zonificación</td>
+    <td><span class="p p-variant">Parcial</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="call ok">
+<h4>¿Se puede empezar la Fase 1A/1B?</h4>
+<p><b>Sí.</b> Ambas están completamente desbloqueadas y, además, ganaron contenido: el
+congelamiento de la Fase 1A puede incorporar de una vez D<sub>f</sub> ≥ 0,80 m (E.050 26.2) y
+el FS de volteo ≥ 1,2 (E.030 64.2), que cierran dos omisiones reales del motor actual sin
+depender de E.060.</p>
+<p>La Fase 1C sigue bloqueada, igual que 2, 3 y 4 en distinto grado. Todas por la misma causa:
+falta E.060.</p>
+</div>
+</section>
+
+<!-- ============================ A ============================ -->
+<section id="a">
+<h2><span class="num">A</span>Diagnóstico de arquitectura</h2>
+<p class="lede">La separación entre norma y geometría que se fijó en la Fase 1 es la que hace
+viable esta ampliación. El supuesto de columna centrada, en cambio, está peor contenido
+de lo que sugiere su tamaño.</p>
+
+<h3>Corrección al modelo conceptual propuesto</h3>
+<p>Las dos primeras equivalencias son correctas. La tercera necesita una corrección que
+tiene consecuencias directas sobre el diseño del software.</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Tipología</th><th>Formulación propuesta</th><th>Formulación corregida</th></tr></thead>
+<tbody>
+<tr><td><b>Aislada</b></td><td class="mono">1 columna → 1 zapata</td>
+    <td><span class="p p-direct">Correcta</span></td></tr>
+<tr><td><b>Combinada</b></td><td class="mono">N columnas → 1 zapata</td>
+    <td><span class="p p-direct">Correcta</span> — es una generalización estricta de la aislada</td></tr>
+<tr><td><b>Conectada</b></td><td class="mono">2 zapatas → 1 viga</td>
+    <td><span class="p p-variant">Incompleta</span> — ver abajo</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>La zapata conectada no es «dos zapatas más una viga». Es:</p>
+
+<div class="blk">CONECTADA = zapata excéntrica            (columna en límite de propiedad)
+          + zapata interior              (contrapeso)
+          + viga de conexión             (elemento nuevo: viga, no zapata)
+          + MODELO DE ANÁLISIS           (entrada del usuario, no decisión del programa)</div>
+
+<p>El cuarto término es el que falta y el que más importa. Los apuntes de Aragón describen
+<b>dos modelos distintos</b>, y la elección entre ellos la hace el ingeniero, no el software:</p>
+
+<ol class="body-list">
+  <li><b>Modelo articulado.</b> Válido cuando la columna interior tiene momentos pequeños,
+  tanto de gravedad como de sismo. La viga se une a la zapata interior mediante una conexión
+  articulada y el elemento interior actúa como contrapeso. Es el que resuelve el problema de
+  aplicación 1.</li>
+  <li><b>Modelo de cuerpo rígido conjunto.</b> Obligatorio cuando el elemento interior tiene
+  momentos considerables. Debe considerar ambas zapatas y la viga simultáneamente. Es el que
+  resuelve el problema de aplicación 2.</li>
+</ol>
+
+<div class="call">
+<h4>Consecuencia de diseño</h4>
+<p>El modelo de análisis debe ser una <b>entrada explícita y obligatoria</b> del usuario, con el
+modelo elegido registrado como hipótesis en el <code>CalculationTrace</code>. El programa no debe
+elegirlo automáticamente a partir de la magnitud de los momentos: el umbral de «momentos
+considerables» no está definido en E.060 ni en los apuntes, y convertirlo en un número sería
+exactamente el tipo de invención que estas reglas prohíben.</p>
+</div>
+
+<h3>Lo que está bien</h3>
+<p>Tres decisiones tomadas en fases anteriores resultan ser las que sostienen esta ampliación:</p>
+
+<div class="cards">
+  <div class="card">
+    <span class="tag">Acierto 1</span>
+    <h5>Norma separada de geometría</h5>
+    <p><code>codes/</code> expone φ, Vc, ρmin y longitudes de desarrollo sin saber nada sobre
+    zapatas. Las 674 líneas se reutilizan intactas para vigas.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Acierto 2</span>
+    <h5>Fórmulas con voladizo paramétrico</h5>
+    <p><code>flexure</code> y <code>shear_oneway</code> reciben <code>cantilever_m</code> como
+    argumento. No presuponen simetría: el llamador sí.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Acierto 3</span>
+    <h5>Alcance autodeclarado</h5>
+    <p><code>punching_moment_transfer</code> ya dice de sí mismo que su Jc «vale para columna
+    interior». El límite está escrito, no hay que descubrirlo.</p>
+  </div>
+</div>
+
+<h3>Lo que hay que modificar</h3>
+<p>El hallazgo central de esta auditoría es que <b>el supuesto de columna centrada no está
+distribuido por el motor: vive en cinco lugares identificables.</b></p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Ubicación</th><th>Qué asume</th><th>Naturaleza del cambio</th></tr></thead>
+<tbody>
+<tr><td class="mono">depth_solver.py:245-246</td>
+    <td><code>cant_x = (B − bx)/2</code>, <code>cant_y = (L − by)/2</code></td>
+    <td>Trivial: dos voladizos por eje en lugar de uno</td></tr>
+<tr><td class="mono">depth_solver.py:130-131</td>
+    <td><code>near_high_edge=True</code> fijo</td>
+    <td>Evaluar ambos lados y tomar el mayor</td></tr>
+<tr><td class="mono">punching_shear.py:152</td>
+    <td><code>bo = 2(bx+d) + 2(by+d)</code> — perímetro cerrado</td>
+    <td><b>Sustancial</b>: perímetro truncado</td></tr>
+<tr><td class="mono">punching_shear.py:157</td>
+    <td><code>A_crit = (bx+d)(by+d)</code></td>
+    <td><b>Sustancial</b>: área encerrada por sección truncada</td></tr>
+<tr><td class="mono">punching_moment_transfer.py</td>
+    <td>Jc de sección simétrica de cuatro lados</td>
+    <td><b>Derivación nueva</b>: centroide desplazado</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Los dos primeros son cambios de llamador y no tocan física. Los tres últimos son el trabajo
+real de la Fase 1 y, como se explica en la sección F, <b>deben entregarse juntos o no
+entregarse</b>: liberar la geometría descentrada conservando el perímetro de cuatro lados
+produce un falso PASS.</p>
+</section>
+
+<!-- ============================ B ============================ -->
+<section id="b">
+<h2><span class="num">B</span>Matriz de reutilización</h2>
+<p class="lede">Clasificación módulo por módulo sobre las 7 096 líneas del motor, con las
+dependencias que condicionan el orden de trabajo.</p>
+
+<h4>Criterio de clasificación</h4>
+<div class="tw">
+<table>
+<thead><tr><th>Clase</th><th>Significado operativo</th></tr></thead>
+<tbody>
+<tr><td><span class="p p-direct">Directa</span></td><td>Se usa sin tocar una línea. Cualquier cambio aquí es un error de alcance.</td></tr>
+<tr><td><span class="p p-extend">Extensión</span></td><td>Se añaden campos o parámetros opcionales. El comportamiento del caso actual no cambia.</td></tr>
+<tr><td><span class="p p-variant">Variante</span></td><td>La física es distinta según la geometría. Convive con la actual, no la reemplaza.</td></tr>
+<tr><td><span class="p p-new">Nuevo</span></td><td>No existe nada equivalente en el motor.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Matriz completa</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Paquete / módulo</th><th class="num">Líneas</th><th>Clase</th><th>Motivo</th><th>Depende de</th></tr></thead>
+<tbody>
+<tr><td class="mono">units/</td><td class="num">261</td><td><span class="p p-direct">Directa</span></td>
+    <td>Conversiones y validadores de rango. Agnósticos a la tipología.</td><td>—</td></tr>
+<tr><td class="mono">codes/</td><td class="num">674</td><td><span class="p p-direct">Directa</span></td>
+    <td>φ, ec. 11-3, 11-33/34/35, Cap. 12, catálogo de barras. <code>alpha_s</code> ya parametrizado.</td><td>units</td></tr>
+<tr><td class="mono">soil/contact_pressure</td><td class="num">112</td><td><span class="p p-direct">Directa</span></td>
+    <td>Recibe <code>(B, L, P, ex, ey)</code>. No sabe cuántas columnas produjeron esa resultante.</td><td>—</td></tr>
+<tr><td class="mono">soil/stability</td><td class="num">336</td><td><span class="p p-direct">Directa</span></td>
+    <td>Deslizamiento y volcamiento sobre la resultante del sistema.</td><td>—</td></tr>
+<tr><td class="mono">foundation/effective_depth</td><td class="num">109</td><td><span class="p p-direct">Directa</span></td>
+    <td>Punto fijo sobre recubrimiento y diámetros. Independiente de la planta.</td><td>codes</td></tr>
+<tr><td class="mono">foundation/self_weight</td><td class="num">~40</td><td><span class="p p-direct">Directa</span></td>
+    <td>Volumen × peso específico.</td><td>—</td></tr>
+<tr><td class="mono">foundation/flexure</td><td class="num">161</td><td><span class="p p-extend">Extensión</span></td>
+    <td><code>design_flexure</code> es un resolvedor genérico de sección rectangular simplemente
+    armada. Solo cambia la regla de As<sub>mín</sub> al usarlo en vigas.</td><td>codes</td></tr>
+<tr><td class="mono">soil/eccentricity</td><td class="num">~60</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Debe aceptar resultante de N cargas y sumar el descentrado geométrico de la columna.</td><td>—</td></tr>
+<tr><td class="mono">domain/</td><td class="num">342</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Se envuelve <code>Column</code> en un tipo con posición. <code>Column</code> no cambia.</td><td>units</td></tr>
+<tr><td class="mono">reinforcement/</td><td class="num">859</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Selección y desarrollo se reutilizan. Falta el concepto de <b>cara superior</b>.</td><td>codes</td></tr>
+<tr><td class="mono">results/</td><td class="num">438</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Los cinco estados y el registro de limitaciones son agnósticos. Falta ámbito en la traza.</td><td>—</td></tr>
+<tr><td class="mono">optimization/</td><td class="num">1 076</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Scoring, Pareto y ranker operan sobre métricas, no sobre geometría. Solo cambia
+    <code>metrics</code> y el generador.</td><td>results</td></tr>
+<tr><td class="mono">reports/</td><td class="num">954</td><td><span class="p p-extend">Extensión</span></td>
+    <td>Estructura y ordenamiento sobreviven. Cambian las secciones por tipología.</td><td>results</td></tr>
+<tr><td class="mono">visualization/</td><td class="num">263</td><td><span class="p p-extend">Extensión</span></td>
+    <td>El DTO admite lista de columnas y un prisma de viga sin recalcular nada.</td><td>results</td></tr>
+<tr><td class="mono">foundation/shear_oneway</td><td class="num">~90</td><td><span class="p p-variant">Variante</span></td>
+    <td>La fórmula de voladizo vale para aislada; la combinada necesita diagrama de cortante.</td><td>flexure</td></tr>
+<tr><td class="mono">foundation/punching_shear</td><td class="num">283</td><td><span class="p p-variant">Variante</span></td>
+    <td>Perímetro de 4, 3 o 2 lados según truncamiento contra el borde.</td><td>codes</td></tr>
+<tr><td class="mono">foundation/punching_moment_transfer</td><td class="num">226</td><td><span class="p p-variant">Variante</span></td>
+    <td>Jc y c del perímetro truncado, con centroide desplazado.</td><td>punching_shear</td></tr>
+<tr><td class="mono">foundation/depth_solver</td><td class="num">668</td><td><span class="p p-variant">Variante</span></td>
+    <td>Orquestador. Un solver por tipología, sobre las mismas piezas.</td><td>todo lo anterior</td></tr>
+<tr><td class="mono">foundation/auto_search_range</td><td class="num">115</td><td><span class="p p-variant">Variante</span></td>
+    <td>La heurística A ≈ P/qadm no sirve para combinada: L lo fija el centroide.</td><td>—</td></tr>
+<tr><td class="mono">analysis/beam_diagram</td><td class="num">—</td><td><span class="p p-new">Nuevo</span></td>
+    <td>Diagramas de cortante y momento a lo largo de la zapata combinada.</td><td>—</td></tr>
+<tr><td class="mono">beam/ (flexión, cortante, estribos)</td><td class="num">—</td><td><span class="p p-new">Nuevo</span></td>
+    <td>Diseño de viga de concreto armado. Cero código equivalente hoy.</td><td>codes + §11.5</td></tr>
+<tr><td class="mono">system/statics</td><td class="num">—</td><td><span class="p p-new">Nuevo</span></td>
+    <td>Reparto del par y cargas corregidas de la zapata conectada.</td><td>—</td></tr>
+</tbody>
+</table>
+</div>
+
+<h4>Resumen</h4>
+<div class="blk">Directa      ≈ 1 490 líneas   21 %   se usan sin tocar
+Extensión    ≈ 4 250 líneas   60 %   crecen sin cambiar comportamiento actual
+Variante     ≈ 1 355 líneas   19 %   necesitan hermanas por geometría
+Nuevo            0 líneas      —     motor de vigas, diagramas, estática del sistema</div>
+
+<p>El 81 % del motor no se reescribe. La cifra es alta porque la frontera entre
+<code>codes/</code> y <code>foundation/</code> ya está trazada donde debía.</p>
+</section>
+
+<!-- ============================ 1 ============================ -->
+<section id="s1">
+<h2><span class="num">1</span>Fase previa: columna descentrada</h2>
+<p class="lede">Prerrequisito de las otras dos tipologías. La zapata excéntrica de límite de
+propiedad aparece en los ejercicios de combinada y de conectada por igual.</p>
+
+<h3>Los cuatro casos y su criterio de clasificación</h3>
+<p>Conviene fijar desde ahora de qué depende la clasificación, porque hay una ambigüedad
+normativa real:</p>
+
+<div class="call tbd">
+<h4>TBD-1 · Criterio de clasificación de columna</h4>
+<p>E.060 §11.12.2.1(b) fija α<sub>s</sub> = 40 / 30 / 20 para columna interior, de borde y de
+esquina, pero <b>no define qué convierte a una columna en «de borde»</b> en el contexto de una
+zapata aislada. Hay dos lecturas posibles y dan resultados distintos:</p>
+<ul>
+<li><b>Lectura geométrica:</b> es de borde si el perímetro crítico se trunca contra el borde de
+la zapata. Es la lectura coherente con el hecho de que α<sub>s</sub> aparece en la misma ecuación
+que b<sub>o</sub>.</li>
+<li><b>Lectura estructural:</b> es de borde por su posición en el pórtico, con independencia de
+la zapata.</li>
+</ul>
+<p>Recomiendo adoptar la lectura geométrica y <b>documentarla como interpretación</b>, igual que
+se hizo con §15.7 en <code>peralte_minimo_zapatas.md</code>. Necesito el texto completo de
+§11.12.2.1 para confirmar si hay una definición que no llegó a la ficha de referencias.</p>
+</div>
+
+<div class="tw">
+<table>
+<thead><tr><th>Caso</th><th>Condición geométrica</th><th>Lados del perímetro</th><th>α<sub>s</sub></th></tr></thead>
+<tbody>
+<tr><td>Interior / centrada</td><td>Holgura ≥ d/2 en los cuatro bordes</td><td class="num">4</td><td class="num">40</td></tr>
+<tr><td>Cercana al borde</td><td>Holgura ≥ d/2 pero descentrada</td><td class="num">4</td><td class="num">40</td></tr>
+<tr><td>De borde</td><td>Holgura &lt; d/2 en un borde</td><td class="num">3</td><td class="num">30</td></tr>
+<tr><td>De esquina</td><td>Holgura &lt; d/2 en dos bordes adyacentes</td><td class="num">2</td><td class="num">20</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><b>El caso «cercana al borde» es el más delicado</b> y merece atención explícita: la columna
+está descentrada, la excentricidad y los voladizos son asimétricos, pero el perímetro sigue
+cerrado. Todo el cambio ocurre en el llamador; la física de punzonamiento no se toca. Es
+también el caso que primero conviene implementar, por ser el de menor riesgo.</p>
+
+<h3>Geometría</h3>
+<p>La posición de la columna entra como coordenada del centro respecto a un origen de la
+zapata. De ahí se derivan, sin ambigüedad:</p>
+
+<div class="blk">a_x = x_col − B/2                     descentrado respecto al centroide de la zapata
+a_y = y_col − L/2
+
+c_x⁻ = x_col − bx/2                  voladizo izquierdo
+c_x⁺ = B − x_col − bx/2              voladizo derecho
+c_y⁻ , c_y⁺                          análogos en Y
+
+g_x⁻ = c_x⁻ , g_x⁺ = c_x⁺            holguras al borde (aquí coinciden con los voladizos)</div>
+
+<div class="call ok">
+<h4>Punto clave sobre la excentricidad</h4>
+<p>El descentrado geométrico y la excentricidad de carga <b>se suman</b>, no se tratan por
+separado. Respecto al centroide de la zapata:</p>
+<div class="blk" style="margin:12px 0 0">e_x,total = a_x + M_y/P          e_y,total = a_y + M_x/P</div>
+<p style="margin-top:12px">Esto significa que <code>contact_pressure</code>,
+<code>net_factored_pressure_edges</code> y la verificación de núcleo central
+<b>no necesitan ningún cambio</b>: se les pasa la excentricidad total. Es la razón de que estos
+módulos queden clasificados como reutilización directa. La convención vigente
+(<code>ex = My/P</code>, <code>ey = Mx/P</code>, documentada en <code>convenciones_ejes.md</code>)
+se conserva y solo se le antepone el término geométrico.</p>
+</div>
+
+<h3>Punzonamiento</h3>
+<p>Con la sección crítica a d/2 de cada cara (§11.12.1.2), para una columna de borde en el eje X:</p>
+
+<div class="blk">Cerrado (4 lados)     b₁ = bx + d          b₂ = by + d
+                      bo = 2·b₁ + 2·b₂
+                      A_crit = b₁ · b₂
+
+Truncado (3 lados)    b₁ = bx + d/2 + g     (g = holgura real al borde, si g &lt; d/2)
+                      b₂ = by + d
+                      bo = 2·b₁ + b₂        ← un solo lado en la dirección perpendicular
+                      A_crit = b₁ · b₂</div>
+
+<p>Tres consecuencias que el código actual no contempla:</p>
+<ol class="body-list">
+<li><code>critical_section_fits_in_footing</code> hoy devuelve <code>False</code> cuando el
+perímetro no cabe, lo que descarta el candidato. Con perímetro truncado, <b>no caber es el caso
+normal</b>, no un descarte. Esa función cambia de significado.</li>
+<li>b<sub>o</sub> disminuye al truncarse, y φV<sub>c</sub> es proporcional a b<sub>o</sub>.
+Mantener el perímetro cerrado sobreestima la resistencia.</li>
+<li>α<sub>s</sub> baja de 40 a 30, lo que <b>reduce adicionalmente</b> la ec. 11-34. Los dos
+efectos van en la misma dirección: el falso PASS al ignorarlos es doble.</li>
+</ol>
+
+<h3>Transferencia de momento</h3>
+<p>Aquí está la única pieza que exige derivación mecánica nueva, y conviene ser explícito
+sobre su estatuto.</p>
+
+<div class="call tbd">
+<h4>Derivación requerida, no ecuación normativa</h4>
+<p>E.060 §11.12.6.2 exige que el esfuerzo «varíe linealmente alrededor del centroide de las
+secciones críticas», pero <b>no da la expresión de J<sub>c</sub> para ninguna geometría</b>. El
+motor actual ya lo declara así: su J<sub>c</sub> de cuatro lados está marcado como derivación
+geométrica estándar, con alcance limitado a columna interior.</p>
+<p>Para el perímetro truncado hacen falta dos cosas que la de cuatro lados no necesita:</p>
+<ul>
+<li><b>Posición del centroide.</b> En la sección de tres lados el centroide <b>no coincide con
+el centro de la columna</b>: se desplaza hacia el lado cerrado. Hay que calcularlo como
+centroide de las áreas de las caras.</li>
+<li><b>Dos distancias distintas.</b> c<sub>AB</sub> ≠ c<sub>CD</sub>. El esfuerzo máximo puede
+darse en la cara interior o en la del borde según el signo del momento, de modo que hay que
+evaluar <b>ambas</b> y tomar la peor. La expresión actual usa un único <code>c = b₁/2</code>,
+válido solo por simetría.</li>
+</ul>
+<p>Ambas son derivaciones de mecánica de sólidos, verificables numéricamente. Deben marcarse
+con la misma etiqueta que ya usa <code>JC_REFERENCE</code>: derivación, no cita.</p>
+</div>
+
+<p>Sobre γ<sub>f</sub> y γ<sub>v</sub>: la ec. 13-1 y la ec. 11-39 no cambian de forma. Lo que
+cambia es que b₁ pasa a medirse sobre la sección truncada, de modo que el cociente b₁/b₂ y por
+tanto γ<sub>f</sub> también cambian. No hace falta normativa nueva para esto.</p>
+
+<div class="call risk">
+<h4>Verificación obligatoria de no regresión</h4>
+<p>Con la columna centrada, el perímetro truncado debe degenerar <b>exactamente</b> en el
+cerrado, el centroide debe caer en el centro de la columna y c<sub>AB</sub> = c<sub>CD</sub> =
+b₁/2. Es un test de continuidad, no una comprobación cosmética: si no se cumple al milímetro,
+la generalización está mal planteada.</p>
+</div>
+</section>
+
+<!-- ============================ 2 ============================ -->
+<section id="s2">
+<h2><span class="num">2</span>Zapata combinada</h2>
+<p class="lede">Los apuntes dicen que «el proceso de diseño es el mismo de zapatas aisladas».
+Es cierto en la dirección transversal y falso en la longitudinal, y esa asimetría define
+todo el trabajo.</p>
+
+<h3>Entradas nuevas</h3>
+<p>Cada entrada con su justificación. No hay ninguna que no cambie un resultado:</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Entrada</th><th>Por qué es indispensable</th></tr></thead>
+<tbody>
+<tr><td><b>Posición de cada columna</b><br><span class="mono">(x, y)</span></td>
+    <td>Determina el centroide de cargas, del que depende L para lograr presión uniforme.
+    Sin ella no hay problema que resolver.</td></tr>
+<tr><td><b>Dimensiones de cada columna</b><br><span class="mono">bx, by</span></td>
+    <td>Cada columna tiene su propio perímetro crítico y su propia viga transversal de
+    ancho b + d/2 a cada lado.</td></tr>
+<tr><td><b>Cargas por columna</b><br><span class="mono">P, Mx, My</span> por combinación</td>
+    <td>El diagrama de momentos depende del reparto entre columnas, no solo del total. Dos
+    columnas con P total idéntico pero repartido distinto dan armaduras distintas.</td></tr>
+<tr><td><b>Longitud fija u optimizable</b></td>
+    <td>El usuario puede querer imponer L por límite de propiedad, o dejar que el programa
+    la busque. Son dos problemas distintos.</td></tr>
+</tbody>
+</table>
+</div>
+
+<p><b>No hacen falta</b> como entradas separadas: la separación entre columnas (se deriva de las
+posiciones), el número de columnas (es la longitud de la lista), ni un centroide declarado por
+el usuario (es un resultado, y aceptarlo como dato permitiría introducir un error silencioso).
+El suelo y los materiales no cambian de forma.</p>
+
+<h3>Análisis estructural longitudinal</h3>
+<p>Aquí desaparece el modelo de voladizo. La zapata se comporta como una viga con carga
+repartida ascendente:</p>
+
+<div class="blk">Carga hacia arriba   w(x) = presión de contacto neta factorizada × ancho B
+Cargas hacia abajo   P_u,i puntuales en la posición de cada columna
+
+V(x) = ∫w dx − Σ P_u,i·H(x − x_i)          diagrama de cortante
+M(x) = ∫V dx                                diagrama de momento
+
+M > 0  en los voladizos extremos    →  acero INFERIOR
+M < 0  entre columnas               →  acero SUPERIOR   ← no existe en el motor</div>
+
+<div class="call risk">
+<h4>El acero superior no es una variante: es un concepto ausente</h4>
+<p>En <code>rebar_geometry.py</code>, «inferior» y «superior» designan las dos capas de la
+parrilla <b>de abajo</b>, ambas medidas desde el recubrimiento inferior. No hay ninguna
+representación de refuerzo en la cara superior del elemento. Hay que añadirla, y con ella su
+propio recubrimiento, su propio peralte efectivo y su propia verificación de desarrollo.</p>
+</div>
+
+<p>Reutilización en esta dirección: <code>design_flexure</code> se usa tal cual una vez conocido
+M<sub>u</sub>, porque es un resolvedor de sección genérico. Lo que hay que construir es el
+generador de M(x) y V(x), y la localización de sus extremos. Es cálculo estructural elemental,
+sin base normativa que citar más allá de la estática — y así debe declararse.</p>
+
+<h3>Dirección transversal</h3>
+<p>Los apuntes son explícitos: la zapata trabaja longitudinalmente como losa apoyada en vigas
+transversales ubicadas en los ejes de las columnas, con ancho igual al de la columna más
+<b>medio peralte efectivo a cada lado</b>. Dentro de ese ancho, el problema es el voladizo de
+siempre y <code>flexure</code> y <code>shear_oneway</code> se aplican sin cambios.</p>
+
+<div class="call tbd">
+<h4>TBD-2 · Estatuto del ancho de la viga transversal</h4>
+<p>El ancho «b + d/2 a cada lado» proviene de los apuntes de Aragón. <b>No lo he podido
+localizar en el texto de E.060 disponible.</b> Hasta confirmarlo debe implementarse como
+criterio de modelación declarado, no como exigencia normativa, y quedar registrado como
+hipótesis en la traza. Necesito §15.4 completo para verificar si la norma fija un ancho de
+franja para este caso.</p>
+</div>
+
+<h3>Cortante</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Verificación</th><th>Sección crítica</th><th>Reutilización</th></tr></thead>
+<tbody>
+<tr><td>Unidireccional longitudinal</td>
+    <td>A distancia d de cada cara de columna, <b>leída del diagrama V(x)</b>, no de una fórmula
+    cerrada. Puede haber varias secciones críticas.</td>
+    <td><span class="p p-variant">Variante</span></td></tr>
+<tr><td>Unidireccional transversal</td>
+    <td>A distancia d de la cara, dentro de la franja transversal.</td>
+    <td><span class="p p-direct">Directa</span></td></tr>
+<tr><td>Punzonamiento</td>
+    <td>Independiente alrededor de <b>cada</b> columna, con su propio truncamiento.</td>
+    <td><span class="p p-variant">Variante</span> — la de Fase 1</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>La columna en límite de propiedad de una combinada es exactamente una columna de borde: el
+punzonamiento de la Fase 1 se reutiliza sin trabajo adicional. Ésta es la dependencia dura
+entre fases.</p>
+
+<h3>Ecuación de resistencia al cortante longitudinal</h3>
+<p>Un punto que conviene fijar ahora: en la dirección longitudinal la zapata combinada se
+comporta como viga, y V<sub>c</sub> = 0,17√f'c·b<sub>w</sub>·d (ec. 11-3) sigue siendo la
+expresión aplicable. Pero si V<sub>u</sub> supera φV<sub>c</sub>, una zapata combinada
+<b>puede necesitar estribos</b>, y eso remite a §11.5 igual que la viga de conexión. Es una
+segunda dependencia sobre esa sección normativa que hoy no tenemos.</p>
+</section>
+
+<!-- ============================ 3 ============================ -->
+<section id="s3">
+<h2><span class="num">3</span>Viga de conexión</h2>
+<p class="lede">Es el único componente que no admite reutilización estructural. El motor no
+tiene, en ninguna parte, diseño de vigas de concreto armado.</p>
+
+<h4>Confirmación por búsqueda</h4>
+<p>Cero coincidencias de <code>estribo</code>, <code>stirrup</code>, <code>Av_min</code> o
+<code>torsion</code> en todo <code>engine/</code>. Las únicas menciones a §11.5 aparecen dentro
+de <code>e060_development.py</code>, y solo como condición de un factor de longitud de
+desarrollo, no como diseño por cortante.</p>
+
+<h3>Qué se reutiliza y qué no</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Requisito</th><th>Estado en el motor</th><th>Clase</th></tr></thead>
+<tbody>
+<tr><td>Flexión, sección rectangular</td>
+    <td><code>design_flexure</code> resuelve la ecuación cuadrática con bloque 0,85f'c y φ=0,90.
+    Es genérico.</td><td><span class="p p-direct">Directa</span></td></tr>
+<tr><td>V<sub>c</sub> del concreto</td>
+    <td>Ec. 11-3 ya implementada. La forma <span class="mono">0,53√f'c·b·d</span> de los
+    apuntes es la misma ecuación en kgf/cm².</td><td><span class="p p-direct">Directa</span></td></tr>
+<tr><td>Longitud de desarrollo</td>
+    <td>Tabla 12.1, ec. 12-1, ganchos §12.5 — completos.</td><td><span class="p p-direct">Directa</span></td></tr>
+<tr><td>Catálogo de barras</td>
+    <td>3/8" a 1 3/8".</td><td><span class="p p-direct">Directa</span></td></tr>
+<tr><td><b>As<sub>mín</sub> de viga</b></td>
+    <td><span class="p p-tbd">TBD-3</span> — <code>rho_min_temperature</code> aplica §9.7 vía la
+    exclusión de zapatas de §10.5.1. <b>Una viga no está excluida</b>: le corresponde el As<sub>mín</sub>
+    basado en M<sub>cr</sub>. Usar la regla de zapatas aquí sería un error normativo.</td>
+    <td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>Estribos: A<sub>v,mín</sub></b></td>
+    <td><span class="p p-tbd">TBD-4</span> — §11.5 no disponible.</td><td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>Separación máxima de estribos</b></td>
+    <td><span class="p p-tbd">TBD-4</span> — §11.5 no disponible.</td><td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>V<sub>s</sub> y límite superior</b></td>
+    <td><span class="p p-tbd">TBD-4</span> — §11.5 no disponible.</td><td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>Recubrimiento de viga</b></td>
+    <td><span class="p p-tbd">TBD-5</span> — la ficha solo registra los 70 mm de concreto vaciado
+    contra el suelo. Falta el resto de la tabla de §7.7.</td><td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>Fuerza axial mínima</b></td>
+    <td><span class="p p-direct">TBD-6 resuelto</span> — <b>E.030 art. 65.1</b>: tracción o
+    compresión con N ≥ 0,10·ΣP<sub>u</sub>, adicional a la flexión. Convierte la viga en
+    elemento de flexo-tracción / flexo-compresión.</td><td><span class="p p-new">Nuevo</span></td></tr>
+<tr><td><b>φ para flexo-compresión</b></td>
+    <td><span class="p p-tbd">Nuevo bloqueo</span> — E.060 §9.3, no disponible.</td>
+    <td><span class="p p-new">Nuevo</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Geometría y compatibilidad</h3>
+<p>La viga entra al sistema con <code>b</code>, <code>h</code>, luz libre y su posición respecto
+a los ejes de columnas. Dos condiciones de compatibilidad que el programa debe verificar y hoy
+no tiene forma de expresar:</p>
+<ul>
+<li>El peralte de la viga debe ser compatible con el de las zapatas que une, para que el acero
+longitudinal pueda anclarse dentro de ellas. Es una verificación de desarrollo, con la ec. 12-1
+que ya existe.</li>
+<li>El peso propio de la viga es carga adicional sobre el sistema. Los apuntes lo tratan de
+forma simplificada dentro del 10 % de peso propio; el programa debe decidir si lo modela
+explícitamente y <b>declarar cuál de las dos cosas hace</b>.</li>
+</ul>
+
+<div class="call">
+<h4>h ≈ L/7 es predimensionamiento, no norma</h4>
+<p>La expresión de los apuntes para el peralte de la viga es una regla de práctica profesional.
+Debe presentarse en la interfaz con el mismo tratamiento que ya recibe el rango automático de
+búsqueda, que lleva la leyenda «no criterio de diseño». Nunca como verificación E.060, nunca
+como algo que pueda dar PASS o FAIL.</p>
+<p>Lo mismo aplica a la relación L/B = 2 a 2,5 de la zapata excéntrica y al umbral de 6 m a
+partir del cual la conectada resulta más económica que la combinada.</p>
+</div>
+</section>
+
+<!-- ============================ 4 ============================ -->
+<section id="s4">
+<h2><span class="num">4</span>Zapata conectada</h2>
+<p class="lede">Composición de las tres piezas anteriores, más un paso de estática que ocurre
+antes de cualquier verificación.</p>
+
+<h3>El paso de reparto</h3>
+<p>Reconstruido del problema de aplicación 1 de los apuntes. Este cálculo se ejecuta
+<b>una vez por combinación de carga</b>, y su salida son las cargas con las que después se
+verifica cada zapata:</p>
+
+<div class="blk">1.  Zapata excéntrica: P_ext = ΣP_columna + peso propio
+2.  Momento del par:  M_par = M_aplicado − P_ext · (L_zap/2 − a_col)
+3.  Fuerza del par:   ΔP    = M_par / e            e = distancia entre ejes de columnas
+4.  Zapata interior:  P_int = ΣP_columna + p.p. ± ΔP
+5.  Presión:          q = P/A          UNIFORME, sin término ±M/S</div>
+
+<div class="call risk">
+<h4>La premisa que sostiene todo el modelo</h4>
+<p>El paso 5 asume presión uniforme en la zapata excéntrica. Eso <b>solo es válido si la viga
+es suficientemente rígida para impedir el giro</b> — es la razón de ser de la regla h ≈ L/7.</p>
+<p>Si el programa permite al usuario elegir un peralte de viga menor, la premisa de presión
+uniforme se rompe en silencio y los resultados dejan de ser conservadores sin que nada lo
+advierta. <b>La rigidez de la viga debe ser una hipótesis declarada y verificada</b>, no un
+supuesto implícito. Con la información actual no puedo fijar el criterio de verificación:
+véase TBD-7.</p>
+</div>
+
+<p>Nótese que el signo de ΔP se invierte con el signo del sismo: en el ejemplo de los apuntes,
+CM+CV+CS da P<sub>int</sub> = 194,29 t y CM+CV−CS da 164,3 t. Ambas deben evaluarse; no basta
+con la envolvente de una.</p>
+
+<h3>Entradas y salidas del sistema</h3>
+<div class="cards">
+  <div class="card">
+    <span class="tag">Entra</span>
+    <h5>Definición del sistema</h5>
+    <p>Modelo de análisis (articulado o cuerpo rígido), distancia entre ejes, posición del
+    límite de propiedad, geometría de ambas columnas.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Entra</span>
+    <h5>Cargas por columna</h5>
+    <p>Servicio y factorizadas, separadas, para cada una de las dos columnas. La jerarquía
+    de casos de carga vigente no cambia.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Sale</span>
+    <h5>Dos zapatas verificadas</h5>
+    <p>La excéntrica con columna de borde, la interior como aislada, cada una con su traza
+    completa y su estado.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Sale</span>
+    <h5>Viga diseñada</h5>
+    <p>M<sup>−</sup> y M<sup>+</sup> a la cara de columna, V<sub>u</sub> a distancia d,
+    acero longitudinal y estribos.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Sale</span>
+    <h5>Estado del sistema</h5>
+    <p>El peor de los tres componentes. Una viga en FAIL invalida el conjunto aunque ambas
+    zapatas cumplan.</p>
+  </div>
+  <div class="card">
+    <span class="tag">Sale</span>
+    <h5>Reparto auditable</h5>
+    <p>M<sub>par</sub> y ΔP por combinación, con su traza, para que el ingeniero pueda
+    reproducir el reparto a mano.</p>
+  </div>
+</div>
+
+<h3>Interacción entre componentes</h3>
+<p>Es la parte que más se aparta del motor actual. Las dos zapatas <b>no son independientes</b>:
+la geometría de la excéntrica determina M<sub>par</sub>, que determina ΔP, que determina la
+carga de la interior, que determina su geometría. Cualquier búsqueda de alternativas debe
+tratar la terna <span class="mono">(zapata ext, viga, zapata int)</span> como una sola
+unidad de comparación. Volver a esto en la sección 6.</p>
+</section>
+
+<!-- ============================ C ============================ -->
+<section id="c">
+<h2><span class="num">C</span>Matriz normativa</h2>
+<p class="lede">Cada cálculo con su respaldo, su estado de implementación y su destino. La
+última columna separa lo que es exigencia de lo que es criterio.</p>
+
+<div class="tw">
+<table>
+<thead><tr>
+<th>Tema</th><th>Norma / sección</th><th>¿Implementado?</th><th>¿Se reutiliza?</th>
+<th>¿Falta?</th><th>Estatuto</th>
+</tr></thead>
+<tbody>
+<tr><td>Capacidad portante</td><td class="mono">E.050 art. 20-22</td><td>No — q<sub>adm</sub> es dato</td>
+    <td>Sí, sin cambios</td><td>—</td><td>Norma</td></tr>
+<tr><td>FS de cimentación</td><td class="mono">E.050 art. 21</td><td>Contexto</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Cimentación superficial D/B ≤ 5</td><td class="mono">E.050 art. 23.1</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Cargas de servicio para área</td><td class="mono">E.060 §15.2</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Sin tracciones en el suelo</td><td class="mono">E.060 §15.2</td><td>Sí</td><td>Sí, en todas las tipologías</td><td>—</td><td>Norma</td></tr>
+<tr><td>Presión de contacto lineal</td><td class="mono">Mecánica de materiales</td><td>Sí</td><td>Sí</td><td>—</td>
+    <td><b>Derivación</b>, ya declarada</td></tr>
+<tr><td>Núcleo central</td><td class="mono">Derivado de §15.2</td><td>Sí</td><td>Sí</td><td>—</td>
+    <td><b>Derivación</b>, ya declarada</td></tr>
+<tr><td>Excentricidad geométrica</td><td class="mono">Estática</td><td>No</td><td>—</td>
+    <td>Suma a + M/P</td><td><b>Derivación</b></td></tr>
+<tr><td>Área efectiva (Meyerhof)</td><td class="mono">E.050 art. 28</td><td>Stub</td><td>—</td>
+    <td>Integración pendiente</td><td>Norma</td></tr>
+<tr><td>Combinaciones factorizadas</td><td class="mono">E.060 §9.2</td><td>Usuario las entrega</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Factores φ</td><td class="mono">E.060 §9.4</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Flexión, bloque 0,85f'c</td><td class="mono">E.060 §10.2</td><td>Sí</td><td>Sí, también en vigas</td><td>—</td><td>Norma</td></tr>
+<tr><td>Momento en cara de columna</td><td class="mono">E.060 §15.4(a)</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Momento M(x) en combinada</td><td class="mono">Estática</td><td>No</td><td>—</td>
+    <td>Diagramas V(x), M(x)</td><td><b>Derivación</b></td></tr>
+<tr><td>Acero superior por M negativo</td><td class="mono">E.060 §10.2 + §9.7</td><td>No</td><td>Ecuación sí</td>
+    <td>Concepto de cara superior</td><td>Norma</td></tr>
+<tr><td>Reparto dirección corta γ<sub>s</sub></td><td class="mono">E.060 §15.4, ec. 15-1</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Ancho de franja transversal</td><td class="mono">Apuntes Aragón</td><td>No</td><td>—</td>
+    <td>b + d/2 por lado</td><td><b>Criterio</b> — <span class="p p-tbd">TBD-2</span></td></tr>
+<tr><td>As<sub>mín</sub> en zapatas</td><td class="mono">§10.5.1 + §10.6 + §9.7</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td><b>As<sub>mín</sub> en vigas</b></td><td class="mono">E.060 §10.5</td><td>No</td><td>No — regla distinta</td>
+    <td>Texto completo</td><td>Norma — <span class="p p-tbd">TBD-3</span></td></tr>
+<tr><td>Separación máx. del refuerzo</td><td class="mono">E.060 §9.7.3</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Separación libre mínima</td><td class="mono">E.060 §7.6.6</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Recubrimiento contra suelo</td><td class="mono">E.060 §7.7(a)</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td><b>Recubrimiento, otros casos</b></td><td class="mono">E.060 §7.7</td><td>No</td><td>—</td>
+    <td>Tabla completa</td><td>Norma — <span class="p p-tbd">TBD-5</span></td></tr>
+<tr><td>Cortante unidireccional V<sub>c</sub></td><td class="mono">§11.3.1.1, ec. 11-3</td><td>Sí</td>
+    <td>Sí, también en vigas</td><td>—</td><td>Norma</td></tr>
+<tr><td>Sección crítica a d de la cara</td><td class="mono">E.060 §11.12.1.1</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Punzonamiento, sección a d/2</td><td class="mono">E.060 §11.12.1.2</td><td>Sí, 4 lados</td><td>Parcial</td>
+    <td>Perímetro truncado</td><td>Norma</td></tr>
+<tr><td>Punzonamiento V<sub>c</sub></td><td class="mono">§11.12.2.1, ec. 11-33/34/35</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>α<sub>s</sub> = 40 / 30 / 20</td><td class="mono">§11.12.2.1(b)</td><td>Parametrizado, sin usar</td>
+    <td>Sí</td><td>Criterio de clasificación</td><td>Norma — <span class="p p-tbd">TBD-1</span></td></tr>
+<tr><td>Transferencia de momento γ<sub>v</sub></td><td class="mono">§11.12.6, ec. 11-39/11-40</td>
+    <td><b>Sí</b> — la ficha está desactualizada</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>γ<sub>f</sub></td><td class="mono">E.060 ec. 13-1</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>J<sub>c</sub>, 4 lados</td><td class="mono">Derivación geométrica</td><td>Sí</td><td>Sí</td><td>—</td>
+    <td><b>Derivación</b>, ya declarada</td></tr>
+<tr><td>J<sub>c</sub>, perímetro truncado</td><td class="mono">Derivación geométrica</td><td>No</td><td>—</td>
+    <td>Centroide y c<sub>AB</sub>≠c<sub>CD</sub></td><td><b>Derivación</b></td></tr>
+<tr><td><b>Estribos: A<sub>v,mín</sub>, s<sub>máx</sub>, V<sub>s</sub></b></td><td class="mono">E.060 §11.5</td>
+    <td>No</td><td>—</td><td>Sección completa</td><td>Norma — <span class="p p-tbd">TBD-4</span></td></tr>
+<tr><td>Desarrollo, tracción</td><td class="mono">§12.2, Tabla 12.1, ec. 12-1</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Ganchos</td><td class="mono">E.060 §12.5</td><td>Sí</td><td>Sí</td><td>—</td><td>Norma</td></tr>
+<tr><td>Peralte mínimo de zapata</td><td class="mono">E.060 §15.7</td><td>Sí, interpretado</td><td>Sí</td><td>—</td>
+    <td>Norma + interpretación declarada</td></tr>
+<tr><td><b>Detallado sísmico de vigas</b></td><td class="mono">E.060 §21 / E.030</td><td>No</td><td>—</td>
+    <td>Todo</td><td>Norma — <span class="p p-tbd">TBD-6</span></td></tr>
+<tr><td>Rigidez mínima de viga de conexión</td><td class="mono">No localizado</td><td>No</td><td>—</td>
+    <td>Criterio de verificación</td><td><span class="p p-tbd">TBD-7</span></td></tr>
+<tr><td>h ≈ L/7 de la viga</td><td class="mono">Apuntes Aragón</td><td>No</td><td>—</td><td>—</td>
+    <td><b>Predimensionamiento</b></td></tr>
+<tr><td>L/B = 2 a 2,5 zapata excéntrica</td><td class="mono">Apuntes Aragón</td><td>No</td><td>—</td><td>—</td>
+    <td><b>Predimensionamiento</b></td></tr>
+<tr><td>Umbral de 6 m conectada vs. combinada</td><td class="mono">Apuntes Aragón</td><td>No</td><td>—</td><td>—</td>
+    <td><b>Predimensionamiento</b></td></tr>
+<tr><td>Rango automático de búsqueda</td><td class="mono">Heurística propia</td><td>Sí, con leyenda</td><td>Parcial</td>
+    <td>Variante para combinada</td><td><b>Heurística</b>, ya declarada</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="call">
+<h4>Hallazgo colateral: documentación desactualizada</h4>
+<p><code>docs/normativa/referencias_e060_e050.md</code> declara §11.12.6 como
+«<b>NO IMPLEMENTADO</b>» y describe las tres piezas que harían falta. Las tres existen desde
+que se añadió <code>punching_moment_transfer.py</code>. La ficha quedó atrás y debe corregirse
+antes de que alguien la use como fuente de verdad sobre el alcance del motor.</p>
+</div>
+</section>
+
+<!-- ============================ D ============================ -->
+<section id="d">
+<h2><span class="num">D</span>Modelo de datos propuesto</h2>
+<p class="lede">El principio rector: el caso de una columna no debe pagar ningún precio por la
+existencia de los otros dos.</p>
+
+<h3>La decisión central</h3>
+<p>Hay dos formas de generalizar y solo una conserva la compatibilidad:</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Opción</th><th>Consecuencia</th></tr></thead>
+<tbody>
+<tr><td><b>Modificar <code>Column</code></b> para que lleve posición</td>
+    <td><span class="p p-new">Rechazada</span> — obliga a tocar todas las firmas que hoy reciben
+    un <code>Column</code>, y con ellas los tests que las cubren. Rompe el requisito de
+    congelamiento.</td></tr>
+<tr><td><b>Envolver <code>Column</code></b> en un tipo con posición</td>
+    <td><span class="p p-direct">Recomendada</span> — <code>Column</code> no cambia ni una línea.
+    El código actual sigue compilando y dando los mismos números.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Estructura conceptual</h3>
+<div class="blk">FoundationSystem                     ← raíz, discriminada por tipología
+├── type: AISLADA | COMBINADA | CONECTADA
+├── soil        : SoilProfile          sin cambios
+├── materials   : Materials            sin cambios
+├── loads       : LoadCaseSet          servicio / factorizadas, sin cambios
+└── layout      : según type
+
+ColumnPlacement                        ← NUEVO, envuelve sin modificar
+├── column   : Column                  el tipo actual, intacto
+├── x_m, y_m : posición del centro respecto al origen de la zapata
+└── loads_ref: identificador de la columna dentro de LoadCaseSet
+
+FootingElement                         ← generaliza la zapata
+├── B_m, L_m, h_m
+└── columns  : list[ColumnPlacement]   longitud 1 = caso actual
+
+ConnectingBeam                         ← NUEVO
+├── b_m, h_m, span_m
+├── cover_m                            TBD-5
+└── analysis_model: ARTICULADO | CUERPO_RIGIDO      obligatorio, sin valor por defecto
+
+Layout por tipología
+├── AISLADA    : FootingElement con 1 ColumnPlacement centrado
+├── COMBINADA  : FootingElement con N ColumnPlacement
+└── CONECTADA  : FootingElement(exterior) + FootingElement(interior) + ConnectingBeam</div>
+
+<h3>Cómo se preserva el caso actual</h3>
+<ul>
+<li><b>Constructor de conveniencia.</b> Una zapata aislada se sigue describiendo con una columna
+y sus dimensiones; el sistema genera internamente el <code>ColumnPlacement</code> centrado. El
+usuario de la API no ve la posición si no la necesita.</li>
+<li><b>Camino de código idéntico.</b> Con una columna centrada, el solver debe recorrer las
+mismas ramas y producir los mismos números. La generalización se paga en tiempo de ejecución
+solo cuando se usa.</li>
+<li><b>Sin campos obligatorios nuevos en el caso simple.</b> Ninguna entrada existente pasa a
+requerir información adicional.</li>
+</ul>
+
+<div class="call">
+<h4>El único campo sin valor por defecto</h4>
+<p><code>analysis_model</code> de la zapata conectada debe ser obligatorio. Poner un valor por
+defecto equivaldría a que el programa elija el modelo estructural por el ingeniero, que es
+justamente lo que la sección A concluye que no debe hacer.</p>
+</div>
+
+<h3>Resultados</h3>
+<p>Simétricamente, <code>FootingCandidate</code> se mantiene como está y se envuelve:</p>
+<div class="blk">SystemResult
+├── type
+├── footings : list[FootingCandidate]   longitud 1 = caso actual, campo a campo idéntico
+├── beam     : BeamCandidate | None
+├── statics  : CoupleDistribution | None    M_par y ΔP por combinación
+├── trace    : CalculationTrace             traza del sistema, con ámbito
+└── overall_status                          el peor de todos los componentes</div>
+</section>
+
+<!-- ============================ 5 ============================ -->
+<section id="s5">
+<h2><span class="num">5</span>CalculationTrace</h2>
+<p class="lede">La estructura de once campos por entrada sigue respondiendo las siete preguntas
+exigidas. Lo que falta es poder decir a qué componente pertenece cada entrada.</p>
+
+<div class="call risk">
+<h4>Defecto latente en la traza actual</h4>
+<p><code>CalculationTrace.by_id()</code> devuelve la <b>primera</b> entrada que coincide con un
+identificador. Hoy es inofensivo porque los identificadores son únicos. En cuanto haya dos
+columnas, <code>"punching"</code> aparecerá dos veces y <code>by_id("punching")</code>
+devolverá silenciosamente la de la primera columna. Un informe podría mostrar el
+punzonamiento de una columna bajo el rótulo de la otra sin que nada falle.</p>
+</div>
+
+<h3>Cambio propuesto</h3>
+<p>Un único campo opcional, <code>scope</code>, con valor nulo por defecto. Las entradas
+actuales no cambian, los tests actuales no se tocan, y la unicidad pasa a ser del par
+<span class="mono">(scope, id)</span>.</p>
+
+<div class="blk">scope = None              caso actual, zapata aislada
+scope = "zap_ext"        zapata exterior de una conectada
+scope = "zap_int"        zapata interior
+scope = "viga"           viga de conexión
+scope = "col_1"          columna 1 de una combinada
+scope = "sistema"        cálculos que no pertenecen a un componente (reparto del par)</div>
+
+<h3>Nuevas trazas por tipología</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Ámbito</th><th>Entradas nuevas</th><th>Respaldo declarado</th></tr></thead>
+<tbody>
+<tr><td rowspan="4"><b>Columna descentrada</b></td>
+    <td>Clasificación de la columna y α<sub>s</sub> adoptado</td><td>§11.12.2.1(b) + interpretación</td></tr>
+<tr><td>Perímetro crítico truncado: lados, b₁, b₂, b<sub>o</sub></td><td>§11.12.1.2</td></tr>
+<tr><td>Centroide de la sección crítica y c<sub>AB</sub>, c<sub>CD</sub></td><td>Derivación</td></tr>
+<tr><td>Excentricidad total: geométrica + de carga</td><td>Estática</td></tr>
+<tr><td rowspan="4"><b>Combinada</b></td>
+    <td>Centroide de cargas y longitud resultante</td><td>Estática</td></tr>
+<tr><td>Diagramas V(x) y M(x): valores en secciones críticas</td><td>Estática</td></tr>
+<tr><td>Momento negativo máximo y acero superior</td><td>§10.2 + §9.7</td></tr>
+<tr><td>Ancho de franja transversal adoptado</td><td><b>Criterio</b> — TBD-2</td></tr>
+<tr><td rowspan="5"><b>Viga de conexión</b></td>
+    <td>M<sup>−</sup> y M<sup>+</sup> a la cara de columna</td><td>§15.4(a) por analogía</td></tr>
+<tr><td>As<sup>−</sup>, As<sup>+</sup> y su mínimo</td><td>§10.2 + §10.5 — TBD-3</td></tr>
+<tr><td>V<sub>u</sub> a distancia d, φV<sub>c</sub></td><td>ec. 11-3</td></tr>
+<tr><td>A<sub>v</sub> requerido, separación y distribución</td><td>§11.5 — TBD-4</td></tr>
+<tr><td>Peralte de predimensionamiento h ≈ L/7</td><td><b>Predimensionamiento</b>, sin estado</td></tr>
+<tr><td rowspan="4"><b>Conectada</b></td>
+    <td>Modelo de análisis adoptado</td><td>Hipótesis declarada por el usuario</td></tr>
+<tr><td>M<sub>par</sub> y ΔP por combinación, con signo</td><td>Estática</td></tr>
+<tr><td>Cargas corregidas en cada zapata</td><td>Estática</td></tr>
+<tr><td>Verificación de rigidez de la viga</td><td>TBD-7</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Una regla que conviene mantener: las entradas de predimensionamiento se registran
+<b>sin estado PASS/FAIL</b>, o con estado INFO. Un criterio de práctica no puede aprobar ni
+reprobar un diseño.</p>
+</section>
+
+<!-- ============================ 6 ============================ -->
+<section id="s6">
+<h2><span class="num">6</span>Optimización</h2>
+<p class="lede">La separación entre métricas y puntuación, que se hizo por otra razón en la
+Fase 3, resulta ser la que permite reutilizar el optimizador completo.</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>Componente</th><th>Veredicto</th><th>Motivo</th></tr></thead>
+<tbody>
+<tr><td><code>scoring</code> (normalización min-max, pesos)</td><td><span class="p p-direct">Directa</span></td>
+    <td>Opera sobre vectores de métricas. No sabe qué es una zapata.</td></tr>
+<tr><td><code>pareto</code></td><td><span class="p p-direct">Directa</span></td>
+    <td>Dominancia sobre objetivos arbitrarios.</td></tr>
+<tr><td><code>ranker</code>, <code>arming_ranker</code></td><td><span class="p p-direct">Directa</span></td>
+    <td>Ordenamiento sobre puntuaciones.</td></tr>
+<tr><td><code>discard_explainer</code></td><td><span class="p p-extend">Extensión</span></td>
+    <td>Debe poder decir <b>qué componente</b> causó el descarte.</td></tr>
+<tr><td><code>metrics</code></td><td><span class="p p-extend">Extensión</span></td>
+    <td>Debe sumar concreto y acero de viga, y acero de cara superior.</td></tr>
+<tr><td><code>alternative_generator</code></td><td><span class="p p-variant">Variante</span></td>
+    <td>El espacio de búsqueda cambia de forma en cada tipología.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>El problema real: qué es una alternativa</h3>
+<div class="call risk">
+<h4>La unidad de comparación cambia</h4>
+<p>En una zapata conectada no se puede optimizar cada zapata por separado y unir los ganadores.
+Reducir la zapata exterior aumenta M<sub>par</sub>, lo que aumenta ΔP, lo que carga más la
+interior. <b>La alternativa es la terna completa</b> (exterior, viga, interior), y el espacio
+de búsqueda es su producto cartesiano.</p>
+<p>Ese producto crece rápido. El límite actual de <code>MAX_GEOMETRIES = 5000</code> se
+quedará corto, y habrá que decidir si se acota el espacio o se buscan las zapatas en cascada
+aceptando que el resultado no sea el óptimo global — y en tal caso, <b>decirlo</b>.</p>
+</div>
+
+<h3>Objetivos nuevos a considerar</h3>
+<p>De la lista propuesta, mi lectura de cuáles aportan:</p>
+<ul>
+<li><b>Volumen de concreto y masa de acero</b> — ya existen; solo hay que sumar los de la viga.</li>
+<li><b>Área en planta ocupada</b> — ya existe, y gana peso en conectadas, donde el ahorro de
+área es el motivo mismo de elegir la tipología.</li>
+<li><b>Complejidad constructiva</b> — existe como heurística declarada. Una viga de conexión
+con estribos es constructivamente más costosa que una zapata sin ellos; el índice debería
+reflejarlo, y seguir marcado como heurística.</li>
+<li><b>Cumplimiento normativo</b> — <b>no debe ser un objetivo</b>. Es un filtro previo. Una
+alternativa que no cumple no compite: se descarta con motivo. Convertirlo en un eje ponderado
+permitiría que un buen puntaje en volumen compense un incumplimiento, que es exactamente lo
+que la arquitectura de cinco estados existe para impedir.</li>
+<li><b>Eficiencia geométrica</b> — descartaría el término mientras no tenga una definición
+medible. Sin ella sería un número inventado con apariencia de rigor.</li>
+</ul>
+</section>
+
+<!-- ============================ 7 ============================ -->
+<section id="s7">
+<h2><span class="num">7</span>Estrategia de tests</h2>
+<p class="lede">El requisito es que el caso actual no cambie de resultado. Los 446 tests
+existentes son necesarios pero no suficientes para garantizarlo.</p>
+
+<div class="call risk">
+<h4>Por qué los 446 tests no bastan</h4>
+<p>Verifican propiedades, umbrales y casos golden puntuales. Una generalización puede desplazar
+un valor intermedio —el reparto entre franjas, la selección de barras, el h que gana— sin
+violar ninguna aserción existente. <b>Hace falta un congelamiento numérico explícito</b>: fijar
+la salida completa de un conjunto de casos representativos <b>antes</b> de tocar nada, y exigir
+igualdad exacta después de cada fase.</p>
+<p>Recomiendo que sea la primera tarea de la Fase 1, antes de cualquier cambio de código.</p>
+</div>
+
+<h3>Plan por bloques</h3>
+<div class="tw">
+<table>
+<thead><tr><th>Bloque</th><th>Contenido</th><th>Regla</th></tr></thead>
+<tbody>
+<tr><td><b>Intocables</b></td><td>Los 446 actuales</td>
+    <td>No se modifica ni una aserción. Si una falla, la culpa es del cambio, no del test.</td></tr>
+<tr><td><b>Congelamiento</b></td><td>Salida numérica completa de ~8 casos aislados representativos:
+    cuadrada, rectangular, con momento uniaxial, biaxial, gobernada por punzonamiento, por
+    cortante, por cuantía mínima, por peralte mínimo</td>
+    <td>Igualdad exacta tras cada fase</td></tr>
+<tr><td><b>Continuidad</b></td><td>Columna centrada evaluada por el camino generalizado</td>
+    <td>Debe dar idéntico resultado que el camino actual</td></tr>
+<tr><td><b>Descentrada</b></td><td>Interior, cercana al borde, de borde, de esquina; excentricidad
+    pequeña y grande; simetría al reflejar la posición</td>
+    <td>Nuevos</td></tr>
+<tr><td><b>Combinada</b></td><td>Dos columnas iguales, dos desiguales, tres o más, con momentos
+    distintos, una en límite de propiedad</td><td>Nuevos</td></tr>
+<tr><td><b>Viga</b></td><td>Flexión positiva y negativa, cortante con y sin estribos requeridos,
+    As mínimo gobernante</td><td>Nuevos — bloqueados por §11.5</td></tr>
+<tr><td><b>Conectada</b></td><td>Reparto del par con sismo en ambos signos, ambos modelos de
+    análisis, sistema completo</td><td>Nuevos</td></tr>
+<tr><td><b>Casos de error</b></td><td>Columna fuera de la zapata, columnas superpuestas, viga
+    más corta que la separación, modelo de análisis no declarado, dos columnas en la misma
+    posición</td><td>Deben fallar con mensaje explícito, nunca calcular</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Casos límite que merecen test propio</h3>
+<ul>
+<li><b>Holgura exactamente igual a d/2.</b> Frontera entre perímetro cerrado y truncado. Debe
+resolverse de forma determinista y documentada.</li>
+<li><b>Excentricidad justo en el borde del núcleo central.</b> Ya existe <code>KERN_TOLERANCE</code>;
+al sumarse el descentrado geométrico hay que confirmar que sigue comportándose.</li>
+<li><b>Combinada con columnas simétricas y cargas iguales.</b> El momento negativo entre
+columnas debe salir simétrico, y los voladizos iguales.</li>
+<li><b>Combinada que degenera en aislada.</b> Con una sola columna centrada, el motor de
+combinada debe reproducir el de aislada.</li>
+<li><b>ΔP que cambia de signo.</b> Comprobar que ambas ramas se evalúan.</li>
+</ul>
+
+<h3>Benchmarks disponibles en el proyecto</h3>
+<div class="tw">
+<table>
+
+<thead><tr><th>Fuente</th><th>Caso</th><th>Datos verificados</th><th>Uso</th></tr></thead>
+<tbody>
+<tr><td class="mono">Aragón §3.4.1</td><td>Zapata aislada</td>
+    <td>3,40 × 3,40 × 0,60 m; ya contrastado, ratio 0,9985</td>
+    <td>Congelamiento y ancla de no regresión</td></tr>
+<tr><td class="mono">Aragón §3.5</td><td>Combinada, 2 columnas 50×50 a 5 m, una en límite</td>
+    <td>q<sub>adm</sub> = 1,5 kg/cm²; resultante en x = 3,60 m; L = 7,20 m;
+    zapata 7,20 × 3,80 × 0,80 m</td>
+    <td><b>Benchmark de Fase 2</b></td></tr>
+<tr><td class="mono">Aragón §3.6 · problema 1</td><td>Conectada, modelo articulado, 6 m</td>
+    <td>q<sub>adm</sub> = 1,8 kg/cm²; ext. 1,40 × 3,70 × 0,60; int. 3,20 × 3,20 × 0,60;
+    viga 35 × 120; M<sub>u</sub><sup>−</sup> = 140,6 t·m → As = 37,7 cm²;
+    M<sub>u</sub><sup>+</sup> = 65,6 t·m → As = 16,5 cm²; V<sub>u</sub> = 25,6 t;
+    V<sub>c</sub> = 25,1 t</td>
+    <td><b>Benchmark de Fases 3 y 4</b></td></tr>
+<tr><td class="mono">Aragón §3.6 · problema 2</td><td>Conectada, cuerpo rígido conjunto, 6,50 m</td>
+    <td>q<sub>adm</sub> = 1,75 kg/cm²</td>
+    <td>Benchmark del segundo modelo de análisis</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>El problema 1 es especialmente valioso porque da <b>los cuatro esfuerzos de diseño de la
+viga y el V<sub>c</sub> resultante</b>. Permite validar el motor de vigas contra números
+publicados, no solo contra sí mismo.</p>
+</section>
+
+<!-- ============================ E · G ============================ -->
+<section id="eg">
+<h2><span class="num">E · G</span>Fases y dependencias</h2>
+<p class="lede">La secuencia propuesta es correcta en lo esencial. Introduzco tres cambios:
+un congelamiento previo, el desdoblamiento de la Fase 1, y el reconocimiento de que el motor
+de vigas está bloqueado y por tanto no puede programarse en firme.</p>
+
+<div class="phases">
+
+<div class="phase">
+  <div class="pid">FASE 0<small>Aquí</small></div>
+  <div>
+    <h4>Auditoría normativa y arquitectónica</h4>
+    <p>Este documento. Cierra cuando se resuelvan las decisiones abiertas y lleguen los textos
+    normativos de la sección H.</p>
+    <dl>
+      <dt>Riesgo</dt><dd>Ninguno — no toca código</dd>
+      <dt>Salida</dt><dd>Alcance acordado y lista de bloqueos</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 1A<small>Completada</small></div>
+  <div>
+    <h4>Congelamiento numérico</h4>
+    <p>Fijar la salida completa de los casos representativos y el ejercicio de Aragón §3.4.1
+    como test permanente, <b>antes</b> de cualquier modificación. Sin esto, ninguna fase
+    posterior puede demostrar que no rompió nada.</p>
+    <dl>
+      <dt>Afecta</dt><dd>Solo <code>tests/</code></dd>
+      <dt>Normativa</dt><dd>Ninguna nueva</dd>
+      <dt>Riesgo</dt><dd>Nulo</dd>
+      <dt>Depende de</dt><dd>Fase 0</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 1B<small>Completada</small></div>
+  <div>
+    <h4>Columna descentrada, perímetro cerrado</h4>
+    <p>Posición de columna, excentricidad total, voladizos asimétricos, evaluación de ambos
+    lados. El perímetro de punzonamiento sigue siendo de cuatro lados: se restringe la entrada
+    a holguras ≥ d/2 y se rechaza el resto con motivo explícito.</p>
+    <dl>
+      <dt>Afecta</dt><dd><code>depth_solver</code>, <code>eccentricity</code>, <code>domain</code></dd>
+      <dt>Nuevos</dt><dd><code>ColumnPlacement</code></dd>
+      <dt>Normativa</dt><dd>Ninguna nueva</dd>
+      <dt>Tests</dt><dd>Continuidad, descentrada cercana al borde, simetría por reflexión</dd>
+      <dt>Riesgo</dt><dd><b>Bajo</b> — sin física nueva</dd>
+      <dt>Depende de</dt><dd>Fase 1A</dd>
+      <dt>Resultado</dt><dd>Completada. <code>ColumnPlacement</code> envuelve <code>Column</code> sin
+      tocarlo; la excentricidad geométrica se suma a la de carga; se evalúan los dos voladizos;
+      la holgura &lt; d/2 se rechaza declarando que corresponde a la Fase 1C.
+      <b>R3 confirmado como real:</b> evaluar solo el lado de mayor presión subestimaba
+      M<sub>u</sub> un 11,3 % en un caso medido. Dos hallazgos adicionales: la descarga del suelo
+      en punzonamiento necesita la presión <i>en el centroide de la columna</i>, no la media
+      (derivación exacta), y la resolución de <code>d</code> usaba la geometría centrada, lo que
+      daba un <code>d</code> 3,2 mm mayor que el real — del lado inseguro.</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 1C<small>Completada</small></div>
+  <div>
+    <h4>Perímetro truncado y transferencia de momento</h4>
+    <p>Columnas de borde y esquina: b<sub>o</sub> de tres y dos lados, α<sub>s</sub> conectado,
+    centroide desplazado, J<sub>c</sub> truncado con c<sub>AB</sub> ≠ c<sub>CD</sub>. Es la
+    fase técnicamente más difícil de todo el plan.</p>
+    <dl>
+      <dt>Afecta</dt><dd><code>punching_shear</code>, <code>punching_moment_transfer</code></dd>
+      <dt>Normativa</dt><dd>§11.12.2.1 completo — <span class="p p-tbd">TBD-1</span></dd>
+      <dt>Tests</dt><dd>Degeneración al caso centrado, borde, esquina, continuidad en g = d/2</dd>
+      <dt>Riesgo</dt><dd><b>Alto</b> — riesgo R1, falso PASS</dd>
+      <dt>Depende de</dt><dd>Fase 1B</dd>
+      <dt>Resultado</dt><dd>Completada. Sección crítica de 4, 3 o 2 lados en un módulo de
+      geometría pura; la derivación general reproduce <b>exactamente</b> las tres expresiones
+      clásicas, incluida c = b1²/(2b1+b2). <b>R1 cuantificado:</b> aplicar el perímetro cerrado
+      a una columna de borde sobreestimaba φV<sub>c</sub> un <b>63 %</b>, y en esquina un
+      <b>175 %</b>. α<sub>s</sub> se selecciona por clasificación geométrica —interpretación
+      declarada, TBD-1— y su efecto solo aparece cuando gobierna la ec. 11-34, caso que tiene
+      test propio. La geometría con 3 o 4 lados recortados se rechaza: E.060 no la clasifica y
+      no se le inventa un α<sub>s</sub>.</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 2</div>
+  <div>
+    <h4>Zapata combinada</h4>
+    <p>N columnas, centroide de cargas, diagramas V(x) y M(x), acero de cara superior, franjas
+    transversales. Punzonamiento por columna reutilizando la Fase 1C.</p>
+    <dl>
+      <dt>Afecta</dt><dd><code>reinforcement</code>, <code>metrics</code>, <code>auto_search_range</code>, informes</dd>
+      <dt>Nuevos</dt><dd><code>analysis/beam_diagram</code>, solver de combinada, cara superior</dd>
+      <dt>Normativa</dt><dd>§7.7 completo <span class="p p-tbd">TBD-5</span>, §15.4 <span class="p p-tbd">TBD-2</span>,
+      y §11.5 <span class="p p-tbd">TBD-4</span> si requiere estribos</dd>
+      <dt>Tests</dt><dd>Aragón §3.5, degeneración a aislada, 2 y 3 columnas</dd>
+      <dt>Riesgo</dt><dd><b>Medio-alto</b> — riesgo R2</dd>
+      <dt>Depende de</dt><dd>Fase 1C</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 3<small>Desbloqueada</small></div>
+  <div>
+    <h4>Motor de vigas de concreto armado</h4>
+    <p>Flexión positiva y negativa, cortante con estribos, As mínimo de viga (§10.5.2),
+    recubrimiento (§7.7.1), desarrollo dentro de las zapatas, dimensión mínima y estribos
+    cerrados (§21.12.3.2), y <b>fuerza axial N ≥ 0,10·ΣP<sub>u</sub></b> por E.030 65.1, que la
+    convierte en elemento de flexo-tracción o flexo-compresión con los φ de §9.3.2.</p>
+    <dl>
+      <dt>Nuevos</dt><dd>Paquete <code>beam/</code> completo</dd>
+      <dt>Normativa</dt><dd><span class="p p-tbd">TBD-3</span> <span class="p p-tbd">TBD-4</span>
+      <span class="p p-tbd">TBD-5</span> <span class="p p-tbd">TBD-6</span></dd>
+      <dt>Tests</dt><dd>Contra los esfuerzos publicados de Aragón §3.6 problema 1</dd>
+      <dt>Riesgo</dt><dd><b>Medio</b> — elemento aislado, validable solo</dd>
+      <dt>Depende de</dt><dd>Fase 1A. <b>Independiente de la Fase 2</b>: puede ir en paralelo.</dd>
+    </dl>
+  </div>
+</div>
+
+<div class="phase">
+  <div class="pid">FASE 4</div>
+  <div>
+    <h4>Zapata conectada</h4>
+    <p>Estática del reparto, ambos modelos de análisis, composición de los tres componentes,
+    optimización sobre la terna.</p>
+    <dl>
+      <dt>Nuevos</dt><dd><code>system/statics</code>, solver de sistema, <code>SystemResult</code></dd>
+      <dt>Normativa</dt><dd><span class="p p-tbd">TBD-7</span> para la rigidez de la viga</dd>
+      <dt>Tests</dt><dd>Aragón §3.6 problemas 1 y 2, ΔP en ambos signos</dd>
+      <dt>Riesgo</dt><dd><b>Medio</b> — riesgo R4</dd>
+      <dt>Depende de</dt><dd>Fases 1C y 3</dd>
+    </dl>
+  </div>
+</div>
+
+</div>
+
+<h4>Ruta crítica</h4>
+<div class="blk">0 → 1A → 1B → 1C ─┬─→ 2 ──────────┐
+                   │                │
+                   └─→ (3, si llega §11.5) ─→ 4</div>
+
+<p>La Fase 3 es la que más pronto conviene desbloquear, porque es la única que puede avanzar
+en paralelo y porque es prerrequisito de la Fase 4. Si §11.5 llega pronto, el plan se acorta
+de forma apreciable.</p>
+</section>
+
+<!-- ============================ F ============================ -->
+<section id="f">
+<h2><span class="num">F</span>Riesgos técnicos</h2>
+<p class="lede">Ordenados por capacidad de producir un resultado estructuralmente incorrecto
+que el programa presente como válido.</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>#</th><th>Riesgo</th><th>Mecanismo</th><th>Mitigación</th></tr></thead>
+<tbody>
+<tr><td class="mono">R1</td><td><b>Perímetro cerrado en columna de borde</b></td>
+    <td>b<sub>o</sub> sobreestimado y α<sub>s</sub> = 40 en lugar de 30. Los dos errores van en
+    la misma dirección: φV<sub>c</sub> resulta mayor que el real. <b>Falso PASS en el modo de
+    falla más frágil de una zapata.</b></td>
+    <td>La Fase 1B <b>debe</b> rechazar toda holgura &lt; d/2 con motivo explícito. La geometría
+    truncada y α<sub>s</sub> se entregan juntos en 1C o no se entregan.</td></tr>
+<tr><td class="mono">R2</td><td><b>Combinada sin acero superior</b></td>
+    <td>El momento negativo entre columnas es real. Una zapata combinada armada solo con
+    parrilla inferior fisura por arriba. Si el motor de combinada se apoya en el de aislada sin
+    añadir la cara superior, el diseño es inseguro y aparenta cumplir.</td>
+    <td>Que el solver de combinada <b>no pueda ejecutarse</b> sin resolver la cara superior.
+    Fallo cerrado, no advertencia.</td></tr>
+<tr><td class="mono">R3</td><td><b>Lado equivocado en voladizos asimétricos</b></td>
+    <td><code>near_high_edge=True</code> está fijo. Con voladizos desiguales, el momento máximo
+    puede darse en el voladizo largo del lado de menor presión. Subestimación de M<sub>u</sub>.</td>
+    <td>Evaluar ambos lados y tomar el mayor. Test con excentricidad y voladizos deliberadamente
+    contrapuestos.</td></tr>
+<tr><td class="mono">R4</td><td><b>Premisa de rigidez no verificada</b></td>
+    <td>La presión uniforme en la zapata excéntrica depende de que la viga impida el giro. Una
+    viga esbelta rompe la premisa sin que ningún cálculo lo detecte.</td>
+    <td>Hipótesis declarada en la traza. Mientras TBD-7 siga abierto, el resultado no puede ser
+    PASS: corresponde NO VERIFICADO.</td></tr>
+<tr><td class="mono">R5</td><td><b>Colisión de identificadores en la traza</b></td>
+    <td><code>by_id()</code> devuelve la primera coincidencia. Con varias columnas, un informe
+    puede atribuir a una columna el resultado de otra.</td>
+    <td>Campo <code>scope</code> y unicidad del par (scope, id), verificada por test.</td></tr>
+<tr><td class="mono">R6</td><td><b>Regresión silenciosa en el caso aislado</b></td>
+    <td>Un desplazamiento de valor intermedio que ninguna aserción existente cubre.</td>
+    <td>Congelamiento numérico de la Fase 1A.</td></tr>
+<tr><td class="mono">R7</td><td><b>Criterio de práctica presentado como norma</b></td>
+    <td>h ≈ L/7, L/B = 2 a 2,5 y el ancho de franja transversal aparecen en fuentes docentes
+    junto a exigencias reales. Es fácil que se filtren como verificaciones.</td>
+    <td>Registro sin estado o con estado INFO. Test negativo que verifique que ningún criterio
+    de predimensionamiento produce PASS o FAIL.</td></tr>
+<tr><td class="mono">R8</td><td><b>Explosión combinatoria en conectada</b></td>
+    <td>El producto cartesiano de dos zapatas y una viga supera <code>MAX_GEOMETRIES</code>.
+    Un truncamiento silencioso haría que «la mejor alternativa» no lo sea.</td>
+    <td>Si se acota el espacio, declararlo en el resultado con el mismo tratamiento que la
+    nota del rango automático.</td></tr>
+<tr><td class="mono">R9</td><td><b>As mínimo de zapata aplicado a viga</b></td>
+    <td><code>rho_min_temperature</code> aplica §9.7 apoyándose en que §10.5.1 excluye zapatas.
+    Una viga no está excluida. Reutilizar la función por comodidad daría un As mínimo que no
+    corresponde.</td>
+    <td>Función separada para vigas. No reutilizar la de zapatas ni siquiera provisionalmente.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<!-- ============================ H ============================ -->
+<section id="h">
+<h2><span class="num">H</span>Información faltante</h2>
+<p class="lede">Superada en la Rev. 3. Las tres normas están incorporadas como fuente primaria y
+la tabla siguiente se conserva únicamente como registro de lo que estuvo bloqueado. El estado
+vigente es el de la sección R.</p>
+
+<div class="tw">
+<table>
+<thead><tr><th>TBD</th><th>Qué necesito</th><th>Bloquea</th><th>Consecuencia si no llega</th></tr></thead>
+<tbody>
+<tr><td class="mono">TBD-1</td><td><b>E.060 §11.12.2.1 completo</b>, en particular el texto que define
+    columna interior, de borde y de esquina</td><td>Fase 1C</td>
+    <td>Se implementa con la lectura geométrica, declarada como interpretación al modo de §15.7</td></tr>
+<tr><td class="mono">TBD-2</td><td><b>E.060 §15.4 completo</b>, para verificar si fija ancho de franja
+    en zapatas con varias columnas</td><td>Fase 2</td>
+    <td>El ancho b + d/2 queda como criterio de modelación de los apuntes, no como norma</td></tr>
+<tr><td class="mono">TBD-3</td><td><b>E.060 §10.5</b> completo — As mínimo por flexión y su base en M<sub>cr</sub></td>
+    <td>Fase 3</td><td><b>Bloqueo duro.</b> No se puede diseñar la viga sin su As mínimo</td></tr>
+<tr><td class="mono">TBD-4</td><td><b>E.060 §11.5 completo</b> — A<sub>v,mín</sub>, separación máxima,
+    V<sub>s</sub>, límite superior de V<sub>s</sub>, condiciones de omisión</td>
+    <td>Fase 3, y Fase 2 si requiere estribos</td>
+    <td><b>Bloqueo duro.</b> Es la sección más importante de toda la lista</td></tr>
+<tr><td class="mono">TBD-5</td><td><b>E.060 §7.7 completo</b> — tabla de recubrimientos. Hoy solo
+    consta el valor de 70 mm contra el suelo</td><td>Fases 2 y 3</td>
+    <td>No se puede fijar el recubrimiento de la cara superior ni el de la viga</td></tr>
+<tr><td class="mono">TBD-6</td><td><span class="p p-direct">RESUELTO</span> por E.030 art. 65.1.
+    Queda pendiente <b>E.060 §9.3</b> (φ para flexo-compresión y flexo-tracción), que el requisito
+    axial hace necesario</td><td>Fase 3</td>
+    <td>No se puede dimensionar la viga con carga axial sin su factor φ</td></tr>
+<tr><td class="mono">TBD-7</td><td><b>Criterio de rigidez mínima de la viga de conexión.</b>
+    Confirmado que <b>no está en E.050 ni en E.030</b>. Fuera de h ≈ L/7 de los apuntes, sigue sin
+    criterio normativo</td><td>Fase 4</td>
+    <td>La premisa de presión uniforme queda como hipótesis no verificable: NO VERIFICADO,
+    nunca PASS</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Prioridad</h3>
+<ol class="body-list">
+<li><b>§11.5</b> — desbloquea la Fase 3, que es la que puede ir en paralelo y la que la Fase 4
+necesita. Es el texto de mayor rendimiento.</li>
+<li><b>§10.5 y §7.7</b> — completan el motor de vigas y habilitan la cara superior de la
+combinada.</li>
+<li><b>§11.12.2.1 y §15.4</b> — convierten dos interpretaciones en certezas.</li>
+<li><b>§21 / E.030</b> — el único que puede quedar abierto sin detener el plan, siempre que se
+reporte como no verificado.</li>
+</ol>
+
+<div class="call">
+<h4>Decisiones que dependen de ti, no de la norma</h4>
+<ul>
+<li>Si la zapata combinada debe admitir <b>más de dos columnas</b> desde el principio, o si dos
+es suficiente para la primera entrega.</li>
+<li>Si el modelo de cuerpo rígido conjunto entra en la Fase 4 o se pospone, dejando solo el
+articulado.</li>
+<li>Si el peso propio de la viga de conexión se modela explícitamente o se absorbe en el
+porcentaje global, como hacen los apuntes.</li>
+</ul>
+</div>
+</section>
+
+<!-- ============================ I ============================ -->
+<section id="i">
+<h2><span class="num">I</span>Recomendación final</h2>
+
+<p class="lede">Es técnicamente viable integrar las tres tipologías en un solo programa. La
+arquitectura actual no solo lo permite: está construida de una forma que lo favorece.</p>
+
+<h3>Arquitectura definitiva recomendada</h3>
+<div class="blk">CAPA 1   codes/          norma pura, sin geometría          reutilización total
+CAPA 2   analysis/       estática y diagramas                nueva, sin normativa
+CAPA 3   elements/       zapata · viga                       zapata existe, viga es nueva
+CAPA 4   systems/        aislada · combinada · conectada     composición de elementos
+CAPA 5   optimization/   métricas, Pareto, ranking           reutilización casi total
+CAPA 6   results/        traza con ámbito, cinco estados     extensión menor</div>
+
+<p>La capa 4 es la única genuinamente nueva a nivel conceptual, y es donde vive la diferencia
+entre tipologías. Las capas 1, 5 y 6 no distinguen entre ellas — y ésa es la prueba de que la
+separación está bien trazada.</p>
+
+<h3>Tres condiciones</h3>
+<ol class="body-list">
+<li><b>Congelar antes de generalizar.</b> El requisito de que la zapata aislada no cambie de
+resultado solo es demostrable si existe la referencia numérica previa. Es la primera tarea.</li>
+<li><b>No liberar geometría descentrada sin punzonamiento truncado.</b> Es el riesgo R1 y es el
+único de esta lista capaz de producir un falso PASS en el modo de falla más frágil. Fase 1B
+restringe la entrada; Fase 1C la abre.</li>
+<li><b>Mantener la disciplina entre norma, derivación y criterio.</b> Ya hay tres precedentes
+—núcleo central, J<sub>c</sub>, rango automático— y funcionan. La ampliación multiplica las
+oportunidades de que un criterio docente se cuele como exigencia; el test negativo del riesgo
+R7 lo impide de forma estructural.</li>
+</ol>
+
+<h3>Qué no recomiendo</h3>
+<ul>
+<li><b>Programas separados.</b> La conectada necesita el motor de aislada como componente
+interno; separarlos obliga a triplicarlo.</li>
+<li><b>Modificar <code>Column</code>.</b> Envolverlo cuesta menos y no toca ninguna firma
+existente.</li>
+<li><b>Empezar por la viga «porque es independiente».</b> Lo es, pero está bloqueada por §11.5.
+Empezar ahí significa detenerse en la primera ecuación.</li>
+<li><b>Convertir el cumplimiento normativo en objetivo de optimización.</b> Es un filtro. Como
+eje ponderado permitiría compensar un incumplimiento con un buen puntaje en volumen.</li>
+</ul>
+
+<div class="call ok">
+<h4>Veredicto</h4>
+<p>Viable, con el 81 % del motor conservado y una ruta crítica de cuatro fases. El trabajo real
+se concentra en tres puntos: el perímetro crítico truncado, el acero de cara superior y el
+motor de vigas. Los dos primeros son derivaciones mecánicas verificables con los medios
+actuales. El tercero está bloqueado por un texto normativo que no está en el proyecto, y es el
+que conviene desbloquear primero.</p>
+</div>
+</section>
+
+<footer class="end">
+<p><b>Fase 0 — Auditoría de tipologías.</b> Documento de análisis. No se modificó código durante
+su elaboración. Las citas de E.060 y E.050 provienen de <code>docs/normativa/referencias_e060_e050.md</code>;
+los datos de contraste, de los apuntes de Concreto Armado 2 de John P. Aragón Brousset,
+secciones 3.4 a 3.6. Todo lo marcado TBD requiere texto normativo que hoy no está en el
+proyecto.</p>
+</footer>
+
+</div>

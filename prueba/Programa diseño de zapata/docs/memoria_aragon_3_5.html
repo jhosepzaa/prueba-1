@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<title>Aragón CR2 §3.5 — zapata combinada con columna en lindero — alternativa COMB-006</title>
+<style>
+ body { font: 14px/1.5 Georgia, serif; color: #1a1d21; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+ h1 { font-size: 26px; border-bottom: 2px solid #1a1d21; padding-bottom: .4rem; }
+ h2 { font-size: 19px; margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem; }
+ table { border-collapse: collapse; width: 100%; font-size: 12.5px; margin: .8rem 0; }
+ th { background: #eef1f4; text-align: left; padding: 6px 8px; font-size: 11px;
+       text-transform: uppercase; letter-spacing: .05em; }
+ td { padding: 6px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+ td.num { text-align: right; font-variant-numeric: tabular-nums; }
+ td.eq { font-family: ui-monospace, Consolas, monospace; font-size: 11px; }
+ .ok { color: #2c6e49; font-weight: 600; } .bad { color: #a03530; font-weight: 600; }
+ .warn { color: #8a5a0c; font-weight: 600; } .nv { color: #6b5b8a; font-weight: 600; }
+ .info { color: #666; }
+ .nota { background: #f4f6f8; border-left: 3px solid #1b4f6b; padding: .7rem 1rem; margin: 1rem 0; font-size: 13px; }
+ svg.diagrama { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; background: #fff; }
+</style></head><body>
+
+<h1>Aragón CR2 §3.5 — zapata combinada con columna en lindero — alternativa COMB-006</h1>
+<p><b>Zapata combinada</b> — 7.20 × 4.20 × 0.75 m ·
+dirección longitudinal <b>X</b> ·
+estado <span class="ok">PASS</span>
+· <b>CONFORME</b></p>
+
+
+
+<div class="nota">
+<b>Convención de momentos (E.050 art. 28.1).</b> <code>Mx</code> desplaza la resultante a lo
+largo del eje X y flexiona la zapata en la dirección de <i>B</i>; <code>My</code> hace lo propio
+en <i>L</i>. No es «momento alrededor del eje X».
+</div>
+
+<h2>1. Base normativa del análisis</h2>
+<p>E.060 <b>§15.10.1</b> exige diseñar las zapatas que soportan más de una columna «de acuerdo
+con los requisitos de diseño apropiados de esta Norma». El momento en cada sección se obtiene
+con el método de <b>§15.4.1</b> —un plano vertical y los momentos sobre el área a un lado—, que
+el artículo enuncia para «una zapata corrida, zapata aislada o cabezal de pilote»: la zapata
+combinada no figura en esa lista, de modo que aplicarlo aquí es una <b>lectura del programa por
+analogía</b> bajo §15.10.1, no una prescripción literal. §15.4.2, que fija la sección crítica en
+la cara de la columna, está escrito «para una zapata aislada».
+<b>§15.10.2</b> prohíbe el Método Directo del Capítulo 13; no se emplea.</p>
+<p>E.050 <b>art. 23.3</b> limita la zapata combinada a L ≤ 10·B: la proporción de esta zapata es
+<b>1.71</b> (admisible).</p>
+
+<h2>2. Diagramas de cortante y momento</h2>
+<svg viewBox="0 0 720 300" class="diagrama" role="img"
+     aria-label="Diagramas de cortante y momento a lo largo de la zapata">
+  <style>
+    .diagrama polygon { fill: rgba(20,92,51,0.18); stroke: #145c33; stroke-width: 1.4; }
+    .diagrama .m polygon { fill: rgba(27,79,107,0.18); stroke: #1b4f6b; }
+    .diagrama .eje { stroke: #333; stroke-width: 1; }
+    .diagrama .guia { stroke: #bbb; stroke-width: 0.7; stroke-dasharray: 3 3; }
+    .diagrama text { font: 11px sans-serif; fill: #444; }
+    .diagrama .titulo { font-weight: 600; fill: #222; }
+    .diagrama .hito { fill: #a03530; }
+    .diagrama .hito-txt { font-size: 10px; fill: #a03530; font-weight: 600; }
+  </style>
+  <line x1="89.6" y1="46" x2="89.6" y2="254.0" class="guia" /><line x1="220.4" y1="46" x2="220.4" y2="254.0" class="guia" /><line x1="482.1" y1="46" x2="482.1" y2="254.0" class="guia" /><line x1="525.7" y1="46" x2="525.7" y2="254.0" class="guia" />
+  <text x="46" y="36" class="titulo">Cortante V(x) — máx 1706 kN</text>
+  <g><polygon points="46.0,92.4 46.0,92.4 67.8,127.0 89.6,121.7 220.4,92.4 482.1,46.0 503.9,112.9 525.7,109.9 674.0,92.4 674.0,92.4" /></g>
+  <line x1="46" y1="92.4" x2="674" y2="92.4" class="eje" />
+
+  <text x="46" y="163.0" class="titulo">Momento M(x) — positivo abajo, negativo arriba</text>
+  <g class="m"><polygon points="46.0,207.1 46.0,207.1 67.8,221.6 89.6,230.4 220.4,254.0 482.1,173.0 503.9,186.4 525.7,191.6 674.0,207.1 674.0,207.1" /></g>
+  <line x1="46" y1="207.1" x2="674" y2="207.1" class="eje" />
+  <circle cx="220.4" cy="254.0" r="4" class="hito" /><text x="220.4" y="246.0" text-anchor="middle" class="hito-txt">M⁻ = 1567 kN·m</text>
+
+  <text x="46" y="292">0</text>
+  <text x="674" y="292" text-anchor="end">7.20 m</text>
+</svg>
+<p>Reacción del suelo de 802.3 a 321.4 kN/m.
+El diagrama dibujado es el de la combinación de mayor |M|, <b>U3 1,25(CM+CV-CS) (9-4a)</b>.
+Los extremos de M se resuelven donde V = 0, no por muestreo.</p>
+<p class="nota"><b>Envolvente.</b> El diseño NO sale solo de ese diagrama: cada efecto toma su
+propia combinación más desfavorable — M positivo (cara inferior): <b>U2 1,25(CM+CV+CS) (9-4a)</b>;
+M negativo (cara superior): <b>U3 1,25(CM+CV-CS) (9-4a)</b>;
+cortante longitudinal: <b>U1 1,4CM+1,7CV (9-1)</b>.
+ENVOLVENTE DE COMBINACIONES. Cada efecto longitudinal se diseña para SU combinación factorizada más desfavorable, que puede no ser la misma: el momento positivo (cara inferior), el negativo (cara superior) y el cortante se toman cada uno de la combinación que lo hace máximo. E.060 §9.2 da la resistencia requerida «como mínimo» para cada combinación, y §9.1 exige φRn ≥ Ru en todas; tomar los tres efectos de una sola combinación puede dejar sin cubrir el que gobierna otra.</p>
+
+<h2>3. Flexión longitudinal — armado de las dos caras</h2>
+<table>
+<thead><tr><th>Cara</th><th>Mu (kN·m)</th><th>d (m)</th><th>Recubr. (mm)</th>
+<th>As (cm²)</th><th>Armado</th><th>Estado</th></tr></thead>
+<tbody>
+<tr><td>Inferior (M positivo)</td><td class='num'>1445.1</td><td class='num'>0.667</td><td class='num'>75</td><td class='num'>59.96</td><td>5/8&quot; @ 12.5 cm</td><td class='ok'>PASS</td></tr>
+<tr><td>Superior (M negativo)</td><td class='num'>1567.4</td><td class='num'>0.692</td><td class='num'>50</td><td class='num'>62.69</td><td>5/8&quot; @ 12.5 cm</td><td class='ok'>PASS</td></tr>
+</tbody></table>
+<p class="nota">El acero mínimo repartido en dos caras sigue <b>E.060 §10.5.4</b>: la cara en
+tracción por flexión no puede bajar de ρ = 0,0012. El recubrimiento de la cara superior se
+declara según <b>§7.7.1</b> — no se supone, porque la tabla no da un valor único para esa cara.</p>
+
+<h2>4. Franjas transversales</h2>
+<table>
+<thead><tr><th>Columna</th><th>Ancho franja (m)</th><th>Voladizo (m)</th>
+<th>Mu (kN·m)</th><th>As (cm²)</th><th>Armado</th></tr></thead>
+<tbody><tr><td>C1</td><td class='num'>1.167</td><td class='num'>1.850</td><td class='num'>651.3</td><td class='num'>27.48</td><td>3/4&quot; @ 10 cm</td></tr><tr><td>C2</td><td class='num'>1.167</td><td class='num'>1.850</td><td class='num'>1302.6</td><td class='num'>57.72</td><td>1&quot; @ 10 cm</td></tr></tbody></table>
+<p class="nota"><b>Criterio de modelación, no norma.</b> El ancho de franja «columna + d/2 a cada
+lado» procede de los apuntes de Aragón. E.060 §15.4 no fija ancho de franja para zapatas de
+varias columnas, y §15.4.4 solo cubre el reparto en la dirección corta de una zapata aislada.</p>
+
+<h2>5. Punzonamiento por columna</h2>
+<table>
+<thead><tr><th>Clasificación</th><th>Lados</th><th>α<sub>s</sub></th><th>b<sub>o</sub> (m)</th>
+<th>Vu/φVc</th><th>Estado</th></tr></thead>
+<tbody><tr><td>borde</td><td class='num'>3</td><td class='num'>30</td><td class='num'>2.834</td><td class='num'>0.600</td><td class='ok'>PASS</td></tr><tr><td>interior</td><td class='num'>4</td><td class='num'>40</td><td class='num'>4.668</td><td class='num'>0.752</td><td class='ok'>PASS</td></tr></tbody></table>
+<p class="nota">La clasificación de la columna —interior, de borde o de esquina— la decide el
+número de lados de la sección crítica recortados contra el borde. <b>E.060 §11.12.2.1(b) da los
+valores de α<sub>s</sub> pero no define qué hace de borde a una columna:</b> esta clasificación
+es una interpretación declarada del motor.</p>
+
+<h2>6. Cortante unidireccional</h2>
+<table>
+<thead><tr><th>Dirección</th><th>Sección crítica</th><th>V<sub>u</sub> (kN)</th>
+<th>φV<sub>c</sub> (kN)</th><th>Combinación</th><th>Estado</th></tr></thead>
+<tbody>
+<tr><td>Longitudinal</td><td>en la cara de la columna</td>
+<td class="num">1730.2</td>
+<td class="num">1837.0</td>
+<td>U1 1,4CM+1,7CV (9-1)</td>
+<td class="ok">PASS</td></tr>
+<tr><td>Transversal</td><td>a d de la cara, b<sub>w</sub> = longitud total</td><td colspan="3" class="eq">Voladizo transversal gobernante 1.8500 m en C1 (combinación U1 1,4CM+1,7CV (9-1)), sección crítica a d = 0.6670 m de la cara | b_w = 7.200 m | phi*Vc = 0.85 * 3704.91 = 3149.17 kN ; Vu = 1350.72 kN</td><td class="ok">PASS</td></tr>
+</tbody></table>
+<p>El longitudinal se toma del diagrama, no de una fórmula de voladizo: en una zapata de varias
+columnas el cortante no es monótono. E.060 §11.5.6.1(a) exime a losas y zapatas del refuerzo
+mínimo de cortante.</p>
+<div class="nota"><b>Alcance.</b> Criterio del programa (C-V), CERRADO el 2026-09-20: el cortante longitudinal de la zapata combinada se verifica con la resistencia del CONCRETO SOLO; si Vu &gt; φVc la verificación es FAIL. NO ES UNA VERIFICACIÓN COMPLETA DEL MODELO DE CORTANTE DE E.060: la norma admite Vn = Vc + Vs —§11.12.1.1 remite a §11.1–11.5 y §11.12.3 admite refuerzo de cortante en zapatas—, y el aporte de estribos queda FUERA DEL ALCANCE de esta versión. El criterio es más estricto que la norma: puede descartar geometrías que E.060 admitiría con refuerzo, pero no puede aceptar ninguna que no cumpla. Ampliarlo a Vn = Vc + Vs es una decisión de ingeniería abierta, no un pendiente de implementación (docs/auditoria_cv_cortante_longitudinal_combinada.md).</div>
+
+<h2>7. Presión de contacto</h2>
+<p>q<sub>máx</sub> = 184.0 kPa,
+q<sub>mín</sub> = 91.8 kPa,
+dentro del núcleo central: <b>True</b>.
+Combinación gobernante: <b>S2 CM+CV+CS</b>.</p>
+
+<h2>8. Estabilidad: deslizamiento y volcamiento</h2>
+<p>No aplicable: ninguna combinación de servicio declara fuerzas horizontales. El momento de las columnas queda acotado por la exigencia de resultante dentro del núcleo central de la presión de contacto.</p>
+
+<h2>9. Motivos de descarte</h2>
+<p>Ninguna verificación resultó en descarte.</p>
+
+<h2>10. Verificaciones no conformes, pendientes y criterios del programa</h2>
+<p><b>Verificaciones fuera de PASS o INFO:</b>
+ninguna.</p>
+<p><b>TBD abiertos:</b> ninguno.</p>
+<p><b>Criterios del programa que delimitan el alcance</b> — no son exigencias literales de la
+norma; se aplican y se declaran:</p>
+<ul>
+<li><b>Cortante longitudinal por concreto solo (C-V).</b> El aporte de estribos (Vn = Vc + Vs)
+queda fuera del alcance; el criterio es más estricto que E.060.</li>
+<li><b>Sección crítica del cortante longitudinal en la cara de la columna.</b> E.060 §11.1.3.1
+«permite» tomarla a d de la cara bajo las condiciones de §11.1.3; el programa usa la cara, que es
+más conservadora. La dirección transversal sí se evalúa a d.</li>
+<li><b>Momento de diseño longitudinal: máximo del diagrama, incluidos los ejes de columna.</b>
+E.060 no fija la sección crítica de flexión de la zapata combinada (§15.4.2 es para la aislada);
+tomar el máximo en toda la longitud es la lectura más conservadora.</li>
+<li><b>Ancho de las franjas transversales</b> «columna + d/2 a cada lado», tomado de la
+bibliografía (apartado 4).</li>
+</ul>
+
+<h2>11. Traza de cálculo</h2>
+<table>
+<thead><tr><th>Id</th><th>Verificación</th><th>Sustitución</th><th>Referencia</th><th>Estado</th></tr></thead>
+<tbody><tr><td>top_cover</td><td>Recubrimiento de la cara superior</td><td class='eq'>h=0.750 − 0.050 − 0.0080 = 0.6920 m (cara inferior: d=0.6670 m con recubrimiento 0.075 m)</td><td>E.060 §7.7.1</td><td class='info'>INFO</td></tr><tr><td>shallow_foundation</td><td>Cimentación superficial: relación profundidad / ancho</td><td class='eq'>Df/B = 1.500 / 4.200 = 0.357 &lt;= 5</td><td>E.050 E.050 art. 23.1 (cimentación superficial: Df/B &lt;= 5)</td><td class='ok'>PASS</td></tr><tr><td>shape_ratio</td><td>Proporción de la zapata combinada</td><td class='eq'>7.200 / 4.200 = 1.714 &lt;= 10</td><td>E.050 E.050 art. 23.3 (tabla de formas: L &lt;= 10 B)</td><td class='ok'>PASS</td></tr><tr><td>foundation_depth</td><td>Profundidad mínima de cimentación</td><td class='eq'>Df = 1.500 m &gt;= Df_min = 0.80 m</td><td>E.050 E.050 art. 26.2</td><td class='ok'>PASS</td></tr><tr><td>min_depth</td><td>Peralte mínimo de zapatas apoyadas sobre el suelo</td><td class='eq'>h_total=0.750 m, d=0.667 m, umbral=0.300 m ; magnitud gobernante=0.667 m -- interpretación EFFECTIVE_DEPTH: &#x27;altura medida sobre el refuerzo inferior&#x27; = peralte efectivo d</td><td>E.060 E.060 §15.7 (EFFECTIVE_DEPTH, interpretación documentada)</td><td class='ok'>PASS</td></tr><tr><td>contact_pressure</td><td>Presión de contacto bajo la zapata combinada (modelo KernCheck)</td><td class='eq'>q_avg=P/A=4170.3/30.240=137.91 kPa | q=q_avg*(1 ± 6ex/B ± 6ey/L) = 137.91*(1 ± 0.3341 ± 0.0000) -&gt; qmax=183.98 kPa, qmin=91.83 kPa</td><td>E.060 Mecánica de materiales estándar (no es un artículo numerado); prohibición de tracciones: E.060 §15.2.3</td><td class='ok'>PASS</td></tr><tr><td>beam_diagram</td><td>Diagramas de cortante y momento a lo largo de la zapata</td><td class='eq'>dirección X, L=7.200 m | w0=802.32, w1=321.36 kN/m | M+ = 1141.40 kN·m en x=5.000 | M− = 1567.39 kN·m en x=2.000</td><td>E.060 §15.4.1 (momento en cualquier sección) y §15.10.1</td><td class='info'>INFO</td></tr><tr><td>flexure_bottom</td><td>Flexión longitudinal, cara inferior</td><td class='eq'>As por flexión = 59.96 cm², mínimo = 37.80 cm² (E.060 §10.5.4: rho &gt;= 0,0012 en la cara traccionada) -&gt; diseño 59.96 cm²</td><td>E.060 §10.2 y §15.4.1; mínimo por E.060 §10.5.4: rho &gt;= 0,0012 en la cara traccionada</td><td class='ok'>PASS</td></tr><tr><td>flexure_top</td><td>Flexión longitudinal, cara superior</td><td class='eq'>As por flexión = 62.69 cm², mínimo = 37.80 cm² (E.060 §10.5.4: rho &gt;= 0,0012 en la cara traccionada) -&gt; diseño 62.69 cm²</td><td>E.060 §10.2 y §15.4.1; mínimo por E.060 §10.5.4: rho &gt;= 0,0012 en la cara traccionada</td><td class='ok'>PASS</td></tr><tr><td>shear_longitudinal</td><td>Cortante unidireccional en la dirección longitudinal</td><td class='eq'>phi*Vc = 0.85 * 2161.20 = 1837.02 kN ; Vu = 1730.22 kN</td><td>E.060 E.060 §11.3.1.1, ec. 11-3 (aplicable a zapatas vía §15.5.1-15.5.2)</td><td class='ok'>PASS</td></tr><tr><td>transverse_strip_C1</td><td>Franja transversal bajo la columna C1</td><td class='eq'>ancho de franja 1.1670 m, voladizo 1.8500 m, Mu=651.29 kN·m -&gt; As=27.48 cm²</td><td>E.060 §10.2 (diseño de la sección); ancho de franja: CRITERIO</td><td class='ok'>PASS</td></tr><tr><td>transverse_strip_C2</td><td>Franja transversal bajo la columna C2</td><td class='eq'>ancho de franja 1.1670 m, voladizo 1.8500 m, Mu=1302.57 kN·m -&gt; As=57.72 cm²</td><td>E.060 §10.2 (diseño de la sección); ancho de franja: CRITERIO</td><td class='ok'>PASS</td></tr><tr><td>shear_transversal</td><td>Cortante unidireccional transversal (viga ancha)</td><td class='eq'>Voladizo transversal gobernante 1.8500 m en C1 (combinación U1 1,4CM+1,7CV (9-1)), sección crítica a d = 0.6670 m de la cara | b_w = 7.200 m | phi*Vc = 0.85 * 3704.91 = 3149.17 kN ; Vu = 1350.72 kN</td><td>E.060 §15.5.1 y §15.5.2 -&gt; §11.12.1.1; Vc por E.060 §11.3.1.1, ec. 11-3 (aplicable a zapatas vía §15.5.1-15.5.2)</td><td class='ok'>PASS</td></tr><tr><td>punching_C1</td><td>Punzonamiento alrededor de la columna C1</td><td class='eq'>Sección crítica a d/2=0.334 m de las caras: (1.167 x 1.167) m, bo=2.834 m, A_crit=0.9727 m2 | qu_avg=158.58 kPa, alivio del suelo=154.05 kN | Vu=1598.48-154.05=1444.43 kN | beta=1.00, alpha_s=30 | (a) ec.11-41 = 0.17*(1+2/1.00)*sqrt(20.6)*2834*667 = 4374.88 kN | (b) ec.11-42 = 0.083*(30*667/2834+2)*sqrt(20.6)*2834*667 = 6451.12 kN | (c) ec.11-43 = 0.33*sqrt(20.6)*2834*667 = 2830.80 kN | GOBIERNA 11-43: Vc = 2830.80 kN | phi*Vc=0.85*2830.80=2406.18 kN | ratio=0.600 || §11.12.7: Sección crítica 0.8335 x 1.1670 m, bo=2.8340 m, d=0.6670 m | v_directo = Vu/(bo·d) = 1444.43kN/(2834·667) = 0.7641 MPa | eje X: b1=0.8335 m, b2=1.1670 m -&gt; γf = 1/(1+(2/3)·sqrt(0.7142)) = 0.6396, γv = 0.3604 | Jc = 1.851148e-01 m⁴, c = 0.5884 m | v = γv·Mu·c/Jc = 0.3604·124.05·0.5884/1.851148e-01 = 0.1421 MPa | vu_max = 0.7641 + 0.1421 = 0.9062 MPa | φvn = φ·Vc/(bo·d) = 0.85·2830.80kN/(2834·667) = 1.2729 MPa | ratio = 0.712 | Verificación COMPLETA incluyendo transferencia de momento (E.060 §11.12.7). Punzonamiento con transferencia de momento CUMPLE: vu = 0.9062 MPa &lt;= φvn = 1.2729 MPa (ratio 0.712). La transferencia de momento amplifica el esfuerzo un 18.6%. SECCIÓN CRÍTICA TRUNCADA: Sección crítica de 3 lado(s), columna clasificada «borde». x ∈ [-3.6000, -2.7665], y ∈ [-0.5835, 0.5835] m respecto del centroide de la zapata. Lados recortados contra el borde (no resisten): x−. alpha_s = 30 por clasificación «borde». E.060 §11.12.2.1(b) da los valores de alpha_s (40 interior / 30 borde / 20 esquina) pero NO define qué hace que una columna sea de borde o de esquina. Este motor lo clasifica por el número de lados de la sección crítica recortados contra el borde de la zapata (0 / 1 / 2). Es una INTERPRETACIÓN declarada, no una cita: alpha_s aparece en la ec. 11-42 junto a bo, y hacer que ambos respondan a la misma geometría es la lectura coherente.</td><td>E.060 E.060 §11.12.2.1, ec. 11-43 (gobernante de las tres); sección crítica §11.12.1.2; phi §9.3.2; transferencia de momento §11.12.7 (ec. 11-45, 11-46, 13-1)</td><td class='ok'>PASS</td></tr><tr><td>punching_C2</td><td>Punzonamiento alrededor de la columna C2</td><td class='eq'>Sección crítica a d/2=0.334 m de las caras: (1.167 x 1.167) m, bo=4.668 m, A_crit=1.3619 m2 | qu_avg=158.58 kPa, alivio del suelo=216.11 kN | Vu=3196.97-216.11=2980.86 kN | beta=1.00, alpha_s=40 | (a) ec.11-41 = 0.17*(1+2/1.00)*sqrt(20.6)*4668*667 = 7206.04 kN | (b) ec.11-42 = 0.083*(40*667/4668+2)*sqrt(20.6)*4668*667 = 9048.35 kN | (c) ec.11-43 = 0.33*sqrt(20.6)*4668*667 = 4662.73 kN | GOBIERNA 11-43: Vc = 4662.73 kN | phi*Vc=0.85*4662.73=3963.32 kN | ratio=0.752 || §11.12.7: Sección crítica 1.1670 x 1.1670 m, bo=4.6680 m, d=0.6670 m | v_directo = Vu/(bo·d) = 2980.86kN/(4668·667) = 0.9574 MPa | eje X: b1=1.1670 m, b2=1.1670 m -&gt; γf = 1/(1+(2/3)·sqrt(1.0000)) = 0.6000, γv = 0.4000 | Jc = 7.644357e-01 m⁴, c = 0.5835 m | v = γv·Mu·c/Jc = 0.4000·35.79·0.5835/7.644357e-01 = 0.0109 MPa | vu_max = 0.9574 + 0.0109 = 0.9683 MPa | φvn = φ·Vc/(bo·d) = 0.85·4662.73kN/(4668·667) = 1.2729 MPa | ratio = 0.761 | Verificación COMPLETA incluyendo transferencia de momento (E.060 §11.12.7). Punzonamiento con transferencia de momento CUMPLE: vu = 0.9683 MPa &lt;= φvn = 1.2729 MPa (ratio 0.761). La transferencia de momento amplifica el esfuerzo un 1.1%.</td><td>E.060 E.060 §11.12.2.1, ec. 11-43 (gobernante de las tres); sección crítica §11.12.1.2; phi §9.3.2; transferencia de momento §11.12.7 (ec. 11-45, 11-46, 13-1)</td><td class='ok'>PASS</td></tr></tbody></table>
+
+</body></html>

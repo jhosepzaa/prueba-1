@@ -1,0 +1,198 @@
+{
+  "formato": "zapata-proyecto",
+  "version": 1,
+  "tipologia": "conectada",
+  "guardado_en": "2026-09-28T23:37:15.490184+00:00",
+  "peticion": {
+    "project_name": "Aragón CR2 — problema 2 (conectada)",
+    "analysis_model": "CUERPO_RIGIDO",
+    "couple_transfer_mode": "EQUILIBRIO_EN_CIMENTACION",
+    "combination_definitions": [
+      {
+        "name": "S1 CM+CV",
+        "type": "SERVICIO",
+        "factors": {
+          "CM": 1.0,
+          "CV": 1.0
+        }
+      },
+      {
+        "name": "S2 CM+CV+CS",
+        "type": "SERVICIO",
+        "factors": {
+          "CM": 1.0,
+          "CV": 1.0,
+          "CS": 1.0
+        }
+      },
+      {
+        "name": "S3 CM+CV-CS",
+        "type": "SERVICIO",
+        "factors": {
+          "CM": 1.0,
+          "CV": 1.0,
+          "CS": -1.0
+        }
+      },
+      {
+        "name": "U1 1.4CM+1.7CV (9-1)",
+        "type": "FACTORIZADA",
+        "factors": {
+          "CM": 1.4,
+          "CV": 1.7
+        }
+      },
+      {
+        "name": "U2 1.25(CM+CV+CS) (9-4a)",
+        "type": "FACTORIZADA",
+        "factors": {
+          "CM": 1.25,
+          "CV": 1.25,
+          "CS": 1.25
+        }
+      },
+      {
+        "name": "U3 1.25(CM+CV-CS) (9-4a)",
+        "type": "FACTORIZADA",
+        "factors": {
+          "CM": 1.25,
+          "CV": 1.25,
+          "CS": -1.25
+        }
+      },
+      {
+        "name": "U4 0.9CM+1.25CS (9-4b)",
+        "type": "FACTORIZADA",
+        "factors": {
+          "CM": 0.9,
+          "CS": 1.25
+        }
+      },
+      {
+        "name": "U5 0.9CM-1.25CS (9-4b)",
+        "type": "FACTORIZADA",
+        "factors": {
+          "CM": 0.9,
+          "CS": -1.25
+        }
+      }
+    ],
+    "exterior": {
+      "label": "C1 lindero",
+      "shape": "rectangular",
+      "bx_m": 0.8,
+      "by_m": 0.25,
+      "combinations": [],
+      "load_cases": [
+        {
+          "name": "CM",
+          "kind": "CM",
+          "level": null,
+          "P_kN": 70.0,
+          "Mx_kNm": 4.0
+        },
+        {
+          "name": "CV",
+          "kind": "CV",
+          "level": null,
+          "P_kN": 25.0,
+          "Mx_kNm": 2.0
+        },
+        {
+          "name": "CS",
+          "kind": "CS",
+          "level": "SERVICIO",
+          "P_kN": -20.0,
+          "Mx_kNm": 140.0
+        }
+      ],
+      "hook_type_x": "90"
+    },
+    "interior": {
+      "label": "C2 interior",
+      "shape": "rectangular",
+      "bx_m": 0.8,
+      "by_m": 0.25,
+      "combinations": [],
+      "load_cases": [
+        {
+          "name": "CM",
+          "kind": "CM",
+          "level": null,
+          "P_kN": 130.0,
+          "Mx_kNm": -4.5
+        },
+        {
+          "name": "CV",
+          "kind": "CV",
+          "level": null,
+          "P_kN": 50.0,
+          "Mx_kNm": -2.0
+        },
+        {
+          "name": "CS",
+          "kind": "CS",
+          "level": "SERVICIO",
+          "P_kN": 20.0,
+          "Mx_kNm": 150.0
+        }
+      ]
+    },
+    "anchor": {
+      "edge": "X_MIN",
+      "face_clearance_m": 0.0
+    },
+    "beam": {
+      "b_m": 0.35,
+      "h_m": 1.2,
+      "d_m": 1.1,
+      "support_mode": "SIN_APOYO",
+      "self_weight_mode": "DESPRECIADO",
+      "concrete_unit_weight_kNm3": 2.4
+    },
+    "axis_distance_m": 6.5,
+    "longitudinal_axis": "X",
+    "materials": {
+      "fc_MPa": 210.0,
+      "fy_MPa": 4200.0,
+      "bar_type": "corrugada",
+      "concrete_unit_weight_kNm3": 2.4
+    },
+    "soil": {
+      "qadm_kPa": 1.75,
+      "gamma_kNm3": 1.8,
+      "Df_m": 1.5,
+      "allow_temporary_increase_30pct": true,
+      "source_notes": "qadm del enunciado (1,75 kg/cm²)"
+    },
+    "search": {
+      "ext_long_min_m": 2.7,
+      "ext_long_max_m": 3.2,
+      "ext_long_step_m": 0.1,
+      "ext_transv_min_m": 5.0,
+      "ext_transv_max_m": 6.2,
+      "ext_transv_step_m": 0.2,
+      "int_long_min_m": 6.0,
+      "int_long_max_m": 7.0,
+      "int_long_step_m": 0.2,
+      "int_transv_min_m": 2.2,
+      "int_transv_max_m": 3.0,
+      "int_transv_step_m": 0.2,
+      "h_min_m": 1.2,
+      "h_max_m": 1.4,
+      "h_step_m": 0.05,
+      "max_systems": 8000,
+      "same_depth_both_footings": true,
+      "auto_ranges": true
+    },
+    "units": {
+      "force": "tonf",
+      "moment": "tonf·m",
+      "pressure": "kgf/cm²",
+      "strength": "kgf/cm²",
+      "length": "m",
+      "unit_weight": "tonf/m³"
+    },
+    "top_n": 5
+  }
+}

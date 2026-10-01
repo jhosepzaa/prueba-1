@@ -1,0 +1,1718 @@
+<title>Manual de Zapatas E.060</title>
+<style>
+  /* ---------- Tokens: paleta clara completa ---------- */
+  :root {
+    --ground: #f6f7f9;
+    --surface: #ffffff;
+    --surface-sunk: #eef1f5;
+    --line: #dde2e9;
+    --line-firm: #c3cbd6;
+
+    --ink: #12151c;
+    --ink-soft: #565d6d;
+    --ink-faint: #838b9a;
+
+    --accent: #1e4d8c;
+    --accent-deep: #14345f;
+    --accent-wash: #e9f0f9;
+
+    --pass: #1f7a44;   --pass-wash: #e7f4ec;
+    --warn: #8f6200;   --warn-wash: #fbf2e0;
+    --notver: #6a4b9c; --notver-wash: #f0ebf9;
+    --fail: #a32a2a;   --fail-wash: #fbeaea;
+
+    --sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --serif: Charter, "Bitstream Charter", "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --mono: "Cascadia Mono", Consolas, "SF Mono", "Liberation Mono", Menlo, monospace;
+
+    --shadow: 0 1px 2px rgba(18, 21, 28, .05), 0 4px 14px rgba(18, 21, 28, .04);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #101319;
+      --surface: #171b23;
+      --surface-sunk: #1d222c;
+      --line: #2a303c;
+      --line-firm: #3b4351;
+
+      --ink: #e7eaf0;
+      --ink-soft: #a2abbb;
+      --ink-faint: #7b8494;
+
+      --accent: #7fb0e8;
+      --accent-deep: #a8caf2;
+      --accent-wash: #16233a;
+
+      --pass: #5fc48c;   --pass-wash: #13291f;
+      --warn: #d9a63c;   --warn-wash: #2b2312;
+      --notver: #b294e0; --notver-wash: #221a33;
+      --fail: #e57a7a;   --fail-wash: #2e1717;
+
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #101319;
+    --surface: #171b23;
+    --surface-sunk: #1d222c;
+    --line: #2a303c;
+    --line-firm: #3b4351;
+
+    --ink: #e7eaf0;
+    --ink-soft: #a2abbb;
+    --ink-faint: #7b8494;
+
+    --accent: #7fb0e8;
+    --accent-deep: #a8caf2;
+    --accent-wash: #16233a;
+
+    --pass: #5fc48c;   --pass-wash: #13291f;
+    --warn: #d9a63c;   --warn-wash: #2b2312;
+    --notver: #b294e0; --notver-wash: #221a33;
+    --fail: #e57a7a;   --fail-wash: #2e1717;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Estructura ---------- */
+  .shell {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 56px;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px 120px;
+    align-items: start;
+  }
+  @media (max-width: 940px) {
+    .shell { grid-template-columns: 1fr; gap: 0; padding: 0 20px 80px; }
+    nav.toc { position: static !important; margin-bottom: 40px; }
+  }
+
+  header.mast {
+    grid-column: 1 / -1;
+    padding: 64px 0 32px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 44px;
+  }
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-family: var(--sans);
+    font-size: clamp(30px, 4.6vw, 46px);
+    font-weight: 700;
+    letter-spacing: -.024em;
+    line-height: 1.08;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0;
+  }
+  .mast-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-top: 26px;
+    font-family: var(--sans);
+    font-size: 12.5px;
+    color: var(--ink-faint);
+  }
+  .mast-meta b { color: var(--ink-soft); font-weight: 600; }
+
+  /* ---------- Índice ---------- */
+  nav.toc {
+    position: sticky;
+    top: 28px;
+    font-family: var(--sans);
+    font-size: 13px;
+  }
+  nav.toc .toc-title {
+    font-size: 11px; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink-faint);
+    padding-bottom: 10px; margin-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  nav.toc ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1px; }
+  nav.toc a {
+    display: grid; grid-template-columns: 26px 1fr; gap: 4px;
+    padding: 5px 8px; border-radius: 4px;
+    color: var(--ink-soft); text-decoration: none; line-height: 1.35;
+  }
+  nav.toc a:hover { background: var(--accent-wash); color: var(--accent-deep); }
+  nav.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  nav.toc .n { color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+
+  /* ---------- Secciones ---------- */
+  main { min-width: 0; }
+  section { margin-bottom: 68px; scroll-margin-top: 24px; }
+
+  h2 {
+    font-family: var(--sans);
+    font-size: 25px; font-weight: 700; letter-spacing: -.018em;
+    line-height: 1.2; margin: 0 0 6px;
+    display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: baseline;
+    text-wrap: balance;
+  }
+  h2 .num {
+    font-size: 13px; font-weight: 700; color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    border: 1.5px solid var(--accent); border-radius: 3px;
+    padding: 2px 7px; line-height: 1.2;
+  }
+  .section-lede {
+    color: var(--ink-soft); margin: 0 0 24px 44px; max-width: 62ch;
+  }
+  @media (max-width: 640px) { .section-lede { margin-left: 0; } }
+
+  h3 {
+    font-family: var(--sans);
+    font-size: 16.5px; font-weight: 650; letter-spacing: -.008em;
+    margin: 34px 0 10px; color: var(--ink);
+  }
+  h4 {
+    font-family: var(--sans);
+    font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-faint); margin: 26px 0 8px;
+  }
+  p { margin: 0 0 15px; max-width: 68ch; }
+  ul, ol.body-list { margin: 0 0 16px; padding-left: 22px; max-width: 66ch; }
+  li { margin-bottom: 7px; }
+  strong { font-weight: 650; }
+
+  /* elementos de interfaz nombrados: van en sans, no en serif */
+  .ui { font-family: var(--sans); font-size: .93em; font-weight: 600; color: var(--accent-deep); }
+  code, .val {
+    font-family: var(--mono); font-size: .86em;
+    background: var(--surface-sunk); border: 1px solid var(--line);
+    border-radius: 3px; padding: 1px 5px;
+  }
+
+  /* ---------- Bloques de comando ---------- */
+  .cmd {
+    font-family: var(--mono); font-size: 13.5px; line-height: 1.7;
+    background: var(--surface-sunk);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 12px 15px; margin: 0 0 14px;
+    overflow-x: auto; white-space: pre;
+    color: var(--ink);
+  }
+  .cmd-label {
+    font-family: var(--sans); font-size: 11px; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-faint); margin-bottom: 5px;
+  }
+
+  /* ---------- Llamadas ---------- */
+  .call {
+    border: 1px solid var(--line); border-radius: 5px;
+    padding: 15px 18px; margin: 0 0 20px; max-width: 68ch;
+    background: var(--surface); box-shadow: var(--shadow);
+  }
+  .call-tag {
+    font-family: var(--sans); font-size: 10.5px; font-weight: 700;
+    letter-spacing: .12em; text-transform: uppercase; margin-bottom: 7px;
+  }
+  .call p:last-child { margin-bottom: 0; }
+  .call.norm { border-left: 3px solid var(--accent); }
+  .call.norm .call-tag { color: var(--accent); }
+  .call.why { border-left: 3px solid var(--notver); background: var(--notver-wash); }
+  .call.why .call-tag { color: var(--notver); }
+  .call.careful { border-left: 3px solid var(--warn); background: var(--warn-wash); }
+  .call.careful .call-tag { color: var(--warn); }
+
+  /* ---------- Tablas ---------- */
+  .tw { overflow-x: auto; margin: 0 0 20px; border: 1px solid var(--line); border-radius: 5px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 13.5px; }
+  th {
+    text-align: left; font-size: 11px; font-weight: 700; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--ink-faint);
+    background: var(--surface-sunk); padding: 9px 13px;
+    border-bottom: 1px solid var(--line-firm); white-space: nowrap;
+  }
+  td { padding: 9px 13px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  td .sub { display: block; font-size: 12px; color: var(--ink-faint); margin-top: 2px; }
+
+  /* ---------- Píldoras de estado ---------- */
+  .st {
+    display: inline-block; font-family: var(--sans); font-size: 11px; font-weight: 700;
+    letter-spacing: .04em; padding: 2px 8px; border-radius: 3px; white-space: nowrap;
+    border: 1px solid;
+  }
+  .st.pass { color: var(--pass); background: var(--pass-wash); border-color: var(--pass); }
+  .st.warn { color: var(--warn); background: var(--warn-wash); border-color: var(--warn); }
+  .st.nv { color: var(--notver); background: var(--notver-wash); border-color: var(--notver); }
+  .st.fail { color: var(--fail); background: var(--fail-wash); border-color: var(--fail); }
+  .st.info { color: var(--accent); background: var(--accent-wash); border-color: var(--accent); }
+
+  /* ---------- Fichas de panel ---------- */
+  .cards { display: grid; gap: 12px; margin-bottom: 22px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 5px; padding: 14px 17px;
+    background: var(--surface); box-shadow: var(--shadow);
+  }
+  .card h5 {
+    font-family: var(--sans); font-size: 14.5px; font-weight: 650;
+    margin: 0 0 6px; color: var(--ink);
+  }
+  .card p { font-size: 15.5px; margin-bottom: 0; }
+  .card p + p { margin-top: 9px; }
+
+  hr.rule { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
+
+  footer.end {
+    grid-column: 1 / -1;
+    border-top: 2px solid var(--ink);
+    padding-top: 20px; margin-top: 30px;
+    font-family: var(--sans); font-size: 12.5px; color: var(--ink-faint);
+    max-width: 72ch;
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+</style>
+
+<div class="shell">
+
+  <header class="mast">
+    <div class="eyebrow">Manual de uso · versión 0.8</div>
+    <h1>Diseño y optimización de cimentaciones superficiales</h1>
+    <p class="standfirst">
+      Zapatas <strong>aisladas</strong>, <strong>combinadas</strong> y
+      <strong>conectadas con viga</strong>, según las Normas Técnicas E.060 (Concreto Armado),
+      E.050 (Suelos y Cimentaciones), E.030 (Diseño Sismorresistente) y E.020 (Cargas) del
+      Reglamento Nacional de Edificaciones del Perú. Genera múltiples alternativas, las
+      verifica una por una y explica por qué descarta las que no cumplen.
+    </p>
+    <div class="mast-meta">
+      <span><b>Tipologías</b> aislada · combinada · conectada con viga</span>
+      <span><b>Motor</b> Python · 1 779 verificaciones automáticas</span>
+      <span><b>Interfaz</b> navegador web local</span>
+    </div>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-title">Contenido</div>
+    <ol>
+      <li><a href="#s1"><span class="n">1</span><span>Qué hace y qué no hace</span></a></li>
+      <li><a href="#s2"><span class="n">2</span><span>Instalación</span></a></li>
+      <li><a href="#s3"><span class="n">3</span><span>Arrancar el programa</span></a></li>
+      <li><a href="#s4"><span class="n">4</span><span>La pantalla</span></a></li>
+      <li><a href="#s5"><span class="n">5</span><span>Unidades de entrada</span></a></li>
+      <li><a href="#s6"><span class="n">6</span><span>Columna y materiales</span></a></li>
+      <li><a href="#s7"><span class="n">7</span><span>Datos del suelo</span></a></li>
+      <li><a href="#s8"><span class="n">8</span><span>Combinaciones de carga</span></a></li>
+      <li><a href="#s9"><span class="n">9</span><span>Búsqueda de geometría</span></a></li>
+      <li><a href="#s10"><span class="n">10</span><span>Criterio de optimización</span></a></li>
+      <li><a href="#s11"><span class="n">11</span><span>Leer los resultados</span></a></li>
+      <li><a href="#s12"><span class="n">12</span><span>Zapata combinada</span></a></li>
+      <li><a href="#s13"><span class="n">13</span><span>Zapata conectada con viga</span></a></li>
+      <li><a href="#s14"><span class="n">14</span><span>Los cinco estados</span></a></li>
+      <li><a href="#s15"><span class="n">15</span><span>Memoria de cálculo y PDF</span></a></li>
+      <li><a href="#s16"><span class="n">16</span><span>Limitaciones declaradas</span></a></li>
+      <li><a href="#s17"><span class="n">17</span><span>Ejemplo resuelto completo</span></a></li>
+      <li><a href="#s18"><span class="n">18</span><span>Problemas frecuentes</span></a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <!-- ══════════════ 1 ══════════════ -->
+    <section id="s1">
+      <h2><span class="num">1</span><span>Qué hace y qué no hace</span></h2>
+      <p class="section-lede">
+        Antes de introducir un solo dato conviene saber dónde termina el alcance del programa.
+      </p>
+
+      <p>
+        Usted introduce las solicitaciones de la columna, las propiedades del suelo y de los
+        materiales, y unos rangos de búsqueda. El programa recorre todas las combinaciones de
+        ancho, largo y peralte dentro de esos rangos; para cada una resuelve el peralte mínimo
+        viable y ejecuta el conjunto completo de verificaciones. Después ordena las soluciones
+        válidas y le muestra las mejores, junto con el motivo exacto por el que descartó cada
+        una de las demás.
+      </p>
+
+      <h3>Está dentro del alcance</h3>
+      <ul>
+        <li><strong>Tres tipologías</strong>, cada una con su propio motor: zapata aislada
+          (sección&nbsp;<a href="#s11">11</a>), zapata combinada (<a href="#s12">12</a>) y zapata
+          conectada con viga (<a href="#s13">13</a>).</li>
+        <li>Zapatas rectangulares o cuadradas, con la columna <strong>centrada o descentrada</strong>,
+          incluida la columna al ras del lindero.</li>
+        <li>Columnas rectangulares o cuadradas de concreto.</li>
+        <li>Presión de contacto con la resultante dentro del <strong>núcleo central</strong> y,
+          si usted lo activa, también fuera de él con el <strong>área efectiva</strong> de
+          E.050&nbsp;art.&nbsp;28.</li>
+        <li>Flexión, cortante unidireccional y punzonamiento, este último incluyendo la
+          transferencia de momento de E.060&nbsp;§11.12.6 y las secciones críticas truncadas de
+          2 y 3 lados.</li>
+        <li>Longitud de desarrollo del refuerzo y verificación de anclaje.</li>
+        <li>Deslizamiento y volcamiento, cuando usted aporta los parámetros geotécnicos.</li>
+        <li>Diseño completo de la viga de conexión, incluida la flexo-compresión que dispara
+          E.030&nbsp;art.&nbsp;65.1.</li>
+      </ul>
+
+      <h3>Queda fuera</h3>
+      <ul>
+        <li>Cimentaciones profundas, pilotes, cimientos corridos y losas de cimentación.</li>
+        <li>Columnas circulares.</li>
+        <li>La distribución de presiones con que se diseña el concreto cuando la resultante
+          sale del núcleo central. El programa <em>sí</em> sabe comprobar el suelo en ese caso
+          —área efectiva de E.050&nbsp;art.&nbsp;28, sección&nbsp;<a href="#s7">7</a>— pero no
+          afirma el diseño estructural, y lo dice.</li>
+        <li>Contacto unilateral: si una zapata se levantaría del terreno, el candidato se
+          rechaza en lugar de redistribuir la presión sobre el área comprimida.</li>
+        <li>Refuerzo de cortante en la zapata combinada: su cortante longitudinal se verifica
+          con el concreto solo.</li>
+        <li>Interacción suelo-estructura avanzada, análisis no lineal y elementos finitos.</li>
+      </ul>
+
+      <div class="call careful">
+        <div class="call-tag">Responsabilidad</div>
+        <p>
+          El programa es una herramienta de cálculo y comparación. No sustituye el criterio ni la
+          revisión de un ingeniero civil colegiado, y la memoria que emite lo dice expresamente
+          en su pie de página.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 2 ══════════════ -->
+    <section id="s2">
+      <h2><span class="num">2</span><span>Instalación</span></h2>
+      <p class="section-lede">
+        Se hace una sola vez. Necesita Python 3.11 o superior y Node.js 18 o superior.
+      </p>
+
+      <p>Abra PowerShell y sitúese en la carpeta del proyecto. Las comillas son necesarias
+        porque la ruta contiene un espacio y una tilde.</p>
+
+      <div class="cmd-label">Paquetes de Python</div>
+      <div class="cmd">cd "D:\Programa diseño de zapata"
+py -m pip install pydantic pytest fastapi "uvicorn[standard]" httpx2</div>
+
+      <div class="cmd-label">Dependencias de la interfaz</div>
+      <div class="cmd">cd "D:\Programa diseño de zapata\ui"
+npm install</div>
+
+      <div class="cmd-label">Compilar la interfaz</div>
+      <div class="cmd">npm run build</div>
+
+      <h3>Comprobar que todo quedó bien</h3>
+      <p>Desde la carpeta raíz del proyecto:</p>
+      <div class="cmd">cd "D:\Programa diseño de zapata"
+py -m pytest -q</div>
+      <p>
+        Debe terminar con <code>446 passed, 2 skipped</code>. Los dos omitidos son los casos de
+        validación bibliográfica que aún no tienen ejemplos cargados; es lo esperado.
+      </p>
+    </section>
+
+    <!-- ══════════════ 3 ══════════════ -->
+    <section id="s3">
+      <h2><span class="num">3</span><span>Arrancar el programa</span></h2>
+      <p class="section-lede">
+        Hay dos formas. Para usar el programa basta la primera.
+      </p>
+
+      <h3>Uso normal: un solo comando</h3>
+      <div class="cmd">cd "D:\Programa diseño de zapata"
+py -m uvicorn api.server:app --port 8000</div>
+      <p>
+        Abra el navegador en <code>http://localhost:8000</code>. Para detener el programa,
+        pulse <code>Ctrl+C</code> en esa ventana de PowerShell.
+      </p>
+
+      <h3>Desarrollo: dos ventanas</h3>
+      <p>Solo si va a modificar el código y quiere recarga automática.</p>
+      <div class="cmd-label">Ventana 1 — motor y API</div>
+      <div class="cmd">cd "D:\Programa diseño de zapata"
+py -m uvicorn api.server:app --reload --port 8000</div>
+      <div class="cmd-label">Ventana 2 — interfaz</div>
+      <div class="cmd">cd "D:\Programa diseño de zapata\ui"
+npm run dev</div>
+      <p>
+        En este modo la dirección es <code>http://localhost:5173</code>, no la 8000.
+        Es la única ocasión en que un comando se lanza desde la carpeta <code>ui</code>.
+      </p>
+
+      <div class="call norm">
+        <div class="call-tag">Direcciones útiles</div>
+        <p>
+          <code>/</code> la interfaz &nbsp;·&nbsp;
+          <code>/docs</code> documentación interactiva de la API, con formularios para probar
+          los endpoints sin pasar por la interfaz &nbsp;·&nbsp;
+          <code>/api/health</code> comprobación rápida de que el servidor responde.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 4 ══════════════ -->
+    <section id="s4">
+      <h2><span class="num">4</span><span>La pantalla</span></h2>
+      <p class="section-lede">
+        Panel de datos a la izquierda, resultados a la derecha.
+      </p>
+
+      <p>
+        La columna izquierda contiene ocho paneles que se recorren de arriba abajo. El botón
+        <span class="ui">Generar alternativas</span> está al final de todos ellos. La zona derecha
+        muestra primero unas instrucciones breves y, tras el cálculo, los resultados organizados
+        en pestañas.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Panel</th><th>Qué se define ahí</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="ui">Unidades de entrada</span></td><td>En qué unidades escribirá todos los datos</td></tr>
+            <tr><td><span class="ui">Proyecto</span></td><td>Nombre que aparecerá en la memoria de cálculo</td></tr>
+            <tr><td><span class="ui">Columna</span></td><td>Sección y dimensiones de la columna que apoya</td></tr>
+            <tr><td><span class="ui">Materiales</span></td><td>f'c, fy y peso unitario del concreto</td></tr>
+            <tr><td><span class="ui">Suelo</span></td><td>Presión admisible, peso unitario, profundidad y parámetros de estabilidad</td></tr>
+            <tr><td><span class="ui">Combinaciones de carga</span></td><td>Las solicitaciones, separadas en servicio y factorizadas</td></tr>
+            <tr><td><span class="ui">Búsqueda de geometría</span></td><td>Rangos de B, L y h, ganchos y recubrimiento</td></tr>
+            <tr><td><span class="ui">Criterio de optimización</span></td><td>Pesos del ordenamiento e interpretación de §15.7</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ══════════════ 5 ══════════════ -->
+    <section id="s5">
+      <h2><span class="num">5</span><span>Unidades de entrada</span></h2>
+      <p class="section-lede">
+        Escriba en las unidades que use habitualmente. El programa convierte internamente.
+      </p>
+
+      <p>
+        Este es el primer panel a propósito: los seis desplegables gobiernan la interpretación de
+        todos los números que introduzca después. Las etiquetas de los campos se actualizan solas,
+        de modo que siempre verá <code>P (tonf)</code> o <code>P (kN)</code> según lo que haya elegido.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Magnitud</th><th>Opciones disponibles</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fuerza</td><td>kN · <strong>tonf</strong> · <strong>kgf</strong> · N · lbf · kip</td></tr>
+            <tr><td>Momento</td><td>kN·m · tonf·m · kgf·m · kgf·cm · N·m · lbf·ft · kip·ft</td></tr>
+            <tr><td>Presión del suelo</td><td>kPa · <strong>kgf/cm²</strong> · <strong>tonf/m²</strong> · kgf/m² · MPa · psi · ksf</td></tr>
+            <tr><td>Resistencia (f'c, fy)</td><td>MPa · <strong>kgf/cm²</strong> · psi · ksi · kPa</td></tr>
+            <tr><td>Longitud</td><td>m · cm · mm · pie · pulgada</td></tr>
+            <tr><td>Peso unitario</td><td>kN/m³ · tonf/m³ · kgf/m³ · lb/ft³</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Para la práctica peruana habitual la combinación es <strong>tonf · tonf·m · kgf/cm² ·
+        kgf/cm² · m · tonf/m³</strong>. Así puede escribir f'c&nbsp;=&nbsp;210 y
+        fy&nbsp;=&nbsp;4200 tal como aparecen en los planos.
+      </p>
+
+      <div class="call why">
+        <div class="call-tag">Por qué está separado</div>
+        <p>
+          La conversión ocurre en el motor de cálculo, no en la pantalla, y está cubierta por
+          19 verificaciones automáticas que contrastan cada factor contra valores conocidos
+          de ingeniería. Los resultados siempre se presentan en unidades SI, sea cual sea la
+          unidad de entrada, para que la memoria de cálculo sea inequívoca.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 6 ══════════════ -->
+    <section id="s6">
+      <h2><span class="num">6</span><span>Columna y materiales</span></h2>
+
+      <h3>Columna</h3>
+      <p>
+        Elija <span class="ui">Cuadrada</span> o <span class="ui">Rectangular</span>. Si escoge cuadrada,
+        el campo <code>by</code> sigue automáticamente a <code>bx</code>. Las dimensiones se
+        introducen en la unidad de longitud declarada; con metros, una columna de 45×45&nbsp;cm
+        se escribe como <code>0.45</code>.
+      </p>
+
+      <h3>Materiales</h3>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Campo</th><th>Límite normativo</th><th>Origen</th></tr></thead>
+          <tbody>
+            <tr><td>f'c</td><td class="n">mínimo 17 MPa</td><td>E.060 §9.4</td></tr>
+            <tr><td>fy</td><td class="n">máximo 550 MPa</td><td>E.060 §9.5</td></tr>
+            <tr><td>Peso unitario del concreto</td><td>—</td><td>Supuesto de proyecto, no normativo</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Si introduce un valor fuera de esos límites, el programa lo rechaza citando el artículo
+        exacto en el mensaje de error. Con f'c&nbsp;=&nbsp;210&nbsp;kgf/cm² el motor calcula
+        internamente 20,59&nbsp;MPa, por encima del mínimo.
+      </p>
+
+      <h4>Diámetros comerciales disponibles</h4>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Designación</th><th class="n">Diámetro</th><th class="n">Área nominal</th></tr></thead>
+          <tbody>
+            <tr><td>3/8"</td><td class="n">9,5 mm</td><td class="n">71 mm²</td></tr>
+            <tr><td>1/2"</td><td class="n">12,7 mm</td><td class="n">129 mm²</td></tr>
+            <tr><td>5/8"</td><td class="n">15,9 mm</td><td class="n">199 mm²</td></tr>
+            <tr><td>3/4"</td><td class="n">19,1 mm</td><td class="n">284 mm²</td></tr>
+            <tr><td>1"</td><td class="n">25,4 mm</td><td class="n">510 mm²</td></tr>
+            <tr><td>1 3/8"</td><td class="n">34,9 mm</td><td class="n">956 mm²</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Es el catálogo comercial peruano habitual. No es una disposición normativa, sino un dato
+        de fabricación.
+      </p>
+    </section>
+
+    <!-- ══════════════ 7 ══════════════ -->
+    <section id="s7">
+      <h2><span class="num">7</span><span>Datos del suelo</span></h2>
+      <p class="section-lede">
+        El programa nunca inventa un parámetro geotécnico que usted no haya dado.
+      </p>
+
+      <h3>Presión admisible y su base</h3>
+      <p>
+        Además del valor de q&nbsp;admisible debe declarar si es <strong>bruta</strong> o
+        <strong>neta</strong>. No es un detalle menor: la presión que la zapata aplica se calcula
+        siempre en términos brutos, y el programa la convierte a la base que usted declaró para
+        que la comparación sea homogénea. Consulte su estudio de mecánica de suelos; lo habitual
+        es que entregue la presión bruta.
+      </p>
+
+      <h3>Parámetros de estabilidad</h3>
+      <p>
+        Los tres campos <span class="ui">μ suelo-concreto</span>,
+        <span class="ui">FS deslizamiento</span> y <span class="ui">FS volcamiento</span> se dejan
+        vacíos por defecto y <strong>no tienen valor supuesto</strong>.
+      </p>
+
+      <div class="call norm">
+        <div class="call-tag">Situación normativa</div>
+        <p>
+          E.050 <strong>no prescribe</strong> factores de seguridad al deslizamiento ni al
+          volcamiento para zapatas aisladas. El artículo 39.13.6 fija 1,50 en condición estática
+          y 1,25 en pseudo-dinámica, pero <strong>para muros de contención</strong>. Extender esos
+          valores a una zapata aislada es una decisión del proyectista, no una prescripción de la
+          norma, y por eso el programa le exige declararla.
+        </p>
+      </div>
+
+      <p>
+        Si sus combinaciones tienen fuerzas horizontales o momentos y usted no declara estos
+        parámetros, las verificaciones correspondientes quedan en
+        <span class="st nv">NO VERIFICADO</span> y el resultado global nunca podrá ser
+        <span class="st pass">PASS</span>. El panel se lo advierte antes de que pulse calcular.
+      </p>
+
+      <h3>Cohesión</h3>
+      <p>
+        Es opcional. Si la deja vacía, la resistencia al deslizamiento se calcula solo por
+        fricción; el término de cohesión no se suma por defecto.
+      </p>
+
+      <h3>Excentricidad fuera del núcleo central · E.050 art. 28</h3>
+      <p>
+        Si la resultante se sale del <strong>núcleo central</strong> —a más de B/6 del centro—,
+        la distribución lineal de presiones produciría tracciones bajo un borde de la zapata,
+        y E.060&nbsp;§15.2.3 no las admite. Por defecto el programa <strong>descarta</strong>
+        esa geometría y se lo dice.
+      </p>
+      <p>
+        E.050&nbsp;art.&nbsp;28 sí da un método para ese caso: el <strong>área efectiva</strong>
+        <span class="ui">B′ = B − 2|ex|</span>, <span class="ui">L′ = L − 2|ey|</span>, con la
+        carga centrada sobre ella y una presión uniforme <span class="ui">q = Q/(B′·L′)</span>.
+        Puede activarlo. <strong>Dentro del núcleo no cambia nada</strong>: sigue rigiendo el
+        pico de la distribución lineal, que es el criterio más estricto de los dos. Activarlo
+        solo puede <em>añadir</em> geometrías que antes se descartaban.
+      </p>
+
+      <div class="call careful">
+        <div class="call-tag">Dos cosas que el programa no podrá afirmarle</div>
+        <p>
+          <b>El qadm.</b> El Estudio de Mecánica de Suelos lo obtiene para la zapata real
+          B×L, y el art. 28 evalúa sobre B′×L′. La capacidad de una zapata más estrecha no es
+          la misma: en suelo granular baja, y si gobierna el asentamiento, sube. El programa no
+          puede saber cuál es su caso. Un <em>incumplimiento</em> sí se afirma; un cumplimiento
+          queda <span class="st nv">NO VERIFICADO</span> salvo que usted declare que su qadm
+          vale para las dimensiones efectivas.
+        </p>
+        <p>
+          <b>La excentricidad en las dos direcciones a la vez.</b> La flexión, el cortante
+          y el punzonamiento se calculan todos con la misma distribución real, y desde el
+          2026-09-20 esa distribución resuelve el <em>contacto unilateral</em>: el programa
+          halla el plano de presiones que, descartando la parte que quedaría traccionada,
+          equilibra exactamente la carga y su excentricidad en las dos direcciones. El suelo
+          no tracciona, y el cálculo ya no supone que lo haga.
+        </p>
+        <p>
+          Esto importa antes de lo que parece. El núcleo central de una zapata rectangular es
+          un <em>rombo</em>, no un rectángulo: basta con que
+          <code>6·e<sub>x</sub>/B + 6·e<sub>y</sub>/L</code> pase de 1 para que una esquina se
+          levante, aunque cada excentricidad por separado esté dentro de su sexto. No hace
+          falta una columna de esquina; una zapata moderadamente descentrada con momento en
+          las dos direcciones ya cae ahí. Hasta esa fecha el programa lo declaraba
+          <span class="st nv">NO VERIFICADO</span>; ahora lo resuelve.
+      </div>
+
+      <h3>Disposiciones opcionales de E.060 §15.2</h3>
+      <p>
+        Dos casillas, ambas desactivadas de fábrica porque el artículo las redacta como
+        potestativas («se podrá considerar»).
+      </p>
+      <div class="cards">
+        <div class="card">
+          <h5>Incremento del 30 % en q admisible</h5>
+          <p>
+            Se aplica solo a las combinaciones que usted haya marcado como sísmicas. Actívelo si
+            su estudio de suelos no lo contempla ya; de lo contrario estaría contando dos veces
+            la misma holgura.
+          </p>
+        </div>
+        <div class="card">
+          <h5>Reducción sísmica al 80 %</h5>
+          <p>
+            El programa no puede aplicarla: requiere descomponer la combinación en sus
+            componentes CM, CV y CS, y usted entrega P, Mx y My ya combinados. Si marca la
+            casilla, se emite una nota informativa y el cálculo continúa sin la reducción, es
+            decir, del lado conservador. Para aprovecharla, reduzca usted mismo la componente
+            sísmica al construir las combinaciones de servicio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ 8 ══════════════ -->
+    <section id="s8">
+      <h2><span class="num">8</span><span>Combinaciones de carga</span></h2>
+      <p class="section-lede">
+        Es la parte conceptualmente más delicada del programa. Vale la pena leerla entera.
+      </p>
+
+      <h3>Servicio y factorizadas nunca se mezclan</h3>
+      <p>
+        El panel tiene dos listas separadas y el programa las mantiene así de principio a fin.
+        No es una comodidad de la interfaz: es una exigencia normativa.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Tipo</th><th>Para qué se usa</th><th>Fundamento</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Servicio</strong></td>
+              <td>Dimensionar la zapata frente al suelo: presión de contacto, excentricidad,
+                deslizamiento y volcamiento</td>
+              <td>E.060 §15.2 · E.050 art. 17.1</td>
+            </tr>
+            <tr>
+              <td><strong>Factorizada</strong></td>
+              <td>Diseñar el elemento de concreto: flexión, cortante, punzonamiento y acero</td>
+              <td>E.060 §15.2 (diseño por resistencia)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Cómo se introduce cada combinación</h3>
+      <p>
+        Cada combinación es una tarjeta con su nombre, su tipo de carga y cinco campos numéricos.
+        Use el botón <span class="ui">+ combinación</span> para añadir y la <span class="ui">×</span>
+        para eliminar.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Campo</th><th>Significado</th></tr></thead>
+          <tbody>
+            <tr><td><code>P</code></td><td>Carga axial en la base de la columna, compresión positiva</td></tr>
+            <tr><td><code>Mx</code></td><td>Momento <strong>alrededor del eje X</strong>. Desplaza la resultante a lo largo de Y</td></tr>
+            <tr><td><code>My</code></td><td>Momento <strong>alrededor del eje Y</strong>. Desplaza la resultante a lo largo de X</td></tr>
+            <tr><td><code>Hx</code>, <code>Hy</code></td><td>Fuerzas horizontales en la base</td></tr>
+            <tr><td>Tipo de carga</td><td><span class="ui">Gravedad</span> o <span class="ui">Sismo</span>. Solo afecta al incremento del 30 % de §15.2</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call careful">
+        <div class="call-tag">Convención de ejes — verifíquela</div>
+        <p>
+          El programa define <strong>B</strong> como la dimensión a lo largo de X y
+          <strong>L</strong> a lo largo de Y, y toma <code>Mx</code> como momento
+          <em>alrededor</em> del eje X.
+        </p>
+        <p>
+          Muchos textos usan el subíndice al revés: llaman «Msx» al momento que produce flexión
+          <em>en la dirección</em> X, que es un momento alrededor de Y. Si su fuente sigue ese
+          criterio, debe intercambiar los valores al introducirlos. Compruébelo mirando qué
+          dirección de flexión asocia su fuente a cada momento.
+        </p>
+      </div>
+
+      <h3>Construir las combinaciones</h3>
+      <p>
+        El programa <strong>no</strong> genera las combinaciones a partir de CM, CV y CS: usted
+        introduce cada combinación ya resuelta. Las de E.060 §9.2 son:
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Ecuación</th><th>Combinación</th></tr></thead>
+          <tbody>
+            <tr><td>9-1</td><td>U = 1,4 CM + 1,7 CV</td></tr>
+            <tr><td>9-2 / 9-3</td><td>U = 1,25 (CM + CV ± CVi) &nbsp;·&nbsp; U = 0,9 CM ± 1,25 CVi</td></tr>
+            <tr><td>9-4 / 9-5</td><td>U = 1,25 (CM + CV) ± CS &nbsp;·&nbsp; U = 0,9 CM ± CS</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Para las combinaciones de servicio, sume simplemente CM&nbsp;+&nbsp;CV&nbsp;±&nbsp;CS sin
+        factores. Incluya siempre los casos con signo negativo del sismo: reducen la carga axial
+        manteniendo el momento, lo que aumenta la excentricidad y suele gobernar la presión
+        de contacto.
+      </p>
+
+      <div class="call careful">
+        <div class="call-tag">Si su fuente da el sismo en condición última</div>
+        <p>
+          Es lo habitual, porque E.030 especifica las solicitaciones sísmicas a nivel de
+          resistencia. En ese caso divida la componente sísmica entre 1,25 al construir las
+          combinaciones <strong>de servicio</strong>, y úsela íntegra en las factorizadas. Omitir
+          ese paso conduce a una zapata considerablemente mayor de la necesaria.
+        </p>
+      </div>
+
+      <h3>Peso propio</h3>
+      <p>
+        No lo incluya en <code>P</code>. El programa calcula el peso de la zapata y el del relleno
+        de suelo que gravita sobre ella, y lo recalcula en cada iteración del peralte.
+      </p>
+    </section>
+
+    <!-- ══════════════ 9 ══════════════ -->
+    <section id="s9">
+      <h2><span class="num">9</span><span>Búsqueda de geometría</span></h2>
+      <p class="section-lede">
+        Define el espacio de soluciones que el programa va a explorar.
+      </p>
+
+      <h3>Límites opcionales</h3>
+      <p>
+        Los seis límites — mínimo y máximo de B, de L y de h — pueden dejarse en blanco. Si lo
+        hace, el programa estima el rango a partir del área necesaria:
+      </p>
+      <div class="cmd">A ≈ P_servicio / q_admisible   →   lado equivalente = √A
+rango explorado: de 0,60·√A  hasta  2,20·√A</div>
+      <p>
+        Con P&nbsp;=&nbsp;450&nbsp;kN y q&nbsp;=&nbsp;150&nbsp;kPa resulta A&nbsp;=&nbsp;3,00&nbsp;m²,
+        lado 1,73&nbsp;m, y explora de 1,00 a 3,90&nbsp;m. Puede mezclar: declarar solo el mínimo
+        de B y dejar el resto automático. El botón
+        <span class="ui">Dejar todos los límites en automático</span> los vacía de una vez, y los
+        resultados le indican qué rango se usó realmente.
+      </p>
+
+      <div class="call why">
+        <div class="call-tag">Es una heurística, no un criterio de diseño</div>
+        <p>
+          El rango automático solo acota dónde buscar. Cada geometría del rango se verifica con
+          exactamente los mismos criterios normativos que si usted la hubiera escrito a mano. Si
+          el rango quedara mal elegido, el efecto sería no encontrar alternativas — visible de
+          inmediato — nunca aceptar una inválida.
+        </p>
+      </div>
+
+      <h3>Incrementos</h3>
+      <p>
+        Los tres campos de incremento sí son obligatorios. Valores razonables son 0,10&nbsp;m para
+        B y L, y 0,05&nbsp;m para h, que además son los múltiplos constructivos habituales. Un
+        incremento menor multiplica el número de geometrías: el programa rechaza mallas de más de
+        5000 combinaciones y le dirá cuántas estaba generando.
+      </p>
+
+      <h3>Relación L/B máxima</h3>
+      <p>
+        Descarta geometrías demasiado alargadas. El valor 2,0 admite hasta el doble de largo que
+        de ancho.
+      </p>
+
+      <h3>Recubrimiento y ganchos</h3>
+      <p>
+        El recubrimiento por defecto es de 70&nbsp;mm, el que exige E.060&nbsp;§7.7(a) para
+        concreto vaciado contra el suelo. Solo debe cambiarlo si tiene un motivo.
+      </p>
+      <p>
+        Los ganchos están en <span class="ui">Sin gancho</span> de fábrica y
+        <strong>nunca se asumen</strong>. Si el refuerzo no logra desarrollarse con barra recta en
+        el voladizo disponible, la alternativa se descarta, salvo que usted declare aquí un gancho
+        de 90° o 180°.
+      </p>
+    </section>
+
+    <!-- ══════════════ 10 ══════════════ -->
+    <section id="s10">
+      <h2><span class="num">10</span><span>Criterio de optimización</span></h2>
+      <p class="section-lede">
+        Cómo se ordenan las alternativas válidas entre sí.
+      </p>
+
+      <p>
+        Cuatro pesos configurables definen la puntuación. Cada métrica se normaliza al rango
+        [0,&nbsp;1] dentro del conjunto de alternativas válidas, de modo que los pesos sean
+        comparables entre sí. Menor puntuación es mejor.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th>Peso</th><th class="n">Por defecto</th><th>Qué favorece al aumentarlo</th></tr></thead>
+          <tbody>
+            <tr><td>Volumen de concreto</td><td class="n">0,35</td><td>Zapatas de menor volumen</td></tr>
+            <tr><td>Masa de acero</td><td class="n">0,30</td><td>Menos kilos de refuerzo</td></tr>
+            <tr><td>Dimensión máxima</td><td class="n">0,20</td><td>Zapatas más compactas en planta</td></tr>
+            <tr><td>Constructibilidad</td><td class="n">0,15</td><td>Un solo diámetro y separaciones habituales</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        No hay peso de costo monetario: exigiría una base de precios configurable que aún no
+        existe, y el programa rechaza activamente su uso antes que aplicar precios inventados.
+      </p>
+
+      <h3>Interpretación de E.060 §15.7</h3>
+      <p>
+        El artículo dice que «la altura de las zapatas, medida sobre el refuerzo inferior, no debe
+        ser menor de 300&nbsp;mm», sin aclarar de forma inequívoca qué magnitud geométrica es esa.
+        El desplegable ofrece las dos lecturas posibles.
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Opción</th><th>Efecto práctico</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>d ≥ 300 mm</strong><span class="sub">peralte efectivo · por defecto</span></td>
+              <td>Con recubrimiento de 70&nbsp;mm exige h ≈ 0,38&nbsp;m. Es la lectura literal y la más exigente</td>
+            </tr>
+            <tr>
+              <td><strong>h ≥ 300 mm</strong><span class="sub">peralte total</span></td>
+              <td>Admite zapatas de 0,30&nbsp;m, espesor que la práctica local no suele emplear</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="call norm">
+        <div class="call-tag">Es una interpretación, no una certeza</div>
+        <p>
+          La opción por defecto se adoptó por tres razones: la preposición «sobre» excluye el
+          recubrimiento que queda debajo de las barras; el resultado coincide con que en la
+          práctica peruana no se construyen zapatas de menos de 0,40&nbsp;m; y ante una
+          ambigüedad en una disposición de seguridad, la lectura más exigente es la defendible.
+          Aun así queda parametrizada, y la memoria de cálculo declara cuál se usó.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 11 ══════════════ -->
+    <section id="s11">
+      <h2><span class="num">11</span><span>Leer los resultados</span></h2>
+      <p class="section-lede">
+        Cuatro pestañas principales y, dentro de cada alternativa, cinco más.
+      </p>
+
+      <p>
+        La cabecera de resultados resume la corrida: geometrías evaluadas, válidas, descartadas,
+        tamaño del frente de Pareto y tiempo empleado. Si el rango fue automático, aquí verá cuál
+        se utilizó.
+      </p>
+
+      <h3>Mejores alternativas</h3>
+      <p>
+        Una tabla con las cinco mejor puntuadas. Haga clic en cualquier fila para ver su ficha
+        completa debajo. Es también donde está el botón para generar la memoria de cálculo.
+      </p>
+
+      <h4>Resumen técnico</h4>
+      <p>
+        Esquema acotado en planta y corte, presiones de contacto con las excentricidades, y la
+        tabla de verificaciones estructurales con el cociente Vu/φVc de cada una. Los cocientes
+        van semaforizados: verde por debajo de 0,90, ámbar entre 0,90 y 1,00, rojo por encima.
+        Incluye el desglose de la puntuación, métrica por métrica.
+      </p>
+
+      <h4>Modelo 3D</h4>
+      <p>
+        Zapata, columna y las barras reales, con el diámetro, la separación y el número que
+        resolvió el motor. Arrastre para rotar, use la rueda para acercar y el botón derecho para
+        desplazar. Los botones inferiores permiten ocultar el concreto para ver la parrilla por
+        dentro. Las dos direcciones se distinguen por color y se dibujan a alturas distintas,
+        reflejando que la capa superior tiene menor peralte efectivo.
+      </p>
+      <p>
+        Las barras se dibujan rectas: los ganchos y traslapes no se representan, y el visor lo
+        declara.
+      </p>
+
+      <h4>Armado</h4>
+      <p>
+        Todas las opciones de armado ofrecidas en cada dirección, con el área requerida, la
+        mínima, la provista, el aprovechamiento y —columna importante— la longitud de desarrollo
+        requerida frente a la disponible. Solo aparecen las opciones que <em>sí</em> pueden
+        desarrollarse. Si la zapata es rectangular, aquí también verá el reparto en franjas de
+        E.060&nbsp;§15.4.4.
+      </p>
+
+      <h4>Estabilidad</h4>
+      <p>
+        Deslizamiento y volcamiento en ambos ejes, con el factor obtenido frente al requerido, el
+        punto de giro adoptado y los mensajes completos del motor. Si faltan parámetros, se listan
+        por nombre.
+      </p>
+
+      <h4>Memoria de cálculo</h4>
+      <p>
+        La pieza central. Cada verificación se despliega mostrando la ecuación simbólica, la misma
+        ecuación con los valores de este caso sustituidos, el resultado con sus unidades, las
+        hipótesis aplicadas, el artículo normativo exacto y la combinación que gobierna ese
+        control. Están agrupadas en seis bloques temáticos y hay un filtro para ver solo lo que no
+        está en PASS.
+      </p>
+
+      <h3>Tabla comparativa</h3>
+      <p>
+        Todas las alternativas válidas, ordenables por cualquier métrica objetiva. Las marcadas
+        con <strong>◆</strong> forman el <strong>frente de Pareto</strong>: no pueden mejorarse en
+        un objetivo sin empeorar otro. Es el compromiso real, antes de aplicar cualquier
+        ponderación subjetiva. La casilla de filtro las aísla.
+      </p>
+
+      <h3>Descartes</h3>
+      <p>
+        Cada motivo de descarte, cuántas geometrías afectó y un ejemplo desplegable con el detalle
+        completo de qué cumplió y qué no. Si no obtiene ninguna alternativa válida, empiece por
+        aquí: el motivo dominante le dirá si el problema es el rango de búsqueda, la capacidad
+        portante o el desarrollo del refuerzo.
+      </p>
+
+      <h3>Alcance y limitaciones</h3>
+      <p>
+        Las condiciones bajo las que el programa puede emitir un resultado conforme, y la tabla de
+        limitaciones declaradas con su impacto y si pueden o no producir un falso PASS.
+      </p>
+    </section>
+
+    <!-- ══════════════ 12 ══════════════ -->
+    <section id="s12">
+      <h2><span class="num">12</span><span>Zapata combinada</span></h2>
+      <p class="section-lede">
+        Una sola zapata bajo dos o más columnas. Tiene motor propio: no es una aislada con
+        dos cargas encima.
+      </p>
+
+      <p>
+        Se usa cuando dos columnas están tan próximas —o una tan pegada al lindero— que sus
+        zapatas aisladas se solaparían. Usted declara la planta de la zapata, la posición de
+        cada columna respecto del centro y las combinaciones de carga de cada una. El programa
+        reduce todas las columnas a una resultante, comprueba la presión bajo la huella
+        completa y después la trata como una viga ancha en la dirección en que las columnas
+        están separadas.
+      </p>
+
+      <h3>La dirección longitudinal la deciden las columnas</h3>
+      <p>
+        Longitudinal es la dirección a lo largo de la cual las columnas están <em>separadas</em>,
+        no la dimensión mayor de la zapata. Una zapata puede ser más ancha que larga y tener las
+        columnas alineadas sobre el lado corto: entonces el lado corto es el longitudinal. Es ahí
+        donde aparece el momento negativo y, con él, el acero de <strong>cara superior</strong>,
+        que la zapata aislada no necesita.
+      </p>
+
+      <div class="call norm">
+        <div class="call-tag">Recubrimiento superior · E.060 §7.7.1</div>
+        <p>
+          Cuando hay acero arriba hace falta declarar su recubrimiento, y la tabla de §7.7.1 no
+          da un valor único para esa cara. El programa <strong>lo exige</strong> y no pone
+          ninguno por omisión: es un dato del proyecto, no una suposición del motor.
+        </p>
+      </div>
+
+      <h3>Qué verifica</h3>
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Verificación</th><th>Base</th><th>Qué pasa si no cumple</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Proporción de la planta<span class="sub">L ≤ 10·B</span></td>
+              <td>E.050 art. 23.3</td>
+              <td>Por encima de 10 la norma clasifica el elemento como cimentación continua, que
+                es otra tipología: la alternativa se descarta. Desde el 2026-09-20 rige igual en
+                las tres tipologías</td>
+            </tr>
+            <tr>
+              <td>Profundidad de cimentación</td>
+              <td>E.050 art. 26.2</td>
+              <td>Df &lt; 0,80 m descarta todas las geometrías por igual: hay que cambiar Df</td>
+            </tr>
+            <tr>
+              <td>Peralte mínimo</td>
+              <td>E.060 §15.7</td>
+              <td>Mismo criterio y misma interpretación que en la aislada</td>
+            </tr>
+            <tr>
+              <td>Presión de contacto</td>
+              <td>E.050 art. 28 · E.060 §15.2</td>
+              <td>Se reduce la resultante de <em>todas</em> las columnas al centro de la zapata.
+                Fuera del núcleo central, se descarta</td>
+            </tr>
+            <tr>
+              <td>Flexión longitudinal, caras inferior y superior</td>
+              <td>E.060 §15.4.1 · §10.2</td>
+              <td>Sección insuficiente, o refuerzo que no se desarrolla en la longitud disponible</td>
+            </tr>
+            <tr>
+              <td>Cortante longitudinal</td>
+              <td>E.060 ec. 11-3</td>
+              <td>Ver el aviso de abajo: el criterio es más estricto que la norma</td>
+            </tr>
+            <tr>
+              <td>Cortante transversal<span class="sub">viga ancha</span></td>
+              <td>E.060 §15.5.1 → §11.12.1.1</td>
+              <td>Sección crítica a <em>d</em> de la cara de la columna, con el ancho resistente
+                igual a la longitud completa de la zapata: «un plano a través del ancho total».
+                Gobierna la columna con el voladizo transversal mayor</td>
+            </tr>
+            <tr>
+              <td>Franja transversal bajo cada columna</td>
+              <td>E.060 §10.2 · ancho por criterio</td>
+              <td>Se diseña la flexión del voladizo transversal de cada columna</td>
+            </tr>
+            <tr>
+              <td>Punzonamiento, columna por columna</td>
+              <td>E.060 §11.12</td>
+              <td>Cada columna tiene su propia sección crítica, que puede ser de 4, 3 o 2 lados</td>
+            </tr>
+            <tr>
+              <td>Deslizamiento y volcamiento</td>
+              <td>E.020 arts. 20–22 · E.030 art. 64</td>
+              <td>Solo se ejecuta si alguna combinación de servicio declara fuerza horizontal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call careful">
+        <div class="call-tag">Criterio del programa, no de la norma</div>
+        <p>
+          <b>Cortante longitudinal con el concreto solo.</b> Si Vu supera φVc, la alternativa se
+          descarta. E.060 admite además el aporte del refuerzo de cortante (Vn = Vc + Vs), pero
+          el programa <strong>no dimensiona estribos en la zapata combinada</strong> y por eso no
+          puede contar con ellos. Es más estricto que la norma: puede descartar geometrías que un
+          diseño con estribos resolvería. No se presenta como prohibición normativa.
+        </p>
+        <p>
+          <b>Ancho de la franja transversal.</b> Ancho de columna más d/2 a cada lado. Procede de
+          los apuntes de Aragón y se aplica como criterio de modelación declarado. E.060 §15.4.4
+          reparte el acero de la dirección corta de una zapata rectangular <em>aislada</em> y no
+          fija ancho de franja para una zapata de varias columnas.
+        </p>
+      </div>
+
+      <h3>Estabilidad de la combinada</h3>
+      <p>
+        Se verifica sobre la <strong>resultante de todas las columnas</strong>: el momento de cada
+        carga descentrada, <span class="ui">P<sub>i</sub>·offset<sub>i</sub></span>, entra igual que
+        entra en la presión de contacto. El momento volcador se toma como la peor de dos lecturas
+        —con la carga total y con solo la parte que estabiliza—, porque la excentricidad de una
+        carga viva puede reducir el momento total y enmascarar el volcamiento. Esa envolvente es un
+        criterio del programa, no una exigencia normativa.
+      </p>
+      <p>
+        Sin fuerza horizontal no se añade ninguna verificación, y no es un olvido: la exigencia de
+        que la resultante caiga dentro del núcleo central ya acota el volcamiento a un factor de
+        seguridad de 3 o más.
+      </p>
+    </section>
+
+    <!-- ══════════════ 13 ══════════════ -->
+    <section id="s13">
+      <h2><span class="num">13</span><span>Zapata conectada con viga</span></h2>
+      <p class="section-lede">
+        Dos zapatas y la viga que las une, resueltas como un solo sistema. Es la tipología
+        con más decisiones a cargo del proyectista: sin ellas declaradas, el sistema entero
+        queda NO VERIFICADO.
+      </p>
+
+      <p>
+        Es la solución clásica de la columna en el lindero: su zapata no puede centrarse bajo la
+        carga, y una viga la une a la zapata interior para que ésta absorba el par. El programa
+        <strong>no optimiza las dos zapatas por separado</strong>. La unidad de búsqueda es la
+        terna completa —zapata exterior, viga, zapata interior—, porque cambiar una cambia el
+        reparto de las otras dos.
+      </p>
+
+      <h3>Cuatro declaraciones obligatorias, sin valor por omisión</h3>
+      <p>
+        Ninguna norma arbitra estas cuatro cuestiones. El programa no elige por usted: se las pide,
+        y deja escrito en la memoria qué eligió.
+      </p>
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Declaración</th><th>Opciones</th><th>Qué decide</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Modelo de análisis</td>
+              <td><span class="ui">ARTICULADO</span> · <span class="ui">CUERPO_RIGIDO</span></td>
+              <td>Si la viga se articula en las zapatas o si el conjunto gira como un solo cuerpo</td>
+            </tr>
+            <tr>
+              <td>Transferencia del par</td>
+              <td><span class="ui">EQUILIBRIO_EN_CIMENTACION</span> ·
+                <span class="ui">PAR_PURO_EN_ZAPATA</span></td>
+              <td>Dónde va la rama cercana del par: si la toma la propia zapata de lindero o si se
+                supone que la recoge el pórtico</td>
+            </tr>
+            <tr>
+              <td>Apoyo de la viga</td>
+              <td><span class="ui">SIN_APOYO</span> · <span class="ui">APOYA_EN_SUELO</span></td>
+              <td>Si la viga descansa sobre el terreno. El segundo modo no está modelado y se
+                declara NO VERIFICADO</td>
+            </tr>
+            <tr>
+              <td>Peso propio de la viga</td>
+              <td><span class="ui">EXPLICITO</span> · <span class="ui">EN_CARGAS_DE_COLUMNA</span>
+                · <span class="ui">DESPRECIADO</span></td>
+              <td>Quién cuenta el peso de la viga, para que no se cuente dos veces ni ninguna</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call careful">
+        <div class="call-tag">Combinación rechazada por validación</div>
+        <p>
+          <span class="ui">CUERPO_RIGIDO</span> solo admite
+          <span class="ui">EQUILIBRIO_EN_CIMENTACION</span>. Las dos hipótesis se excluyen: un
+          cuerpo rígido cierra su equilibrio vertical por construcción, de modo que no queda
+          ninguna rama del par que pueda irse al pórtico. La combinación se rechaza con un error
+          explícito en lugar de convertirse en silencio.
+        </p>
+      </div>
+
+      <h3>Qué hace falta para que una terna llegue a CONFORME</h3>
+      <p>
+        El modelo supone que la viga <strong>impide el giro</strong> de la zapata de lindero, de
+        donde se sigue que su resultante pasa por el centroide y su presión es uniforme. E.060
+        §15.2.6 <em>exige</em> evaluar el comportamiento de las vigas de conexión «de acuerdo a su
+        rigidez y la del conjunto suelo-cimentación», pero <strong>no dice cómo</strong>: ninguna
+        de las fuentes del proyecto da método ni umbral.
+      </p>
+      <p>
+        El programa no se lo inventa: la pregunta la responde el proyectista. Mientras la
+        rigidez siga <strong>sin evaluar</strong>, la premisa queda en
+        <span class="st nv">NO VERIFICADO</span> y con ella el sistema entero. Si la viga no fuera
+        bastante rígida, la presión bajo la zapata de lindero dejaría de ser uniforme y su q máx
+        real superaría al calculado: es una limitación capaz de producir un falso PASS, y por eso
+        no se le resta importancia.
+      </p>
+      <div class="call norm">
+        <div class="call-tag">Corregido el 25-09-2026</div>
+        <p>
+          Este apartado decía que <em>ninguna</em> terna podía llegar a CONFORME. Dejó de ser
+          cierto con la <strong>decisión 4 (20-09-2026)</strong>: si el proyectista declara la
+          rigidez de §15.2.6 con <span class="ui">Rigidez suficiente</span> y todo lo demás sale
+          PASS o INFO, la terna alcanza <span class="st pass">CONFORME</span>. Declararlo levanta
+          ESE bloqueo y ningún otro: con <span class="ui">par puro</span>, por ejemplo, la terna
+          sigue <span class="st nv">NO VERIFICADA</span> por TBD-C11.
+        </p>
+      </div>
+
+      <div class="call norm">
+        <div class="call-tag">E.030 art. 65.1 · fuerza axial en la viga</div>
+        <p>
+          En suelos S3 o S4 con zonas sísmicas 3 o 4, o con presión admisible menor que 0,10 MPa,
+          la viga deja de trabajar a flexión pura: hay que diseñarla a flexo-tracción y
+          flexo-compresión para una fuerza horizontal mínima del 10 % de las cargas verticales
+          amplificadas que soporta la zapata. Los tres datos que disparan la condición
+          —tipo de suelo, zona y presión admisible— los declara usted; el programa no los deduce.
+        </p>
+      </div>
+
+      <h3>Qué descarta una terna</h3>
+      <ul>
+        <li><span class="ui">GEOMETRIA_IMPOSIBLE</span> — las dimensiones no caben en el sistema.</li>
+        <li><span class="ui">DESPEGUE</span> — alguna zapata se levantaría del terreno. El campo de
+          presiones lineal deja de valer y el programa rechaza en lugar de aproximar.</li>
+        <li><span class="ui">ENTRADA_INVALIDA</span> — declaraciones incompatibles entre sí.</li>
+        <li><span class="ui">NO_CUMPLE</span> — alguna verificación implementada falla.</li>
+      </ul>
+
+      <p>
+        La búsqueda tiene un tope configurable de sistemas evaluados. Si lo alcanza, el programa
+        <strong>lo dice</strong> y el resultado no se presenta como exhaustivo.
+      </p>
+    </section>
+
+    <!-- ══════════════ 14 ══════════════ -->
+    <section id="s14">
+      <h2><span class="num">14</span><span>Los cinco estados</span></h2>
+      <p class="section-lede">
+        Un resultado nunca se presenta como conforme si no lo está.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Estado</th><th>Significado</th><th>¿Descarta?</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="st pass">PASS</span></td>
+              <td>La verificación se ejecutó completa y cumple</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td><span class="st info">INFO</span></td>
+              <td>Nota informativa que no afecta la seguridad. No degrada el resultado global</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td><span class="st warn">WARNING</span></td>
+              <td>Se ejecutó, pero está incompleta por una limitación que podría hacer pasar por
+                válido un diseño inseguro</td>
+              <td>No, pero impide PASS</td>
+            </tr>
+            <tr>
+              <td><span class="st nv">NO VERIFICADO</span></td>
+              <td>La verificación es aplicable pero no pudo ejecutarse por falta de datos de
+                entrada. No se inventa el parámetro que falta</td>
+              <td>No, pero impide PASS</td>
+            </tr>
+            <tr>
+              <td><span class="st fail">FAIL</span></td>
+              <td>Se ejecutó y no cumple</td>
+              <td><strong>Sí</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Cuándo se emite PASS</h3>
+      <ol class="body-list">
+        <li>Todas las verificaciones de resistencia cumplen: presión de contacto dentro del núcleo
+          y por debajo de la admisible, flexión, cortante unidireccional, punzonamiento —incluyendo
+          la transferencia de momento— y peralte mínimo.</li>
+        <li>La planta guarda la proporción de E.050 art. 23.3, <code>L ≤ 10·B</code>. Desde el
+          2026-09-20 esto se comprueba en <em>las tres</em> tipologías, no solo en la combinada:
+          <span class="ui">Relación L/B máxima</span> es un parámetro de <em>búsqueda</em> y por
+          sí solo no impedía pedir una proporción que ya no es la de una zapata.</li>
+        <li>La cimentación sigue siendo <em>superficial</em>: <code>Df/B ≤ 5</code> (E.050
+          art. 23.1), con B el lado menor. Por encima de esa relación el elemento es una
+          cimentación profunda, que se gobierna por otros mecanismos y que este programa no
+          modela: la alternativa se descarta. No es que la norma lo prohíba —el artículo
+          <em>define</em>, no prohíbe—; es que el modelo dejaría de describir su problema.</li>
+        <li>La longitud de desarrollo es suficiente y existe al menos una opción de armado
+          desarrollable en cada dirección.</li>
+        <li>Si hay fuerzas horizontales o momentos, usted declaró μ y los factores de seguridad.</li>
+        <li>Deslizamiento y volcamiento cumplen los factores declarados.</li>
+        <li>Ninguna limitación relevante con capacidad de producir un falso PASS sigue pendiente.</li>
+      </ol>
+    </section>
+
+    <!-- ══════════════ 15 ══════════════ -->
+    <section id="s15">
+      <h2><span class="num">15</span><span>Memoria de cálculo y PDF</span></h2>
+
+      <p>
+        En la pestaña <span class="ui">Mejores alternativas</span>, seleccione la alternativa que
+        quiera documentar y pulse <span class="ui">Generar memoria</span>. Se abre en una pestaña
+        nueva un documento autocontenido con dieciséis secciones.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead><tr><th class="n">§</th><th>Contenido</th></tr></thead>
+          <tbody>
+            <tr><td class="n">1–3</td><td>Datos del proyecto, de la columna, de los materiales y del suelo</td></tr>
+            <tr><td class="n">4</td><td>Todas las combinaciones de carga, separadas por tipo</td></tr>
+            <tr><td class="n">5</td><td>Hipótesis aplicadas, con la verificación que originó cada una</td></tr>
+            <tr><td class="n">6</td><td>Geometría seleccionada y métricas</td></tr>
+            <tr><td class="n">7–12</td><td>Memoria completa: presiones, excentricidad, estabilidad, flexión, cortante, punzonamiento y detallado del acero</td></tr>
+            <tr><td class="n">13</td><td>Combinación gobernante por verificación y limitaciones declaradas</td></tr>
+            <tr><td class="n">14</td><td>Resultado final y condiciones para emitir conformidad</td></tr>
+            <tr><td class="n">15–16</td><td>Alternativas descartadas por motivo y tabla comparativa</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        Cada ecuación del documento indica sus variables, la sustitución numérica con unidades,
+        los supuestos aplicados y el artículo normativo del que proviene.
+      </p>
+
+      <h3>Obtener el PDF</h3>
+      <p>
+        Con la memoria abierta, pulse <code>Ctrl+P</code> y elija «Guardar como PDF». El documento
+        lleva reglas de impresión que insertan saltos de página por sección y ocultan los
+        elementos que solo tienen sentido en pantalla. El archivo HTML también puede archivarse
+        tal cual: no depende de ningún recurso externo.
+      </p>
+    </section>
+
+    <!-- ══════════════ 16 ══════════════ -->
+    <section id="s16">
+      <h2><span class="num">16</span><span>Limitaciones declaradas</span></h2>
+      <p class="section-lede">
+        El programa lleva un registro formal y lo arrastra hasta el resultado.
+      </p>
+
+      <p>
+        Lo que aquí importa no es la lista, sino la columna de la derecha: <b>qué puede pasar si
+        la limitación afecta a su caso</b>. Solo cuatro pueden volver un resultado optimista:
+        tres de la zapata conectada y una que solo aparece si usted activa el área efectiva.
+      </p>
+
+      <div class="tw">
+        <table>
+          <thead>
+            <tr><th>Limitación</th><th>Estado</th><th>Efecto</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Transferencia de momento en punzonamiento<span class="sub">E.060 §11.12.7</span></td>
+              <td><span class="st pass">Implementada</span></td>
+              <td>Con momento no balanceado, el criterio de §11.12.7 sustituye al de la resultante
+                sola. La expresión de Jc es una derivación geométrica estándar, no una ecuación
+                numerada de E.060: queda declarado</td>
+            </tr>
+            <tr>
+              <td>Deslizamiento y volcamiento<span class="sub">E.020 arts. 20–22 · E.030 art. 64</span></td>
+              <td><span class="st pass">Implementada</span></td>
+              <td>Sin μ, NO VERIFICADO. Con combinaciones ya formadas un cumplimiento tampoco puede
+                afirmarse: la carga total es cota superior de la que estabiliza. Nunca PASS sin
+                demostrarlo</td>
+            </tr>
+            <tr>
+              <td>Longitud de desarrollo<span class="sub">E.060 §15.6 → Cap. 12</span></td>
+              <td><span class="st pass">Implementada</span></td>
+              <td>Si la ld requerida supera la disponible, la alternativa es FAIL con el déficit
+                exacto en milímetros. Los ganchos nunca se suponen</td>
+            </tr>
+            <tr>
+              <td>Interpretación de §15.7<span class="sub">peralte mínimo</span></td>
+              <td><span class="st info">Interpretación adoptada</span></td>
+              <td>Es la lectura más exigente: puede rechazar zapatas que otra interpretación
+                aceptaría, nunca al revés. Rige en las tres tipologías</td>
+            </tr>
+            <tr>
+              <td>Reducción sísmica del 80 %<span class="sub">E.060 §15.2.5 · E.030 art. 29</span></td>
+              <td><span class="st info">Parcial</span></td>
+              <td>Se aplica, si usted la habilita, a las presiones de suelo de las tres tipologías
+                en modo de cargas por casos. No se aplica con combinaciones ya formadas —no se sabe
+                qué parte es sísmica— ni a la estabilidad, donde E.030 art. 64.2 lo prohíbe. Donde
+                no se aplica, el resultado es más conservador</td>
+            </tr>
+            <tr>
+              <td>Columnas circulares<span class="sub">E.060 §15.3</span></td>
+              <td><span class="st info">Fuera de alcance</span></td>
+              <td>Se rechazan en la validación de entrada, antes de calcular nada</td>
+            </tr>
+            <tr>
+              <td>Masa de acero</td>
+              <td><span class="st info">Alcance declarado</span></td>
+              <td>Se calcula con longitud recta: no incluye ganchos ni traslapes. Es una cota
+                inferior del acero real de obra</td>
+            </tr>
+            <tr>
+              <td>Premisa de presión uniforme<span class="sub">conectada · E.060 §15.2.6</span></td>
+              <td><span class="st fail">Puede dar un falso PASS</span></td>
+              <td>La norma exige evaluar la rigidez de la viga y no dice cómo. Si no fuera bastante
+                rígida, el q máx real superaría al calculado. Mientras el proyectista no la
+                declare, mantiene toda la tipología fuera de CONFORME</td>
+            </tr>
+            <tr>
+              <td>Viga apoyada en el terreno<span class="sub">conectada</span></td>
+              <td><span class="st fail">Puede dar un falso PASS</span></td>
+              <td>Ignorar esa reacción deja la zapata <b>interior</b> menos cargada de lo que
+                estaría. La exterior queda del lado seguro; la interior, no</td>
+            </tr>
+            <tr>
+              <td>Rama cercana del par<span class="sub">conectada · PAR_PURO_EN_ZAPATA</span></td>
+              <td><span class="st fail">Puede dar un falso PASS</span></td>
+              <td>Que el pórtico recoja esa rama es una hipótesis sobre la superestructura que este
+                motor no ve. La zapata interior queda más aliviada</td>
+            </tr>
+            <tr>
+              <td>Contacto unilateral<span class="sub">E.060 §15.2.3</span></td>
+              <td><span class="st info">No implementado</span></td>
+              <td>En la zapata conectada, si una zapata se levantaría, el candidato se rechaza.
+                Solo puede quitar soluciones, nunca aceptar una mala. Para la presión de contacto
+                de una zapata suelta, ver el área efectiva de E.050 art. 28</td>
+            </tr>
+            <tr>
+              <td>Viga de conexión apoyada en el terreno<span class="sub">conectada · TBD-C4</span></td>
+              <td><span class="st info">No admitido</span></td>
+              <td>Desde el 2026-09-20 el programa <em>rechaza</em> esa declaración en vez de
+                calcular con ella. Ignorar la reacción del terreno bajo la viga sobrestima ΔP y
+                deja la zapata interior menos cargada de lo que estaría, del lado inseguro:
+                entregar ese diseño con una advertencia era peor que no entregarlo</td>
+            </tr>
+            <tr>
+              <td>Relleno sobre la viga en el vano<span class="sub">conectada</span></td>
+              <td><span class="st info">No contabilizado</span></td>
+              <td>Si existe geométricamente, la entrada queda NO VERIFICADO. No se inventa una
+                carga equivalente</td>
+            </tr>
+            <tr>
+              <td>Factor de CM del peso de la viga<span class="sub">conectada · modo directo</span></td>
+              <td><span class="st nv">Dato del proyecto</span></td>
+              <td>Con combinaciones ya formadas el motor no sabe qué factor de carga muerta aplicar
+                al peso que él mismo genera. Si usted no lo declara, queda NO VERIFICADO y el peso
+                entra sin factorizar</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call careful">
+        <div class="call-tag">Qué significa la última columna</div>
+        <p>
+          «Puede dar un falso PASS» quiere decir que, si esa limitación afecta a su caso, el
+          programa podría presentarle como aceptable un diseño que no lo es. Tres son de la
+          zapata conectada y la cuarta solo existe si usted activa el área efectiva; las cuatro
+          degradan el estado del resultado, de modo que ninguna pasa desapercibida. El resto solo
+          puede volver el resultado <em>más</em> conservador.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 17 ══════════════ -->
+    <section id="s17">
+      <h2><span class="num">17</span><span>Ejemplo resuelto completo</span></h2>
+      <p class="section-lede">
+        Un caso de principio a fin, contrastado contra un ejemplo publicado.
+      </p>
+
+      <h3>Enunciado</h3>
+      <p>
+        Columna de 45×45&nbsp;cm. Del análisis estructural se obtiene, en toneladas fuerza:
+        P<sub>CM</sub>&nbsp;=&nbsp;100, P<sub>CV</sub>&nbsp;=&nbsp;60,
+        M<sub>CM</sub>&nbsp;=&nbsp;8, M<sub>CV</sub>&nbsp;=&nbsp;5; sismo en X con
+        P&nbsp;=&nbsp;±15 y M&nbsp;=&nbsp;±65; sismo en Y con P&nbsp;=&nbsp;±10 y
+        M&nbsp;=&nbsp;±50. Presión admisible 2,2&nbsp;kg/cm² a 1&nbsp;m de profundidad. Las
+        solicitaciones sísmicas están en condición última.
+      </p>
+
+      <h3>Configuración</h3>
+      <ol class="body-list">
+        <li>Unidades: fuerza <code>tonf</code>, momento <code>tonf·m</code>, presión y resistencia
+          <code>kgf/cm²</code>, longitud <code>m</code>, peso unitario <code>tonf/m³</code>.</li>
+        <li>Columna cuadrada, bx = <code>0.45</code>.</li>
+        <li>Materiales: f'c = <code>210</code>, fy = <code>4200</code>, peso <code>2.4</code>.</li>
+        <li>Suelo: q&nbsp;adm = <code>2.2</code>, base bruta, γ = <code>1.8</code>,
+          Df = <code>1.0</code>. Active el incremento del 30 %.</li>
+        <li>Estabilidad: declare μ y los dos factores de seguridad, o el resultado quedará en
+          NO VERIFICADO por los momentos presentes.</li>
+      </ol>
+
+      <h4>Combinaciones — el sismo va reducido en servicio</h4>
+      <p>
+        Como el enunciado avisa que el sismo está en condición última, en las combinaciones de
+        servicio entra dividido entre 1,25; en las factorizadas, íntegro.
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Nombre</th><th>Tipo</th><th class="n">P</th><th class="n">My</th><th class="n">Mx</th></tr></thead>
+          <tbody>
+            <tr><td>S1</td><td>Servicio</td><td class="n">160,0</td><td class="n">13,0</td><td class="n">—</td></tr>
+            <tr><td>S2</td><td>Servicio · sismo</td><td class="n">172,0</td><td class="n">65,0</td><td class="n">—</td></tr>
+            <tr><td>S3</td><td>Servicio · sismo</td><td class="n">148,0</td><td class="n">39,0</td><td class="n">—</td></tr>
+            <tr><td>S4</td><td>Servicio · sismo</td><td class="n">168,0</td><td class="n">13,0</td><td class="n">40,0</td></tr>
+            <tr><td>S5</td><td>Servicio · sismo</td><td class="n">152,0</td><td class="n">13,0</td><td class="n">40,0</td></tr>
+            <tr><td>U1</td><td>Factorizada</td><td class="n">242,0</td><td class="n">19,7</td><td class="n">—</td></tr>
+            <tr><td>U2</td><td>Factorizada · sismo</td><td class="n">215,0</td><td class="n">81,3</td><td class="n">—</td></tr>
+            <tr><td>U3</td><td>Factorizada · sismo</td><td class="n">185,0</td><td class="n">48,8</td><td class="n">—</td></tr>
+            <tr><td>U4</td><td>Factorizada · sismo</td><td class="n">105,0</td><td class="n">72,2</td><td class="n">—</td></tr>
+            <tr><td>U5</td><td>Factorizada · sismo</td><td class="n">75,0</td><td class="n">57,8</td><td class="n">—</td></tr>
+            <tr><td>U6</td><td>Factorizada · sismo</td><td class="n">210,0</td><td class="n">16,3</td><td class="n">50,0</td></tr>
+            <tr><td>U7</td><td>Factorizada · sismo</td><td class="n">100,0</td><td class="n">7,2</td><td class="n">50,0</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Los momentos del enunciado con subíndice «x» producen flexión <em>en</em> la dirección X,
+        es decir son momentos alrededor de Y: se introducen en la columna <code>My</code>.
+      </p>
+
+      <h3>Contraste con la fuente</h3>
+      <p>
+        El ejemplo procede de John P. Aragón Brousset, <em>Concreto Armado 2</em>, problema de
+        aplicación 3.4.1. Fijando la geometría publicada de
+        3,40&nbsp;×&nbsp;3,40&nbsp;×&nbsp;0,60&nbsp;m con d&nbsp;=&nbsp;0,50&nbsp;m, el programa
+        reproduce el cálculo así:
+      </p>
+      <div class="tw">
+        <table>
+          <thead><tr><th>Magnitud</th><th class="n">Fuente</th><th class="n">Programa</th><th class="n">Dif.</th></tr></thead>
+          <tbody>
+            <tr><td>Punzonamiento φVc</td><td class="n">248,10</td><td class="n">246,74</td><td class="n">−0,5 %</td></tr>
+            <tr><td>Perímetro crítico bo</td><td class="n">3,80</td><td class="n">3,80</td><td class="n">0,0 %</td></tr>
+            <tr><td>Vc ec. 11-35 (gobierna)</td><td class="n">291,90</td><td class="n">290,28</td><td class="n">−0,6 %</td></tr>
+            <tr><td>q máx, combinación sísmica</td><td class="n">26,23</td><td class="n">26,96</td><td class="n">+2,8 %</td></tr>
+            <tr><td>Mu dirección X</td><td class="n">109,19</td><td class="n">101,39</td><td class="n">−7,1 %</td></tr>
+            <tr><td>As dirección X</td><td class="n">60,00</td><td class="n">55,79</td><td class="n">−7,0 %</td></tr>
+            <tr><td>Mu dirección Y</td><td class="n">94,65</td><td class="n">87,25</td><td class="n">−7,8 %</td></tr>
+            <tr><td>As dirección Y</td><td class="n">51,70</td><td class="n">47,73</td><td class="n">−7,7 %</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Las resistencias coinciden dentro del 0,5&nbsp;% y las solicitaciones dentro del
+        8&nbsp;%. La diferencia sistemática en flexión proviene de que la fuente amplifica los
+        esfuerzos e incluye el peso propio amplificado en la presión de diseño, mientras que el
+        programa amplifica las cargas y excluye el peso propio de la flexión, por autoequilibrarse
+        con la reacción del suelo.
+      </p>
+      <div class="call norm">
+        <div class="call-tag">La diferencia que importa</div>
+        <p>
+          La fuente no verifica la transferencia de momento de E.060&nbsp;§11.12.6. Con momentos
+          de 65 y 50&nbsp;tonf·m esa fracción amplifica el esfuerzo cortante alrededor del
+          perímetro crítico un 10,6&nbsp;%. Incluyéndola, la zapata pasa con un cociente de
+          0,9985: correcta, pero con un margen real prácticamente nulo, no el 2,5&nbsp;% que
+          sugiere el cálculo simplificado.
+        </p>
+      </div>
+    </section>
+
+    <!-- ══════════════ 18 ══════════════ -->
+    <section id="s18">
+      <h2><span class="num">18</span><span>Problemas frecuentes</span></h2>
+
+      <div class="cards">
+        <div class="card">
+          <h5>No aparece ninguna alternativa válida</h5>
+          <p>
+            Abra la pestaña <span class="ui">Descartes</span> y mire el motivo dominante. Si es la
+            presión de contacto, el rango de búsqueda es insuficiente para ese suelo: amplíe el
+            máximo de B y L o déjelos en automático. Si es la longitud de desarrollo, declare un
+            gancho o reduzca el diámetro admisible aumentando la zapata.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>Todo sale NO VERIFICADO</h5>
+          <p>
+            Sus combinaciones tienen momentos o fuerzas horizontales y falta declarar μ, el factor
+            de seguridad al deslizamiento o el de volcamiento, en el panel <span class="ui">Suelo</span>.
+            El detalle de la alternativa, pestaña <span class="ui">Estabilidad</span>, lista por
+            nombre los parámetros que faltan.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>«La malla de búsqueda genera ~N geometrías»</h5>
+          <p>
+            El límite es de 5000 combinaciones de B y L. Aumente los incrementos —0,10&nbsp;m es
+            razonable y además constructivo— o acote el rango declarando los límites a mano.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>El error cita un artículo de la norma</h5>
+          <p>
+            Es una validación normativa, no un fallo. Por ejemplo, f'c por debajo de 17&nbsp;MPa se
+            rechaza citando E.060&nbsp;§9.4. Revise la unidad de resistencia declarada: 210 en
+            <code>MPa</code> no es lo mismo que 210 en <code>kgf/cm²</code>.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>La zapata sale mucho mayor de lo esperado</h5>
+          <p>
+            Si su fuente da las solicitaciones sísmicas en condición última y usted las introdujo
+            íntegras en las combinaciones de servicio, la excentricidad resulta un 25&nbsp;% mayor
+            de la real. Divida la componente sísmica entre 1,25 en las combinaciones de servicio.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>La memoria no se abre</h5>
+          <p>
+            El navegador está bloqueando la ventana emergente. Permítalas para
+            <code>localhost</code> y vuelva a pulsar el botón.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>La interfaz se ve como antes de una modificación</h5>
+          <p>
+            El navegador conserva la versión anterior en caché. Recargue con
+            <code>Ctrl+F5</code>. Si modificó el código de la interfaz, ejecute antes
+            <code>npm run build</code> desde la carpeta <code>ui</code> y reinicie el servidor.
+          </p>
+        </div>
+
+        <div class="card">
+          <h5>El modelo 3D aparece en blanco</h5>
+          <p>
+            Requiere WebGL. Compruebe que la aceleración por hardware esté activada en la
+            configuración del navegador.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="end">
+    Programa de diseño y optimización de zapatas aisladas · Normas Técnicas E.060 y E.050 del
+    Reglamento Nacional de Edificaciones del Perú. Las ecuaciones, sus sustituciones numéricas y
+    sus referencias normativas provienen íntegramente del registro de cálculo del motor. Este
+    documento y el programa que describe no sustituyen la revisión de un ingeniero civil
+    colegiado.
+  </footer>
+
+</div>

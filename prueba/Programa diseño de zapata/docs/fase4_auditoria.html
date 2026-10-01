@@ -1,0 +1,1705 @@
+<title>Auditoría de Zapata Conectada</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root {
+  --ink:        #171b20;
+  --ink-soft:   #59636e;
+  --ink-faint:  #8b949e;
+  --surface:    #fcfcfd;
+  --sunk:       #f1f4f7;
+  --sunk-2:     #e7ecf1;
+  --line:       #dce1e7;
+  --line-soft:  #e9edf1;
+  --accent:     #1b4f6b;
+  --accent-bg:  #e7eff4;
+
+  --c-direct:   #2c6e49;
+  --c-extend:   #1b4f6b;
+  --c-variant:  #8a5a0c;
+  --c-new:      #a03530;
+  --c-tbd:      #6b5b8a;
+
+  --direct-bg:  #e6f0ea;
+  --extend-bg:  #e7eff4;
+  --variant-bg: #f6eedf;
+  --new-bg:     #f7e8e7;
+  --tbd-bg:     #eeebf4;
+
+  --font-display: "IBM Plex Sans Condensed", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink:        #e4e8ec;
+    --ink-soft:   #9aa5b0;
+    --ink-faint:  #6b757f;
+    --surface:    #14171b;
+    --sunk:       #1c2126;
+    --sunk-2:     #242b32;
+    --line:       #2e363e;
+    --line-soft:  #232a31;
+    --accent:     #7db4d4;
+    --accent-bg:  #1a2830;
+
+    --c-direct:   #6fbc90;
+    --c-extend:   #7db4d4;
+    --c-variant:  #d9a441;
+    --c-new:      #e08b84;
+    --c-tbd:      #ab98d0;
+
+    --direct-bg:  #17281e;
+    --extend-bg:  #1a2830;
+    --variant-bg: #2b2416;
+    --new-bg:     #2c1c1b;
+    --tbd-bg:     #221e2c;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ink:        #e4e8ec;
+  --ink-soft:   #9aa5b0;
+  --ink-faint:  #6b757f;
+  --surface:    #14171b;
+  --sunk:       #1c2126;
+  --sunk-2:     #242b32;
+  --line:       #2e363e;
+  --line-soft:  #232a31;
+  --accent:     #7db4d4;
+  --accent-bg:  #1a2830;
+
+  --c-direct:   #6fbc90;
+  --c-extend:   #7db4d4;
+  --c-variant:  #d9a441;
+  --c-new:      #e08b84;
+  --c-tbd:      #ab98d0;
+
+  --direct-bg:  #17281e;
+  --extend-bg:  #1a2830;
+  --variant-bg: #2b2416;
+  --new-bg:     #2c1c1b;
+  --tbd-bg:     #221e2c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16.5px;
+  line-height: 1.62;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell { max-width: 1140px; margin: 0 auto; padding: 0 32px 120px; }
+
+/* ---------- Masthead ---------- */
+.mast { padding: 64px 0 30px; border-bottom: 2px solid var(--ink); margin-bottom: 12px; }
+.eyebrow {
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+  margin: 0 0 18px;
+}
+h1 {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(36px, 5.6vw, 58px); line-height: 1.04;
+  letter-spacing: -0.015em; margin: 0 0 20px; text-wrap: balance;
+}
+.standfirst {
+  font-size: 19px; line-height: 1.55; color: var(--ink-soft);
+  max-width: 40em; margin: 0;
+}
+.standfirst strong { color: var(--ink); font-weight: 600; }
+
+.meta {
+  display: flex; flex-wrap: wrap; gap: 0 34px;
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint);
+  padding: 10px 0 0; margin-bottom: 54px;
+}
+.meta b { color: var(--ink-soft); font-weight: 600; }
+
+/* ---------- Sections ---------- */
+section { margin-bottom: 68px; scroll-margin-top: 20px; }
+h2 {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(25px, 3vw, 33px); line-height: 1.12;
+  letter-spacing: -0.01em; margin: 0 0 6px; text-wrap: balance;
+  display: flex; align-items: baseline; gap: 14px;
+}
+h2 .num {
+  font-family: var(--font-mono); font-size: 13px; font-weight: 600;
+  color: var(--accent); letter-spacing: 0.05em; flex: none;
+}
+.sec-lede {
+  color: var(--ink-soft); font-size: 17px; max-width: 42em;
+  margin: 0 0 26px; padding-left: 42px;
+}
+h3 {
+  font-family: var(--font-display); font-weight: 600; font-size: 19px;
+  margin: 34px 0 10px; letter-spacing: -0.005em;
+}
+h4 {
+  font-family: var(--font-mono); font-size: 11.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint);
+  margin: 24px 0 8px;
+}
+p { margin: 0 0 14px; max-width: 42em; }
+ul, ol { margin: 0 0 14px; padding-left: 22px; max-width: 42em; }
+li { margin-bottom: 6px; }
+code {
+  font-family: var(--font-mono); font-size: 0.865em;
+  background: var(--sunk); padding: 1px 5px; border-radius: 3px;
+}
+b, strong { font-weight: 600; }
+
+/* ---------- Callouts ---------- */
+.call {
+  border-left: 3px solid var(--accent); background: var(--sunk);
+  padding: 16px 20px; margin: 22px 0; max-width: 46em;
+}
+.call p:last-child { margin-bottom: 0; }
+.call .tag {
+  font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent);
+  display: block; margin-bottom: 6px;
+}
+.call.tbd { border-left-color: var(--c-tbd); background: var(--tbd-bg); }
+.call.tbd .tag { color: var(--c-tbd); }
+.call.new { border-left-color: var(--c-new); background: var(--new-bg); }
+.call.new .tag { color: var(--c-new); }
+
+/* ---------- Tables ---------- */
+.scroller { overflow-x: auto; margin: 18px 0 8px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+thead th {
+  font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.09em; text-transform: uppercase; color: var(--ink-faint);
+  text-align: left; padding: 8px 12px 8px 0; border-bottom: 1.5px solid var(--ink);
+  vertical-align: bottom; white-space: nowrap;
+}
+tbody td {
+  padding: 9px 12px 9px 0; border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+}
+tbody tr:hover td { background: var(--sunk); }
+td.mono, th.mono { font-family: var(--font-mono); font-size: 12.5px; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--font-mono); font-size: 12.5px; }
+
+/* ---------- Chips ---------- */
+.chip {
+  display: inline-block; font-family: var(--font-mono); font-size: 10px;
+  font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+  padding: 2px 7px; border-radius: 3px; white-space: nowrap;
+}
+.chip.direct  { color: var(--c-direct);  background: var(--direct-bg); }
+.chip.extend  { color: var(--c-extend);  background: var(--extend-bg); }
+.chip.variant { color: var(--c-variant); background: var(--variant-bg); }
+.chip.new     { color: var(--c-new);     background: var(--new-bg); }
+.chip.tbd     { color: var(--c-tbd);     background: var(--tbd-bg); }
+
+.level {
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+  padding: 1px 6px; border-radius: 3px; white-space: nowrap;
+}
+.level.a { color: var(--c-direct); background: var(--direct-bg); }
+.level.b { color: var(--c-extend); background: var(--extend-bg); }
+.level.c { color: var(--c-variant); background: var(--variant-bg); }
+
+/* ---------- Model comparison ---------- */
+.models { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 26px; margin: 24px 0; }
+.model {
+  border: 1px solid var(--line); border-top: 3px solid var(--accent);
+  padding: 20px 22px 22px; background: var(--surface);
+}
+.model h3 { margin-top: 0; }
+.model .kicker {
+  font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint);
+  margin-bottom: 4px;
+}
+.model dl { margin: 0; font-size: 14.5px; }
+.model dt {
+  font-family: var(--font-mono); font-size: 10.5px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+  margin-top: 14px;
+}
+.model dd { margin: 3px 0 0; }
+.model ul { padding-left: 18px; margin-bottom: 0; font-size: 14.5px; }
+
+/* ---------- Figures ---------- */
+figure { margin: 28px 0; }
+figure svg { width: 100%; max-width: 980px; height: auto; display: block; color: var(--ink); }
+figcaption {
+  font-size: 13.5px; color: var(--ink-soft); margin-top: 12px;
+  max-width: 44em; padding-left: 2px; border-left: 2px solid var(--line);
+  padding-left: 12px;
+}
+
+/* ---------- Tree ---------- */
+pre.tree {
+  font-family: var(--font-mono); font-size: 12.5px; line-height: 1.62;
+  background: var(--sunk); border: 1px solid var(--line);
+  padding: 18px 20px; overflow-x: auto; margin: 18px 0;
+}
+pre.tree b { color: var(--accent); font-weight: 600; }
+pre.tree i { color: var(--ink-faint); font-style: normal; }
+
+/* ---------- Phase plan ---------- */
+.phases { display: grid; gap: 2px; margin: 22px 0; }
+.phase {
+  display: grid; grid-template-columns: 78px 1fr; gap: 22px;
+  padding: 18px 0; border-top: 1px solid var(--line);
+  align-items: start;
+}
+.phase:last-child { border-bottom: 1px solid var(--line); }
+.phase .id {
+  font-family: var(--font-display); font-weight: 700; font-size: 26px;
+  color: var(--accent); line-height: 1;
+}
+.phase h3 { margin: 0 0 6px; font-size: 17px; }
+.phase p { margin: 0 0 8px; font-size: 15px; }
+.phase .gate {
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-soft);
+  border-left: 2px solid var(--c-direct); padding-left: 10px; margin-top: 10px;
+  max-width: 44em;
+}
+
+/* ---------- Risk ---------- */
+.risks { display: grid; gap: 16px; margin: 22px 0; }
+.risk {
+  border: 1px solid var(--line); padding: 16px 18px; background: var(--surface);
+  display: grid; grid-template-columns: auto 1fr; gap: 0 16px; align-items: baseline;
+}
+.risk .rid {
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+  color: var(--c-new); letter-spacing: 0.08em;
+}
+.risk h3 { margin: 0; font-size: 16.5px; grid-column: 2; }
+.risk .body { grid-column: 2; margin-top: 6px; font-size: 14.5px; }
+.risk .body p { margin-bottom: 8px; }
+.risk .body p:last-child { margin-bottom: 0; }
+.risk .mit { color: var(--ink-soft); }
+.risk .mit b { color: var(--c-direct); }
+
+hr.rule { border: 0; border-top: 1px solid var(--line); margin: 44px 0; }
+
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+@media (max-width: 720px) {
+  .shell { padding: 0 18px 80px; }
+  .sec-lede { padding-left: 0; }
+  h2 { flex-direction: column; gap: 2px; }
+  .phase { grid-template-columns: 1fr; gap: 8px; }
+}
+</style>
+
+<div class="shell">
+
+<header class="mast">
+  <p class="eyebrow">Fase 4 · Auditoría previa · Sin código</p>
+  <h1>Zapata conectada: qué hay que construir</h1>
+  <p class="standfirst">
+    E.060 no tiene ningún artículo para la zapata conectada. Lo que la norma regula son sus
+    piezas por separado — dos zapatas y una viga — y todas ellas ya están implementadas.
+    <strong>Lo que falta es el paso de estática que las une, y ese paso no tiene árbitro
+    normativo</strong>: por eso el modelo de análisis debe ser una entrada obligatoria del
+    usuario.
+  </p>
+</header>
+
+<div class="meta">
+  <span><b>Estado del motor</b> 841 tests · 1 omitido</span>
+  <span><b>Congelamiento</b> 30 casos · 8 005 valores</span>
+  <span><b>Fases cerradas</b> 1A · 1B · 1C · 2 · 3</span>
+  <span><b>Benchmark vigente</b> Aragón §3.6 problema 1</span>
+</div>
+
+<!-- ================================================================= -->
+<section id="norma">
+  <h2><span class="num">01</span><span>Qué dice la norma, y qué no</span></h2>
+  <p class="sec-lede">
+    El hallazgo que ordena toda la fase: la conectada no es una tipología regulada, es una
+    composición de tipologías reguladas más un reparto de cargas que es estática pura.
+  </p>
+
+  <div class="call new">
+    <span class="tag">Hallazgo central</span>
+    <p>
+      <strong>E.060 §15.10 no cubre la zapata conectada.</strong> Su texto es «las zapatas que
+      soporten <em>más de una columna</em>, pedestal o muro (zapatas combinadas y losas de
+      cimentación)». Una zapata conectada son <em>dos zapatas de una columna cada una</em>,
+      unidas por una viga. No entra en ese supuesto.
+    </p>
+    <p>
+      La consecuencia es favorable y hay que aprovecharla: cada zapata se verifica con los
+      artículos de la <strong>zapata aislada</strong>, que el motor ya aplica desde la Fase 1,
+      y la viga con §21.12.3, que el motor ya aplica desde la Fase 3. Lo que no tiene respaldo
+      normativo es el reparto entre ambas.
+    </p>
+  </div>
+
+  <h3>Requisitos que sí provienen de la norma</h3>
+  <div class="scroller">
+    <table>
+      <thead>
+        <tr>
+          <th>Requisito</th><th>Artículo</th><th>Aplica a</th><th>Nivel</th><th>Estado en el motor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tipología reconocida como cimentación superficial</td>
+          <td class="mono">E.050 art. 23.2</td><td>Sistema</td>
+          <td><span class="level a">A</span></td>
+          <td>Respaldo explícito. No prescribe método.</td>
+        </tr>
+        <tr>
+          <td>Geometría con cargas de servicio; sin tracciones en el suelo</td>
+          <td class="mono">E.060 §15.2 · E.050 art. 17.1</td><td>Ambas zapatas</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado</td>
+        </tr>
+        <tr>
+          <td>Momento a la cara de columna; ec. 15-1 para la dirección corta</td>
+          <td class="mono">§15.4.2 · §15.4.4</td><td>Ambas zapatas</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado</td>
+        </tr>
+        <tr>
+          <td>Cortante unidireccional a <code>d</code> de la cara — ec. 11-3</td>
+          <td class="mono">§15.5 → §11.3.1.1</td><td>Ambas zapatas</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado</td>
+        </tr>
+        <tr>
+          <td>Punzonamiento con perímetro truncado y α<sub>s</sub></td>
+          <td class="mono">§11.12.1.2 · §11.12.2.1</td><td>Zapata exterior</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado en Fase 1C</td>
+        </tr>
+        <tr>
+          <td>Transferencia de momento no balanceado — γ<sub>v</sub>, J<sub>c</sub></td>
+          <td class="mono">§11.12.6 ec. 11-39/11-40</td><td>Ambas zapatas</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado</td>
+        </tr>
+        <tr>
+          <td>Peralte mínimo</td>
+          <td class="mono">§15.7</td><td>Ambas zapatas</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado con interpretación declarada</td>
+        </tr>
+        <tr>
+          <td>Refuerzo longitudinal continuo y anclado en discontinuidades</td>
+          <td class="mono">§21.12.3.1</td><td>Viga</td>
+          <td><span class="level a">A</span></td>
+          <td><span class="chip tbd">Sin verificar el anclaje</span></td>
+        </tr>
+        <tr>
+          <td>Dimensión transversal ≥ luz libre / 20, tope 400 mm; estribos cerrados</td>
+          <td class="mono">§21.12.3.2</td><td>Viga</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado en Fase 3</td>
+        </tr>
+        <tr>
+          <td>Remisión a §21.4 o §21.5 según el sistema sismorresistente</td>
+          <td class="mono">§21.12.3.3 vía §21.2</td><td>Viga</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado; requisitos residuales NO VERIFICADO</td>
+        </tr>
+        <tr>
+          <td>Fuerza axial N ≥ 0,10·ΣP<sub>u</sub> en tracción o compresión</td>
+          <td class="mono">E.030 art. 65.1</td><td>Viga</td>
+          <td><span class="level a">A</span></td>
+          <td>Implementado con interacción P−M</td>
+        </tr>
+        <tr>
+          <td>Profundidad de cimentación ≥ 0,80 m</td>
+          <td class="mono">E.050 art. 26.2</td><td>Sistema</td>
+          <td><span class="level a">A</span></td>
+          <td>✅ Implementado y cerrado en Fase 4</td>
+        </tr>
+        <tr>
+          <td>Proporción L ≤ 10·B</td>
+          <td class="mono">E.050 art. 23.3</td><td>Cada zapata</td>
+          <td><span class="level a">A</span></td>
+          <td>Ver TBD-C8: la tabla no nombra la conectada</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Lo que es criterio de modelación, no norma</h3>
+  <p>
+    Estos elementos deciden los resultados y no tienen respaldo citable. Ninguno puede producir
+    PASS ni FAIL por sí solo: entran como hipótesis declarada o como <code>INFO</code>.
+  </p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Criterio</th><th>Origen</th><th>Nivel</th><th>Tratamiento exigido</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>El reparto del par entre las dos zapatas</strong></td>
+          <td>Estática del cuerpo libre</td>
+          <td><span class="level b">B</span></td>
+          <td>Derivación declarada, con las ecuaciones de equilibrio en la traza</td>
+        </tr>
+        <tr>
+          <td><strong>Elección entre modelo articulado y cuerpo rígido</strong></td>
+          <td>Juicio del proyectista</td>
+          <td><span class="level c">C</span></td>
+          <td><strong>Entrada obligatoria del usuario, sin valor por defecto</strong></td>
+        </tr>
+        <tr>
+          <td>Premisa de presión uniforme bajo la zapata exterior</td>
+          <td>Rigidez de la viga</td>
+          <td><span class="level c">C</span></td>
+          <td>Hipótesis declarada + <code>NO VERIFICADO</code> — ver TBD-C1</td>
+        </tr>
+        <tr>
+          <td>Predimensionamiento h ≈ L/7 de la viga</td>
+          <td>Apuntes Aragón</td>
+          <td><span class="level c">C</span></td>
+          <td>Sugerencia sin estado, como el rango automático de búsqueda</td>
+        </tr>
+        <tr>
+          <td>Proporción L/B = 2 a 2,5 de la zapata exterior</td>
+          <td>Apuntes Aragón</td>
+          <td><span class="level c">C</span></td>
+          <td>Sugerencia sin estado</td>
+        </tr>
+        <tr>
+          <td>Umbral de 6 m para preferir conectada sobre combinada</td>
+          <td>Apuntes Aragón</td>
+          <td><span class="level c">C</span></td>
+          <td>Orientación de tipología, nunca verificación</td>
+        </tr>
+        <tr>
+          <td>¿La viga de conexión apoya sobre el suelo?</td>
+          <td>Decisión de modelación</td>
+          <td><span class="level c">C</span></td>
+          <td>Declarar cuál se adopta — ver TBD-C4</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="modelos">
+  <h2><span class="num">02</span><span>Los dos modelos resistentes</span></h2>
+  <p class="sec-lede">
+    No son dos formas de calcular lo mismo: tienen distintos grados de libertad y dan
+    resultados distintos. Lo que cambia entre ellos es si la unión viga–zapata interior
+    transmite momento.
+  </p>
+
+  <figure>
+    <svg viewBox="0 0 980 420" role="img" aria-label="Comparación de los dos modelos: en el articulado la unión a la zapata interior es una rótula y la presión bajo la exterior es uniforme; en el de cuerpo rígido la unión es un nudo rígido y ambas presiones quedan acopladas por un giro común">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <polygon points="0,1 10,5 0,9" fill="currentColor"/>
+        </marker>
+        <marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <polygon points="0,1 10,5 0,9" fill="#1b4f6b"/>
+        </marker>
+      </defs>
+
+      <!-- ============ MODELO A ============ -->
+      <text x="10" y="20" font-family="monospace" font-size="12" font-weight="600" fill="currentColor" letter-spacing="1.2">MODELO 1 — ARTICULADO</text>
+      <line x1="10" y1="30" x2="460" y2="30" stroke="currentColor" stroke-width="1.5"/>
+
+      <!-- property line -->
+      <line x1="40" y1="55" x2="40" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="5 4" opacity="0.55"/>
+      <text x="44" y="66" font-family="monospace" font-size="10" fill="currentColor" opacity="0.65">lindero</text>
+
+      <!-- exterior column -->
+      <rect x="40" y="60" width="26" height="52" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <!-- P1 arrow -->
+      <line x1="53" y1="46" x2="53" y2="58" stroke="#1b4f6b" stroke-width="2" marker-end="url(#arA)"/>
+      <text x="60" y="48" font-family="monospace" font-size="11" font-weight="600" fill="#1b4f6b">P₁</text>
+
+      <!-- exterior footing -->
+      <rect x="40" y="112" width="130" height="26" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <!-- uniform pressure -->
+      <line x1="40" y1="160" x2="170" y2="160" stroke="#1b4f6b" stroke-width="1.4"/>
+      <line x1="48" y1="160" x2="48" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="79" y1="160" x2="79" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="110" y1="160" x2="110" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="141" y1="160" x2="141" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="163" y1="160" x2="163" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <text x="53" y="176" font-family="monospace" font-size="10.5" font-weight="600" fill="#1b4f6b">q uniforme</text>
+
+      <!-- beam -->
+      <rect x="170" y="112" width="170" height="16" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="222" y="106" font-family="monospace" font-size="10.5" fill="currentColor">viga</text>
+
+      <!-- HINGE -->
+      <circle cx="340" cy="120" r="7" fill="var(--surface, #fff)" stroke="currentColor" stroke-width="2"/>
+      <text x="316" y="150" font-family="monospace" font-size="10.5" font-weight="600" fill="currentColor">rótula</text>
+
+      <!-- interior column -->
+      <rect x="352" y="60" width="26" height="52" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="365" y1="46" x2="365" y2="58" stroke="#1b4f6b" stroke-width="2" marker-end="url(#arA)"/>
+      <text x="372" y="48" font-family="monospace" font-size="11" font-weight="600" fill="#1b4f6b">P₂</text>
+
+      <!-- interior footing -->
+      <rect x="320" y="112" width="90" height="26" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="320" y1="160" x2="410" y2="160" stroke="#1b4f6b" stroke-width="1.4"/>
+      <line x1="330" y1="160" x2="330" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="365" y1="160" x2="365" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="400" y1="160" x2="400" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+
+      <!-- axis distance -->
+      <line x1="53" y1="205" x2="365" y2="205" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+      <line x1="53" y1="198" x2="53" y2="212" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+      <line x1="365" y1="198" x2="365" y2="212" stroke="currentColor" stroke-width="1" opacity="0.6"/>
+      <text x="196" y="221" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">S entre ejes</text>
+
+      <text x="10" y="252" font-family="monospace" font-size="10.5" font-weight="600" fill="currentColor">La rótula NO transmite momento a la zapata interior.</text>
+      <text x="10" y="268" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">La interior es contrapeso: recibe solo una fuerza vertical.</text>
+      <text x="10" y="284" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">Cada zapata se resuelve por separado, en cascada.</text>
+
+      <!-- divider -->
+      <line x1="490" y1="14" x2="490" y2="300" stroke="currentColor" stroke-width="1" opacity="0.25"/>
+
+      <!-- ============ MODELO B ============ -->
+      <text x="520" y="20" font-family="monospace" font-size="12" font-weight="600" fill="currentColor" letter-spacing="1.2">MODELO 2 — CUERPO RÍGIDO / JUNTA</text>
+      <line x1="520" y1="30" x2="970" y2="30" stroke="currentColor" stroke-width="1.5"/>
+
+      <line x1="550" y1="55" x2="550" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="5 4" opacity="0.55"/>
+      <text x="554" y="66" font-family="monospace" font-size="10" fill="currentColor" opacity="0.65">lindero</text>
+
+      <rect x="550" y="60" width="26" height="52" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="563" y1="46" x2="563" y2="58" stroke="#1b4f6b" stroke-width="2" marker-end="url(#arA)"/>
+      <text x="570" y="48" font-family="monospace" font-size="11" font-weight="600" fill="#1b4f6b">P₁</text>
+
+      <rect x="550" y="112" width="130" height="26" fill="none" stroke="currentColor" stroke-width="1.6"/>
+
+      <!-- non-uniform pressure, trapezoid -->
+      <line x1="550" y1="170" x2="680" y2="170" stroke="#1b4f6b" stroke-width="1.4"/>
+      <line x1="558" y1="170" x2="558" y2="141" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="589" y1="170" x2="589" y2="147" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="620" y1="170" x2="620" y2="152" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="651" y1="170" x2="651" y2="157" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="673" y1="170" x2="673" y2="161" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <polyline points="558,139 673,159" fill="none" stroke="#1b4f6b" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <text x="560" y="186" font-family="monospace" font-size="10.5" font-weight="600" fill="#1b4f6b">q variable</text>
+
+      <rect x="680" y="112" width="170" height="16" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <text x="732" y="106" font-family="monospace" font-size="10.5" fill="currentColor">viga</text>
+
+      <!-- RIGID JOINT: filled square -->
+      <rect x="843" y="113" width="14" height="14" fill="currentColor"/>
+      <text x="812" y="150" font-family="monospace" font-size="10.5" font-weight="600" fill="currentColor">nudo rígido</text>
+
+      <rect x="862" y="60" width="26" height="52" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="875" y1="46" x2="875" y2="58" stroke="#1b4f6b" stroke-width="2" marker-end="url(#arA)"/>
+      <text x="882" y="48" font-family="monospace" font-size="11" font-weight="600" fill="#1b4f6b">P₂</text>
+      <!-- moment at interior column -->
+      <path d="M 900 74 A 16 16 0 1 1 896 90" fill="none" stroke="#1b4f6b" stroke-width="1.8" marker-end="url(#arA)"/>
+      <text x="918" y="76" font-family="monospace" font-size="11" font-weight="600" fill="#1b4f6b">M₂</text>
+
+      <rect x="830" y="112" width="90" height="26" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <line x1="830" y1="170" x2="920" y2="170" stroke="#1b4f6b" stroke-width="1.4"/>
+      <line x1="840" y1="170" x2="840" y2="155" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="875" y1="170" x2="875" y2="150" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <line x1="910" y1="170" x2="910" y2="145" stroke="#1b4f6b" stroke-width="1.4" marker-end="url(#arA)"/>
+      <polyline points="840,153 910,143" fill="none" stroke="#1b4f6b" stroke-width="1.2" stroke-dasharray="3 3"/>
+
+      <!-- common rotation -->
+      <path d="M 600 212 Q 735 200 880 212" fill="none" stroke="currentColor" stroke-width="1.3" stroke-dasharray="6 4" opacity="0.75"/>
+      <text x="672" y="230" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.85">giro común θ</text>
+
+      <text x="520" y="252" font-family="monospace" font-size="10.5" font-weight="600" fill="currentColor">El nudo transmite momento: M₂ llega a la zapata exterior.</text>
+      <text x="520" y="268" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">Las dos zapatas y la viga se resuelven SIMULTÁNEAMENTE.</text>
+      <text x="520" y="284" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">Las presiones dejan de ser independientes entre sí.</text>
+
+      <!-- bottom: the one difference -->
+      <line x1="10" y1="316" x2="970" y2="316" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+      <text x="10" y="340" font-family="monospace" font-size="11.5" font-weight="600" fill="currentColor" letter-spacing="1">LA ÚNICA DIFERENCIA QUE IMPORTA</text>
+      <text x="10" y="362" font-size="13" fill="currentColor" font-family="monospace">Articulado: 2 incógnitas, sistema determinado por estática. Se resuelve en cascada.</text>
+      <text x="10" y="382" font-size="13" fill="currentColor" font-family="monospace">Cuerpo rígido: el giro común acopla ambas zapatas. Hay que resolver el sistema entero.</text>
+      <text x="10" y="405" font-size="13" fill="currentColor" font-family="monospace" opacity="0.8">Ningún artículo de E.050, E.060 ni E.030 dice cuál corresponde. Lo elige el ingeniero.</text>
+    </svg>
+    <figcaption>
+      Los dos modelos sobre la misma estructura. Lo que cambia es la unión viga–zapata interior:
+      rótula a la izquierda, nudo rígido a la derecha. De esa sola diferencia se derivan la
+      forma de la presión bajo la zapata exterior y el hecho de que el segundo modelo no admita
+      resolución en cascada.
+    </figcaption>
+  </figure>
+
+  <div class="models">
+    <div class="model">
+      <p class="kicker">Modelo 1</p>
+      <h3>Articulado</h3>
+      <dl>
+        <dt>Cuándo lo elige el ingeniero</dt>
+        <dd>Cuando la columna interior tiene momentos pequeños, de gravedad y de sismo. El
+        programa <strong>no</strong> evalúa esa condición: «momentos pequeños» no está definido
+        en ninguna norma ni en los apuntes, y convertirlo en un número sería inventar un
+        criterio.</dd>
+
+        <dt>Hipótesis</dt>
+        <dd>
+          <ul>
+            <li>La unión viga–zapata interior no transmite momento.</li>
+            <li>La viga es lo bastante rígida para impedir el giro de la zapata exterior, de
+            modo que su presión de contacto es <strong>uniforme</strong>.</li>
+            <li>La zapata interior actúa como contrapeso y recibe solo una fuerza vertical.</li>
+          </ul>
+        </dd>
+
+        <dt>Grados de libertad</dt>
+        <dd>Cuerpo libre {zapata exterior + viga}: dos incógnitas —la resultante del suelo
+        R₁ y la fuerza vertical ΔP en el extremo interior— y dos ecuaciones, ΣF<sub>v</sub> = 0
+        y ΣM = 0. <strong>Estáticamente determinado.</strong></dd>
+
+        <dt>Comprobación de signo</dt>
+        <dd>Para carga de gravedad pura debe salir R₁ &gt; P₁ y la zapata interior aliviada.
+        Con sismo, ΔP invierte su signo: hay que evaluar las dos combinaciones, no basta la
+        envolvente de una.</dd>
+
+        <dt>Riesgo propio</dt>
+        <dd>Si la viga no es rígida, la presión deja de ser uniforme y el resultado deja de
+        ser conservador <em>en silencio</em>. Ver TBD-C1.</dd>
+      </dl>
+    </div>
+
+    <div class="model">
+      <p class="kicker">Modelo 2</p>
+      <h3>Cuerpo rígido / junta</h3>
+      <dl>
+        <dt>Cuándo lo elige el ingeniero</dt>
+        <dd>Cuando la columna interior transmite momentos considerables. Igual que antes, el
+        umbral lo fija el proyectista.</dd>
+
+        <dt>Hipótesis</dt>
+        <dd>
+          <ul>
+            <li>La unión viga–zapata interior transmite momento.</li>
+            <li>El conjunto {exterior + viga + interior} se comporta como un cuerpo rígido con
+            un giro común.</li>
+            <li>La presión bajo cada zapata <strong>no</strong> es necesariamente uniforme.</li>
+          </ul>
+        </dd>
+
+        <dt>Grados de libertad</dt>
+        <dd>Aquí está la ambigüedad de la fase, y no la resuelvo por mi cuenta. Hay dos
+        lecturas posibles de «cuerpo rígido», y <strong>no son equivalentes</strong>. Ver
+        TBD-C2.</dd>
+
+        <dt>Riesgo propio</dt>
+        <dd>Una de las dos lecturas necesita el módulo de balasto, que E.050 no prescribe.
+        Ver TBD-C3.</dd>
+      </dl>
+    </div>
+  </div>
+
+  <div class="call">
+    <span class="tag">TBD-C2 · RESUELTO</span>
+    <p>
+      <strong>Fuente primaria:</strong> apuntes CR2-93-134 §3.6, problema de aplicación 2
+      —columna de lindero más columna interior a 6,50 m—. El enunciado declara el modelo:
+    </p>
+    <p style="font-style:italic; border-left:2px solid var(--line); padding-left:14px;">
+      «El modelo de análisis será el de un cuerpo rígido para el conjunto de 2 zapatas y la
+      viga de conexión pues la viga lleva esfuerzos de la zapata izquierda a la zapata derecha
+      y viceversa.»
+    </p>
+    <p>
+      De ahí salen dos cosas: el cuerpo rígido es <strong>el conjunto</strong> —las dos zapatas
+      y la viga—, y la unión transmite en <strong>ambos sentidos</strong>, de modo que
+      <code>M_cut</code> no es nulo.
+    </p>
+  </div>
+
+  <div class="call new">
+    <span class="tag">Corrección de esta auditoría</span>
+    <p>
+      <strong>Las dos lecturas que di por no equivalentes son la misma.</strong> Conviene
+      dejarlo escrito, porque el error estaba aquí.
+    </p>
+    <p>
+      Para un cuerpo rígido el campo de desplazamientos es <code>w(s) = w₀ + θ·s</code>. Con
+      Winkler, <code>p(s) = k_s·w(s) = (k_s·w₀) + (k_s·θ)·s</code>. Las dos incógnitas que
+      determinan la presión son los <em>productos</em> <code>k_s·w₀</code> y
+      <code>k_s·θ</code>, y ambos quedan fijados por las dos ecuaciones de equilibrio sobre
+      magnitudes puramente geométricas — el área de apoyo y sus momentos primero y segundo:
+    </p>
+    <p style="font-family:var(--font-mono); font-size:13px;">
+      [A₀ A₁; A₁ A₂] · [k_s·w₀ ; k_s·θ] = [P_total ; M_total]
+    </p>
+    <p>
+      <strong>k<sub>s</sub> se cancela idénticamente.</strong> Comprobado además por
+      discretización numérica en resortes: con k<sub>s</sub> entre 5 000 y 500 000 kN/m³ —dos
+      órdenes de magnitud— las presiones y las resultantes coinciden a doce cifras
+      significativas. Lo único que cambia con k<sub>s</sub> es el asentamiento y el giro, que
+      no intervienen en el diseño.
+    </p>
+    <p>
+      <strong>Consecuencias.</strong> El modelo es estáticamente determinado y no hace falta
+      k<sub>s</sub>: <strong>TBD-C3 queda disuelto</strong>, no pendiente. La única condición
+      es que k<sub>s</sub> sea uniforme bajo las dos zapatas, coherente con que el motor
+      modele un solo perfil de suelo, y queda declarada como hipótesis.
+    </p>
+  </div>
+
+  <h3>Lo que 4C necesita ahora</h3>
+  <p>
+    Ya no es una ambigüedad normativa: es trabajo de implementación, con tres consecuencias de
+    arquitectura que el modelo articulado no tenía.
+  </p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Id</th><th>Consecuencia</th><th>Por qué el modelo articulado no la tenía</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono">F1</td>
+          <td><strong>El contrato debe ensancharse a las dos huellas.</strong>
+          <code>correct_loads(layout, L1)</code> deja de bastar: hacen falta posición, longitud
+          y ancho transversal de cada zapata.</td>
+          <td>A₀, A₁ y A₂ dependen de ambas huellas. El articulado solo necesitaba L₁.</td>
+        </tr>
+        <tr>
+          <td class="mono">F2</td>
+          <td><strong>El peso propio de las zapatas entra en el reparto</strong>, y también en
+          el par corregido:
+          <code>M_corr = e_res·(P_col_corr + W) − P_col_corr·offset</code>.</td>
+          <td>En el articulado se agrupaba y desaparecía, porque la resultante del suelo y el
+          peso propio actúan en el mismo centroide. En cuerpo rígido la resultante NO pasa por
+          el centroide.</td>
+        </tr>
+        <tr>
+          <td class="mono">F3</td>
+          <td><strong>Hay que detectar despegue.</strong> El campo lineal puede dar presión
+          negativa en un extremo. E.060 §15.2 prohíbe considerar tracciones ⇒ FAIL o
+          NO VERIFICADO, nunca aceptarlo en silencio.</td>
+          <td>La presión uniforme del articulado no puede cambiar de signo.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call tbd">
+    <span class="tag">Lo que TBD-C2 NO resuelve</span>
+    <p>
+      El modelo de cuerpo rígido <strong>no hace desaparecer TBD-C1</strong>. Sustituye una
+      hipótesis de rigidez por otra —el conjunto gira como un sólido— que tampoco tiene
+      criterio normativo de verificación. Lo que sí permite es <em>acotar por comparación</em>
+      cuánto depende el resultado de esa hipótesis, corriendo el mismo caso con los dos
+      modelos.
+    </p>
+  </div>
+
+  <h3>El paso de estática, en forma de ecuaciones de equilibrio</h3>
+  <p>
+    Presento el sistema, no una fórmula cerrada. La forma cerrada y su convención de signos se
+    fijan en la subfase 4A <em>contra el benchmark</em>, no antes: escribir aquí una expresión
+    que no he verificado contra la fuente sería el mismo error que inventar un coeficiente.
+  </p>
+  <div class="call">
+    <span class="tag">Nivel B · derivación declarada</span>
+    <p>
+      Cuerpo libre = {zapata exterior + viga}. Con <code>S</code> la distancia entre ejes de
+      columnas, <code>a</code> la distancia del eje de la columna exterior al lindero y
+      <code>L₁</code> la longitud de la zapata exterior, la excentricidad geométrica vale
+      <code>e₁ = L₁/2 − a</code>.
+    </p>
+    <p>
+      Dos ecuaciones, dos incógnitas: <code>ΣF_v = 0</code> y <code>ΣM = 0</code> respecto de un
+      punto elegido; incógnitas <code>R₁</code> (resultante del suelo bajo la exterior) y
+      <code>ΔP</code> (fuerza vertical que la viga intercambia con la interior). El momento de
+      columna M₁, si existe, entra en ΣM.
+    </p>
+    <p>
+      <strong>El acoplamiento que define la fase:</strong> <code>e₁</code> depende de
+      <code>L₁</code>, que es justo lo que el barrido de geometrías varía. Reducir la zapata
+      exterior aumenta <code>e₁</code>, que aumenta <code>R₁</code> y <code>ΔP</code>, que
+      carga la interior. <strong>No se pueden optimizar por separado.</strong>
+    </p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="arquitectura">
+  <h2><span class="num">03</span><span>Arquitectura propuesta</span></h2>
+  <p class="sec-lede">
+    La decisión que hace barata toda la fase: el paso de estática produce <em>conjuntos de
+    cargas corregidos</em>, y con ellos los motores existentes se llaman sin tocar una línea.
+  </p>
+
+  <figure>
+    <svg viewBox="0 0 980 340" role="img" aria-label="Flujo de datos: el solver de conectada ejecuta el paso de estática, que produce dos conjuntos de cargas corregidos y la demanda de la viga, y con ellos invoca los motores ya existentes de zapata aislada y de viga de conexión sin modificarlos">
+      <defs>
+        <marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <polygon points="0,1 10,5 0,9" fill="currentColor"/>
+        </marker>
+      </defs>
+
+      <!-- input -->
+      <rect x="8" y="118" width="150" height="74" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <text x="20" y="142" font-family="monospace" font-size="12" font-weight="600" fill="currentColor">ConnectedLayout</text>
+      <text x="20" y="160" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.75">2 columnas + cargas</text>
+      <text x="20" y="176" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.75">modelo de análisis</text>
+
+      <line x1="158" y1="155" x2="208" y2="155" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+
+      <!-- statics: NEW -->
+      <rect x="210" y="100" width="172" height="110" fill="none" stroke="#a03530" stroke-width="2"/>
+      <text x="222" y="124" font-family="monospace" font-size="12" font-weight="600" fill="#a03530">connected_statics</text>
+      <text x="222" y="141" font-family="monospace" font-size="10" fill="#a03530" letter-spacing="1">NUEVO · NIVEL B</text>
+      <line x1="222" y1="150" x2="370" y2="150" stroke="#a03530" stroke-width="0.8" opacity="0.5"/>
+      <text x="222" y="168" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">ΣF_v = 0 · ΣM = 0</text>
+      <text x="222" y="184" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">por cada combinación</text>
+      <text x="222" y="200" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">articulado | rígido</text>
+
+      <!-- three outputs -->
+      <line x1="382" y1="128" x2="452" y2="66" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+      <text x="384" y="88" font-family="monospace" font-size="10" fill="currentColor" opacity="0.8">LoadCaseSet'</text>
+
+      <line x1="382" y1="155" x2="452" y2="155" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+      <text x="386" y="149" font-family="monospace" font-size="10" fill="currentColor" opacity="0.8">Mu, Vu, ΣPu</text>
+
+      <line x1="382" y1="182" x2="452" y2="244" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+      <text x="384" y="228" font-family="monospace" font-size="10" fill="currentColor" opacity="0.8">LoadCaseSet'</text>
+
+      <!-- existing engines -->
+      <rect x="455" y="34" width="208" height="66" fill="none" stroke="#2c6e49" stroke-width="2"/>
+      <text x="467" y="56" font-family="monospace" font-size="12" font-weight="600" fill="#2c6e49">evaluate_candidate</text>
+      <text x="467" y="72" font-family="monospace" font-size="10" fill="#2c6e49" letter-spacing="1">EXISTE · SIN CAMBIOS</text>
+      <text x="467" y="90" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">zapata exterior · placement</text>
+
+      <rect x="455" y="122" width="208" height="66" fill="none" stroke="#2c6e49" stroke-width="2"/>
+      <text x="467" y="144" font-family="monospace" font-size="12" font-weight="600" fill="#2c6e49">design_connecting_beam</text>
+      <text x="467" y="160" font-family="monospace" font-size="10" fill="#2c6e49" letter-spacing="1">EXISTE · SIN CAMBIOS</text>
+      <text x="467" y="178" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">§21.12.3 · §10.5 · §11.5 · P−M</text>
+
+      <rect x="455" y="210" width="208" height="66" fill="none" stroke="#2c6e49" stroke-width="2"/>
+      <text x="467" y="232" font-family="monospace" font-size="12" font-weight="600" fill="#2c6e49">evaluate_candidate</text>
+      <text x="467" y="248" font-family="monospace" font-size="10" fill="#2c6e49" letter-spacing="1">EXISTE · SIN CAMBIOS</text>
+      <text x="467" y="266" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">zapata interior · concéntrica</text>
+
+      <!-- merge -->
+      <line x1="663" y1="66" x2="736" y2="128" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+      <line x1="663" y1="155" x2="736" y2="155" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+      <line x1="663" y1="244" x2="736" y2="182" stroke="currentColor" stroke-width="1.4" marker-end="url(#ar2)"/>
+
+      <rect x="738" y="100" width="172" height="110" fill="none" stroke="#a03530" stroke-width="2"/>
+      <text x="750" y="124" font-family="monospace" font-size="12" font-weight="600" fill="#a03530">connected_solver</text>
+      <text x="750" y="141" font-family="monospace" font-size="10" fill="#a03530" letter-spacing="1">NUEVO · ORQUESTA</text>
+      <line x1="750" y1="150" x2="898" y2="150" stroke="#a03530" stroke-width="0.8" opacity="0.5"/>
+      <text x="750" y="168" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">traza con scope</text>
+      <text x="750" y="184" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">estado = el peor</text>
+      <text x="750" y="200" font-family="monospace" font-size="10.5" fill="currentColor" opacity="0.8">de los tres</text>
+
+      <line x1="10" y1="308" x2="970" y2="308" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+      <text x="10" y="330" font-size="13" font-family="monospace" fill="currentColor">Todo lo verde ya existe y está congelado. Lo rojo es el trabajo real de la Fase 4.</text>
+    </svg>
+    <figcaption>
+      La presión uniforme del modelo articulado no necesita un modelo de contacto nuevo.
+      <strong>Corrección de implementación:</strong> no basta con entregar momento CERO, como
+      decía la primera versión de esta auditoría. El motor de zapata compone la excentricidad
+      como <code>ex = (M + P·offset)/(P + W)</code>, de modo que la columna descentrada aporta
+      un momento <em>por geometría</em> que el momento nulo no cancela. Lo que hay que entregar
+      es el <strong>par que la viga realmente transmite</strong>,
+      <code>M = −P·offset</code>: con él <code>ex = 0</code> y la presión resulta uniforme,
+      sin tocar una línea del motor de zapata.
+    </figcaption>
+  </figure>
+
+  <h3>Entidades necesarias</h3>
+  <pre class="tree"><b>ConnectedFootingLayout</b>            <i># NUEVO — engine/domain/connected_layout.py</i>
+├── analysis_model : ARTICULADO | CUERPO_RIGIDO   <i># OBLIGATORIO, sin default</i>
+├── exterior       : <b>ConnectedElement</b>
+│   ├── placement  : ColumnPlacement           <i># EXISTE (Fase 1B)</i>
+│   ├── loads      : LoadCaseSet               <i># EXISTE</i>
+│   └── B_m, L_m, h_m
+├── interior       : <b>ConnectedElement</b>
+├── beam           : <b>ConnectingBeamSpec</b>
+│   ├── b_m, h_m, d_m
+│   ├── top_cover  : TopCoverDeclaration       <i># EXISTE (Fase 2) — TBD-C6</i>
+│   ├── bears_on_soil : bool                   <i># TBD-C4, declaración obligatoria</i>
+│   └── self_weight_mode : EXPLICITO | EN_EL_10_PCT  <i># TBD-C5</i>
+├── axis_distance_m                            <i># S entre ejes de columnas</i>
+└── property_line_side : X_MIN | X_MAX | Y_MIN | Y_MAX
+
+<b>CoupleDistribution</b>                 <i># NUEVO — salida del paso de estática</i>
+├── combo_name, combo_type
+├── e1_m, R1_kN, delta_P_kN
+├── loads_exterior : LoadCaseSet        <i># corregido — momento ya transferido</i>
+├── loads_interior : LoadCaseSet        <i># corregido</i>
+├── beam_demand    : BeamDemand         <i># Mu−, Mu+, Vu, ΣPu</i>
+└── equations      : list[str]          <i># sustitución numérica para la traza</i>
+
+<b>ConnectedFootingResult</b>             <i># NUEVO</i>
+├── exterior : FootingCandidate         <i># EXISTE, campo a campo idéntico</i>
+├── interior : FootingCandidate         <i># EXISTE</i>
+├── beam     : ConnectingBeamResult     <i># EXISTE (Fase 3)</i>
+├── statics  : list[CoupleDistribution]
+├── trace    : CalculationTrace         <i># con scope por componente</i>
+└── overall_status : CheckStatus        <i># el PEOR de los tres</i></pre>
+
+  <div class="call">
+    <span class="tag">Por qué así</span>
+    <p>
+      <code>ConnectedElement</code> envuelve, no modifica. <code>ColumnPlacement</code>,
+      <code>LoadCaseSet</code> y <code>FootingCandidate</code> se usan tal cual: ninguna firma
+      existente cambia y el congelamiento de 30 casos sigue valiendo.
+    </p>
+    <p>
+      El único campo sin valor por defecto de toda la fase es <code>analysis_model</code>.
+      Ponerle uno equivaldría a que el programa elija el modelo estructural por el ingeniero.
+    </p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="reutilizacion">
+  <h2><span class="num">04</span><span>Matriz de reutilización</span></h2>
+  <p class="sec-lede">
+    Auditoría módulo por módulo contra el código que existe hoy, no contra el que existía
+    cuando se escribió la auditoría de Fase 0.
+  </p>
+
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Módulo</th><th>Clase</th><th>Por qué</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">codes/peru/*</td><td><span class="chip direct">Directa</span></td><td>φ, V<sub>c</sub>, ρ<sub>mín</sub>, l<sub>d</sub>, catálogo de barras. Agnósticos a la tipología.</td></tr>
+        <tr><td class="mono">units/*</td><td><span class="chip direct">Directa</span></td><td>Conversión en una sola capa.</td></tr>
+        <tr><td class="mono">domain/column · column_placement · loads · materials · soil</td><td><span class="chip direct">Directa</span></td><td><code>ColumnPlacement</code> ya expresa la columna al ras del lindero.</td></tr>
+        <tr><td class="mono">foundation/depth_solver</td><td><span class="chip direct">Directa</span></td><td><code>evaluate_candidate</code> ya acepta <code>placement</code>. La zapata excéntrica funciona hoy.</td></tr>
+        <tr><td class="mono">foundation/critical_section</td><td><span class="chip direct">Directa</span></td><td>Perímetro truncado, α<sub>s</sub>, centroide y J<sub>c</sub> de la Fase 1C. Es exactamente lo que la zapata de lindero necesita.</td></tr>
+        <tr><td class="mono">foundation/punching_shear · punching_moment_transfer</td><td><span class="chip direct">Directa</span></td><td>—</td></tr>
+        <tr><td class="mono">foundation/flexure · shear_oneway · self_weight · effective_depth</td><td><span class="chip direct">Directa</span></td><td>El voladizo ya es paramétrico; no presuponen simetría.</td></tr>
+        <tr><td class="mono">reinforcement/*</td><td><span class="chip direct">Directa</span></td><td>Selección, alternativas, desarrollo, dirección corta, cara superior.</td></tr>
+        <tr><td class="mono">soil/contact_pressure · eccentricity · stability</td><td><span class="chip direct">Directa</span></td><td>La presión uniforme sale de entregar e = 0, no de un modelo nuevo.</td></tr>
+        <tr><td class="mono">beam/beam_flexure · beam_shear · connecting_beam · axial_flexure · beam_trace</td><td><span class="chip direct">Directa</span></td><td><strong>Motor de viga completo desde la Fase 3.</strong> Es la pieza que más trabajo ahorra.</td></tr>
+        <tr><td class="mono">optimization/scoring · pareto · ranker · arming_ranker</td><td><span class="chip direct">Directa</span></td><td>Operan sobre vectores de métricas; no saben qué es una zapata.</td></tr>
+        <tr><td class="mono">results/status</td><td><span class="chip direct">Directa</span></td><td>La máquina de cinco estados y <code>worst()</code> sirven para el estado del sistema.</td></tr>
+        <tr><td class="mono">results/calculation_trace</td><td><span class="chip extend">Extensión</span></td><td>Añadir <code>scope</code> opcional y corregir <code>by_id</code>. Ver riesgo R3.</td></tr>
+        <tr><td class="mono">optimization/metrics</td><td><span class="chip extend">Extensión</span></td><td>Sumar concreto y acero de la viga y de las dos zapatas.</td></tr>
+        <tr><td class="mono">optimization/discard_explainer</td><td><span class="chip extend">Extensión</span></td><td>Debe decir qué componente causó el descarte.</td></tr>
+        <tr><td class="mono">results/limitations</td><td><span class="chip extend">Extensión</span></td><td>Registrar la premisa de presión uniforme como limitación declarada.</td></tr>
+        <tr><td class="mono">api/* · ui/*</td><td><span class="chip extend">Extensión</span></td><td>Cuarta tipología, mismo patrón que las tres anteriores.</td></tr>
+        <tr><td class="mono">optimization/alternative_generator</td><td><span class="chip variant">Variante</span></td><td>El espacio de búsqueda es el producto cartesiano de la terna. Ver riesgo R1.</td></tr>
+        <tr><td class="mono">foundation/auto_search_range</td><td><span class="chip variant">Variante</span></td><td>A ≈ P/q<sub>adm</sub> no vale: el área de la exterior la fija el par, no P.</td></tr>
+        <tr><td class="mono">analysis/beam_diagram</td><td><span class="chip new">No reutilizable</span></td><td><strong>Supone un elemento que APOYA SOBRE EL SUELO</strong>: deriva w₀ y w₁ del equilibrio de la reacción. La viga de conexión salva un vano entre dos zapatas. Forzar su uso sería un error de física.</td></tr>
+        <tr><td class="mono">analysis/connected_statics</td><td><span class="chip new">Nuevo</span></td><td>El reparto del par. No hay nada equivalente.</td></tr>
+        <tr><td class="mono">foundation/connected_solver</td><td><span class="chip new">Nuevo</span></td><td>Orquestador de los tres componentes.</td></tr>
+        <tr><td class="mono">domain/connected_layout</td><td><span class="chip new">Nuevo</span></td><td>Entidades de la tipología.</td></tr>
+        <tr><td class="mono">reports/connected_report</td><td><span class="chip new">Nuevo</span></td><td>Composición de piezas existentes.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Contrato de no duplicación</h3>
+  <p>
+    La Fase 3 dejó un patrón de tests que demostró que la zapata combinada reutiliza el motor
+    de vigas en vez de copiarlo. <strong>Ese mismo patrón se replica aquí</strong>, con las
+    tres pruebas independientes: interceptar la llamada, reproducir el resultado dígito a
+    dígito, y escanear el fuente en busca de una segunda implementación.
+  </p>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Cálculo</th><th>Vive en</th><th>Lo que el solver de conectada tiene prohibido</th></tr></thead>
+      <tbody>
+        <tr><td>Flexión, cortante y estribos de viga</td><td class="mono">beam/connecting_beam</td><td>Recalcular A<sub>s</sub>, V<sub>c</sub>, V<sub>s</sub> o separación</td></tr>
+        <tr><td>Interacción P−M</td><td class="mono">beam/axial_flexure</td><td>Construir su propio diagrama</td></tr>
+        <tr><td>Punzonamiento y sección crítica</td><td class="mono">foundation/punching_shear · critical_section</td><td>Reimplementar b<sub>o</sub> o α<sub>s</sub></td></tr>
+        <tr><td>Flexión de zapata y acero mínimo</td><td class="mono">foundation/flexure · codes/</td><td>Duplicar ρ<sub>mín</sub> o el bloque de compresión</td></tr>
+        <tr><td>Selección de barras y desarrollo</td><td class="mono">reinforcement/*</td><td>Elegir barras por su cuenta</td></tr>
+        <tr><td>Presión de contacto</td><td class="mono">soil/contact_pressure</td><td>Escribir un q = P/A propio para el caso uniforme</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="salidas">
+  <h2><span class="num">05</span><span>Trazabilidad, API, informe e interfaz</span></h2>
+  <p class="sec-lede">
+    Qué debe salir del motor para que el resultado sea auditable y para que nada que no se
+    haya verificado se lea como conformidad.
+  </p>
+
+  <h3>Entradas nuevas en el CalculationTrace</h3>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>scope</th><th>id</th><th>Qué registra</th><th>Estado admisible</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">sistema</td><td class="mono">analysis_model</td><td>Modelo adoptado y que lo declaró el usuario</td><td><span class="chip direct">INFO</span></td></tr>
+        <tr><td class="mono">sistema</td><td class="mono">couple_&lt;combo&gt;</td><td>e₁, R₁, ΔP con signo, por combinación, con las ecuaciones sustituidas</td><td><span class="chip direct">INFO</span></td></tr>
+        <tr><td class="mono">sistema</td><td class="mono">corrected_loads_&lt;combo&gt;</td><td>Cargas corregidas que recibe cada zapata</td><td><span class="chip direct">INFO</span></td></tr>
+        <tr><td class="mono">sistema</td><td class="mono">uniform_pressure_premise</td><td>Premisa de rigidez de la viga</td><td><span class="chip tbd">NO VERIFICADO</span></td></tr>
+        <tr><td class="mono">sistema</td><td class="mono">beam_self_weight_mode</td><td>Cómo se contabilizó el peso propio de la viga</td><td><span class="chip direct">INFO</span></td></tr>
+        <tr><td class="mono">sistema</td><td class="mono">predim_beam_depth</td><td>h ≈ L/7 como orientación</td><td><span class="chip direct">INFO</span> · nunca PASS/FAIL</td></tr>
+        <tr><td class="mono">zap_ext</td><td class="mono">*</td><td>Traza completa de la zapata aislada, sin cambios</td><td>Todos</td></tr>
+        <tr><td class="mono">zap_int</td><td class="mono">*</td><td>Ídem</td><td>Todos</td></tr>
+        <tr><td class="mono">viga</td><td class="mono">beam_*</td><td>Las 14 entradas de la Fase 3, sin cambios</td><td>Todos</td></tr>
+        <tr><td class="mono">viga</td><td class="mono">beam_anchorage_in_footings</td><td>Anclaje del refuerzo longitudinal dentro de las zapatas — §21.12.3.1</td><td><span class="chip tbd">NO VERIFICADO</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>API</h3>
+  <ul>
+    <li><code>POST /api/design-connected</code> y <code>POST /api/report-connected</code>,
+    ambos por un único <code>_solve_connected()</code> — el patrón que en la Fase 3 impidió que
+    pantalla e informe divergieran.</li>
+    <li><code>analysis_model</code> sin valor por defecto en el esquema: omitirlo debe dar 422
+    con un mensaje que explique por qué el programa no lo elige.</li>
+    <li>El DTO debe exponer el reparto por combinación <em>con su signo</em>, no una envolvente.</li>
+  </ul>
+
+  <h3>Informe e interfaz</h3>
+  <ul>
+    <li>Informe con cuatro bloques: sistema y reparto, zapata exterior, viga, zapata interior;
+    más la traza completa agrupada por <code>scope</code>.</li>
+    <li>Diagrama del reparto: cuerpo libre con R₁, ΔP y las cargas corregidas. Dibuja lo que el
+    motor calculó, no lo recalcula.</li>
+    <li>Cuarta pestaña de tipología. El selector de modelo de análisis, en primer plano y sin
+    preselección, con la explicación de por qué el programa no decide.</li>
+    <li><code>TraceView</code> ya admite <code>groups</code> desde la Fase 3: sirve tal cual.</li>
+  </ul>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<hr class="rule">
+
+<section id="revision">
+  <h2><span class="num">06b</span><span>Revisión final del código</span></h2>
+  <p class="sec-lede">
+    Una auditoría del código ya implementado, buscando afirmaciones escritas a mano donde
+    debía haber resultados derivados. Encontró cuatro.
+  </p>
+
+  <div class="call new">
+    <span class="tag">D4 · el más serio · CORREGIDO</span>
+    <p>
+      <strong>El momento de columna entraba en el cuerpo libre sin convertir de
+      convención.</strong> E.050 art. 28.1 define <code>ex = Mx/Q</code>: un momento
+      positivo desplaza la resultante hacia +x. El cuerpo libre suma
+      <code>Σ(s−s_c)·F_up</code> con las fuerzas positivas hacia arriba, y tiene el signo
+      opuesto.
+    </p>
+    <p>
+      <strong>Consecuencia medible:</strong> un mismo M<sub>x</sub> AUMENTABA la reacción
+      de la zapata de lindero en el modelo articulado y la REDUCÍA en el de cuerpo rígido.
+      Físicamente solo puede reducirla: el momento empuja la resultante hacia el interior
+      y descarga el borde.
+    </p>
+    <p>
+      <strong>Cómo se detectó:</strong> el benchmark del problema 1 necesitaba introducir
+      el momento del libro <em>cambiado de signo</em> para cuadrar. Ese factor ad hoc era
+      el síntoma. Con la conversión puesta, el libro se reproduce con su propio momento y
+      los dos modelos responden igual. Triple confirmación independiente.
+    </p>
+  </div>
+
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Id</th><th>Defecto</th><th>Por qué los tests no lo veían</th><th>Corrección</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono">D1</td>
+          <td>El par del modo par puro se copiaba de la fórmula cerrada del libro,
+          <code>M_col − P·e1</code>, importando con ella su convención de signos.</td>
+          <td>El benchmark reproducía la fuente <em>por construcción</em>: no podía delatar
+          que la fórmula venía de fuera.</td>
+          <td>El par se deriva sumando momentos con la maquinaria del motor.</td>
+        </tr>
+        <tr>
+          <td class="mono">D2</td>
+          <td><code>res_F = res_M = 0.0</code> fijados a mano en el modo par puro.</td>
+          <td><code>closes</code> comprueba esos residuos: en ese modo no verificaba nada.</td>
+          <td>Se calculan sumando el cuerpo libre con el par incluido.</td>
+        </tr>
+        <tr>
+          <td class="mono">D3</td>
+          <td>El despegue se detectaba y el cálculo <strong>seguía adelante</strong> con
+          cargas corregidas que el propio modelo ya sabía inválidas. Con momentos grandes
+          la carga llegaba a ser negativa y el solver de zapata abortaba con un error
+          interno sobre tracción.</td>
+          <td>Ningún test llevaba el despegue hasta el orquestador.</td>
+          <td>El cálculo se detiene con un mensaje que explica que NO se resuelve contacto
+          unilateral.</td>
+        </tr>
+        <tr>
+          <td class="mono">D4</td>
+          <td>Momento de columna sin convertir de convención.</td>
+          <td>Los dos modelos se probaban por separado; nada comparaba su respuesta al
+          mismo dato.</td>
+          <td><code>applied_moment_in_free_body()</code>, en un solo sitio y con nombre.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Qué está verificado, qué es hipótesis y qué no está implementado</h3>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Elemento</th><th>Naturaleza</th><th>Estado</th></tr></thead>
+      <tbody>
+        <tr><td>Equilibrio de fuerzas y momentos del reparto</td><td><span class="level b">B</span> derivación</td><td>✅ Verificado, residuos calculados</td></tr>
+        <tr><td>Conservación de carga vertical</td><td><span class="level b">B</span> derivación</td><td>✅ Invariante en tiempo de ejecución, consciente del modo</td></tr>
+        <tr><td>Peso propio sin doble conteo</td><td><span class="level b">B</span> derivación</td><td>✅ Verificado de extremo a extremo en los dos modelos</td></tr>
+        <tr><td>A, centroide e I de las dos huellas</td><td><span class="level b">B</span> derivación</td><td>✅ Reproducido del libro, exacto</td></tr>
+        <tr><td>Presiones del problema 2 (3 combinaciones)</td><td>Benchmark</td><td>✅ Reproducido dentro del redondeo de la fuente</td></tr>
+        <tr><td>M<sub>par</sub>, ΔP, P<sub>int</sub>, V<sub>u</sub>, M<sub>u</sub>(−) del problema 1</td><td>Benchmark</td><td>✅ Reproducido con el modo <code>PAR_PURO_EN_ZAPATA</code></td></tr>
+        <tr><td>M<sub>u</sub>(−) a la cara del problema 1 (140,6 t·m)</td><td>Convención de la fuente</td><td>⚠️ No adoptada — pendiente de decisión</td></tr>
+        <tr><td>Presión uniforme bajo la zapata de lindero</td><td><span class="level c">C</span> hipótesis</td><td><span class="chip tbd">NO VERIFICADO</span> · TBD-C1</td></tr>
+        <tr><td>El conjunto gira como un cuerpo rígido</td><td><span class="level c">C</span> hipótesis</td><td><span class="chip tbd">NO VERIFICADO</span> · TBD-C1 en forma rígida</td></tr>
+        <tr><td>El pórtico recoge la rama cercana del par</td><td><span class="level c">C</span> hipótesis</td><td><span class="chip tbd">NO VERIFICADO</span> · TBD-C11</td></tr>
+        <tr><td>Apoyo de la viga sobre el terreno</td><td><span class="level c">C</span> hipótesis</td><td><span class="chip tbd">NO VERIFICADO</span> · TBD-C4</td></tr>
+        <tr><td>Contacto unilateral (despegue)</td><td>Modelo distinto</td><td><span class="chip new">No implementado</span> — solo detección, y detiene</td></tr>
+        <tr><td>Búsqueda y optimización de la terna</td><td>—</td><td><span class="chip new">4D, pendiente</span></td></tr>
+        <tr><td>API, informe e interfaz de la conectada</td><td>—</td><td><span class="chip new">4E, pendiente</span></td></tr>
+        <tr><td>Congelamiento de la conectada</td><td>—</td><td><span class="chip new">4F, pendiente</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Los tests, por lo que son capaces de detectar</h3>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Clase</th><th>Nº</th><th>¿Detecta un error de ingeniería?</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Invariantes físicos</strong> — equilibrio, conservación, presiones, geometría</td><td class="num">74</td><td>Sí. Son los que atraparon D1, D2 y D4.</td></tr>
+        <tr><td><strong>Benchmarks contra el libro</strong></td><td class="num">38</td><td>Sí, pero con un punto ciego: si el motor copia la fórmula de la fuente, el benchmark la reproduce por construcción. Fue el caso de D1.</td></tr>
+        <tr><td><strong>Contratos de API y modelo</strong> — campos obligatorios, estados, ámbitos</td><td class="num">21</td><td>Parcialmente: detectan que algo falta o cambió de estado, no que un número esté mal.</td></tr>
+        <tr><td><strong>Estructura del código</strong> — no duplicación, imports prohibidos, un solo sitio por fórmula</td><td class="num">17</td><td><strong>No.</strong> Protegen contra regresión de arquitectura y duplicación, que es otro riesgo.</td></tr>
+        <tr><td>Resto — regresión y casos límite</td><td class="num">29</td><td>Mixto.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    <strong>La lección de esta auditoría:</strong> los benchmarks no bastan por sí solos.
+    Un motor que copia la fórmula de su fuente reproduce el benchmark y sigue estando mal
+    en cuanto el usuario introduce un dato con otra convención. Lo que atrapó los defectos
+    fueron los invariantes <em>cruzados</em> — comparar dos modos, o dos modelos, sobre el
+    mismo dato de entrada.
+  </p>
+</section>
+
+<section id="tbd">
+  <h2><span class="num">06</span><span>TBD y NO VERIFICADO</span></h2>
+  <p class="sec-lede">
+    Diez puntos donde la información disponible no alcanza. Ninguno se resuelve inventando un
+    criterio; dos bloquean subfases concretas.
+  </p>
+
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Id</th><th>Cuestión</th><th>Por qué no se puede resolver</th><th>Tratamiento</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono">TBD-C1</td>
+          <td>Verificación de la premisa de presión uniforme</td>
+          <td>§21.12.3.2 fija una dimensión mínima de la viga, no una comprobación de rigidez del conjunto. h ≈ L/7 es práctica profesional.</td>
+          <td><span class="chip tbd">NO VERIFICADO</span> permanente mientras no haya criterio. <strong>Impide que el modelo articulado dé PASS en ese aspecto.</strong></td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C2</td>
+          <td>Qué significa exactamente «cuerpo rígido / junta»</td>
+          <td><s>Dos lecturas que no son equivalentes.</s> El problema de aplicación 2 declara el modelo, y la derivación muestra que las dos lecturas coinciden: k<sub>s</sub> se cancela.</td>
+          <td>✅ <strong>RESUELTO.</strong> Modelo estáticamente determinado. 4C desbloqueado; quedan F1, F2 y F3.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C3</td>
+          <td>Módulo de balasto k<sub>s</sub></td>
+          <td>Era condicional a que la lectura cinemática necesitara k<sub>s</sub>. No lo necesita: se cancela en el equilibrio de un cuerpo rígido.</td>
+          <td>✅ <strong>DISUELTO.</strong> No se pedirá ningún dato nuevo al usuario.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C12</td>
+          <td>Contacto unilateral cuando hay despegue</td>
+          <td>El campo lineal σ = P/A ± M·y/I supone que toda la huella trabaja. Si una parte se levanta, deja de describir el problema.</td>
+          <td>Solo DETECCIÓN: el cálculo se detiene. No se redistribuye sobre el área comprimida — es un modelo distinto y está sin definir.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C11</td>
+          <td>Dónde va la rama CERCANA del par que reparte la viga</td>
+          <td>Apareció al contrastar el problema 1 con los datos reales: el libro la entrega al pórtico y el equilibrio estricto la deja en la cimentación. Ninguna norma arbitra.</td>
+          <td>Declaración obligatoria: <code>EQUILIBRIO_EN_CIMENTACION</code> o <code>PAR_PURO_EN_ZAPATA</code>. La segunda produce <span class="chip tbd">NO VERIFICADO</span>.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C4</td>
+          <td>¿La viga de conexión apoya sobre el suelo?</td>
+          <td>Decisión de modelación. Cambia el diagrama de la viga y la reacción del suelo.</td>
+          <td>Declaración obligatoria del usuario, registrada como hipótesis.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C5</td>
+          <td>Peso propio de la viga: ¿explícito o dentro del 10 %?</td>
+          <td>Los apuntes lo tratan de forma simplificada.</td>
+          <td>Declarar cuál de las dos se hace. Nunca las dos, nunca ninguna.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C6</td>
+          <td>Recubrimiento de la cara superior de la viga</td>
+          <td>La tabla de §7.7.1 no da un valor único para esa cara.</td>
+          <td>Reutilizar <code>TopCoverDeclaration</code> de la Fase 2: sin declarar, el cálculo se rechaza.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C7</td>
+          <td>Anclaje del refuerzo longitudinal de la viga dentro de las zapatas</td>
+          <td>§21.12.3.1 lo exige; el motor no lo verifica. §15.7 pide además compatibilidad con el anclaje de las barras de columna, tampoco implementado.</td>
+          <td><span class="chip tbd">NO VERIFICADO</span> declarado en la traza y en el informe.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C8</td>
+          <td>E.050 art. 23.3 no nombra la conectada en su tabla de proporciones</td>
+          <td>La tabla lista cuadrada, rectangular, combinada y continua.</td>
+          <td>Aplicar L ≤ 10B a <em>cada zapata por separado</em> como rectangular, y declararlo como lectura adoptada.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C9</td>
+          <td>Clasificación de columna para α<sub>s</sub></td>
+          <td>§11.12.2.1(b) da los valores pero no define qué hace de borde a una columna. TBD-1 heredado.</td>
+          <td>Sigue vigente la lectura geométrica, ya declarada como interpretación.</td>
+        </tr>
+        <tr>
+          <td class="mono">TBD-C10</td>
+          <td>E.050 art. 26.2: D<sub>f</sub> ≥ 0,80 m</td>
+          <td><s>Requisito normativo nivel A no implementado.</s> La ficha normativa estaba desactualizada: el módulo <code>soil/foundation_depth.py</code> ya existía y estaba conectado a los dos solvers. Lo que faltaba era exponer <code>founded_on_rock</code> en la API y la interfaz, de modo que un usuario sobre roca no podía declarar la única excepción del artículo.</td>
+          <td>✅ <strong>CERRADO.</strong> Expuesto en API y UI, consolidado en ámbito de sistema para la conectada, y fijado por <code>test_foundation_depth_shared.py</code> (17 tests), que además prohíbe una segunda implementación del umbral.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="call new">
+    <span class="tag">Regla que no se negocia</span>
+    <p>
+      El signo de ΔP se invierte con el signo del sismo. <strong>Ambas combinaciones deben
+      evaluarse</strong>; no basta la envolvente de una. Una zapata interior aliviada por el
+      sismo en un sentido puede quedar en tracción en el otro, y ese es precisamente el caso que
+      un promedio ocultaría.
+    </p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="plan">
+  <h2><span class="num">07</span><span>Plan por subfases</span></h2>
+  <p class="sec-lede">
+    Cada subfase termina en una puerta verificable. Ninguna avanza sin que la anterior esté
+    cerrada con tests y congelamiento.
+  </p>
+
+  <div class="phases">
+    <div class="phase">
+      <div class="id">4A</div>
+      <div>
+        <h3>Entidades, <code>scope</code> en la traza y estática articulada</h3>
+        <p>
+          <code>ConnectedFootingLayout</code>, <code>CoupleDistribution</code> y
+          <code>connected_statics</code> para el modelo articulado. Se añade
+          <code>scope</code> a <code>CalculationTraceEntry</code> con valor nulo por defecto y
+          se corrige <code>by_id</code> para que la unicidad sea del par
+          <code>(scope, id)</code>.
+        </p>
+        <p>La forma cerrada del reparto y su convención de signos se fijan aquí, contra el benchmark.</p>
+        <div class="gate">
+          ✅ <strong>CERRADA.</strong> 72 tests. El equilibrio cierra a 1e-14 y el momento en
+          la rótula sale exactamente nulo. El benchmark reveló una diferencia estructural con
+          los apuntes, documentada abajo y NO corregida a la fuerza. Las 30 instantáneas
+          existentes no cambiaron.
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="id">4B</div>
+      <div>
+        <h3>Orquestador y contrato de reutilización</h3>
+        <p>
+          <code>connected_solver</code> compone las tres llamadas. Estado del sistema = el peor
+          de los tres componentes: una viga en FAIL invalida el conjunto aunque ambas zapatas
+          cumplan.
+        </p>
+        <div class="gate">
+          ✅ <strong>CERRADA.</strong> 33 tests de integración, con las tres pruebas de no
+          duplicación. La presión bajo la zapata exterior sale uniforme del motor de zapata
+          sin modificarlo, y <code>by_id</code> ya no devuelve la entrada de un componente
+          bajo el rótulo de otro.
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="id">4C</div>
+      <div>
+        <h3>Modelo de cuerpo rígido</h3>
+        <p>
+          Segunda implementación detrás de la misma interfaz. <strong>No arranca hasta resolver
+          TBD-C2</strong>: sin saber qué lectura describe la fuente, cualquier implementación
+          sería una invención.
+        </p>
+        <div class="gate">
+          ✅ <strong>CERRADA.</strong> 25 tests. Reproduce el problema 2 de los apuntes:
+          A = 32,46 m², I = 320,36 m⁴ y las presiones de sus tres combinaciones dentro del
+          redondeo de la propia fuente. Los dos modelos dan resultados distintos y la junta
+          transmite momento, que es lo que los separa.
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="id">4D</div>
+      <div>
+        <h3>Búsqueda y optimización de la terna</h3>
+        <p>
+          La alternativa es (exterior, viga, interior). Decidir explícitamente entre acotar el
+          espacio o buscar en cascada — y si es en cascada, <strong>decir que el resultado no es
+          el óptimo global</strong>, como ya hace el generador de combinada al truncar.
+        </p>
+        <div class="gate">
+          Puerta: el tope de geometrías se declara en la respuesta, igual que
+          <code>truncated</code> en la combinada.
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="id">4E</div>
+      <div>
+        <h3>API, informe e interfaz</h3>
+        <p>
+          Dos endpoints por un solo solver, informe de cuatro bloques y cuarta tipología en la
+          interfaz, con el selector de modelo sin preselección.
+        </p>
+        <div class="gate">
+          Puerta: prueba extremo a extremo UI → API → solver → informe, y 422 comprobado cuando
+          falta el modelo de análisis.
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="id">4F</div>
+      <div>
+        <h3>Congelamiento y cierre</h3>
+        <p>
+          Casos de conectada en la línea base, verificación de que las 30 instantáneas
+          anteriores siguen intactas, y el informe final de cierre.
+        </p>
+        <div class="gate">
+          Puerta: regeneración estrictamente aditiva. Cualquier caso existente que se mueva es
+          una regresión hasta que se demuestre lo contrario.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="tests">
+  <h2><span class="num">08</span><span>Tests y benchmarks</span></h2>
+  <p class="sec-lede">
+    El benchmark que ya existe se convierte en el criterio de aceptación de la fase, y lo hace
+    de una forma que cierra un círculo abierto en la Fase 3.
+  </p>
+
+  <div class="call new">
+    <span class="tag">Criterio de aceptación de la Fase 4</span>
+    <p>
+      Hoy el benchmark de Aragón §3.6 problema 1 entrega al motor de vigas los valores
+      <strong>calculados a mano</strong>:
+    </p>
+    <p style="font-family:var(--font-mono); font-size:13.5px;">
+      Mu(−) = 140,6 t·m → A<sub>s</sub> = 37,7 cm² &nbsp;·&nbsp;
+      Mu(+) = 65,6 t·m → A<sub>s</sub> = 16,5 cm² &nbsp;·&nbsp;
+      Vu = 25,6 t &nbsp;·&nbsp; V<sub>c</sub> = 25,1 t
+    </p>
+    <p>
+      <strong>La Fase 4 debe derivarlos</strong> a partir de las cargas y la geometría, no
+      recibirlos. Cuando <code>connected_solver</code> produzca esos mismos números desde las
+      cargas de columna, el reparto está verificado contra una fuente independiente y el
+      benchmark deja de ser parcial.
+    </p>
+  </div>
+
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Familia</th><th>Qué fija</th><th>Por qué hace falta</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Benchmark Aragón §3.6 problema 1</strong></td>
+          <td>El reparto articulado reproduce Mu−, Mu+ y Vu del libro</td>
+          <td>Fuente independiente. <strong>No se modifica el motor para forzar la coincidencia</strong>; si discrepa, se reporta la discrepancia.</td>
+        </tr>
+        <tr>
+          <td><strong>Benchmark Aragón problema 2</strong></td>
+          <td>El modelo de cuerpo rígido</td>
+          <td>Condicionado a TBD-C2. Sin él, 4C no tiene contraste.</td>
+        </tr>
+        <tr>
+          <td>Estática — equilibrio</td>
+          <td>ΣF<sub>v</sub> = 0 y ΣM = 0 cierran en cada combinación, comprobado de forma independiente del código que los resolvió</td>
+          <td>Un error de signo pasa desapercibido si solo se compara contra el propio resultado.</td>
+        </tr>
+        <tr>
+          <td>Estática — signo sísmico</td>
+          <td>ΔP invierte su signo entre CS+ y CS−, y ambas se evalúan</td>
+          <td>Es el caso que una envolvente ocultaría.</td>
+        </tr>
+        <tr>
+          <td>Estática — acoplamiento</td>
+          <td>Reducir L₁ aumenta ΔP</td>
+          <td>Demuestra que el acoplamiento está modelado y no se optimizó por separado.</td>
+        </tr>
+        <tr>
+          <td>Modelo obligatorio</td>
+          <td>Sin <code>analysis_model</code> el motor levanta error; la API responde 422</td>
+          <td>El programa no puede elegir el modelo estructural.</td>
+        </tr>
+        <tr>
+          <td>Los dos modelos difieren</td>
+          <td>Misma entrada, resultados distintos, diferencia explicable</td>
+          <td>Si coincidieran, uno de los dos estaría mal implementado.</td>
+        </tr>
+        <tr>
+          <td>No duplicación ×3</td>
+          <td>Interceptación, reproducción dígito a dígito, escaneo de fuente</td>
+          <td>Patrón ya probado en <code>test_combined_beam_integration.py</code>.</td>
+        </tr>
+        <tr>
+          <td>Estados</td>
+          <td>La premisa de presión uniforme mantiene el sistema fuera de PASS</td>
+          <td><strong>Que se implemente otra cosa no puede convertir ese NO VERIFICADO en PASS.</strong></td>
+        </tr>
+        <tr>
+          <td>Estado del sistema</td>
+          <td>Viga en FAIL ⇒ sistema en FAIL aunque ambas zapatas cumplan</td>
+          <td>El peor de los tres, no el promedio.</td>
+        </tr>
+        <tr>
+          <td>Traza</td>
+          <td><code>by_id</code> con dos zapatas devuelve la correcta por <code>(scope, id)</code></td>
+          <td>Cierra el defecto latente R3.</td>
+        </tr>
+        <tr>
+          <td>Congelamiento</td>
+          <td>Casos de conectada nuevos; los 30 existentes intactos</td>
+          <td>Contrato de no regresión.</td>
+        </tr>
+        <tr>
+          <td>Extremo a extremo</td>
+          <td>UI → API → estática → tres motores → resultados → informe</td>
+          <td>Las piezas pueden estar bien y el circuito roto.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ================================================================= -->
+<section id="riesgos">
+  <h2><span class="num">09</span><span>Riesgos de arquitectura</span></h2>
+  <p class="sec-lede">
+    Cinco riesgos reales, con la mitigación que propongo para cada uno. Los dos primeros son
+    específicos de esta tipología; los tres últimos son deudas que la Fase 4 hace visibles.
+  </p>
+
+  <div class="risks">
+    <div class="risk">
+      <span class="rid">R1</span>
+      <h3>Explosión combinatoria de la terna</h3>
+      <div class="body">
+        <p>
+          La alternativa es (exterior, viga, interior) y su espacio es el producto cartesiano.
+          Los topes actuales —5 000 geometrías en aislada, 3 000 en combinada— se quedan cortos
+          de inmediato.
+        </p>
+        <p class="mit"><b>Mitigación:</b> decidir explícitamente en 4D entre acotar el espacio
+        o buscar en cascada. Si es en cascada, declararlo en la respuesta como ya hace
+        <code>truncated</code>: el resultado no es el óptimo global y el usuario debe saberlo.</p>
+      </div>
+    </div>
+
+    <div class="risk">
+      <span class="rid">R2</span>
+      <h3>El desplazamiento de columna no sobrevive al barrido</h3>
+      <div class="body">
+        <p>
+          <code>ColumnPlacement</code> expresa la posición como desplazamiento respecto del
+          <em>centro</em> de la zapata. Lo que está fijo en una zapata de lindero es la cara de
+          la columna al ras del borde. <strong>Al crecer B, un desplazamiento constante deja de
+          mantener esa condición.</strong> El propio módulo ya documenta la limitación; la Fase
+          4 es la primera que la sufre de verdad.
+        </p>
+        <p class="mit"><b>Mitigación:</b> el generador de conectada recalcula el desplazamiento
+        para cada geometría a partir de la distancia cara–lindero, que es el dato estable. No
+        se toca <code>ColumnPlacement</code>.</p>
+      </div>
+    </div>
+
+    <div class="risk">
+      <span class="rid">R3</span>
+      <h3><code>by_id</code> devuelve la primera coincidencia</h3>
+      <div class="body">
+        <p>
+          Hoy es inofensivo porque los identificadores son únicos. Con dos zapatas,
+          <code>"punching"</code> aparecerá dos veces y <code>by_id("punching")</code> devolverá
+          la de la primera <em>en silencio</em>. Un informe podría mostrar el punzonamiento de
+          una columna bajo el rótulo de la otra sin que nada falle.
+        </p>
+        <p class="mit"><b>Mitigación:</b> corregir en 4A, antes de que exista el primer
+        consumidor. El campo <code>scope</code> es aditivo y no cambia ninguna entrada actual.</p>
+      </div>
+    </div>
+
+    <div class="risk">
+      <span class="rid">R4</span>
+      <h3>Falso PASS por la premisa de presión uniforme</h3>
+      <div class="body">
+        <p>
+          Es el riesgo más serio de la fase. Si la viga no es rígida, la presión bajo la zapata
+          exterior no es uniforme y todo el diseño deja de ser conservador — sin que ningún
+          número lo advierta.
+        </p>
+        <p class="mit"><b>Mitigación:</b> registrar la premisa como limitación con
+        <code>can_cause_false_pass=True</code> y estado <code>NO VERIFICADO</code>. Es la única
+        entrada de toda la fase que debe impedir el PASS global mientras TBD-C1 siga abierto.</p>
+      </div>
+    </div>
+
+    <div class="risk">
+      <span class="rid">R5</span>
+      <h3>Tentación de reutilizar <code>beam_diagram</code> para la viga</h3>
+      <div class="body">
+        <p>
+          El módulo se llama «beam» y produce V(x) y M(x), de modo que parece el candidato
+          obvio. No lo es: deriva w₀ y w₁ del equilibrio de una <strong>reacción del
+          suelo</strong>. La viga de conexión salva un vano. Usarlo daría números plausibles y
+          equivocados.
+        </p>
+        <p class="mit"><b>Mitigación:</b> dejarlo escrito en el módulo nuevo y cubrirlo con un
+        test que falle si alguien importa <code>build_beam_diagram</code> dentro de
+        <code>connected_statics</code>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="cierre">
+  <h2><span class="num">10</span><span>Qué necesito antes de escribir código</span></h2>
+  <p class="sec-lede">
+    Dos decisiones son tuyas y una de ellas bloquea una subfase entera.
+  </p>
+  <p>
+    <strong>4A, 4B y 4C están implementadas.</strong> TBD-C2 y TBD-C3 quedaron resueltos con
+    el problema de aplicación 2 de los apuntes, y TBD-C10 se cerró antes. Nada de la Fase 4
+    sigue bloqueado por falta de información.
+  </p>
+
+  <div class="call new">
+    <span class="tag">TBD-C11 — apareció al contrastar el problema 1 con sus datos reales</span>
+    <p>
+      Reproducir el método del libro dígito a dígito reveló que <strong>usa un cuerpo libre
+      distinto del que planteaba el motor</strong>. El libro aplica a la zapata de lindero un
+      <em>par puro</em> —fuerza vertical neta nula, R = P exacto— y entrega solo la rama lejana
+      a la zapata interior; la cercana la absorbe la columna y el pórtico. El equilibrio
+      estricto sobre la cimentación sola amplifica R y aumenta la transferencia un 44 %.
+    </p>
+    <p>
+      <strong>Consecuencia medible:</strong> el método del libro no conserva la carga vertical
+      dentro de la cimentación —faltan exactamente las toneladas de la transferencia—. Y la
+      dirección importa: el equilibrio estricto carga <em>más</em> la zapata exterior (lado
+      seguro) pero alivia <em>más</em> la interior (lado inseguro).
+    </p>
+    <p>
+      Ninguna norma lo arbitra, de modo que se resolvió como C4 y C5: <strong>declaración
+      obligatoria</strong>. Con <code>PAR_PURO_EN_ZAPATA</code> el motor reproduce el libro
+      exactamente y marca la entrada como <span class="chip tbd">NO VERIFICADO</span>, porque
+      que el pórtico recoja esa rama es una hipótesis sobre la superestructura que este motor
+      no comprueba.
+    </p>
+  </div>
+
+  <h3>Benchmark de Aragón §3.6 — estado</h3>
+  <div class="call">
+    <span class="tag">Problema 1 · reproducido con el modo del libro</span>
+    <p>
+      Con <code>PAR_PURO_EN_ZAPATA</code> el motor reproduce las tres combinaciones:
+      M<sub>par</sub> = −32,75 / +57,25 / −122,75 t·m, ΔP = 5,45 / 9,54 / 20,45 t,
+      P<sub>int</sub> = 179,3 / 194,29 / 164,3 t, y la viga con V<sub>u</sub> = 25,6 t y
+      M<sub>u</sub>(−) = 153,4 t·m en el eje.
+    </p>
+    <p>
+      <strong>Lo único que no se reproduce</strong> es el momento de diseño a la cara,
+      140,6 t·m: el motor reduce linealmente desde el eje y obtiene 147,0. La diferencia se
+      explica —153,4·(1 − 0,50/6,00) = 140,6 exactamente—, de modo que el libro mide el brazo
+      desde el <em>lindero</em> y no desde el eje de la columna. Es otra convención de cuerpo
+      libre; queda medida, no adoptada en silencio.
+    </p>
+  </div>
+
+  <div class="call">
+    <span class="tag">Problema 2 · reproducido por el modelo de cuerpo rígido</span>
+    <p>
+      A = 32,46 m², centroide 5,067 m (el libro redondea a 5,05) e I = 320,36 m⁴ — exactos.
+      Las presiones de las tres combinaciones caen dentro de ese redondeo:
+      [8,07 – 11,71] frente a [8,14 – 11,63]; [5,07 – 14,87] frente a [5,01 – 14,96];
+      [1,27 – 18,35] frente a [1,32 – 18,25].
+    </p>
+  </div>
+
+  <div class="call new" hidden>
+    <span class="tag">histórico</span>
+    <p>
+      El libro reporta Mu(−) = 140,6 t·m y Vu = 25,6 t. Su cociente,
+      <strong>140,6 / 25,6 = 5,492 m ≈ 5,50 m</strong>, es exactamente la luz libre entre caras
+      de columna. Eso revela su modelo: <strong>divide el par entre la luz libre</strong>.
+    </p>
+    <p>
+      El equilibrio del cuerpo libre lo divide entre <code>(S − e₁)</code>, la distancia del
+      centroide de la zapata exterior al eje de la columna interior. Con e₁ = 1,1115 m:
+    </p>
+    <p style="font-family:var(--font-mono); font-size:13.5px;">
+      libro → ΔP = M<sub>par</sub> / 5,50 = 25,56 t &nbsp;·&nbsp;
+      equilibrio → ΔP = M<sub>par</sub> / 4,889 = 28,76 t &nbsp;(<strong>+12,5 %</strong>)
+    </p>
+    <p>
+      <strong>No se ajustó el motor.</strong> ΣM = 0 sobre el cuerpo libre da
+      <code>(S − e₁)</code>, y el resultado es MÁS EXIGENTE que el del libro. El par de partida
+      sí coincide: M<sub>par</sub> = P·e₁ = 140,6 t·m.
+    </p>
+    <p>
+      Falta el enunciado completo para cerrar el contraste: no se conocen L₁ ni las cargas de
+      la columna interior. Y el Mu(+) = 65,6 t·m del libro no puede salir de una sola
+      combinación de gravedad —el momento va de negativo a cero sin cambiar de signo—, de modo
+      que debe venir de la inversión sísmica del par.
+    </p>
+  </div>
+</section>
+
+</div>

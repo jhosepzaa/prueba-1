@@ -1,0 +1,2379 @@
+
+########## PAGINA 1 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+CAPITULO 3                                          CIMENTACIONES 
+ 
+ 
+INTRODUCCION.- 
+ 
+Normalmente el procedimiento para el diseño de la cimentación de un edificio es el siguiente: 
+ 
+Por lo general la cimentación no está representada en el modelo -de la edificación- a través del 
+cual predecimos la respuesta estructural, tanto para cargas de g ravedad como para cargas de 
+sismo. Usualmente se considera un modelo con base empotrada, lo que significaría en teoría, 
+que la cimentación es lo suficientemente rígida como para empotrar la base del edificio. 
+ 
+Con los esfuerzos obtenidos de este modelo es que, en una tarea posterior, se dimensiona y se 
+diseña la cimentación del edificio. Por lo tanto, si se quiere ser congruente con las condiciones 
+de contorno del modelo, del cual provienen los esfuerzos de dise ño para la  cimentación, éste 
+debe considerar dichas condiciones tanto cuantitativa como cualitativamente. 
+ 
+Podría tenerse un modelo más completo si éste consideraría a la cimentación y al suelo. Pero, 
+para llegar a él, previamente debemos pasar por un modelo como el arriba descrito, que nos 
+permita obtener esfuerzos para el dimensionamiento de los cimientos. Dimensionada la 
+cimentación, recién podemos incluirla en el modelo. Luego, como se podrá observar, en este 
+tipo de modelos, el suelo pasa a formar parte de la estructura e interactuara con ella (interacción 
+suelo-estructura); por lo tanto, para tener resultados confiables, el suelo tendrá que ser 
+modelado considerando todas sus características, las cuales, en la mayoría de los casos, todavía 
+son muy difíciles de llevarlas a un modelo. Es así que por el momento, en la mayoría de los casos, 
+los esfuerzos con los que se diseña la cimentación y el edificio, provienen de un modelo de base 
+empotrada. 
+ 
+3.1.- CIMENTACIONES.- 
+ 
+Los cimientos son los elementos que transfieren la carga de la estructura o superestructura (CM, 
+CV, CS, etc.) al suelo de cimentación. 
+ 
+Existen 2 tipos de cimentaciones: 
+ 
+A.- Cimentaciones Superficiales: Son aquellas cimentaciones en la que es posible cimentar 
+directamente con zapatas. 
+ 
+B.- Cimentaciones Profundas: Son aquellas cimentaciones en la que no es posible cimentar 
+directamente con zapatas y se tiene que recurrir al uso de pilotes. 
+ 
+ 
+3.2.- MECÁNICA DE SUELOS APLICADA A LAS CIMENTACIONES.- 
+ 
+Para proceder al análisis y diseño de una edificación y por ende de su cimentación, es necesario 
+conocer: 
+ 
+a) La profundidad de cimentación. 
+b) Presión admisible del suelo a la profundidad de cimentación. 
+c) Periodo de vibración de la estratigrafía del suelo de cimentación. 
+d) Factores agresivos para el concreto y/o refuerzo. 
+
+########## PAGINA 2 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+e) Nivel freático 
+f) Valor de los máximos asentamientos diferenciales. 
+ 
+Todos estos parámetros son definidos a través de un E.M.S. Según la norma E -050 existe 
+obligatoriedad de realizar un E.M.S. cuando: 
+ 
+1. La estructura es de uso esencial. 
+2. Cuando la edificación tiene un área techada en planta de más de 500 m2 (en el caso de 
+conjuntos habitacionales, estos 500 m2 puede pertenecer a la suma de las áreas 
+techadas en planta del conjunto). 
+3. Edificios de 4 o más pisos. 
+4. Edificaciones especiales. 
+5. Cuando la edificación requiera el uso de pilotes o plateas de cimentación. 
+ 
+ 
+3.3.- CRITERIOS UTILIZADOS PARA EL ANALISIS Y DISEÑO DE CIMENTACIONES.- 
+ 
+En el diseño simplificado de las cimentaciones se asume a los cimientos como rígidos y al suelo 
+como un medio con comportamiento lineal-elástico. Por lo tanto, el cálculo de esfuerzos sobre 
+la cimentación se realiza con la ecuación de la Resistencia de Materiales para la flexo -
+compresión, la cual ha sido deducida asumiendo la hipótesis de Navier  y aplicando el principio 
+de superposición (ver figura 68).   
+ 
+ 
+ 
+ 
+ 
+ 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼  
+ 
+ 
+a = ancho de la zapata 
+ 
+ 
+ 
+  Figura 68. Esfuerzo del suelo basado en comportamiento elástico lineal 
+ 
+ 
+La norma de Cimentaciones E-050, prescribe, para el diseño de zapatas aisladas, un criterio 
+alternativo el cual está basado en el comportamiento no lineal del suelo. A continuación se 
+muestra el proceso de diseño a través de este criterio: 
+ 
+ 
+ 
+ 
+ 
+ 
+σ1 
+σ2 
+
+########## PAGINA 3 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+a = ancho de la zapata 
+ 
+M = Pe 
+ 
+ 
+𝑒 = 𝑀
+𝑃  
+ 
+𝐿′ = 𝐿
+2 − 𝑒 
+ 
+ 
+  Figura 69. Esfuerzo equivalente del suelo basado en comportamiento no lineal 
+ 
+ 
+Área equivalente = 2L’ x a 
+ 
+𝜎 = 𝑃
+𝐴𝑟𝑒𝑎 𝑒𝑞𝑢𝑖𝑣𝑎𝑙𝑒𝑛𝑡𝑒 
+ 
+Dado que la mecánica de suelos nos proporciona la resistencia del suelo en condición de 
+Esfuerzos Admisibles; el dimensionamiento de los cimientos se realiza con la cargas a nivel de 
+servicio. 
+ 
+Nuestro país se encuentra en u na zona de alto peligro sísmico, razón por la que,  las 
+combinaciones de carga para las cuales debemos dimensionar las cimentaciones, son: 
+ 
+1.- Carga muerta + Carga viva. 
+2.- Carga muerta + Carga viva + Carga de Sismo. 
+ 
+Dada la geometría de nuestras edificaciones (pórticos dispuestos en dos direcciones 
+perpendiculares entre sí) y las disposiciones reglamentarias para realizar el análisis sísmico  de 
+las mismas (análisis sísmico según dos direcciones perpendiculares e in dependientes entre sí); 
+los esfuerzos obtenidos del análisis estructural, tanto para  cargas de gravedad como para cargas 
+de sismo, están dispuestos en dos direcciones ortogonales. Por lo tanto la disposición de 
+nuestros cimientos sigue este patrón (cimientos rectangulares). En consecuencia, por cada tipo 
+de carga, llega a un cimiento las siguientes cargas: una carga axial y dos momentos flectores 
+(perpendiculares entre sí). Bajo est a situación, se pueden dar hasta seis casos de carga sobre 
+una cimentación: 
+ 
+1.- Carga axial (gravedad) pura. 
+2.- Carga axial (gravedad) + Momento flector (gravedad) en una dirección. 
+3.- Carga axial (gravedad) + Momento flector (gravedad) en dos direcciones, simultáneamente. 
+4.- Carga axial (gravedad) + Momento flector (gravedad) en una dirección + Momento flector y 
+Carga axial (sismo) en la misma dirección. 
+5.- Carga axial (gravedad) + Momento flector (gravedad) en una dirección + Momento flector y 
+Carga axial (sismo) en la dirección perpendicular. 
+6.- Carga axial (gravedad) + Momento flector  (gravedad) en dos dirección simultáneamente + 
+Momento flector y Carga axial (sismo) en una dirección. 
+ 
+En el caso que la cimentación esté sujeta a momentos flectores,  en ambas direcciones, por 
+cargas de gravedad; el análisis de la cimentación para esta condición de carga tendrá que 
+σ 
+ 
+
+########## PAGINA 4 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+considerar esta situación. En el caso en que la cimentación tenga momentos por cargas de sismo, 
+en ambas direcciones, el análisis para esta condición de carga se realizará, independientemente, 
+en cada dirección. 
+ 
+Dada la naturaleza de las fuerzas sísmicas (de ida y vuelta), la combinación de carga en la que 
+interviene la fuerza de sismo debe contemplar ambos sentidos. 
+ 
+ 
+3.4.- DISEÑO DE ZAPATAS AISLADAS.- 
+ 
+Introducción.- 
+ 
+Se denomina zapata aislada a aquella estructura que sirve para cimentar columnas. Dentro de 
+los cimientos de concreto armado, la zapata aislada, es el cimiento más elemental. 
+ 
+ 
+Figura 70. 
+ 
+El procedimiento a seguir para el diseño de una zapata aislada es: 
+ 
+1. Pre dimensionamiento de la zapata: BxAxh 
+2. Verificación de los esfuerzos en el suelo. 
+3. Diseño por flexión 
+4. Diseño por corte y punzonamiento. 
+5. Detallado del acero. 
+ 
+3.4.1.- Problema de aplicación.- 
+ 
+Diseñar la zapata de cimentación para la siguiente columna: 
+ 
+Del análisis estructural se obtiene: 
+ 
+PCM= 100 ton 
+PCV= 60 ton 
+Mcmx=8ton-m 
+Mcvx=5 ton-m 
+Psy=+/-10 ton 
+Msy=+/-50 ton-m 
+Psx=+/-15 ton 
+Msx=+/-65 ton-m    
+                                                                                   Figura 71 
+ 
+𝜎𝑎𝑑𝑚=2.2 kg/cm2 a 1m de profundidad respecto N.N.T. 
+
+
+########## PAGINA 5 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+Los esfuerzos de carga sísmica se encuentran en condición última. 
+ 
+ 
+ Solución simplificada del problema asumiendo zapata rígida y comportamiento elástico lineal 
+del  suelo: 
+ 
+Seguimos la secuencia previamente definida para el análisis y diseño de la zapata: 
+ 
+a.- Pre dimensionamiento de la zapata.  
+ 
+Dado que la zapata tiene momentos flectores por cargas de gravedad solo en una dirección, el 
+análisis y diseño se realizara, por separado, en cada dirección. 
+ 
+El predimensionamiento lo haremos a partir de las cargas de gravedad y para la dirección más 
+desfavorable (dirección X-X): 
+ 
+1) Combinación CM+CV.- 
+ 
+P=Pcm + Pcv + p.p. 
+P=100 + 60 + 10%(CM+CV) 
+P=176 ton 
+ 
+Mx = Mcmx + Mcvx 
+Mx = 8 + 5 
+Mx = 13 ton-m. 
+ 
+My = 0 
+ 
+Realizamos una aproximación sin tener en cuenta los momentos: 
+ 
+𝜎 = 𝑃
+𝐴  =>        𝐴 = 𝑃
+𝜎 = 176
+22 = 8𝑚2 
+ 
+Para una zapata cuadrada se tendría:  √8 ≈ 2.80 𝑥 2.80. Por lo tanto asumiremos una zapata 
+de 3.40m x 3.40m x 0.60m, teniendo en cuenta la existencia de momentos flectores. 
+ 
+ 
+b.- Verificación de esfuerzos en el suelo.- 
+ 
+A) Dirección X-X.- 
+ 
+A.1) Combinación CM+CV.- 
+ 
+P = CM + CV+ p.p. 
+P = 100 + 60 + 16.6 
+P = 176.6 ton. 
+ 
+Mx = Mcmx + Mcvx 
+Mx = 8 + 5 
+Mx = 13 ton-m. 
+ 
+
+########## PAGINA 6 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 176.6
+11.568 + 13(3.4/2)
+11.136 = 15.27 ± 1.98 
+𝜎+= 17.25
+𝑡𝑛
+𝑚2  Ok. 
+𝜎−= 13.29
+𝑡𝑛
+𝑚2  Ok. 
+ 
+Según el otro criterio: 
+𝑒 = 𝑀
+𝑃 = 0.074 𝑚. 
+ 
+𝐴𝑒𝑞 = (
+𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 11.0568 m2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+176.6
+11.0568 = 15.97
+𝑡𝑛
+𝑚2ok. 
+ 
+ 
+A.2) Combinación CM+CV+/-CS (Dir X-X).- 
+ 
+Se aumenta 𝜎𝑎𝑑𝑚 en 30% 
+ 
+A.2.1) Sismo Dir. +X  
+ 
+P = CM + CV + p.p. + CS 
+P = 176.6 +
+15
+1.25 
+P = 188.6 ton 
+M = Mcm+ Mcv + Ms =13+ 
+65
+1.25 = 65 𝑡𝑛 − 𝑚 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 188.6
+11.56 + 65(3.4/2)
+11.136 = 16.31 ± 9.92 
+𝜎+= 26.23
+𝑡𝑛
+𝑚2 OK. 
+𝜎−= 6.39
+𝑡𝑛
+𝑚2 Ok. 
+ 
+Usando el otro criterio: 
+𝑒 =
+𝑀
+𝑃 = 0.345m 
+𝐴𝑒𝑞 = (𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 9.21𝑚2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+188.6
+9.21 = 20.48
+𝑡𝑛
+𝑚2ok 
+ 
+ 
+A.2.2) Sismo Dir. –X 
+
+########## PAGINA 7 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+P = CM + CV + p.p. – CS 
+P = 176.6 - 
+15
+1.25 
+P = 164.6 ton. 
+ 
+M = Mcm+ Mcv + Ms =13- 
+65
+1.25 = −39 𝑡𝑛 − 𝑚 
+ 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 164.6
+11.56 + 39(3.4/2)
+11.136 = 14.24 ± 5.95 
+ 
+𝜎+= 20.19
+𝑡𝑛
+𝑚2  OK. 
+ 
+𝜎−= 8.29
+𝑡𝑛
+𝑚2 Ok. 
+ 
+ 
+Usando el otro criterio: 
+ 
+𝑒 =
+𝑀
+𝑃 = 0.237m 
+𝐴𝑒𝑞 = (𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 9.95𝑚2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+164.6
+9.95 = 16.54
+𝑡𝑛
+𝑚2ok 
+ 
+ 
+B) Dirección Y-Y. 
+ 
+B.1) Combinación CM+CV.- 
+ 
+P = CM + CV+ p.p. 
+P = 100 + 60 + 16.6 
+P = 176.6 ton. 
+ 
+My = 0 
+ 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 176.6
+11.568 + 0 = 15.27 ± 0 
+𝜎+= 15.27
+𝑡𝑛
+𝑚2  Ok. 
+𝜎−= 15.27
+𝑡𝑛
+𝑚2  Ok. 
+ 
+Según el otrocriterio: 
+𝑒 = 𝑀
+𝑃 = 0.0 𝑚. 
+ 
+𝐴𝑒𝑞 = (
+𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 11.568 m2 
+ 
+
+########## PAGINA 8 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+176.6
+11.568 = 15.27
+𝑡𝑛
+𝑚2ok. 
+ 
+ 
+B.2)  Combinación CM+CV+/-CS.- 
+ 
+B.2.1) Dir +Y.- 
+ 
+P = CM + CV + p.p. + CS 
+P = 176.6 + 
+10
+1.25 ton. 
+P =184.6 ton 
+ 
+M = Mcm+ Mcv + Ms =0+ 
+50
+1.25 = 40 𝑡𝑛 − 𝑚. 
+ 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 184.6
+11.56 + 40(3.4/2)
+11.136 = 15.97 ± 6.1 
+ 
+𝜎+= 22.07
+𝑡𝑛
+𝑚2  OK. 
+ 
+𝜎−= 9.87
+𝑡𝑛
+𝑚2 Ok 
+ 
+ 
+Usando el otro criterio: 
+ 
+𝑒 =
+𝑀
+𝑃 = 0.217m. 
+ 
+𝐴𝑒𝑞 = (𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 10.1 𝑚2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+184.6
+10.1 = 18.28
+𝑡𝑛
+𝑚2ok 
+ 
+ 
+B.2.2) Dir -Y.- 
+ 
+P = CM + CV + p.p. - CS 
+P = 176.6 -
+10
+1.25 ton. 
+P = 168.6 
+M = Mcm+ Mcv + Ms =0- 
+50
+1.25 = −40 𝑡𝑛 − 𝑚 
+𝜎 = 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 168.6
+11.56 + 40(3.4/2)
+11.136 = 14.58 ± 6.1 
+ 
+𝜎+= 20.68
+𝑡𝑛
+𝑚2  OK. 
+ 
+𝜎−= 8.48
+𝑡𝑛
+𝑚2 Ok. 
+ 
+ 
+ 
+Usando el otro criterio: 
+
+########## PAGINA 9 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+𝑒 =
+𝑀
+𝑃 = 0.24m 
+ 
+𝐴𝑒𝑞 = (𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 9.93 𝑚2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+168.6
+9.93 = 16.98
+𝑡𝑛
+𝑚2ok. 
+ 
+Como se podr á observar, el predimensionamiento propuesto, verificado con el criterio 
+tradicional, nos da esfuerzos bastante ceñidos al esfuerzo admisible del suelo. En cambio, el 
+mismo pre dimensionamiento, verificado con el criterio alternativo, n os da esfuerzos bastante 
+holgados en relación al esfuerzo admisible del suelo. Por lo tanto el criterio tradicional es mucho 
+más conservador que el criterio alternativo. 
+ 
+
+########## PAGINA 10 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+Usando el otro criterio: 
+ 
+𝑒 =
+𝑀
+𝑃 = 0.24m 
+ 
+𝐴𝑒𝑞 = (𝐿
+2 − 𝑒) 𝑥2𝑥3.4 = 9.93 𝑚2 
+ 
+𝜎𝑒𝑞 =
+𝑃
+𝐴𝑒𝑞 =
+168.6
+9.93 = 16.98
+𝑡𝑛
+𝑚2ok. 
+ 
+Como se podr á observar, el predimensionamiento propuesto, verificado con el criterio 
+tradicional, nos da esfuerzos bastante ceñidos al esfuerzo admisible del suelo. En cambio, el 
+mismo pre dimensionamiento, verificado con el criterio alternativo, nos da esfuerzos bastante 
+holgados en relación al esfuerzo admisible del suelo. Por lo tanto el criterio tradicional es mucho 
+más conservador que el criterio alternativo. 
+ 
+c.- Diseño por flexión.- 
+ 
+Diseñaremos la zapata con los esfuerzos obtenidos de asumir comportamiento elásticos lineales 
+en el suelo. 
+ 
+El diseño se realiza para cada dirección, independientemente: 
+ 
+Figura 72 
+ 
+A.- Diseño por flexión Dir. X (Momentos alrededor de Y).- 
+ 
+A.1.- Diseño para la combinación CM + CV.- 
+ 
+A.1.a.- Esfuerzos debidos a la carga muerta: 
+ 
+Pcm = 116.6 ton 
+Mcm = 8 ton-m 
+ 
+𝜎𝑐𝑚 =  𝑃
+𝐴 + 𝑀 𝑦
+𝐼 = 116.6
+11.56 +/− 8 ∗ 1.7
+11.136 
+ 
+𝜎𝑐𝑚 = 10.0865 +/- 1.22 
+ 
+
+
+########## PAGINA 11 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+𝜎𝑐𝑚+ = 11.3 𝑡𝑜𝑛/𝑚2 
+ 
+𝜎𝑐𝑚− = 8.87 𝑡𝑜𝑛/𝑚2 
+ 
+A.1.b.- Esfuerzos debidos a la carga viva:  
+ 
+Pcv = 60 ton 
+Mcv = 5 ton-m 
+ 
+𝜎𝑐𝑣 =  𝑃
+𝐴 + 𝑀 𝑦
+𝐼 = 60
+11.56 +/− 5 ∗ 1.7
+11.136 
+ 
+𝜎𝑐𝑣 = 5.19 +/- 0.76 
+ 
+𝜎𝑐𝑣+ = 5.95 𝑡𝑜𝑛/𝑚2 
+ 
+𝜎𝑐𝑣− = 4.43 𝑡𝑜𝑛/𝑚2 
+ 
+Superponiendo ambos esfuerzos en condición “ultima”: 
+ 
+𝜎𝑢+ = 1.4 ∗ 11.3 + 1.7 ∗ 5.95 = 25.935 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+𝜎𝑢− = 1.4 ∗ 8.87 + 1.7 ∗ 4.43 = 19.949 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Momento a la cara de la columna: 
+ 
+Mu = 92.71 ton-m (para un ancho de 3.4m). 
+ 
+A.2.- Diseño para la combinación CM + CV +- CS: 
+ 
+Los esfuerzos críticos en el suelo calculados para estas dos combinaciones son: 
+ 
+σ+ = 26.49 ton/m2 
+σ- = 6.65 ton/m2 
+ 
+Llevamos los esfuerzos a nivel “ultimo” para el diseño: 
+ 
+25.935 ton/m2
+19.949 ton/m2
+
+########## PAGINA 12 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+σu+ = 1.25*26.49=33.11 ton/m2 
+σu- =1.25* 6.65=8.3 ton/m2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+El momento flector, a la cara de la columna, generado por esta combinación de cargas es: 
+ 
+Mu= 109.19 ton-m (para un ancho de 3.40 m). 
+ 
+B.- Diseño por flexión Dir. Y (Momentos alrededor de X).- 
+ 
+B.1.- Diseño para la combinación CM + CV.- 
+ 
+B.1.a.- Esfuerzos debidos a la carga muerta: 
+ 
+Pcm = 116.6 ton 
+Mcm = 0 ton-m 
+ 
+𝜎𝑐𝑚 =  𝑃
+𝐴 + 𝑀 𝑦
+𝐼 = 116.6
+11.56 +/− 0 
+ 
+𝜎𝑐𝑚 = 10.0865 +/- 0 
+ 
+𝜎𝑐𝑚+ = 10.09 𝑡𝑜𝑛/𝑚2 
+ 
+𝜎𝑐𝑚− = 10.09 𝑡𝑜𝑛/𝑚2 
+ 
+B.1.b.- Esfuerzos debidos a la  carga viva: 
+ 
+Pcv = 60 ton 
+Mcv = 0 ton-m 
+ 
+𝜎𝑐𝑣 =  𝑃
+𝐴 + 𝑀 𝑦
+𝐼 = 60
+11.56 +/− 0 
+ 
+𝜎𝑐𝑣 = 5.19 +/- 0 
+ 
+𝜎𝑐𝑣+ = 5.19 𝑡𝑜𝑛/𝑚2 
+ 
+𝜎𝑐𝑣− = 5.19 𝑡𝑜𝑛/𝑚2 
+ 
+Superponiendo ambos esfuerzos en condición “ultima”: 
+33.11 ton/m2
+8.3 ton/m2
+
+########## PAGINA 13 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+𝜎𝑢+ = 1.4 ∗ 10.09 + 1.7 ∗ 5.19 = 22.949 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+𝜎𝑢− = 1.4 ∗ 10.09 + 1.7 ∗ 5.19 = 22.949 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+ 
+ 
+ 
+ 
+ 
+Momento a la cara de la columna: 
+ 
+Mu = 84.87 ton-m (para un ancho de 3.4m). 
+ 
+B.2.- Diseño para la combinación CM + CV +- CS: 
+ 
+Los esfuerzos críticos en el suelo calculados para estas dos combinaciones son: 
+ 
+σ+ =  22.24 ton/m2 
+σ- =  10.04 ton/m2 
+ 
+Llevamos los esfuerzos a nivel “ultimo” para el diseño: 
+ 
+σu+ = 1.25*22.24=27.8 ton/m2 
+σu- =1.25* 10.04=12.55 ton/m2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+El momento flector, a la cara de la columna, generado por esta combinación de cargas es: 
+ 
+Mu=  94.65 ton-m (para un ancho de 3.40 m). 
+ 
+Nota: 
+Para zapatas rectangulares el refuerzo se distribuye de la siguiente manera: en el ancho de la 
+dirección larga el acero se distribuye uniformemente. En el ancho de la dirección corta, en una 
+longitud central igual al ancho de la longitud larga de la zapata, se concentrara una cantidad de 
+acero dada por la expresión: 
+22.949 ton/m222.949 ton/m2
+27.8 ton/m2
+12.55 ton/m2
+
+########## PAGINA 14 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+2
+𝑅 + 1  𝑣𝑒𝑐𝑒𝑠 𝑒𝑙 𝑎𝑟𝑒𝑎 𝑡𝑜𝑡𝑎𝑙 
+𝑅 = 𝑙𝑎𝑑𝑜 𝑙𝑎𝑟𝑔𝑜
+𝑙𝑎𝑑𝑜 𝑐𝑜𝑟𝑡𝑜 
+ 
+En nuestro ejemplo este criterio no es aplicable pues nuestra zapata es  cuadrada. 
+ 
+Como se puede observar, tanto para la dirección X-X como para la dirección Y-Y, la combinación 
+critica es la  combinación en la que interviene la fuerza sísmica. 
+ 
+ 
+Área de acero requerida en la dirección X-X: 
+ 
+Para: Mu= 109.19 ton-m, f’c= 210 kg/cm2 y d= 50 cm, se obtiene un As = 60 cm2. Esta área de  
+acero se puede distribuir de la siguiente manera: 
+ 
+60 𝑐𝑚2
+340 𝑐𝑚 =  5 𝑐𝑚2
+𝑋  
+ 
+X= 28.3 cm. 
+ 
+→ 1Ø1’’ @ 0.275  (13 Ø 1’’) 
+ 
+ 
+Área de acero requerida en la dirección Y-Y: 
+ 
+Para: Mu= 94.65 ton-m, f’c= 210 kg/cm2 y d= 50 cm, se obtiene un As = 51.7 cm2. Esta área de  
+acero se puede distribuir de la siguiente manera: 
+ 
+51.7 𝑐𝑚2
+340 𝑐𝑚 =  5 𝑐𝑚2
+𝑋  
+ 
+X= 32.9 cm. 
+ 
+→ 1Ø1’’ @ 0.325  (11 Ø 1’’) 
+ 
+d.- Diseño por corte.- 
+ 
+Al igual que el diseño por flexión, el diseño por corte se realiza en dos direcciones 
+perpendiculares entre sí e  independientemente. En el diseño por corte se asume un 
+comportamiento, para la zapata, de viga ancha. 
+ 
+A.- Dirección X-X.- 
+ 
+La combinación de carga critica para esta dirección es: 1.25(CM+CV)+CS. De acuerdo con la 
+normativa, las secciones ubicadas entre la cara de la columna y una distancia “d”, pueden ser 
+diseñadas con el cortante de la sección ubicada a una distancia “d” de la cara de la columna.  El 
+cortante Vu, para la combinación critica, en la sección ubicada a una distancia “d” de la cara de 
+la columna y en la dirección X-X es:  Vu= 89 ton. 
+ 
+En el caso de zapatas, el cortante es tomado, en su totalidad, por el concreto, así: 
+
+########## PAGINA 15 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+𝑉𝑐 = 0.53√𝑓′𝑐𝑏𝑑 
+𝑉𝑐 = 0.53𝑥√210𝑥340𝑥50 
+Vc = 156.7 ton. 
+𝑉𝑟𝑒𝑠 = ∅𝑉𝑐 
+Vres = 0.85(156.7) 
+Vres = 133.2 ton. 
+Vu<Vres ok. 
+ 
+B.- Dirección Y-Y.- 
+ 
+La combinación de carga critica para esta dirección es: 1.25(CM+CV)+CS. De acuerdo con la 
+normativa, las secciones ubicadas entre la cara de la  columna y una distancia “d”, pueden ser 
+diseñadas con el  cortante de la sección ubicada a una distancia “d” de la cara de la columna. 
+ 
+El cortante Vu, para la combinación critica, en la sección ubicada a una distancia “d” de la cara 
+de la columna y en la dirección Y-Y es:  Vu= 76.8 ton. 
+ 
+En el caso de zapatas, el cortante es tomado, en su totalidad, por el concreto, así: 
+  
+𝑉𝑐 = 0.53√𝑓′𝑐𝑏𝑑 
+𝑉𝑐 = 0.53𝑥√210𝑥340𝑥50 
+Vc = 156.7 ton. 
+𝑉𝑟𝑒𝑠 = ∅𝑉𝑐 
+Vres = 0.85(156.7) 
+Vres = 133.2 ton. 
+Vu<Vres ok. 
+ 
+ 
+e.- Diseño por punzonamiento.- 
+ 
+Evidentemente la combinación critica de cargas para el punzonamiento es: 1.4CM + 1 .7 CV. Es 
+decir, la combinación crítica para el punzonamiento es el axial de cargas de gravedad. 
+ 
+De acuerdo con la normativa vigente, el punzonamiento debe evaluarse sobre una sección 
+vertical cuya altura es el peralte efectivo de la zapata y su longitud es el perímetro conformado 
+por las líneas ubicadas a una distancia de “d/2” de las caras de la columna. 
+ 
+El cortante tomado por el concreto será el menor valor dado por las siguientes tres ecuaciones: 
+𝑉𝑐 = 0.53 (1 +
+2
+𝛽) √𝑓′𝑐𝑏𝑜 𝑑    (1) 
+ 
+β es la relación del lado largo al lado corto de la sección de la columna. 
+
+########## PAGINA 16 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+𝑉𝑐 = 0.27 (
+𝛼𝑠𝑑
+𝑏𝑜
++ 2) √𝑓′
+𝑐𝑏𝑜 𝑑      (2) 
+ 
+αs es 40 para  columnas interiores, 30 para columnas de borde y 20 para columnas de esquina. 
+ 
+𝑉𝑐 = 1.06 √𝑓′𝑐𝑏𝑜 𝑑       (3) 
+ 
+Para nuestro ejemplo, los valores de las ecuaciones son: 
+ 
+𝑉𝑐 = 0.53 (1 +
+2
+1) √210  380 ∗ 50= 437.8 ton.   (1) 
+ 
+𝑉𝑐 = 0.27 (
+40∗50
+380 + 2) √210 380 ∗ 50= 539.95 ton.(2) 
+ 
+𝑉𝑐 = 1.06 √210 380 ∗ 50= 291.9 ton.(3)  
+ 
+Entonces el  concreto resiste un punzonamiento de: 
+ 
+𝜑𝑉𝑐 = 0.85 ∗ 291.9 = 248.1 𝑡𝑜𝑛. 
+La resistencia requerida  por cortante es: 
+ 
+𝑉𝑢 = (1.4 ∗ 100) + (1.7 ∗ 60) =  242 𝑡𝑜𝑛. 
+Por lo tanto: 
+ 
+∅𝑉𝑐 > 𝑉𝑢 𝑂𝑘. 
+ 
+Verificación del peralte asumido para la longitud de anclaje del acero de la columna: 
+ 
+𝑙𝑑𝑔 = (0.075 Ψe λ fy
+√f ′′′c
+) 𝑑𝑏 
+ 
+ldg = longitud de desarrollo en barras que terminan en gancho estándar. 
+ 
+Para ∅1"       →     ldg = 55.2 cm 
+ 
+Cuando el recubrimiento lateral de la barra (normal al gancho) es mayor a 6.5 cm y el 
+recubrimiento en la extensión de la barra es mayor a 5cm, ldg se puede multiplicar por 0.7 
+ldg = 55(0.7) = 40 cm ok. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+########## PAGINA 17 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+3.5.- ZAPATA COMBINADA. 
+ 
+INTRODUCCION.- 
+ 
+ Cuando los volados de las zapatas de 2 columnas contiguas se superponen o están muy 
+cercanas, es usual unir ambos cimientos en una sola zapata; a dicha zapata se le denomina 
+zapata combinada (Algunas veces una zapata combinada sirve de cimiento a más de 2  
+columnas). 
+ 
+Otra situación en la que se puede requerir una zapata combinada es cuando se tiene una 
+columna en límite de propiedad. Para evitar la zapata excéntrica se plantea una zapata 
+combinada con la zapata de una columna adyacente interior. 
+ 
+El modelo convencionalmente utilizado para el análisis manual de una zapata combinada se 
+muestra en la  figura 73. 
+ 
+Longitudinalmente la zapata combinada trabaja como una losa apoyada en 2 vigas transversales 
+ubicadas en los ejes de las columnas (ver figura). Los a nchos de estas vigas son: el ancho de la 
+columna más la mitad del peralte efectivo de la zapata a cada lado. 
+ 
+La carga en estas vigas transversales se calcula así: 
+ 
+ 
+𝜔 = 𝑃𝑐𝑜𝑙
+𝑙𝑎𝑟𝑔𝑜 𝑣𝑖𝑔𝑎 (𝑡𝑜𝑛
+𝑚 ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 73 
+ 
+ 
+ 
+El proceso de diseño es el mismo de zapatas aisladas. 
+ 
+
+
+########## PAGINA 18 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+Problema de aplicación.- 
+ 
+Se tiene dos columnas de 50cmx50cm separadas, a ejes, 5m. Una de las columnas se encuentra 
+en el límite de propiedad. Se pide diseñar la zapata combinada. 
+ 
+El esfuerzo admisible del suelo a una profundidad de 1.50m es de 𝜎 = 1.5 
+𝑘𝑔
+𝑐𝑚2 
+ 
+Las fuerzas sísmicas se encuentran en condición de servicio. 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 74 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Solución simplificada del problema asumiendo zapata rígida y comportamiento elástico lineal 
+del suelo.- 
+ 
+a.-Predimensionamiento de la zapata combinada. 
+ 
+1.- Combinación CM + CV. 
+ 
+P = Pcm + Pcv + 10%(Pcm + Pcv) 
+P = 240 + 90 + 0.10(330) 
+P = 363 ton. 
+ 
+M = Mcm + Mcv. 
+ 
+M = (6-2) + (2.5-0.5) = 6 ton-m (despreciamos momento por ser muy pequeño). 
+ 
+Pcm=80 ton
+Pcv=30 ton
+Mcm=6 ton-m
+Mcv=2.5 ton-m
+Pcm=160 ton
+Pcv=60 ton
+5.00
+Ps=10 ton
+Ms=50 ton-m
+Mcm=2 ton-m
+Mcv=0.5 ton-m
+Ps=10 ton
+Ms=70 ton-m
+
+########## PAGINA 19 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+𝐴 =
+𝑃
+𝜎 = 24.20 𝑚2. 
+ 
+Premisa de diseño: Para la combinación CM +CV, es muy recomendable tener presiones lo más 
+uniformes posible. 
+ 
+Cálculo del punto de aplicación de la resultante de las fuerzas: 
+0.25(110) + 5.25(220) + 8.5 – 2.5 = X (330) 
+x = 3.60 m 
+El largo de la zapata ten drá que ser L = 7.20m para que coincida el punto de  aplicación de las 
+cargas de gravedad con el  centroide de la zapata. Luego, el ancho tendría que ser: 
+𝐴𝑛𝑐ℎ𝑜 =
+24.20
+7.20 = 3.36 𝑚. 
+Por lo tanto, asumimos una zapata combinada de dimensiones L x B x h de:  7.20m x 3.80m x 
+0.80m. 
+ 
+b.- Verificación de los esfuerzos en el suelo. 
+ 
+A) Dirección longitudinal. 
+ 
+A.1).- Combinación CM + CV. 
+ 
+P = Pcm + Pcv + p.p 
+P = 240 + 90 + 52.53 
+P = 382.53 ton. 
+ 
+M = Mcm + Mcv. 
+M=(6-2) + (2.5-0.5) = 6 ton-m 
+ 
+Calculamos el punto de aplicación de la resultante de las  cargas: 
+ 
+0.25(110) + 5.25(220) + 3.6(52.53) + 8.5 – 2.5 = X (382.5) 
+x = 3.60m. 
+ 
+Calculamos los esfuerzos en el suelo: 
+ 
+𝜎+= 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 382.5
+27.36 ± 0(3.6)
+118.2 = 13.98 ± 0 
+ 
+𝜎+= 14.00 𝑡𝑛
+𝑚2 
+𝜎−= 14.00 𝑡𝑛
+𝑚2 
+ 
+Como se puede ver, se está cumpliendo con la premisa de diseño ya que los esfuerzos para esta 
+combinación de carga son uniformes. 
+ 
+A.2).-Combinación CM + CV +/- CS.- 
+ 
+A.2.1).- Sismo Dir. +X  (𝛔𝐚𝐝𝐦 = 𝛔𝐱𝟏. 𝟑 = 𝟏. 𝟗𝟓 𝐤𝐠/𝐜𝐦𝟐). 
+
+########## PAGINA 20 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+Calculamos el punto de aplicación de la resultante de las fuerzas: 
+0.25(80 + 30 -  10) +5.25(160 + 60 + 10) + 3.6(52.5) + 8.5 + 50 – 2.5 + 70 = X (382.5) 
+x = 4.045m 
+e = 4.045 – 3.6 = 0.445 m 
+M = P e. 
+P = 382.5 ton. 
+M = 170.2 ton-m. 
+ 
+Ahora calculamos los esfuerzos en el suelo: 
+ 
+𝜎+= 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 382.5
+27.36 ± 170.2(3.6)
+118.2 = 13.98 ± 5.20 
+ 
+𝜎+= 19.18
+𝑡𝑛
+𝑚2ok 
+𝜎−= 8.78
+𝑡𝑛
+𝑚2ok 
+ 
+ 
+ 
+Figura 75 
+ 
+ 
+A.2.2).- Sismo Dir.–X    (𝛔𝐚𝐝𝐦 = 𝛔𝐱𝟏. 𝟑 = 𝟏. 𝟗𝟓 𝐤𝐠/𝐜𝐦𝟐). 
+ 
+Calculamos el punto de aplicación de la resultante de las fuerzas: 
+0.25(80 + 30 + 10) +5.25(160 + 60 - 10) + 3.6(52.5) + 8.5 - 50 – 2.5 - 70 = X (382.5) 
+x = 3.16m 
+ 
+e = 3.6 – 3.16 = 0.44 
+M = Pe 
+P = 382.5 tan 
+M = 168.3ton-m 
+ 
+Calculamos los esfuerzos en el suelo: 
+ 
+𝜎+= 𝑃
+𝐴 ± 𝑀𝑌
+𝐼 = 382.5
+27.36 ± 168.3(3.6)
+118.2 = 13.98 ± 5.13 
+ 
+𝜎+= 19.11
+𝑡𝑛
+𝑚2ok 
+
+
+########## PAGINA 21 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+𝜎−= 8.85
+𝑡𝑛
+𝑚2ok 
+ 
+ 
+ 
+Figura 76 
+ 
+En conclusión, las dimensiones asumidas para la Zapata combinada son las adecuadas. 
+ 
+c.- Diseño de la zapata combinada. 
+ 
+A.- Diseño en la dirección longitudinal 
+ 
+A.1.- Determinación de los diagramas de Momentos flectores y fuerzas cortantes 
+ 
+A.1.a.- Combinación 1.4 cm + 1.7 cv 
+ 
+Calculo de los esfuerzos por CM: 
+Determinación del punto de aplicación de la resultante de las cargas de gravedad 
+ 
+0.25(80) + 5.25(160) + 3.6(52.53) + 6 – 2 = X(292.53) 
+X = 3.6 m. 
+ 
+e = 0 
+ 
+P = 292.53 ton. 
+M = 0 
+ 
+σ = 𝑃
+𝐴 = 292.53
+7.2 ∗ 3.8 = 10.69 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+Calculo de los esfuerzos por CV: 
+Determinación del punto de aplicación de la resultante de las cargas de gravedad 
+ 
+0.25(30) + 5.25(60) + 2.5 – 0.5 = X (90) 
+X = 3.6 m. 
+ 
+e = 0 
+ 
+
+
+########## PAGINA 22 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+P = 90 ton 
+M = 0 
+ 
+σ = 𝑃
+𝐴 = 90
+7.2 ∗ 3.8 = 3.29 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+ 
+𝜎𝑢 = (1.4 ∗ 10.69) + (1.7 ∗ 3.29) = 20.559 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+Expresamos los esfuerzos por unidad de longitud: 
+ 
+𝜎𝑢 = 20.559 ∗ 3.8 = 78.124 𝑡𝑜𝑛 𝑚⁄  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRAMO X AUMENTA X=0 EN M(X) V(X) 
+A-B A@B A 33.96𝑋2 
+ 
+     67.924X 
+B-C B@C B 33.96𝑋2 − 146.02𝑋 + 14.77        
+        
+67.924𝑋 − 146         
+C-D D@C D 33.96𝑋2 
+ 
+     67.924X 
+ 
+
+
+########## PAGINA 23 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A.1.b.- Combinación 1.25 (cm + cv + cs) 
+ 
+Como los 3 tipos de cargas tienen el mismo factor de carga. A los esfuerzos ya determinados 
+durante la verificación de esfuerzos sobre el suelo, los multiplicamos por 1.25 para llevarlos a 
+nivel “ultimo” y así poder determinar la resistencia requerida en la zapata: 
+ 
+Determinación del punto de aplicación de la resultante de las cargas: 
+ 
+0.25(100) + 5.25(230) + 3.6(52.53) + 6 + 2.5 + 50 – 2 – 0.5 + 70 = X(382.53) 
+X = 4.0457 m. 
+ 
+e = 0.4457 m. 
+ 
+P = 382.53 ton. 
+M = 382.53*0.4457 = 170.49 ton-m 
+
+
+########## PAGINA 24 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+σ = 𝑃
+𝐴
++ −⁄ 𝑀𝑦
+𝐼 = 382.53
+27.36
++ −⁄ 170.49 ∗ 3.6
+118.195  
+ 
+𝜎𝑢+ = 1.25 ∗ 19.174 = 23.968 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+𝜎𝑢− = 1.25 ∗ 8.788 = 10.98 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+Expresamos los esfuerzos por unidad de longitud: 
+ 
+σu + = 23.968*3.8 = 91.078 ton/m. 
+ 
+σu - = 10.98*3.8 = 41.724 ton/m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRAMO X  
+AUMENTA 
+X=0 EN M(X) V(X) 
+A-B A@B A 16.3𝑋2 + 1.14𝑋3 
+ 
+3.425𝑋2 + 32.6𝑋          
+B-C B@C B 1.14𝑋3 + 17.15𝑋2 − 116.6𝑋 + 74.116         
+        
+3.425𝑋2 + 34.3𝑋 − 116.6         
+C-D D@c D 40.98𝑋2 − 1.14𝑋3 
+ 
+     81.96𝑋 − 3.425𝑋2 
+ 
+ 
+
+
+########## PAGINA 25 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A.1.c.- Combinación 1.25 (cm + cv - cs) 
+ 
+Como los 3 tipos de cargas tienen el mismo factor de carga. A los esfuerzos ya determinados 
+durante la verificación de esfuerzos sobre el suelo, los multiplicamos por 1.25 para llevarlos a 
+nivel “ultimo” y así poder determinar la resistencia requerida en la zapata: 
+ 
+Determinación del punto de aplicación de la resultante de las cargas: 
+ 
+0.25(120) + 5.25(210) + 3.6(52.53) + 6 + 2.5 - 50 – 2 – 0.5 - 70 = X(382.53) 
+X = 3.15 m. 
+ 
+e = -0.45 m. 
+ 
+P = 382.53 ton. 
+M = 382.53*0.45 = 172.14 ton-m 
+ 
+σ = 𝑃
+𝐴
++ −⁄ 𝑀𝑦
+𝐼 = 382.53
+27.36
++ −⁄ 172.14 ∗ 3.6
+118.195  
+ 
+𝜎𝑢+ = 1.25 ∗ 19.22 = 24.025 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+
+
+########## PAGINA 26 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+𝜎𝑢− = 1.25 ∗ 8.74 = 10.93 𝑡𝑜𝑛
+𝑚2⁄  
+ 
+Expresamos los esfuerzos por unidad de longitud: 
+ 
+σu + = 24.025*3.8 = 91.3 ton/m. 
+ 
+σu - = 10.93*3.8 = 41.53 ton/m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TRAMO X  
+AUMENTA 
+X=0 EN M(X) V(X) 
+A-B A@B A 41.09𝑋2 − 1.16𝑋3 
+ 
+82.18𝑋 − 3.46𝑋2          
+B-C B@C B −49.34 − 129.67𝑋 + 40.23𝑋2 − 1.16𝑋3        
+        
+−129.67 + 80.45𝑋 − 3.46𝑋2    
+C-D D@c D 16.2𝑋2 + 1.15𝑋3 
+ 
+     32.41𝑋 + 3.46𝑋2 
+ 
+ 
+ 
+ 
+ 
+
+
+########## PAGINA 27 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B.- Diseño en la dirección transversal 
+ 
+B.1.- Determinación de los diagramas de Momentos flectores y fuerzas cortantes 
+ 
+Podemos considerar que transversalmente la zapata combinada se apoya sobre vigas ubicadas 
+a nivel de las columnas: 
+ 
+ 
+ 
+ 
+ 
+
+
+########## PAGINA 28 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Determinamos la carga en la viga bajo la columna exterior: 
+ 
+ωu = Pu/L = (1.4*80 + 1.7*30)/3.8 = 163/3.8 = 42.89 ton/m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Momento a la cara de la columna: 
+ 
+Mu = 58.38 ton-m. 
+ 
+Determinamos la carga en la viga bajo la columna interior: 
+ 
+ωu = Pu/L = (1.4*160 + 1.7*60)/3.8 = 326/3.8 = 85.79 ton/m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Momento a la cara de la columna: 
+42.89 ton/m
+85.79 ton/m
+
+########## PAGINA 29 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+Mu = 116.78 ton-m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+########## PAGINA 30 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.6.- ZAPATA CONECTADA. 
+ 
+INTRODUCCION.- 
+ 
+En zapatas excéntricas, como la zapata de una columna ubicada en límite de propiedad, se 
+produce un par entre la carga de la columna y la resultante de las reacciones del suelo. Para 
+controlar este par y tener esfuerzos, en el suelo, lo más uniformes posibles, se conecta la zapata 
+en cuestión con la zapata de una columna interior a través de una viga de conexión. 
+Puesto que el fin es evitar que la zapata gire, la viga de conexión debe ser la suficientemente 
+rígida para evitar dicho giro. Es aconsejable predimensionar el peralte de la viga con la expresión: 
+ℎ = 𝐿
+7 
+Una zapata conectada es más económica que la zapata combinada para distancias entre 
+columnas de 6.0 m o más. 
+Para el dimensionamiento de la zapata exterior, zapata excéntrica, se utiliza una relación: 
+ 
+𝑎𝑛𝑐ℎ𝑜
+𝑙𝑎𝑟𝑔𝑜 = 2 @ 2.5 
+ 
+Existen otros casos en los que las vigas de conexión se utilizan para “tomar la carga axial” de 
+otras columnas y llevarlas hacia un elemento que por su rigidez tiene un gran momento en su 
+base (caso de placas). 
+ 
+Modelos utilizados para el análisis de zapatas conectadas: 
+Si la zapata excéntrica (zapata exteri or o de límite de propiedad) se conecta a la zapata de un 
+elemento que tiene pequeños momentos, tanto por cargas de gravedad como por cargas de 
+
+########## PAGINA 31 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+sismo, el modelo más utilizado es uno en el que se asume que la viga de conexión se une al 
+elemento interior a t ravés de una conexión articulada; por lo que el elemento interior actúa 
+como un contrapeso, así: 
+ 
+Figura 77 
+ 
+Si el elemento al cual se va a conectar la zapata excéntrica tiene momentos considerables (de 
+cargas de gravedad y/o de sismo) el modelo deberá de considerar ambas zapatas y la viga de 
+conexión. 
+ 
+ 
+ 
+ 
+Figura 134 
+ 
+ 
+ 
+ 
+Figura 78 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 79 
+ 
+
+
+########## PAGINA 32 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+Problema de aplicación 1.- 
+ 
+Se tiene una columna ubicada en límite de propiedad. Se pide diseñar una zapata conectada 
+entre la zapata de la columna ubicada en límite de propiedad y la zapata de una columna interior 
+ubicada a 6.00 m (entre ejes). 
+ 
+σ admisible = 1.8 kg/cm2. 
+Dimensiones de las  columnas: 50cm X 50cm. 
+Las fuerzas sísmicas se encuentran en condición de servicio. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 80 
+ 
+SOLUCION: 
+ 
+a) Modelo a utilizar: 
+Puesto que la columna a la que conectaremos la zapata de la columna ubicada en límite de 
+propiedad no tiene momentos importantes ni de cargas de gravedad ni de sismo; utilizaremos 
+el siguiente modelo: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 81 
+ 
+b) Predimensionamiento: 
+6.00
+Pcm=60 ton
+Pcv=25 ton
+Mcm=4 ton-m
+Mcv=1.5 ton-m
+Ms=90 ton-m
+Pcm=120 ton
+Pcv=50 ton
+Limite de propiedad
+
+
+########## PAGINA 33 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+b1.- Zapata excéntrica de la columna ubicada en límite de propiedad: 
+ 
+Utilizaremos la combinación CM + CV: 
+ 
+P= Pcm + Pcv + peso propio zapata 
+P= 60 + 25 + (0.1*85) 
+P= 93.5 ton. 
+ 
+σ = P/A → A= P/σ = 93.5/18 = 5.20 m2. 
+ 
+Para reducir la excentricidad, el largo de la zapata debe ser pequeño; por esa razón asumiremos 
+una zapata de las siguientes dimensiones: 
+ 
+Largo= 1.40 m      Ancho= 3.70 m     Altura= 0.60 m. 
+ 
+B2.- Zapata de la columna interior: 
+ 
+Utilizaremos la combinación CM + CV: 
+ 
+P= Pcm + Pcv + Peso Propio zapata + Fuerza generada por los Mtos en zapata exterior + Fuerza 
+del Par. 
+ 
+P= 120 + 50 + (0.1*170) + 0.92 – 7 
+P= 180.92 ton. 
+ 
+σ= P/A   →     A= 180.92/18 = 10.05 m2. 
+ 
+Asumiremos una zapata de las siguientes dimensiones: 
+ 
+Largo= 3.20 m.     Ancho= 3.20 m.         Altura= 0.60 m. 
+ 
+c) Verificación de esfuerzos en el suelo: 
+ 
+c1.- Combinación CM + CV: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 82 
+P=85 ton
+M=5.5 ton-m
+R
+P
+PP=7.46 ton
+P=92.46 ton
+M=8.86 ton-m
+R= 92.46 ton
+P= 5.45 ton
+
+########## PAGINA 34 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+Esfuerzos en la zapata exterior: 
+ 
+σ= P/A = 92.46/(1.4*3.7) = 17.85 < σ admisible → Ok. 
+ 
+Esfuerzos en la zapata interior: 
+Momento del par: 
+M = 8.86 – (92.46*(0.7-0.25)) = 32.75 ton-m. 
+M = P*e   →   P = M/e = 32.75/6 = 5.45 ton 
+Cargas sobre la zapata interior: 
+P= 170 + 14.75 – 5.45  
+P= 179.3 ton. 
+ 
+σ= P/A = 179.3/(3.2*3.2) = 17.5 < σ admisible → Ok. 
+ 
+C2.- Combinación CM + CV + CS →: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 83 
+ 
+Esfuerzos en la zapata exterior: 
+ 
+σ= P/A = 92.46/(1.4*3.7) = 17.85 < 1.3*σ admisible → Ok. 
+ 
+Esfuerzos en la zapata interior: 
+Momento del par: 
+M= -(92.46*(0.7-0.25)) + 98.86 = 57.25 ton-m. 
+M = P*e   →   P = M/e = 57.25/6 = 9.54  ton. 
+Carga sobre la zapata interior: 
+P= 170 + 14.75 + 9.54  
+P= 194.29 ton. 
+ 
+σ= P/A = 194.29/(3.2*3.2) = 18.97 < 1.3*σ admisible → Ok. 
+ 
+C3.- Combinación CM + CV - CS ←: 
+ 
+ 
+ 
+ 
+ 
+      Figura 84 
+P=92.46 ton
+M=98.86 ton-m
+R= 92.46 ton
+P= 9.54 ton
+P=92.46 ton
+M=81.14 ton-m
+R= 92.46 ton
+P= 20.45 ton
+
+########## PAGINA 35 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+Esfuerzos en la zapata exterior: 
+ 
+σ= P/A = 92.46/(1.4*3.7) = 17.85 < 1.3*σ admisible → Ok. 
+ 
+Esfuerzos en la zapata interior: 
+Momento del par: 
+M = (92.46*(0.7-0.25)) + 81.14 = 122.75 ton-m 
+M = P*e  →   P = M/e = 122.75/6 = 20.45 ton 
+Carga sobre la zapata interior: 
+P= 170 + 14.75 – 20.45  
+P= 164.3 ton. 
+ 
+σ= P/A = 164.3/(3.2*3.2) = 16 < 1.3*σ admisible → Ok. 
+ 
+d) Esfuerzos en la viga de conexión 
+Como se podrá concluir, la combinación más crítica es: CM + CV +/- CS. Por lo tanto, los esfuerzos 
+de diseño de la viga de conexión son: 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      Figura 85 
+ 
+e) Diseño de la viga de conexión 
+ 
+e1) Diseño por flexión 
+ 
+Asumimos una viga de sección 35 cm x 120 cm. 
+ 
+Mu (-)= 153.4 ton-m
+Mu (+)= 71.55 ton-m
+DMF
+DFC
+Vu (+)=25.6 ton
+Vu (-)=11.9 ton
+
+########## PAGINA 36 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+El diseño se hará con los momentos a la cara de la columna exterior: 
+ 
+Mu (-) = 140.6 ton-m   →   As (-) = 37.7 cm2. 
+Mu (+) = 65.6 ton-m      →  As (+) = 16.5 cm2.  
+ 
+e2) Diseño por corte 
+ 
+Diseñamos con el cortante a una distancia “d” de la cara de la columna exterior: 
+ 
+Vu = 25.6 ton 
+ 
+Vc= 0.85*0.53*√210 *35*110  
+Vc = 25.1 ton. 
+ 
+→ Colocamos refuerzo mínimo por cortante: 
+ 
+Estribos Ǿ3/8 1@ 0.05, 9@ 0.25, resto @ 0.35 en 1 extremo. 
+ 
+Problema de aplicación 2.- 
+ Se tiene una columna ubicada en el límite de propiedad; interiormente hay una columna, 
+separada a ejes de la primera, 6.50m. Se pide calcular la cimentación conectada de ambas 
+columnas. El esfuerzo admisible del suelo es de 1.75 kg/cm2 
+ 
+Las  fuerzas sísmicas se encuentran en condición de servicio. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 86 
+ 
+Solución simplificada del problema asumiendo zapata rígida y comportamiento elástico 
+lineal del suelo.- 
+ 
+El modelo de análisis será el de un cuerpo rígido para el conjunto de 2 zapata s y la viga de 
+conexión pues la viga lleva esfuerzos de la zapata izquierda a la zapata derecha y viceversa. 
+ 
+ 
+
+
+########## PAGINA 37 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+a.-Predimensionamiento de las zapatas. 
+1.- Combinación CM+CV 
+Zapata exterior. 
+ 
+P = Pcm + Pcv + p.p. 
+P = 70+ 25+ 0.1(95). 
+P = 104.5 ton. 
+ 
+M = Mcm + Mcv 
+M = 4 + 2 = 6 ton-m 
+ 
+𝑒 = 𝑀
+𝑃 = 6
+104.5 ≈ 0 
+ 
+𝐴 = 𝑃
+𝜎 = 104.5
+17.5 = 6 𝑚2 
+ 
+ 
+Asumimos una zapata de 3m x 2m x 0.6m 
+ 
+ 
+Zapata interior 
+ 
+P = Pcm + Pcv + p.p. 
+P = 130 + 50 +0.1(180) 
+P = 198 ton. 
+ 
+M = Mcm + Mcv 
+M = 4.5 + 2 = 6.5 ton-m. 
+ 
+𝑒 = 𝑀
+𝑃 = 6.5
+198 ≈ 0 
+ 
+𝐴 = 𝑃
+𝜎 = 198
+17.5 = 11.3 𝑚2 
+ 
+Asumimos una zapata de 5.5m x 2.1m x 0.6m. 
+Para esta combinación de cargas debemos tratar que los esfuerzos en el suelo sean lo más 
+uniformes posibles. 
+Para que los esfuerzos en el suelo sean uniformes deberá coincidir el punto de aplicación  de la 
+resultante de las cargas con el centroide de las zapatas. 
+Calculamos el punto de aplicación de las cargas: 
+0.4 (95) + 6.9 (180) + 6 – 6.5 = X (275) 
+X = 4.65 m. 
+ 
+
+########## PAGINA 38 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+El centroide de las zapatas asumidas es: 
+x = 4.88 m. 
+ 
+A = 17.55 m2 
+I=168.57 m4 
+ 
+b.- Verificación de los esfuerzos en el suelo: 
+A).- Dirección longitudinal. 
+ 
+A1).- Combinación CM+CV. 
+ 
+Calculamos el punto de aplicación de las cargas: 
+ 
+0.4 (95) + 6.9 (180) + 4.88 (25.27) + 6 – 6.5 = X (300.27) 
+x = 4.67 m.                 El centroide de las zapatas se ubica en:    X = 4.88 m. 
+ 
+e= -0.21m. 
+ 
+Por lo tanto la carga axial y el momento aplicados en el centroide de las zapatas son: 
+ 
+P = 300.27 ton 
+M = Pe = 300.27(0.21) = 63 ton.m 
+ 
+𝜎 =
+𝑃
+𝐴 +/−
+𝑀𝑌
+𝐼    
+ 
+𝜎+ =
+300.27
+17.55 +
+63(4.88)
+168.57 = 17.11 + 1.8  
+𝜎+ = 18.91 𝑡𝑜𝑛
+𝑚2    (𝑚𝑎𝑙) 
+𝜎− = 300.27
+17.55 − 63(4.88)
+168.57 = 17.11 − 1.78 
+𝜎− = 15.33 𝑡𝑜𝑛
+𝑚2  
+Por lo tanto debemos redimensionar las zapatas, manteniendo el centroide de las mismas  
+cercano al punto de aplicación del sistema de cargas sobre las mismas: 
+ 
+Asumimos las siguientes dimensiones  para las zapatas: 
+ 
+   A L H 
+Zapata exterior: 4.5 2.3 0.6 
+Zapata interior:              3.3 6.7 0.6 
+ 
+Calculamos el centroide de las zapatas: 
+X = 5.05 m. 
+ 
+A = 32.46 m2 
+I = 320.36 m4 
+ 
+Volvemos a verificar los esfuerzos en el suelo: 
+
+########## PAGINA 39 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+Combinación CM+CV 
+ 
+Ubicamos el punto de aplicación de la resultante de las fuerzas: 
+ 
+0.4 (95) + 6.9 (180) + 5.05 (46.74) + 6 – 6.5 = X (321.74) 
+x= 4.71 m. 
+ 
+e = -0.34m. 
+ 
+Por lo tanto la carga axial y el momento aplicado sobre el centroide de las zapatas es: 
+ 
+P = 321.74 ton 
+M = 321.74(0.34) = 109.39 ton-m 
+ 
+𝜎+ = 321.74
+32.46 + 109.39(5.05)
+320.36 = 9.91 + 1.72 
+ 
+𝜎+ = 11.63 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+𝜎− = 321.74
+32.46 − 109.39(5.20)
+320.36 = 9.91 − 1.77 
+ 
+𝜎− = 8.14 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+A2).- Combinación CM + CV + CS  (σ = 1.3* σ adm = 2.28 kg/cm2).- 
+ 
+Calculamos el punto de aplicación de las fuerzas: 
+ 
+0.4 (75) +6 + 6.9 (200) – 6.5 + 5.05 (46.74) + 140 + 150 = X (321.74). 
+X = 6m. 
+ 
+e= 0.96m. 
+ 
+P = 321.74 ton. 
+M = 310.75 ton-m. 
+ 
+𝜎+ = 321.74
+32.46 + 310.75(5.20)
+320.36 = 9.91 + 5.044 
+ 
+𝜎+ = 14.96 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+𝜎− = 321.74
+32.46 − 310.75(5.05)
+320.36 = 9.91 − 4.9 
+ 
+𝜎− = 5.01 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+ 
+ 
+ 
+
+########## PAGINA 40 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+A3).- Combinación CM + CV- CS  (σ = 1.3* σ adm = 2.28 kg/cm2).- 
+ 
+Calculamos el punto de aplicación de las fuerzas: 
+ 
+0.4 (115) +6 + 6.9 (160) – 6.5 + 5.05 (46.74) - 140 - 150 = X (321.74). 
+X = 3.4m. 
+ 
+e= -1.65m. 
+ 
+P = 321.74 ton. 
+M = 529.25 ton-m. 
+ 
+𝜎+ = 321.74
+32.46 + 529.25(5.05)
+320.36 = 9.91 + 8.34 
+𝜎+ = 18.25 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+𝜎− = 321.74
+32.46 − 529.25(5.20)
+320.36 = 9.91 − 8.59 
+ 
+𝜎− = 1.32 
+𝑡𝑜𝑛
+𝑚2Ok. 
+ 
+ 
+c.- Calculo de los esfuerzos en la viga de conexión.- 
+ 
+Verificamos para las dos combinaciones críticas: 
+ 
+A1).- Combinación CM+CV+CS: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 81. Diagrama de Fuerza Cortante de la viga de conexión. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 87 
+
+
+########## PAGINA 41 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 88. Diagrama de Momento Flector de la viga de conexión. 
+ 
+A2).- Combinación CM+CV-CS: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 89. Diagrama de Fuerza Cortante de la viga de conexión. 
+
+
+########## PAGINA 42 ##########
+
+CONCRETO ARMADO 2                                                                                  Profesor: JOHN P. ARAGON BROUSSET 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figura 90.Diagrama de Momento Flector de la viga de conexión. 
+ 
+ 
+Todos los esfuerzos en la viga de conexión están condición de servicio, para el diseño hay que 
+llevar los esfuerzos en condición última. 
+ 

@@ -1,0 +1,1007 @@
+E.020 CARGAS
+NORMA E.020 CARGAS
+Reglamento Nacional de Edificaciones
+Edición:
+Servicio Nacional de Capacitación para la Industria de la Construcción – SENCICO
+Gerencia de Investigación y Normalización del SENCICO
+Av. De la Poesía Nº 351 San Borja, Lima - Perú
+Teléfono: 211 6300 anexo 2602
+Primera edición digital: Diciembre de 2020
+ISBN: 978-612-46221-9-9
+Derechos Reservados
+Prohibida la Reproducción total o parcial de este libro por cualquier medio sin el permiso expreso del autor.
+Editado en el Perú
+Libro electrónico disponible en www.gob.pe/sencico.
+NORMA E.020 CARGAS
+DECRETO SUPREMO 011-2006-VIVIENDA
+EL PRESIDENTE DE LA REPÚBLICA
+CONSIDERANDO:
+Que, mediante Ley Nº 27779, se ha modificado la organización y funciones de los Ministerios
+que conforman el Poder Ejecutivo, de acuerdo a la Ley Orgánica del Poder Ejecutivo, Decreto Legislativo
+Nº 560, y sus normas modificatorias y complementarias, en virtud de las cuales se ha creado el Ministerio
+de Vivienda, Construcción y Saneamiento;
+Que, conforme a lo dispuesto por el artículo 2º, de la Ley de Organización y Funciones del
+Ministerio de Vivienda, Construcción y Saneamiento, Ley Nº 27792, este Ministerio formula, aprueba,
+ejecuta y supervisa las políticas de alcance nacional aplicables en materia de vivienda, urbanismo,
+construcción y saneamiento, a cuyo efecto dicta normas de alcance nacional y supervisa su cumplimiento;
+Que, mediante Decreto Supremo Nº 039-70-VI, se aprobaron los Títulos V, VI y VII, del
+Reglamento Nacional de Construcciones - RNC;
+Que, de la misma forma mediante Decreto Supremo Nº 063-70-VI, se aprobaron los siguientes
+Títulos del Reglamento Nacional de Construcciones - RNC: Preliminar, Procedimientos Administrativos;
+Título I; Plan Regulador y Zonificación y sus Apéndices Nº 1 - Índice de Usos y Nº 2 - Reglamento de
+Quintas; Título II Habilitación y Subdivisión de Tierras; Título III, Requisitos Arquitectónicos y de Ocupación;
+Título IV, Patrimonio Arquitectónico; Título VII, Estructuras, 1.2 Concreto Ciclópeo y Armado; Título IX,
+Instalaciones Eléctricas, Mecánicas y Especiales; Título X, Instalaciones Sanitarias, Título XI, Obras
+Públicas; y, Título XII, Anuncios;
+Que, mediante Resolución Ministerial Nº 962-78-VC-3500, se aprobó el Índice de las "Normas
+Técnicas de Edificación", que contienen disposiciones de carácter técnico necesarias para regular el
+diseño, construcción y mantenimiento de las edificaciones y obras de servicios complementarios;
+señalándose que dicho Índice podrá incluir nuevos temas o sustituir los que fueran necesarios de acuerdo
+a los avances tecnológicos;
+Que, mediante Decreto Supremo Nº 015-2004- VIVIENDA, se aprobó el Índice y la Estructura
+del Reglamento Nacional de Edificaciones - RNE, que contiene las Normas Técnicas para Habilitaciones
+Urbanas y Edificaciones, siendo que en su artículo 7º, deroga expresamente la Resolución Ministerial Nº
+962-78-VC-3500;
+Que, en consecuencia es necesario aprobar las sesenta y seis (66) Normas Técnicas del
+Reglamento Nacional de Edificaciones - RNE comprendidas en el Índice aprobado mediante el acotado
+Decreto Supremo Nº 015-2004-VIVIENDA y, derogar de manera expresa los Decretos Supremos Nº 039-
+70-VI y Nº 063-70-VI, que aprobaron la totalidad de los Títulos del Reglamento Nacional de Construcciones
+- RNC, así como sus normas modificatorias, complementarias y sustitutorias, y toda norma legal que se
+oponga, en lo que corresponda, al Reglamento Nacional de Edificaciones - RNE;
+Que, asimismo es conveniente crear una Comisión de Actualización del Reglamento Nacional
+de Edificaciones - RNE, a fin de que éste se perfeccione permanentemente, a través de los aportes de las
+instituciones y personas vinculadas a la materia;
+De conformidad con lo normado en la Ley Nº 27792, y en el Decreto Supremo Nº 002-2002-
+VIVIENDA;
+NORMA E.020 CARGAS
+DECRETA:
+Artículo 1º.- Aprobación
+Apruébese sesenta y seis (66) Normas Técnicas del Reglamento Nacional de Edificaciones -
+RNE, comprendidas en el Índice aprobado mediante Decreto Supremo Nº 015-2004-VIVIENDA, cuya
+relación es la siguiente:
+- Norma G.010 Consideraciones Básicas.
+- Norma G.020 Principios Generales.
+- Norma G.030 Derechos y Responsabilidades.
+- Norma G.040 Definiciones.
+- Norma G.050 Seguridad durante la Construcción.
+- Norma GH.010 Alcances y contenido.
+- Norma GH.020 Componentes de Diseño Urbano.
+- Norma TH.010 Habilitaciones residenciales.
+- Norma TH.020 Habilitaciones comerciales.
+- Norma TH.030 Habilitaciones industriales.
+- Norma TH.040 Habilitaciones para usos especiales.
+- Norma TH.050 Habilitaciones en riberas y laderas.
+- Norma TH.060 Reurbanización.
+- Norma OS.010 Captación y conducción de agua para consumo humano.
+- Norma OS.020 Plantas de tratamiento de agua para consumo humano.
+- Norma OS.030 Almacenamiento de agua para consumo humano.
+- Norma OS.040 Estaciones de bombeo de agua para consumo humano.
+- Norma OS.050 Redes de distribución de agua para consumo humano.
+- Norma OS.060 Drenaje pluvial urbano.
+- Norma OS.070 Redes de aguas residuales.
+- Norma OS.080 Estaciones de bombeo de aguas residuales.
+- Norma OS.090 Plantas de tratamiento de aguas residuales.
+- Norma OS.100 Consideraciones básicas de diseño de infraestructura sanitaria.
+- Norma EC.010 Redes de distribución de energía eléctrica.
+- Norma EC.020 Redes de alumbrado público.
+- Norma EC.030 Subestaciones eléctricas.
+- Norma EC.040 Redes e instalaciones de comunicaciones.
+- Norma GE.010 Alcances y contenido.
+- Norma GE.020 Componentes y características de los proyectos.
+- Norma GE.030 Calidad en la construcción.
+- Norma GE.040 Uso y mantenimiento.
+- Norma A.010 Condiciones generales de diseño.
+- Norma A.020 Vivienda.
+- Norma A.030 Hospedaje.
+- Norma A.040 Educación.
+- Norma A.050 Salud.
+- Norma A.060 Industria.
+- Norma A.070 Comercio.
+- Norma A.080 Oficinas.
+- Norma A.090 Servicios comunales.
+- Norma A.100 Recreación y deportes.
+- Norma A.110 Comunicación y transporte.
+- Norma A.120 Accesibilidad para personas con discapacidad.
+- Norma A.130 Requisitos de seguridad.
+- Norma A.140 Bienes culturales inmuebles y zonas monumentales.
+- Norma E.010 Madera.
+- Norma E.020 Cargas.
+- Norma E.030 Diseño sismorresistente.
+- Norma E.040 Vidrio.
+- Norma E.050 Suelos y cimentaciones.
+- Norma E.060 Concreto armado.
+- Norma E.070 Albañilería.
+- Norma E.080 Adobe.
+- Norma E.090 Estructuras metálicas.
+- Norma IS.010 Instalaciones sanitarias para edificaciones.
+NORMA E.020 CARGAS
+- Norma IS.020 Tanques sépticos.
+- Norma EM.010 Instalaciones eléctricas interiores.
+- Norma EM.020 Instalaciones de comunicaciones.
+- Norma EM.030 Instalaciones de ventilación.
+- Norma EM.040 Instalaciones de gas.
+- Norma EM.050 Instalaciones de climatización.
+- Norma EM.060 Chimeneas y hogares.
+- Norma EM.070 Transporte mecánico.
+- Norma EM.080 Instalaciones con energía solar.
+- Norma EM.090 Instalaciones con energía eólica.
+- Norma EM.100 Instalaciones de alto riesgo.
+Artículo 2º.- Vigencia
+El Reglamento Nacional de Edificaciones - RNE, entrará en vigencia a partir del día siguiente de
+su publicación, en el Diario Oficial El Peruano.
+Artículo 3º.- Derogación Expresa y Genérica
+Deróganse los Decretos Supremos Nºs. 039 y 063-70-VI, que aprobaron la totalidad de los
+Títulos del Reglamento Nacional de Construcciones - RNC, así como sus normas modificatorias,
+complementarias, sustitutorias, y toda norma legal que se oponga en lo que corresponda; a partir de la
+vigencia del Reglamento Nacional de Edificaciones - RNE.
+Artículo 4º.- Irretroactividad de la Norma
+Los anteproyectos y proyectos de edificación, así como los proyectos de habilitación urbana y
+los procedimientos administrativos, iniciados al amparo del Reglamento Nacional de Construcciones -
+RNC, se regirán por dicha norma hasta su culminación; salvo que, por solicitud expresa y por escrito del
+administrado, éste desee acogerse a las Normas Técnicas del Reglamento Nacional de Edificaciones -
+RNE.
+Artículo 5º.- Aplicabilidad de la Norma
+Los anteproyectos y proyectos de edificación, así como los proyectos de habilitación urbana
+elaborados al amparo del Reglamento Nacional de Construcciones - RNC, que se presenten ante las
+autoridades competentes, dentro de los treinta (30) días calendario siguientes a la entrada en vigencia del
+Reglamento Nacional de Edificaciones - RNE, podrán ser calificados, a solicitud expresa y por escrito del
+administrado, de acuerdo a las normas del Reglamento Nacional de Construcciones - RNC.
+Artículo 6º.- Proyecto de Edificación con Anteproyecto Aprobado
+El proyecto de edificación que cuente con Anteproyecto aprobado, de acuerdo con lo normado
+en el Reglamento Nacional de Construcciones - RNC, con una antigüedad máxima de dieciocho (18)
+meses, será calificado con las normas de dicho Reglamento.
+Artículo 7º.- Comisión de Permanente de Actualización
+Constitúyase la Comisión Permanente de Actualización del Reglamento Nacional de
+Edificaciones - RNE, a fin de que se encargue de analizar y formular las propuestas para su actualización;
+la que estará integrada por:
+Un representante del Ministro de Vivienda, Construcción y Saneamiento, quien la presidirá;
+Un representante del Viceministerio de Vivienda y Urbanismo;
+Un representante del Viceministerio de Construcción y Saneamiento;
+Un representante de la Cámara Peruana de la Construcción;
+Un representante del Colegio de Arquitectos del Perú;
+Un representante del Colegio de Ingenieros del Perú;
+Un representante del Colegio de Abogados de Lima;
+Un representante de la Universidad Nacional de Ingeniería;
+Un representante de la Municipalidad Metropolitana de Lima; y,
+Un representante de la Asociación de Municipalidades del Perú.
+La Dirección Nacional de Vivienda del Viceministerio de Vivienda y Urbanismo del Ministerio de
+Vivienda, Construcción y Saneamiento, hará las veces de Secretaría Técnica de dicha Comisión.
+NORMA E.020 CARGAS
+Artículo 8º.- Refrendo
+El presente Decreto Supremo será refrendado por el Ministro de Vivienda, Construcción y
+Saneamiento.
+Dado en la Casa de Gobierno, a los cinco días del mes de mayo del año dos mil seis.
+ALEJANDRO TOLEDO
+Presidente Constitucional de la República
+RUDECINDO VEGA CARREAZO
+Ministro de Vivienda, Construcción y
+Saneamiento
+NORMA E.020 CARGAS
+COMITÉ TÉCNICO ESPECIALIZADO
+NTE E.020 CARGAS
+INTITUCIÓN NOMBRES
+CAPECO Ing. Luis Zegarra Ciquero
+Colegio de Ingenieros del Perú Ing. Carlos Casabonne Rasselet
+Pontificia Universidad Católica del
+Perú
+Ing. Gianfranco Ottazzi Pasino
+Universidad Nacional de Ingeniería
+Dr. Jorge Olarte Navarro
+Ing. Jorge Gallardo Tapia
+Universidad Peruana de Ciencias
+Aplicadas
+Ing. Luis Escobedo Sánchez
+Universidad Ricardo Palma Ing. Eduardo Cabrejos de la Cruz
+NORMA E.020 CARGAS
+NORMA E.020 CARGAS
+ÍNDICE
+Pág.
+CAPÍTULO 1 GENERALIDADES ............................................................................................ 11
+ARTÍCULO 1: ALCANCE ..................................................................................................... 11
+ARTÍCULO 2: DEFINICIONES ............................................................................................ 11
+CAPÍTULO 2 CARGA MUERTA .............................................................................................. 11
+ARTÍCULO 3: MATERIALES ............................................................................................... 11
+ARTÍCULO 4: DISPOSITIVOS DE SERVICIO Y EQUIPOS ................................................. 11
+ARTÍCULO 5: TABIQUES .................................................................................................... 12
+CAPÍTULO 3 CARGA VIVA ..................................................................................................... 12
+ARTÍCULO 6: CARGA VIVA DEL PISO ............................................................................... 12
+6.1 Carga Viva Mínima Repartida. .................................................................................... 12
+6.2 Carga Viva Concentrada............................................................................................. 13
+6.3 Tabiquería Móvil ......................................................................................................... 13
+6.4 Conformidad ............................................................................................................... 14
+ARTÍCULO 7: CARGA VIVA DEL TECHO ........................................................................... 14
+ARTÍCULO 8: CARGA VIVA PARA ACERAS, PISTAS, BARANDAS, PARAPETOS Y
+COLUMNAS EN ZONAS DE ESTACIONAMIENTO ...................................... 14
+8.1 Aceras y Pistas ........................................................................................................... 14
+8.2 Barandas y Parapetos ................................................................................................ 15
+8.3 Columnas en Zonas de Estacionamiento .................................................................... 15
+ARTÍCULO 9: CARGAS VIVAS MÓVILES ........................................................................... 15
+9.1 Generalidades ............................................................................................................ 15
+9.2 Automóviles ................................................................................................................ 15
+9.3 Camiones ................................................................................................................... 15
+9.4 Ferrocarriles ............................................................................................................... 16
+9.5 Puentes – Grúa .......................................................................................................... 16
+9.6 Tecles Monorrieles ..................................................................................................... 16
+9.7 Ascensores, Montacargas y Escaleras Mecánicas ..................................................... 16
+9.8 Motores ...................................................................................................................... 16
+ARTÍCULO 10: REDUCCIÓN DE CARGA VIVA ............................................................... 17
+ARTÍCULO 11: CARGAS DE NIEVE ................................................................................. 18
+11.1 GENERALIDADES ..................................................................................................... 18
+11.2 CARGA BÁSICA DE NIEVE SOBRE EL SUELO (QS
+) ................................................ 18
+11.3 CARGA DE NIEVE SOBRE LOS TECHOS (Qt
+) ......................................................... 18
+NORMA E.020 CARGAS
+Pág.
+ARTÍCULO 12: CARGAS DEBIDAS AL VIENTO ...............................................................20
+12.1 GENERALIDADES ......................................................................................................20
+12.2 CLASIFICACIÓN DE LAS EDIFICACIONES ...............................................................20
+12.3 VELOCIDAD DE DISEÑO ...........................................................................................20
+12.4 CARGA EXTERIOR DE VIENTO ................................................................................20
+12.5 CARGA INTERIOR DE VIENTO .................................................................................21
+CAPÍTULO 4 OTRAS CARGAS ...............................................................................................22
+ARTÍCULO 13: PRESIONES DE TIERRA .........................................................................22
+ARTÍCULO 14: CARGAS DE CONSTRUCCIÓN ...............................................................22
+ARTÍCULO 15: FUERZAS TÉRMICAS ..............................................................................22
+ARTÍCULO 16: CONTRACCIÓN .......................................................................................22
+CAPÍTULO 5 DISTRIBUCION Y COMBINACIÓN DE CARGAS ..............................................23
+ARTÍCULO 17: DISTRIBUCIÓN DE LAS CARGAS VERTICALES ....................................23
+ARTÍCULO 18: DISTRIBUCIÓN DE CARGAS HORIZONTALES EN COLUMNAS,
+PÓRTICOS Y MUROS ..............................................................................23
+ARTÍCULO 19: COMBINACIÓN DE CARGAS PARA DISEÑOS POR ESFUERZOS
+ADMISIBLES ............................................................................................23
+CAPÍTULO 6 ESTABILIDAD ....................................................................................................24
+ARTÍCULO 20: GENERALIDADES ....................................................................................24
+ARTÍCULO 21: VOLTEO ...................................................................................................24
+ARTÍCULO 22: DESLIZAMIENTO .....................................................................................24
+CAPÍTULO 7 RIGIDEZ .............................................................................................................24
+ARTÍCULO 23: METODO DE CÁLCULO ...........................................................................24
+ARTÍCULO 24: DESPLAZAMIENTOS LATERALES ..........................................................24
+ARTÍCULO 25: FLECHAS .................................................................................................24
+ARTÍCULO 26: ACUMULACIÓN DE AGUA .......................................................................25
+Anexo 1 PESOS UNITARIOS ..................................................................................................26
+Anexo 2 MAPA EÓLICO DEL PERÚ .......................................................................................29
+NORMA E.020 CARGAS
+11
+CAPÍTULO 1
+GENERALIDADES
+ARTÍCULO 1: ALCANCE
+Las edificaciones y todas sus partes deberán ser capaces de resistir las cargas que se les
+imponga como consecuencia de su uso previsto. Estas actuarán en las combinaciones prescritas
+y no deben causar esfuerzos ni deformaciones que excedan los señalados para cada material
+estructural en su Norma de diseño específica.
+En ningún caso las cargas asumidas serán menores que los valores mínimos establecidos en
+esta Norma.
+Las cargas mínimas establecidas en esta Norma, están dadas en condiciones de servicio.
+Esta Norma se complementa con la NTE E.030 Diseño Sismorresistente y con las Normas
+propias de diseño de los diversos materiales estructurales.
+ARTÍCULO 2: DEFINICIONES
+Carga: Fuerza u otras acciones que resulten del peso de los materiales de construcción,
+ocupantes y sus pertenencias, efectos del medio ambiente, movimientos diferenciales y cambios
+dimensionales restringidos.
+Carga Muerta: Es el peso de los materiales, dispositivos de servicio, equipos, tabiques y otros
+elementos soportados por la edificación, incluyendo su peso propio, que sean permanentes o
+con una variación en su magnitud, pequeña en el tiempo.
+Carga Viva: Es el peso de todos los ocupantes, materiales, equipos, muebles y otros elementos
+movibles soportados por la edificación.
+CAPÍTULO 2
+CARGA MUERTA
+ARTÍCULO 3: MATERIALES
+Se considerará el peso real de los materiales que conforman y de los que deberá soportar la
+edificación, calculados en base a los pesos unitarios que aparecen en el Anexo 1, pudiéndose
+emplear pesos unitarios menores cuando se justifique debidamente.
+El peso real se podrá determinar por medio de análisis o usando los datos indicados en los
+diseños y catálogos de los fabricantes.
+ARTÍCULO 4: DISPOSITIVOS DE SERVICIO Y EQUIPOS
+Se considerará el peso de todos los dispositivos de servicio de la edificación, incluyendo las
+tuberías, ductos, equipos de calefacción y aire acondicionado, instalaciones eléctricas,
+ascensores, maquinaria para ascensores y otros dispositivos fijos similares. El peso de todo este
+material se incluirá en la carga muerta.
+El peso de los equipos con los que se amueble una zona dada, será considerado como carga
+viva.
+NORMA E.020 CARGAS
+12
+ARTÍCULO 5: TABIQUES
+Se considerará el peso de todos los tabiques, usando los pesos reales en las ubicaciones que
+indican los planos. Cuando exista tabiquería móvil, se aplicará lo indicado en el Artículo 6(6.3).
+CAPÍTULO 3
+CARGA VIVA
+ARTÍCULO 6: CARGA VIVA DEL PISO
+6.1 Carga Viva Mínima Repartida.
+Se usará como mínimo los valores que se establecen en la Tabla 1 para los diferentes
+tipos de ocupación o uso, valores que incluyen un margen para condiciones ordinarias
+de impacto. Su conformidad se verificará de acuerdo a las disposiciones en el Artículo
+6(6.4).
+a) Cuando la ocupación o uso de un espacio no sea conforme con ninguno de los que
+figuran en la Tabla 1, el proyectista determinará la carga viva justificándola ante las
+autoridades competentes.
+b) Las cargas vivas de diseño deberán estar claramente indicadas en los planos del
+proyecto.
+TABLA 1
+CARGAS VIVAS MÍNIMAS REPARTIDAS
+OCUPACIÓN O USO CARGAS REPARTIDAS kPa (kgf/m2)
+Almacenaje 5,0 (500) Ver 6.4
+Baños
+Igual a la carga principal del resto del área, sin que
+sea necesario que exceda de 3,0 (300)
+Bibliotecas Ver 6.4
+Salas de lectura 3,0 (300)
+Salas de almacenaje con estantes fijos
+(no apilables)
+7,5 (750)
+Corredores y escaleras 4,0 (400)
+Centros de Educación
+Aulas 2,5 (250)
+Talleres 3,5 (350) Ver 6.4
+Auditorios, gimnasios, etc. De acuerdo a lugares de asambleas
+Laboratorios 3,0 (300) Ver 6.4
+Corredores y escaleras 4,0 (400)
+Garajes
+Para parqueo exclusivo de vehículos
+de pasajeros, con altura de entrada
+menor que 2,40 m
+2,5 (250)
+Para otros vehículos Ver 9.3
+Hospitales
+Salas de operación, laboratorios y
+zonas de servicio
+3,0 (300)
+Cuartos 2,0 (200)
+Corredores y escaleras 4,0 (400)
+NORMA E.020 CARGAS
+13
+OCUPACIÓN O USO CARGAS REPARTIDAS kPa (kgf/m2)
+Hoteles
+Cuartos 2,0 (200)
+Salas públicas De acuerdo a lugares de asamblea
+Almacenaje y servicios 5,0 (500)
+Corredores y escaleras 4,0 (400)
+Industria Ver 6.4
+Instituciones Penales
+Celdas y zona de habitación 2,0 (200)
+Zonas públicas De acuerdo a lugares de asamblea
+Corredores y escaleras 4,0 (400)
+Lugares de Asamblea
+Con asientos fijos 3,0 (300)
+Con asientos movibles 4,0 (400)
+Salones de baile, restaurantes, museos,
+gimnasios y vestíbulos de teatros y cines.
+4,0 (400)
+Graderías y tribunas 5,0 (500)
+Corredores y escaleras 5,0 (500)
+Oficinas (*)
+Exceptuando salas de archivo y computación 2,5 (250)
+Salas de archivo 5,0 (500)
+Salas de computación 2,5 (250) Ver 6.4
+Corredores y escaleras 4,0 (400)
+Teatros
+Vestidores 2,0 (200)
+Cuarto de proyección 3,0 (300) Ver 6.4
+Escenario 7,5 (750)
+Zonas públicas De acuerdo a lugares de asamblea
+Tiendas 5,0 (500) Ver 6.4
+Corredores y escaleras 5,0 (500)
+Viviendas 2,0 (200)
+Corredores y escaleras 2,0 (200)
+(*) Estas cargas no incluyen la posible tabiquería móvil
+6.2 Carga Viva Concentrada
+a) Los pisos y techos que soporten cualquier tipo de maquinaria u otras cargas vivas
+concentradas en exceso de 5,0 kN (500 kgf) (incluido el peso de los apoyos o bases),
+serán diseñados para poder soportar tal peso como una carga concentrada o como
+grupo de cargas concentradas.
+b) Cuando exista una carga viva concentrada, se puede omitir la carga viva repartida en
+la zona ocupada por la carga concentrada.
+6.3 Tabiquería Móvil
+El peso de los tabiques móviles se incluirá como carga viva equivalente uniformemente
+repartida por metro cuadrado, con un mínimo de 0,50 kPa (50 kgf/m2), para divisiones
+livianas móviles de media altura y de 1,0 kPa (100 kgf/m2) para divisiones livianas
+móviles de altura completa.
+NORMA E.020 CARGAS
+14
+Cuando en el diseño se contemple tabiquerías móviles, deberá colocarse una nota al
+respecto, tanto en los planos de arquitectura como en los de estructuras.
+6.4 Conformidad
+Para determinar si la magnitud de la carga viva real es conforme con la carga viva
+mínima repartida, se hará una aproximación de la carga viva repartida real promediando
+la carga total que en efecto se aplica sobre una región rectangular representativa de 15
+m2 que no tenga ningún lado menor a 3,00 m.
+ARTÍCULO 7: CARGA VIVA DEL TECHO
+Se diseñarán los techos y las marquesinas tomando en cuenta las cargas vivas, las de sismo,
+viento y otras prescritas a continuación.
+7.1 Carga Viva.- Las cargas vivas mínimas serán las siguientes:
+a) Para los techos con una inclinación hasta de 3° con respecto a la horizontal, 1,0 kPa
+(100 kgf/m2).
+b) Para techos con inclinación mayor de 3°, con respecto a la horizontal 1,0 kPa
+(100 kgf/m2) reducida en 0,05 kPa (5 kgf/m2), por cada grado de pendiente por
+encima de 3°, hasta un mínimo de 0,50 kPa (50 kgf/m2).
+c) Para techos curvos, 0,50 kPa (50 kgf/m2).
+d) Para techos con coberturas livianas de planchas onduladas o plegadas, calaminas,
+fibrocemento, material plástico, etc., cualquiera sea su pendiente, 0,30 kPa
+(30 kgf/m2), excepto cuando en el techo pueda haber acumulación de nieve en cuyo
+caso se aplicará lo indicado en el Artículo 11.
+e) Cuando se trate de malecones o terrazas, se aplicará la carga viva correspondiente
+a su uso particular, según se indica en la Tabla 1
+f) Cuando los techos tengan jardines, la carga viva mínima de diseño de las porciones
+con jardín será de 1,0 kPa (100 kgf/m2). Excepto cuando los jardines puedan ser de
+uso común ó público, en cuyo caso la sobrecarga de diseño será de 4,0 kPa
+(400 kgf/ m2).
+g) El peso de los materiales del jardín será considerado como carga muerta y se hará
+este cómputo sobre la base de tierra saturada.
+h) Las zonas adyacentes a las porciones con jardín serán consideradas como áreas de
+asamblea, a no ser que haya disposiciones específicas permanentes que impidan su
+uso.
+i) Cuando se coloque algún anuncio o equipo en un techo, el diseño tomará en cuenta
+todas las acciones que dicho anuncio o equipo ocasionen
+ARTÍCULO 8: CARGA VIVA PARA ACERAS, PISTAS, BARANDAS, PARAPETOS Y
+COLUMNAS EN ZONAS DE ESTACIONAMIENTO
+8.1 Aceras y Pistas
+a) Todas las aceras y pistas o porciones de las mismas que no se apoyen sobre el suelo
+se diseñarán para una carga viva mínima repartida de 5,0 kPa (500 kgf/m2).
+Cuando estén sujetas a la carga de rueda de camiones, intencional o accidental, se
+diseñarán tales tramos de aceras o pistas para la carga vehicular máxima que se
+pueda imponer. Ver 9.3.
+b) Los registros de inspección, las tapas de registro y las rejillas, serán diseñados para
+las cargas prescritas en el inciso anterior.
+NORMA E.020 CARGAS
+15
+8.2 Barandas y Parapetos
+a) Las barandas y parapetos se diseñarán para las fuerzas indicadas en la NTE E.030
+Diseño Sismorresistente, las cargas de viento cuando sean aplicables y las que se
+indican a continuación.
+b) Las barandas y parapetos serán diseñados para resistir la aplicación simultánea ó no
+de las fuerzas indicadas en la Tabla 2, ambas aplicadas en su parte superior,
+tomándose la combinación más desfavorable.
+En ningún caso, la fuerza horizontal y la fuerza vertical total, serán menores de 1,0
+kN (100 kgf).
+TABLA 2
+Barandas y Parapetos
+Carga Horizontal
+kN/m (kgf/m)
+Carga Vertical
+kN/m (kgf/m)
+Pozo para escaleras,
+balcones y techos en
+general
+0,60 (60) 0,60 (60)
+Viviendas unifamiliares 0,30 (30) 0,30 (30)
+Balcones de teatros y
+lugares de asamblea
+0,75 (75) 1,50 (150)
+c) Cuando las barandas y parapetos soporten equipos o instalaciones se tomarán en
+cuenta las cargas adicionales que éstos impongan.
+d) Las barandas, parapetos o topes que se usan en zonas de estacionamiento para
+resistir el impacto de los vehículos de pasajeros en movimiento serán diseñados para
+soportar una carga horizontal de 5,0 kN (500 kgf) por metro lineal, aplicada por lo
+menos a 0,60 m encima de la pista; pero en ningún caso la carga total será inferior a
+15,0 kN (1500 kgf).
+8.3 Columnas en Zonas de Estacionamiento
+A no ser que se les proteja de manera especial, las columnas en las zonas de
+estacionamiento o que estén expuestas a impacto de vehículos de pasajeros en
+movimiento, serán diseñadas para resistir una carga lateral mínima debida al impacto
+de 15,0 kN (1500 kgf), aplicada por lo menos a 0,60 m encima de la pista.
+ARTÍCULO 9: CARGAS VIVAS MÓVILES
+9.1 Generalidades
+Se considerará que las cargas establecidas en el Artículo 6(6.1) y Artículo 7(7.1),
+incluyen un margen para las condiciones ordinarias de impacto.
+9.2 Automóviles
+Las zonas que se usen para el tránsito o estacionamiento de automóviles y que estén
+restringidas a este uso por limitaciones físicas se diseñaran para la carga repartida
+pertinente a las zonas de estacionamiento de tales vehículos, como se determina en la
+Tabla 1, aplicada sin impacto.
+9.3 Camiones
+NORMA E.020 CARGAS
+16
+Las cargas mínimas, su distribución y el diseño de barandas y topes, cumplirán con los
+requisitos aplicables a puentes carreteros.
+9.4 Ferrocarriles
+Las cargas mínimas y su distribución cumplirán con los requisitos aplicables a puentes
+ferrocarrileros.
+9.5 Puentes – Grúa
+a) Cargas Verticales
+La carga vertical será la máxima real sobre rueda cuando la grúa esté izando a
+capacidad plena. Para tomar en cuenta el impacto, la carga izada se aumentará en
+25 % o la carga sobre rueda se aumentará en 15 %, la que produzca mayores
+condiciones de esfuerzo.
+b) Cargas Horizontales
+La carga transversal total, debida a la traslación del carro del puente-grúa, será el
+20% de la suma de la capacidad de carga y el peso del carro, aplicada en la parte
+superior de cada riel. Esta fuerza se supondrá colocada en la parte superior de los
+rieles, actuando en ambos sentidos perpendicularmente a la vía de rodadura y debe
+ser distribuida proporcionalmente a la rigidez lateral de la estructura que soporta los
+rieles.
+La carga longitudinal debida a la traslación de la grúa, será el 10% de la reacción
+máxima total sin incluir el impacto, aplicada en la parte superior del riel y actuando
+en ambos sentidos paralelamente a la vía de rodadura.
+9.6 Tecles Monorrieles
+a) Cargas Verticales
+La carga vertical será la suma de la capacidad de carga y el peso del tecle. Para
+tomar en cuenta el impacto, la carga vertical se aumentará en 10 % para tecles
+manuales y en 25 % para tecles eléctricos.
+b) Cargas Horizontales
+La carga transversal será el 20 % de la suma de la capacidad de carga y el peso del
+tecle.
+9.7 Ascensores, Montacargas y Escaleras Mecánicas
+Se aplicarán las cargas reales determinadas mediante análisis o usando los datos
+indicados en los diseños y especificaciones técnicas del fabricante.
+9.8 Motores
+Para tomar en cuenta el impacto, las reacciones de las unidades a motor de explosión
+se aumentarán por lo menos en 50 % y las de unidades a motor eléctrico se aumentarán
+por lo menos en 25 %. Adicionalmente se deberá considerar las vibraciones que estos
+puedan producir en las estructuras, para ello se tomarán en cuenta las especificaciones
+del fabricante.
+NORMA E.020 CARGAS
+17
+ARTÍCULO 10: REDUCCIÓN DE CARGA VIVA
+Las cargas vivas mínimas repartidas indicadas en la Tabla 1, podrán reducirse para el diseño,
+de acuerdo a la siguiente expresión:
+Donde:
+Lr
+= Intensidad de la carga viva reducida.
+Lo
+= Intensidad de la carga viva sin reducir (Tabla 1).
+Ai
+= Área de influencia del elemento estructural en m2, que se calculará mediante:
+At
+= Área tributaria del elemento en m2.
+k = Factor de carga viva sobre el elemento (Ver Tabla 3).
+TABLA 3
+FACTOR DE CARGA VIVA SOBRE EL ELEMENTO
+ELEMENTO FACTOR k
+Columnas y muros 2
+Vigas interiores
+Vigas de borde
+Vigas en volado
+Vigas de borde que soportan volados
+2
+2
+1
+1
+Tijerales principales que soportan techos
+livianos 1
+Losas macizas o nervadas en dos
+direcciones
+Losas macizas o nervadas en una dirección
+1
+1
+Vigas prefabricadas aisladas o no
+conectadas monolíticamente a otros
+elementos paralelos 1
+Vigas de acero o de madera no conectadas
+por corte al diafragma de piso 1
+Vigas isostáticas 1
+Las reducciones en la sobrecarga estarán sujetas a las siguientes limitaciones:
+a) El área de influencia (Ai) deberá ser mayor de 40 m2, en caso contrario no se aplicará ninguna
+reducción.
+b) El valor de la sobrecarga reducida (Lr) no deberá ser menor de 0,5 Lo.
+c) Para elementos (columnas, muros) que soporten más de un piso deben sumarse las áreas de
+influencia de los diferentes pisos.
+d) No se permitirá reducción alguna de carga viva para el cálculo del esfuerzo de corte
+(punzonamiento) en el perímetro de las columnas en estructuras de losas sin vigas.
+e) En estacionamientos de vehículos de pasajeros, no se permitirá reducir la sobrecarga, salvo
+para los elementos (columnas, muros) que soporten dos o más pisos para los cuales la
+reducción máxima será del 20%.
+f) En los lugares de asamblea, bibliotecas, archivos, depósitos y almacenes, industrias, tiendas,
+teatros, cines y en todos aquellos en los cuales la sobrecarga sea de 5 kPa (500 kgf/m2) o
+NORMA E.020 CARGAS
+18
+más, no se permitirá reducir la sobrecarga, salvo para los elementos (columnas, muros) que
+soporten dos o más pisos para los cuales la reducción máxima será del 20%.
+g) El valor de la carga reducida (Lr), para la carga viva de techo especificada en el Artículo 7, no
+será menor que 0,50 Lo.
+h) Para losas en un sentido, el área tributaria (At) que se emplee en la determinación de Ai no
+deberá exceder del producto del claro libre por un ancho de 1,5 veces el claro libre.
+ARTÍCULO 11: CARGAS DE NIEVE
+11.1 GENERALIDADES
+La estructura y todos los elementos de techo, que estén expuestos a la acción de carga
+de nieve, serán diseñados para resistir las cargas producidas por la posible acumulación
+de la nieve en el techo. La sobrecarga de nieve en una superficie cubierta es el peso de
+la nieve que, en las condiciones climatológicas más desfavorables puede acumularse
+sobre ella.
+En zonas en la cuales exista posibilidad de nevadas importantes, deberá prestarse
+especial atención en la selección apropiada de las pendientes de los techos.
+La carga de nieve debe considerarse como carga viva. No será necesario incluir en el
+diseño el efecto simultáneo de viento y carga de nieve.
+11.2 CARGA BÁSICA DE NIEVE SOBRE EL SUELO (QS
+)
+Para determinar este valor, deberá tomarse en cuenta las condiciones geográficas y
+climáticas de la región donde se ubicará la estructura. La carga básica se establecerá
+de un análisis estadístico de la información disponible en la zona, para un período medio
+de retorno de 50 años (probabilidad anual del 2% de ser excedida).
+El valor mínimo de la carga básica de nieve sobre el suelo (Qs
+) será de 0,40 kPa
+(40 kgf/m2) que equivalen a 0,40 m de nieve fresca (peso específico de 1 kN/m3
+(100 kgf/m3) o a 0,20 m de nieve compactada (peso específico de 2 kN/m3 (200 kgf/m3).
+11.3 CARGA DE NIEVE SOBRE LOS TECHOS (Qt
+)
+a) Para techos a una o dos aguas con inclinaciones menores o iguales a 15º (pendiente
+ 27%) y para techos curvos con una relación flecha/luz  0,1 o ángulo vertical menor
+o igual a 10º (calculado desde el borde hasta el centro) la carga de diseño (Qt
+), sobre
+la proyección horizontal, será:
+b) Para techos a una o dos aguas con inclinaciones comprendidas entre 15º y 30º la
+carga de diseño (Qt
+), sobre la proyección horizontal, será:
+c) Para techos a una o dos aguas con inclinaciones mayores de 30º la carga de diseño
+(Qt
+), sobre la proyección horizontal, será:
+Qt
+= Cs
+(0,80 Qs
+) donde Cs
+= 1 – 0,025(º - 30º), siendo Cs
+, un factor adimensional.
+NORMA E.020 CARGAS
+19
+d) Para los techos a dos aguas con inclinaciones mayores a 15º deberán investigarse
+los esfuerzos internos para las condiciones de carga balanceada y desbalanceada
+como se indica a continuación:
+e) Para los techos curvos, dependiendo de la relación h/ , deberán investigarse los
+esfuerzos internos para las condiciones de cargas balanceada y desbalanceada, que
+se indica a continuación:
+
+NORMA E.020 CARGAS
+20
+ARTÍCULO 12: CARGAS DEBIDAS AL VIENTO
+12.1 GENERALIDADES
+La estructura, los elementos de cierre y los componentes exteriores de todas las
+edificaciones expuestas a la acción del viento, serán diseñados para resistir las cargas
+(presiones y succiones) exteriores e interiores debidas al viento, suponiendo que éste
+actúa en dos direcciones horizontales perpendiculares entre sí. En la estructura la
+ocurrencia de presiones y succiones exteriores serán consideradas simultáneamente.
+12.2 CLASIFICACIÓN DE LAS EDIFICACIONES
+Tipo 1. Edificaciones poco sensibles a las ráfagas y a los efectos dinámicos del viento,
+tales como edificios de poca altura o esbeltez y edificaciones cerradas con cobertura
+capaz de soportar las cargas sin variar su geometría. Para este tipo de edificaciones, se
+aplicará lo dispuesto en los Artículos 12(12.3) y 12(12.4).
+Tipo 2. Edificaciones cuya esbeltez las hace sensibles a las ráfagas, tales como
+tanques elevados y anuncios y en general estructuras con una dimensión corta en el
+sentido del viento. Para este tipo de edificaciones la carga exterior especificada en
+Artículo 12(12.4) se multiplicará por 1,2.
+Tipo 3. Edificaciones que representan problemas aerodinámicos especiales tales
+como domos, arcos, antenas, chimeneas esbeltas y cubiertas colgantes. Para este tipo
+de edificaciones las presiones de diseño se determinarán a partir de procedimientos de
+análisis reconocidos en ingeniería, pero no serán menores que las especificadas para
+el Tipo 1.
+12.3 VELOCIDAD DE DISEÑO
+La velocidad de diseño del viento hasta 10 m de altura será la velocidad máxima
+adecuada a la zona de ubicación de la edificación (Ver Anexo 2) pero no menos de 75
+Km/h. La velocidad de diseño del viento en cada altura de la edificación se obtendrá de
+la siguiente expresión.
+donde:
+Vh
+: velocidad de diseño en la altura h en Km/h
+V : velocidad de diseño hasta 10 m de altura en Km/h
+h : altura sobre el terreno en metros
+12.4 CARGA EXTERIOR DE VIENTO
+La carga exterior (presión o succión) ejercida por el viento se supondrá estática y
+perpendicular a la superficie sobre la cual se actúa. Se calculará mediante la expresión:
+donde:
+Ph
+: presión o succión del viento a una altura h en Kgf/m2
+C : factor de forma adimensional indicado en la Tabla 4
+Vh
+: velocidad de diseño a la altura h, en Km/h definida en el Artículo 12(12.3)
+NORMA E.020 CARGAS
+21
+TABLA 4
+FACTORES DE FORMA (C) *
+CONSTRUCCIÓN BARLOVENTO SOTAVENTO
+Superficies verticales de edificios +0,8 -0,6
+Anuncios, muros aislados, elementos con una
+dimensión corta en el sentido del viento
++1,5
+Tanques de agua, chimeneas y otros de sección
+circular o elíptica
++0,7
+Tanques de agua, chimeneas, y otros de
+sección cuadrada o rectangular
++2,0
+Arcos y cubiertas cilíndricas con un ángulo de
+inclinación que no exceda 45°
++0,8 -0,5
+Superficies inclinadas a 15° o menos
++0,3
+-0,7
+-0,6
+Superficies inclinadas entre 15° y 60°
++0,7
+-0,3
+-0,6
+Superficies inclinadas entre 60° y la vertical +0,8 -0,6
+Superficies verticales ó inclinadas(planas ó
+curvas) paralelas a la dirección del viento
+-0,7 -0,7
+* El signo positivo indica presión y el negativo succión.
+12.5 CARGA INTERIOR DE VIENTO
+Para el diseño de los elementos de cierre, incluyendo sus fijaciones y anclajes, que
+limitan en cualquier dirección el nivel que se analiza, tales como paneles de vidrio,
+coberturas, alféizares y elementos de cerramiento, se adicionará a las cargas exteriores
+calculadas según el Artículo 12(12.4), las cargas interiores (presiones y succiones)
+calculadas con los factores de forma para presión interior de la Tabla 5
+TABLA 5
+FACTORES DE FORMA PARA DETERMINAR CARGAS ADICIONALES EN
+ELEMENTOS DE CIERRE (C)
+ABERTURAS
+Uniforme en lados a
+barlovento y
+sotavento
+Principales en lado
+a barlovento
+Principales en lado a
+sotavento o en los
+costados
+± 0,3 + 0,8 - 0,6
+NORMA E.020 CARGAS
+22
+CAPÍTULO 4
+OTRAS CARGAS
+ARTÍCULO 13: PRESIONES DE TIERRA
+13.1 Todo muro de contención será diseñado para resistir, en adición a las cargas verticales
+que actúan sobre él, la presión lateral del suelo y sobrecargas, más la presión
+hidrostática correspondiente al máximo nivel freático probable.
+13.2 Se considerarán las subpresiones causadas por la presión hidrostática.
+13.3 Para el cálculo de la magnitud y ubicación de las presiones laterales del suelo se podrá
+emplear cualquiera de los métodos aceptados en la Mecánica de Suelos.
+13.4 Cuando la presión lateral del suelo se opone a la acción estructural de otras fuerzas (ej.
+cisternas enterradas), no se tomará en cuenta en esta combinación de cargas, pero sí
+se debe considerar su acción en el diseño.
+ARTÍCULO 14: CARGAS DE CONSTRUCCIÓN
+Previo al inicio de obra el profesional responsable de obra, evaluará las cargas reales que pueda
+producirse durante el proceso constructivo y verificará que no exceda de las cargas vivas de uso,
+indicado en los documentos del proyecto.
+Si las cargas reales en el proceso constructivo excedieran de las cargas vivas de uso, deberá
+consultar con el proyectista.
+ARTÍCULO 15: FUERZAS TÉRMICAS
+El diseño de edificaciones tomará en cuenta las fuerzas y los movimientos que resulten de un
+cambio mínimo de temperatura de 20° C para construcciones de concreto y/o albañilería y 30°C
+para construcciones de metal.
+ARTÍCULO 16: CONTRACCIÓN
+En el diseño de estructuras de concreto armado, cuando se prevea que la contracción pueda
+originar esfuerzos importantes, se tomará en consideración las fuerzas y movimientos resultantes
+de la contracción del concreto en una cantidad 0,00025 veces la distancia entre juntas.
+NORMA E.020 CARGAS
+23
+CAPÍTULO 5
+DISTRIBUCION Y COMBINACIÓN DE CARGAS
+ARTÍCULO 17: DISTRIBUCIÓN DE LAS CARGAS VERTICALES
+La distribución de las cargas verticales a los elementos de soporte se establecerá sobre la base
+de un método reconocido de análisis o de acuerdo a sus áreas tributarias.
+Se tendrá en cuenta el desplazamiento instantáneo y diferido de los soportes cuando ellos sean
+significativos.
+ARTÍCULO 18: DISTRIBUCIÓN DE CARGAS HORIZONTALES EN COLUMNAS, PÓRTICOS
+Y MUROS
+18.1 Se supondrá que las cargas horizontales sobre la estructura son distribuidas a
+columnas, pórticos y muros por los sistemas de pisos y techo que actúan como
+diafragmas horizontales. La proporción de la carga horizontal total que resistirá cualquier
+columna, pórtico ó muro se determinará sobre la base de su rigidez relativa,
+considerando la excentricidad natural y accidental de la carga aplicada.
+18.2 Cuando la existencia de aberturas, la excesiva relación largo/ancho en las losas de piso
+ó techo o la flexibilidad del sistema de piso ó techo no permitan su comportamiento como
+diafragma rígido, la rigidez de cada columna y muro estructural tomará en cuenta las
+deflexiones adicionales de piso mediante algún método reconocido de análisis.
+ARTÍCULO 19: COMBINACIÓN DE CARGAS PARA DISEÑOS POR ESFUERZOS
+ADMISIBLES
+Excepto en los casos indicados en las normas propias de los diversos materiales estructurales,
+todas las cargas consideradas en la presente Norma se considerará que actúan en las siguientes
+combinaciones, la que produzca los efectos más desfavorables en el elemento estructural
+considerando, con las reducciones, cuando sean aplicables, indicadas en el Artículo 10.
+(1) D
+(2) D + L
+(3) D + (W ó 0,70 E)
+(4) D + T
+(5)  [D + L + (W ó 0,70 E)]
+(6)  [D + L +T]
+(7)  [D + (W ó 0,70 E) + T]
+(8)  [D + L + (W ó 0,70 E) + T]
+Donde:
+D = Carga muerta, según Capítulo 2
+L = Carga viva, según Capítulo 3
+W = Carga de viento, según Artículo 12
+E = Carga de sismo, según NTE E.030 Diseño Sismorresistente
+T = Acciones por cambios de temperatura, contracciones y/o deformaciones diferidas en los
+materiales componentes, asentamientos de apoyos o combinaciones de ellos.
+ = Factor que tendrá un valor mínimo de 0,75 para las combinaciones (5), (6) y (7); y de 0,67
+para la combinación (8). En estos casos no se permitirá un aumento de los esfuerzos
+admisibles.
+NORMA E.020 CARGAS
+24
+CAPÍTULO 6
+ESTABILIDAD
+ARTÍCULO 20: GENERALIDADES
+20.1 La estabilidad requerida será suministrada sólo por las cargas muertas más la acción
+de los anclajes permanentes que se provean.
+20.2 El peso de la tierra sobre las zapatas o cimentaciones, calculado con el peso unitario
+mínimo de la tierra, puede ser considerado como parte de las cargas muertas.
+ARTÍCULO 21: VOLTEO
+La edificación o cualquiera de sus partes, será diseñada para proveer un coeficiente de seguridad
+mínimo de 1,5 contra la falla por volteo.
+ARTÍCULO 22: DESLIZAMIENTO
+22.1 La edificación o cualquiera de sus partes será diseñada para proveer un coeficiente de
+seguridad mínimo de 1,25 contra la falla por deslizamiento.
+22.2 Los coeficientes de fricción que se asuman serán establecidos por el proyectista a partir
+de valores usuales empleados en ingeniería.
+CAPÍTULO 7
+RIGIDEZ
+ARTÍCULO 23: METODO DE CÁLCULO
+El cálculo de las deformaciones de la estructura o de sus componentes será efectuado por
+métodos aceptados en ingeniería.
+ARTÍCULO 24: DESPLAZAMIENTOS LATERALES
+En edificaciones el máximo desplazamiento relativo entre pisos, causado por las fuerzas de
+viento, será del 1% de la altura del piso.
+En el caso de fuerzas de sismo el máximo desplazamiento será el indicado en los numerales
+pertinentes de la NTE E.030 Diseño Sismorresistente.
+ARTÍCULO 25: FLECHAS
+25.1 Excepto en los casos expresamente cubiertos en las Normas propias de los diversos
+materiales estructurales, la flecha de cualquier elemento estructural no excederá los
+valores indicados en la Tabla 6, excepto cuando soporte paneles de vidrio en cuyo caso
+se aplicará lo indicado en el Artículo 25(25.2).
+NORMA E.020 CARGAS
+25
+TABLA 6
+FLECHAS MAXIMAS PARA ELEMENTOS ESTRUCTURALES
+TIPO DE
+ELEMENTO
+FLECHA PRODUCIDA
+POR LA CARGA VIVA
+FLECHA PRODUCIDA POR LA
+CARGA VIVA MÁS LAS
+FLECHAS DIFERIDAS
+Pisos L/360 L/240*
+Techos L/180 -
+L: Luz del elemento. Para volados se tomará como L, el doble de la
+longitud del elemento.
+Flecha diferida: Se establece en función de cada material de acuerdo a su Norma
+respectiva. La flecha diferida se calculará para las cargas
+permanentes más la fracción de sobrecarga que actúa
+permanentemente.
+* No aplicable a estructuras metálicas.
+25.2 Excepto en los casos expresamente cubiertos en las Normas propias de los diversos
+materiales estructurales, la flecha para carga viva más la parte correspondiente a las
+flechas diferidas, de elementos estructurales que soportan paneles de vidrio no
+excederá en ningún caso 20 mm.
+ARTÍCULO 26: ACUMULACIÓN DE AGUA
+Todos los techos tendrán suficiente pendiente o contraflecha para asegurar el drenaje adecuado
+del agua, después de que ocurran las deformaciones diferidas. Alternativamente serán
+diseñados para soportar adicionalmente la posible acumulación de agua debido a la deflexión.
+El límite de deflexión para techos indicados en la Tabla 6, no garantiza que no se produzca
+acumulación de agua debida a la deflexión.
+NORMA E.020 CARGAS
+26
+Anexo 1
+PESOS UNITARIOS
+MATERIALES
+PESO
+kN/m3 (Kgf/m3)
+Aislamientos de:
+Corcho 2,0 (200)
+Fibra de vidrio 3,0 (300)
+Fibrocemento 6,0 (600)
+Poliuretano y poliestireno 2,0 (200)
+Albañilería de:
+Adobe 16,0 (1600)
+Unidades de arcilla cocida sólidas 18,0 (1800)
+Unidades de arcilla cocida huecas 13,0 (1350)
+Concreto Simple de:
+Cascote de ladrillo 18,0 (1800)
+Grava 23,0 (2300)
+Pómez 16,0 (1600)
+Concreto Armado
+Añadir 1,0 (100) al peso del concreto
+simple.
+Enlucido o Revoque de:
+Mortero de cemento 20,0 (2000)
+Mortero de cal y cemento 18,5 (1850)
+Mortero de cal 17,0 (1700)
+Yeso 10,0 (1000)
+Líquidos:
+Aceites 9,3 (930)
+Ácido Muriático 12,0 (1200)
+Ácido Nítrico 15,0 (1500)
+Ácido Sulfúrico 18,0 (1800)
+Agua dulce 10,0 (1000)
+Agua de mar 10,3 (1030)
+Alcohol 8,0 (800)
+Gasolina 6,7 (670)
+Kerosene 8,7 (870)
+Petróleo 8,7 (870)
+Soda Cáustica 17,0 (1700)
+Maderas:
+Coníferas 7,5 (750)
+Grupo A* 11,0 (1100)
+Grupo B* 10,0 (1000)
+Grupo C* 9,0 (900)
+* NTE E.101 Agrupamiento de Madera para Uso Estructural (E.010
+Madera)
+NORMA E.020 CARGAS
+27
+MATERIALES
+PESO
+kN/m3 (Kgf/m3)
+Mampostería de:
+Bloques de Vidrio 10,0 (1000)
+Caliza 24,0 (2400)
+Granito 26,0 (2600)
+Mármol 27,0 (2700)
+Pómez 12,0 (1200)
+Materiales almacenados:
+Azúcar 7,5 (750)
+Basuras Domésticas 6,6 (660)
+Briquetas de carbón de piedra 17,5 (1750)
+Carbón de piedra 15,5 (1550)
+Cebada 6,5 (650)
+Cemento 14,5 (1450)
+Coke 12,0 (1200)
+Frutas 6,5 (650)
+Harinas 7,0 (700)
+Hielo 9,2 (920)
+Leña 6,0 (600)
+Lignito 12,5 (1250)
+Papas 7,0 (700)
+Papel 10,0 (1000)
+Pastos secos 4,0 (400)
+Sal 10,0 (1000)
+Trigo, frijoles, pallares, arroz 7,5 (750)
+Turba 6,0 (600)
+Materiales amontonados:
+Arena húmeda 18,0 (1800)
+Caliza molida 16,0 (1600)
+Carburo 9,0 (900)
+Coke 5,2 (520)
+Escorias de altos hornos 15,0 (1500)
+Escorias de carbón 10,0 (1000)
+Grava y arena secas 16,0 (1600)
+Nieve fresca 1,0 (100)
+Piedra pómez 7,0 (700)
+Tierra seca 16,0 (1600)
+Tierra saturada 18,0 (1800)
+NORMA E.020 CARGAS
+28
+MATERIALES
+PESO
+kN/m3 (Kgf/m3)
+Metales:
+Acero 78,5 (7850)
+Aluminio 27,5 (2750)
+Bronce 85,0 (8500)
+Cobre 89,0 (8900)
+Estaño 74,0 (7400)
+Fundición 72,5 (7250)
+Hierro dulce 78,0 (7800)
+Latón 85,0 (8500)
+Mercurio 136,0 (13600)
+Níquel 90,0 (9000)
+Plomo 114,0 (11400)
+Zinc 69,0 (6900)
+Otros:
+Acrílicos 12,0 (1200)
+Cartón bituminado 6,0 (600)
+Concreto asfáltico 24,0 (2400)
+Ladrillo pastelero 16,0 (1600)
+Losetas 24,0 (2400)
+Teja artesanal 16,0 (1600)
+Teja industrial 18,0 (1800)
+Vidrios 25,0 (2500)
+Losas aligeradas armadas en una
+sola dirección de Concreto
+Armado
+Con vigueta 0,10 m de ancho y
+0,40 m entre ejes.
+Espesor del aligerado (m) Espesor de losa
+superior en
+metros
+Peso propio kPa
+(kgf/m2)
+0,17 0,05 2,8 (280)
+0,20 0,05 3,0 (300)
+0,25 0,05 3,5 (350)
+0,30 0,05 4,2 (420)
+NORMA E.020 CARGAS
+29
+Anexo 2
+MAPA EÓLICO DEL PERÚ
+Este mapa sirve de guía, para establecer las velocidades básicas del viento en la zona donde se
+ubica la estructura, sin embargo; se debe tener en cuenta la variabilidad debida a las condiciones
+locales (topográficas, climáticas).
+Si hubiera mediciones confiables en la zona en cuestión, podrán adoptarse la velocidad
+proveniente del estudio.
+

@@ -1,0 +1,4992 @@
+“AÑO DE LA ESPERANZA Y EL FORTALECIMIENTO DE LA DEMOCRACIA”
+El Peruano
+DIARIO OFICIAL DEL BICENTENARIO
+FUNDADO EL 22 DE OCTUBRE DE 1825 POR EL LIBERTADOR SIMÓN BOLÍVAR
+SEPARATA ESPECIAL
+NORMAS LEGALES
+DOMINGO 3
+DE MAYO DE 2026
+MINISTERIO DE VIVIENDA,
+CONSTRUCCIÓN Y SANEAMIENTO
+RESOLUCIÓN MINISTERIAL
+N° 183-2026-VIVIENDA
+Modifican la
+Norma Técnica E.030
+“Diseño Sismorresistente”
+del Reglamento Nacional de
+Edificaciones
+Firmado por: Editora Peru
+Fecha: 03/05/2026 00:16
+2 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+3
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+RESOLUCIÓN MINISTERIAL
+Nº 183-2026-VIVIENDA
+Lima, 28 de abril de 2026
+VISTOS:
+La Nota Nº 201-2026-VIVIENDA/VMCS-DGPRCS de la Dirección General de Políticas y Regulación en Construcción
+y Saneamiento (DGPRCS); el Informe Nº 143-2026-VIVIENDA/VMCS-DGPRCS-DC de la Dirección de Construcción; el
+Informe Nº 386-2026-VIVIENDA/SG-OGAJ de la Oﬁ cina General de Asesoría Jurídica (OGAJ); y,
+CONSIDERANDO:
+Que, los artículos 5 y 6 de la Ley Nº 30156, Ley de Organización y Funciones del Ministerio de Vivienda, Construcción
+y Saneamiento (MVCS), establecen que este Ministerio tiene competencia, entre otras, en la materia de construcción; y
+es el órgano rector de las políticas nacionales y sectoriales dentro de su ámbito de competencia, que son de obligatorio
+cumplimiento por los tres niveles de gobierno en el marco del proceso de descentralización, y en todo el territorio nacional;
+asimismo, tiene entre sus competencias exclusivas, dictar normas y lineamientos técnicos para la adecuada ejecución y
+supervisión de las políticas nacionales y sectoriales;
+Que, el numeral 1 del artículo 9 de la citada Ley, establece entre las funciones exclusivas del MVCS, desarrollar y
+aprobar tecnologías, metodologías o mecanismos que sean necesarios para el cumplimiento de las políticas nacionales
+y sectoriales, en el ámbito de su competencia;
+Que, el literal d) del artículo 82 del Reglamento de Organización y Funciones del MVCS, aprobado mediante el
+Decreto Supremo Nº 010-2014-VIVIENDA, modiﬁ cado por el Decreto Supremo Nº 006-2015- VIVIENDA, establece
+como función de la DGPRCS, proponer actualizaciones del Reglamento Nacional de Ediﬁ caciones (RNE), en
+coordinación con los sectores que se vinculen, en el marco de los Comités Técnicos de Normalización, según la
+normatividad vigente;
+Que, mediante el Decreto Supremo Nº 015-2004-VIVIENDA se aprueba el Índice y la Estructura del RNE, aplicable a
+las Habilitaciones Urbanas y a las Ediﬁ caciones que se ejecuten en el territorio nacional, estableciendo en sus artículos
+1 y 3 que corresponde al MVCS aprobar, mediante Resolución Ministerial, las normas técnicas de acuerdo al Índice del
+RNE y sus variaciones según los avances tecnológicos;
+Que, por el Decreto Supremo Nº 011-2006-VIVIENDA se aprueban sesenta y seis (66) Normas Técnicas del
+RNE comprendidas en el Índice citado en el considerando precedente, entre ellas, la Norma Técnica E.030 “Diseño
+Sismorresistente” del RNE;
+Que, mediante la Resolución Ministerial Nº 379-2024-VIVIENDA, se crea el Grupo de Trabajo Multisectorial, de
+naturaleza temporal, dependiente del Ministerio de Vivienda, Construcción y Saneamiento, denominado “Grupo de Trabajo
+para la actualización de la Norma Técnica E.030 Diseño Sismorresistente del Reglamento Nacional de Ediﬁ caciones”,
+el mismo que tiene entre sus funciones: a) Analizar la Norma Técnica “E.030 Diseño Sismorresistente” del RNE; b)
+Contribuir con casuística y aportes técnicos-legales sustentados, sobre los alcances y aplicación de la referida Norma
+Técnica; c) Elaborar la propuesta de actualización de la Norma Técnica “E.030 Diseño Sismorresistente” del RNE y d)
+Asistir a las sesiones a las que sean convocados;
+Que, a través de la Resolución Ministerial Nº 279-2025-VIVIENDA, se dispuso la publicación del proyecto de
+Resolución Ministerial que aprueba la modiﬁ cación de la Norma Técnica E.030 “Diseño Sismorresistente” del RNE, en la
+sede digital del MVCS, por el plazo de quince días calendario, a ﬁ n de recibir los aportes, comentarios u opiniones de la
+ciudadanía, siendo la Dirección de Construcción de la DGPRCS, la encargada de su consolidación;
+Que, mediante la Nota Nº 201-2026-VIVIENDA/VMCS-DGPRCS, la DGPRCS en base al Informe Nº
+143-2026-VIVIENDA/VMCS-DGPRCS-DC de la Dirección de Construcción, sustenta y propone la modiﬁ cación de
+la Norma Técnica E.030 “Diseño Sismorresistente” del RNE; la misma que tiene por objeto establecer los requisitos
+mínimos que deben cumplir las ediﬁ caciones para garantizar un comportamiento adecuado frente a la acción sísmica,
+con la ﬁ nalidad de proteger la vida humana, minimizar los daños estructurales y no estructurales, así como mantener
+la estabilidad global de la ediﬁ cación durante y después de un evento sísmico severo; según dicha propuesta, que es
+producto del Grupo de Trabajo Multisectorial constituido por la Resolución Ministerial Nº 379-2024-VIVIENDA, se ha
+identiﬁ cado la necesidad de incrementar la seguridad estructural de las ediﬁ caciones, conforme a lo siguiente:
+a) Incorporación de nuevos criterios para la clasiﬁ cación de perﬁ les de suelo, basados en la velocidad de
+propagación de ondas de corte (Vs), el número de golpes corregido (N60) y la resistencia al corte no drenada
+(Su), más acordes con el comportamiento dinámico real de los depósitos de suelo, y alineadas con estándares
+internacionales;
+b) Inclusión del periodo predominante de vibración del terreno (Ts), como parámetro obligatorio para ediﬁ caciones
+de categorías A y B ubicadas en la zona sísmica Z4 y su metodología de cálculo;
+c) Incorporación del análisis sísmico, considerando la acción sísmica en simultáneo en ambas direcciones, en el
+análisis estructural reforzando el principio de que el diseño estructural debe considerar la acción simultánea del
+sismo en dos ejes ortogonales, conforme a la práctica internacional;
+d) Actualización de los criterios para ediﬁ caciones con muros de ductilidad limitada, sustentada en estudios
+experimentales y normativa comparada, que justiﬁ can la revisión del número máximo de niveles, el coeﬁ ciente
+básico de reducción R0
+y los límites de distorsión máxima de entrepiso;
+e) Incorporación de lineamientos mínimos, para la ejecución de estudios de microzoniﬁ cación sísmica, con el ﬁ n
+de uniﬁ car criterios técnicos a nivel nacional y reducir la variabilidad en los estudios realizados por diferentes
+consultoras;
+4 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Que, a través del Informe Nº 386-2026-VIVIENDA/SG-OGAJ, la OGAJ emite opinión favorable para continuar con la
+aprobación de la propuesta efectuada y sustentada por la DGPRCS;
+Que, en consecuencia, de acuerdo a lo expuesto en los considerandos precedentes, corresponde modiﬁ car la Norma
+Técnica E.030 “Diseño Sismorresistente” del RNE, conforme a lo señalado por la DGPRCS;
+De conformidad con lo dispuesto en la Ley Nº 30156, Ley de Organización y Funciones del Ministerio de Vivienda,
+Construcción y Saneamiento, y modiﬁ catoria; el Reglamento de Organización y Funciones del Ministerio de Vivienda,
+Construcción y Saneamiento, aprobado por el Decreto Supremo Nº 010-2014-VIVIENDA, modiﬁ cado por el Decreto Supremo
+Nº 006-2015-VIVIENDA; el Decreto Supremo Nº 015-2004-VIVIENDA, que aprueba el Índice del Reglamento Nacional de
+Ediﬁ caciones; el Decreto Supremo Nº 011-2006-VIVIENDA, que aprueba sesenta y seis (66) Normas Técnicas del Reglamento
+Nacional de Ediﬁ caciones, y modiﬁ catorias;
+SE RESUELVE:
+Artículo 1.- Modiﬁ cación de la Norma Técnica E.030 “Diseño Sismorresistente” del Reglamento Nacional de
+Ediﬁ caciones
+Modiﬁ car la Norma Técnica E.030 “Diseño Sismorresistente”, contenida en el Numeral III.2 Estructuras del Título III
+Ediﬁ caciones del Reglamento Nacional de Ediﬁ caciones, aprobado por el Decreto Supremo Nº 011-2006-VIVIENDA,
+cuyo texto forma parte integrante de la presente Resolución Ministerial.
+Artículo 2.- Publicación y Difusión
+Disponer la publicación de la presente Resolución Ministerial y la Norma Técnica a que se reﬁ ere el artículo
+precedente, en la sede digital del Ministerio de Vivienda, Construcción y Saneamiento (www.gob.pe/vivienda), el mismo
+día de su publicación en el diario oﬁ cial El Peruano.
+DISPOSICIÓN COMPLEMENTARIA TRANSITORIA
+Única.- Normativa aplicable a proyectos de ediﬁ cación en trámite
+Los proyectos de ediﬁ cación comprendidos en los alcances de la Norma Técnica E.030 “Diseño Sismorresistente”,
+que a la entrada en vigencia de la presente Resolución Ministerial, cuenten con expediente técnico aprobado en el marco
+del Sistema Nacional de Programación Multianual y Gestión de Inversiones – Invierte.pe, o que respecto de los cuales se
+haya iniciado el procedimiento para obtener la licencia de ediﬁ cación ante la municipalidad competente, o que se haya
+iniciado la fase de ejecución mediante la modalidad “ejecución Fast Track”, se rigen hasta su culminación con el texto de
+la Norma Técnica anterior a la presente modiﬁ catoria.
+Regístrese, comuníquese y publíquese.
+WILDER ALEJANDRO SIFUENTES QUILCATE
+Ministro de Vivienda, Construcción y Saneamiento
+NORMA TÉCNICA
+E.030 DISEÑO SISMORRESISTENTE
+2026
+ÍNDICE
+CAPÍTULO I DISPOSICIONES GENERALES
+Artículo 1.- Objeto
+Artículo 2.- Finalidad
+Artículo 3.- Deﬁ niciones
+Artículo 4.- Ámbito de aplicación
+Artículo 5.- Nomenclatura
+Artículo 6.- Concepción estructural sismorresistente
+Artículo 7.- Consideraciones para el diseño y comportamiento estructural
+Artículo 8.- Aprobación de otros sistemas estructurales
+Artículo 9.- Presentación del proyecto
+CAPÍTULO II PELIGRO SÍSMICO
+SUBCAPÍTULO 1 Zoniﬁ cación sísmica
+Artículo 10.- Zoniﬁ cación
+Artículo 11.- Factores de zona “Z”
+5
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+SUBCAPÍTULO 2 Caracterización sísmica local
+Artículo 12.- Microzoniﬁ cación sísmica
+Artículo 13.- Estudios de sitio
+SUBCAPÍTULO 3 Condiciones geotécnicas
+Artículo 14.- Perﬁ les de suelo
+Artículo 15.- Determinación de los perﬁ les de suelo
+Artículo 16.- Consideraciones geotécnicas adicionales
+SUBCAPÍTULO 4 Parámetros sísmicos de sitio
+Artículo 17.- Parámetros de sitio (S, T
+P
+y T
+L
+)
+Artículo 18.- Factor de ampliﬁ cación sísmica (C)
+CAPÍTULO III CATEGORÍA, SISTEMA ESTRUCTURAL Y REGULARIDAD DE LAS EDIFICACIONES
+Artículo 19.- Categoría de las ediﬁ caciones y factor de uso (U)
+Artículo 20.- Sistemas estructurales
+Artículo 21.- Categoría de las ediﬁ caciones y sistemas estructurales
+Artículo 22.- Sistemas estructurales y coeﬁ ciente básico de reducción de las fuerzas sísmicas (R0
+)
+Artículo 23.- Regularidad estructural
+Artículo 24.- Factores de irregularidad (I
+a
+, I
+p
+)
+Artículo 25.- Restricciones a la irregularidad
+Artículo 26.- Coeﬁ ciente de reducción de las fuerzas sísmicas,
+Artículo 27.- Sistemas de aislamiento sísmico y sistemas de disipación de energía
+CAPÍTULO IV ANÁLISIS ESTRUCTURAL
+Artículo 28.- Consideraciones generales para el análisis estructural
+Artículo 29.- Diseño y veriﬁ cación de esfuerzos admisibles
+Artículo 30.- Modelos para el análisis
+Artículo 31.- Estimación del peso (P)
+Artículo 32.- Procedimientos de análisis sísmico
+SUBCAPÍTULO 1 Análisis estático o de fuerzas equivalentes
+Artículo 33.- Consideraciones básicas para el análisis estático o de fuerzas equivalentes
+Artículo 34.- Fuerza cortante en la base
+Artículo 35.- Distribución de la fuerza sísmica en altura
+Artículo 36.- Período fundamental de vibración
+Artículo 37.- Excentricidad accidental
+Artículo 38.- Fuerzas sísmicas verticales
+SUBCAPÍTULO 2 Análisis dinámico modal espectral
+Artículo 39.- Consideración general para el análisis dinámico modal espectral
+Artículo 40.- Modos de vibración
+Artículo 41.- Aceleración espectral
+Artículo 42.- Criterios de combinación
+Artículo 43.- Criterios de combinación direccional
+Artículo 44.- Fuerza cortante mínima
+Artículo 45.- Excentricidad accidental (Efectos de torsión)
+SUBCAPÍTULO 3 Análisis dinámico tiempo-historia
+Artículo 46.- Consideraciones generales para el análisis dinámico tiempo-historia
+Artículo 47.- Registros de aceleración
+Artículo 48.- Modelo para el análisis
+Artículo 49.- Tratamiento de resultados
+CAPÍTULO V REQUISITOS DE RIGIDEZ Y RESISTENCIA
+Artículo 50.- Determinación de desplazamientos laterales
+Artículo 51.- Desplazamientos laterales relativos admisibles
+Artículo 52.- Separación entre ediﬁ cios (s)
+Artículo 53.- Redundancia estructural
+Artículo 54.- Veriﬁ cación de resistencia última
+6 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+CAPÍTULO VI ELEMENTOS NO ESTRUCTURALES, APÉNDICES Y EQUIPOS
+Artículo 55.- Elementos no estructurales
+Artículo 56.- Responsabilidad profesional
+Artículo 57.- Fuerzas de diseño
+Artículo 58.- Fuerza horizontal mínima
+Artículo 59.- Fuerzas sísmicas verticales
+Artículo 60.- Elementos no estructurales localizados en la base de la estructura, por debajo de la base y cercos
+Artículo 61.- Otras estructuras
+CAPÍTULO VII CIMENTACIONES
+Artículo 62.- Cimentación
+Artículo 63.- Presión admisible
+Artículo 64.- Momento de volteo
+Artículo 65.- Cimentaciones sobre suelos ﬂ exibles o de baja presión admisible
+CAPÍTULO VIII EVALUACIÓN, REPARACIÓN Y REFORZAMIENTO DE ESTRUCTURAS
+Artículo 66.- Criterios generales para evaluación, reparación y reforzamiento de estructuras
+Artículo 67.- Evaluación de estructuras después de un sismo
+Artículo 68.- Reparación y reforzamiento
+CAPÍTULO IX INSTRUMENTACIÓN
+Artículo 69.- Estación acelerométrica
+Artículo 70.- Estación acelerométrica en ediﬁ caciones
+Artículo 71.- Ubicación de la estación acelerométrica
+Artículo 72.- Instalación de la estación acelerométrica
+Artículo 73.- Mantenimiento
+Artículo 74.- Disponibilidad de datos
+ANEXO I PROCEDIMIENTO OPCIONAL PARA LA DETERMINACIÓN DE LAS ACCIONES SÍSMICAS
+ANEXO II ZONIFICACIÓN SÍSMICA
+ANEXO III CONTENIDO MÍNIMO PARA LA EJECUCIÓN DE ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA
+ANEXO IV DISPOSICIÓN DE LOS EQUIPOS ACELEROMÉTRICOS EN LA EDIFICACIÓN (ACELERÓMETROS PARA
+LA ESTRUCTURA)
+CAPÍTULO I
+DISPOSICIONES GENERALES
+Artículo 1.- Objeto
+Esta Norma Técnica establece las condiciones mínimas para el diseño sismorresistente de las ediﬁ caciones.
+Artículo 2.- Finalidad
+Prevenir la pérdida de vidas humanas, mantener la continuidad de los servicios básicos y minimizar los daños a la
+propiedad mediante el diseño y construcción de ediﬁ cios que tengan un buen comportamiento sísmico.
+Artículo 3.- Deﬁ niciones
+Para efectos de la aplicación de la presente Norma Técnica, entiéndase por:
+a) Cobertura liviana: Cobertura ubicada en ediﬁ caciones de un (01) nivel o en el último techo de una ediﬁ cación, cuya
+sobrecarga sea menor o igual a 0,30 kPa (30 kgf/m2).
+b) Diafragma rígido: Elemento horizontal que, en el análisis estructural, se idealiza sin deformación en su plano,
+permitiendo distribuir las fuerzas laterales a los elementos verticales según su rigidez relativa.
+c) Ductilidad: Capacidad de deformación de la estructura más allá del rango elástico.
+d) Elementos no estructurales: Son aquellos elementos que, estando conectados o no al sistema resistente a
+fuerzas horizontales, aportan masa al sistema, pero su aporte a la rigidez no es signiﬁ cativo.
+e) Estación acelerométrica: Espacio en la ediﬁ cación (suelo y/o azotea) dotada de energía eléctrica e internet. Su
+acceso es restringido para su operación y mantenimiento.
+f) Estudios de sitio: Estudios similares a la microzoniﬁ cación, aunque no necesariamente en toda su extensión.
+g) Material tradicional: Adobe, tapial, madera y bambú, cumpliéndose con lo establecido en las Normas Técnicas
+E.080 Diseño de construcción de tierra reforzada, E.010 Madera y E.100 Bambú del RNE, según corresponda.
+h) Microzoniﬁ cación sísmica: Estudios interdisciplinarios para propósitos de la ingeniería sismorresistente que
+investigan los efectos de sismos y fenómenos asociados como licuación de suelos, deslizamientos, tsunamis y
+otros, sobre el área de interés.
+i) Pequeña construcción rural: Ediﬁ cación construida con materiales tradicionales y ubicada en un caserío.
+j) Sistemas de transferencia: Estructuras de losas y vigas que transmiten las fuerzas y momentos desde elementos
+verticales discontinuos hacia otros del piso inferior
+7
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Artículo 4.- Ámbito de aplicación
+La presente Norma Técnica es de cumplimiento obligatorio a nivel nacional y se aplica a:
+a) El diseño de ediﬁ caciones nuevas.
+b) El reforzamiento de ediﬁ caciones existentes y la reparación de estructuras que resulten dañadas por la acción de
+los sismos (Capítulo VIII).
+Artículo 5.- Nomenclatura
+Para efectos de la presente Norma Técnica, se consideran las siguientes nomenclaturas:
+Nº Nomenclatura Signiﬁ cado
+1 C Factor de ampliﬁ cación sísmica.
+2 C
+T
+Coeﬁ ciente para estimar el período fundamental de un ediﬁ cio.
+3 d
+i
+Desplazamientos laterales del centro de masa del nivel “i” en traslación pura (restringiendo los
+giros en planta) debido a las fuerzas f
+i
+.
+4 e
+i
+Excentricidad accidental en el nivel “i”.
+5 F
+i
+Fuerza sísmica horizontal en el nivel “i”.
+6 g Aceleración de la gravedad.
+7 h
+i
+Altura del nivel “i” con relación al nivel del terreno.
+8 h
+ei
+Altura del entrepiso “i”.
+9 h
+n
+Altura total de la ediﬁ cación en metros.
+10 H/V Cociente espectral horizontal/vertical.
+11 M
+ti
+Momento torsor accidental en el nivel “i”.
+12 m Número de modos usados en la combinación modal.
+13 n Número de pisos del ediﬁ cio.
+14 P Peso total de la ediﬁ cación.
+15 P
+i
+Peso del nivel “i”.
+16 R Coeﬁ ciente de reducción de las fuerzas sísmicas.
+17 r Respuesta estructural máxima elástica esperada.
+18 r
+i
+Respuestas elásticas máximas correspondientes al modo “i”.
+19 S Factor de ampliﬁ cación del suelo.
+20 S
+a
+Espectro de pseudo aceleraciones.
+21 T
+Período fundamental de la estructura para el análisis estático o período de un modo en el
+análisis dinámico.
+22 T
+P
+Período que deﬁ ne la plataforma del factor C.
+23 T
+L
+Período que deﬁ ne el inicio de la zona del factor C con desplazamiento constante.
+24 T
+s
+Periodo predominante de vibración del terreno.
+25 U Factor de uso o importancia.
+26 V Fuerza cortante en la base de la estructura.
+27 Z Factor de zona.
+28 R
+0
+Coeﬁ ciente básico de reducción de las fuerzas sísmicas.
+29 I
+a
+Factor de irregularidad en altura.
+30 I
+p
+Factor de irregularidad en planta.
+31 f
+i
+Fuerza lateral en el nivel “i”.
+32 V
+ഥ
+s͵Ͳ Velocidad promedio de propagación de las ondas de corte dentro de los 30m de profundidad.
+33 N
+ഥ
+60 Promedio ponderado de los ensayos de penetración estándar.
+34 S
+ത
+u Promedio ponderado de la resistencia al corte en condición no drenada.
+Artículo 6.- Concepción estructural sismorresistente
+Debe tomarse en cuenta la importancia de los siguientes aspectos:
+a) Simetría, tanto en la distribución de masas como de rigideces.
+b) Peso mínimo, especialmente en los pisos altos.
+c) Selección y uso adecuado de los materiales de construcción.
+d) Resistencia adecuada, en ambas direcciones principales, frente a las cargas laterales.
+e) Continuidad estructural, tanto en planta como en elevación.
+8 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+f) Ductilidad
+g) Deformación lateral limitada.
+h) Inclusión de líneas sucesivas de resistencia (redundancia estructural).
+i) Consideración de las condiciones locales.
+j) Buena práctica constructiva y supervisión estructural rigurosa.
+Artículo 7.- Consideraciones para el diseño y comportamiento estructural
+7.1. Los diseños sismorresistentes deben cumplir las siguientes condiciones:
+a) La estructura no debería colapsar ni causar daños graves a las personas, pudiendo presentar daños
+importantes, debido a movimientos sísmicos caliﬁ cados como severos para el lugar del proyecto.
+b) La estructura debería soportar movimientos del suelo caliﬁ cados como moderados para el lugar del proyecto,
+pudiendo experimentar daños reparables dentro de límites aceptables, según lo establecido en el Capítulo VIII
+de la presente Norma Técnica.
+c) Para las ediﬁ caciones esenciales, deﬁ nidas en la Tabla Nº 7 de la presente Norma Técnica, se debe cumplir
+las consideraciones especiales establecidas en la presente Norma Técnica, las que están orientadas a que
+permanezcan en condiciones operativas luego de un sismo severo.
+7.2. El diseño estructural y la construcción de las ediﬁ caciones desarrolladas bajo la presente Norma Técnica deben
+cumplir con los siguientes criterios generales:
+a) Toda ediﬁ cación y cada una de sus partes debe ser diseñada y construida para resistir las solicitaciones
+sísmicas prescritas en esta Norma Técnica, cumpliendo con los requerimientos de las Normas Técnicas del
+Reglamento Nacional de Ediﬁ caciones (RNE) que correspondan.
+b) Las ediﬁ caciones pueden tener incursiones inelásticas frente a solicitaciones sísmicas severas, por lo que las
+fuerzas sísmicas de diseño prescritas en esta Norma Técnica son menores que las solicitaciones máximas
+elásticas.
+c) Se debe considerar el posible efecto de los tabiques, parapetos y otros elementos adosados en el
+comportamiento sísmico de la estructura. El análisis, el detallado del refuerzo y el anclaje deben hacerse
+acorde con esta consideración.
+d) No es necesario considerar simultáneamente los efectos de sismo y viento.
+7.3. Mientras no se cuente con normas nacionales especíﬁ cas para estructuras tales como reservorios, tanques, silos,
+puentes, torres de transmisión, muelles, estructuras hidráulicas, túneles y todas aquellas cuyo comportamiento
+sísmico diﬁ era del de las ediﬁ caciones se deben utilizar los valores Z y S del Capítulo II de la presente Norma
+Técnica ampliﬁ cados de acuerdo a la importancia de la estructura, debiendo ser sustentado por el proyectista
+tomando en cuenta estándares internacionales.
+Artículo 8.- Aprobación de otros sistemas estructurales
+Los sistemas estructurales diferentes a los establecidos en el artículo 20 de la presente Norma Técnica deben ser
+aprobados por el Ministerio de Vivienda, Construcción y Saneamiento como un Sistema Constructivo No Convencional,
+conforme a la regulación vigente.
+Artículo 9.- Presentación del proyecto
+9.1. Los planos, la memoria descriptiva, la memoria de cálculo y las especiﬁ caciones técnicas del proyecto estructural
+son ﬁ rmados por el ingeniero civil colegiado responsable del diseño, quien es el único autorizado para aprobar
+cualquier modiﬁ cación a los mismos.
+9.2. Los planos del proyecto estructural incluyen la siguiente información:
+a) Sistema estructural sismorresistente.
+b) Período fundamental de vibración en ambas direcciones principales.
+c) Parámetros para deﬁ nir la fuerza sísmica o el espectro de diseño.
+d) Fuerza cortante en la base empleada para el diseño, en ambas direcciones.
+e) Desplazamiento máximo del último nivel y el máximo desplazamiento relativo de entrepiso.
+CAPÍTULO II
+PELIGRO SÍSMICO
+SUBCAPÍTULO 1
+Zoniﬁ cación sísmica
+Artículo 10.- Zoniﬁ cación
+10.1. La zoniﬁ cación resulta de la distribución espacial de la sismicidad observada, las características generales
+de los movimientos sísmicos y la atenuación de éstos con la distancia epicentral, así como en la información
+neotectónica.
+10.2. El territorio nacional se divide en cuatro zonas, como se muestra en la siguiente ﬁ gura:
+9
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Figura Nº 1. Zonas sísmicas
+10.3. El Anexo II de la presente Norma Técnica contiene el listado de las provincias y distritos que corresponden a cada
+zona.
+Artículo 11.- Factores de zona “Z”
+11.1. A cada zona se asigna un factor Z según se indica en la Tabla Nº 1 de la presente Norma Técnica. Este factor
+representa la aceleración máxima horizontal en suelo rígido con una probabilidad de 10% de ser excedida en 50
+años.
+11.2. El factor Z se expresa como una fracción de la aceleración de la gravedad.
+Tabla Nº 1
+Factores de zona “Z”
+Zona Z
+4 0,45
+3 0,35
+2 0,25
+1 0,10
+SUBCAPÍTULO 2
+Caracterización sísmica local
+Artículo 12.- Microzoniﬁ cación sísmica
+12.1. Los estudios de microzoniﬁ cación sísmica deben suministrar información sobre la posible modiﬁ cación de las
+acciones sísmicas por causa de las condiciones locales y otros fenómenos naturales, así como las limitaciones y
+exigencias que como consecuencia de los estudios se considere para el diseño, construcción de ediﬁ caciones y
+otras obras.
+12.2. Se deben realizar estudios de microzoniﬁ cación para los siguientes casos:
+10 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+a) Zonas de expansión de áreas urbanas.
+b) Reconstrucción de áreas urbanas con daños parciales o totales ocasionados por fenómenos naturales.
+12.3. Se debe aplicar lo establecido en el Anexo III de la presente Norma Técnica.
+Artículo 13.- Estudios de sitio
+13.1. Los estudios de sitio tienen como objetivo principal determinar los parámetros de diseño, están limitados al lugar
+del proyecto y suministran información sobre la posible modiﬁ cación de las acciones sísmicas y otros fenómenos
+naturales por las condiciones locales.
+13.2. No deben emplearse parámetros de diseño inferiores a los indicados en la presente Norma Técnica.
+13.3. Los estudios de sitio se realizan, entre otros casos, en grandes complejos industriales, industria de explosivos,
+productos químicos inﬂ amables y contaminantes.
+SUBCAPÍTULO 3
+Condiciones geotécnicas
+Artículo 14.- Perﬁ les de suelo
+14.1. Los perﬁ les de suelo se clasiﬁ can en función a la velocidad promedio de propagación de las ondas de corte
+(V
+ഥ
+s͵Ͳ), alternativamente, para suelos granulares, el promedio ponderado de los ܰ
+ഥ
+଺଴ obtenidos mediante un
+ensayo de penetración estándar (SPT), y para suelos cohesivos, el promedio ponderado de la resistencia al
+corte en condición no drenada (ܵҧ
+௨). Estas propiedades se determinan para los 30 m superiores del perﬁ l de
+suelo medidos desde el nivel del fondo de cimentación, establecido en el artículo 15 de la presente Norma
+Técnica.
+14.2. Para las ediﬁ caciones con categorías A y B en la Zona 4 (Suelos S
+1
+, S
+2
+, S
+3
+y S
+4
+) se determina el periodo predominante
+de vibración del terreno (T
+s
+), a partir de mediciones de vibraciones ambientales y la relación espectral H/V.
+14.3. Para los suelos predominantemente granulares, se calcula ܰ
+ഥ
+଺଴ tomando en cuenta solamente los espesores de
+cada uno de los estratos granulares.
+14.4. Para los suelos predominantemente cohesivos, la resistencia al corte en condición no drenada ܵҧ
+௨ se calcula como
+el promedio ponderado de los valores correspondientes a cada estrato cohesivo.
+14.5. Para suelos heterogéneos (cohesivos y granulares) se debe tomar el tipo de perﬁ l más desfavorable cuando se
+obtienen perﬁ les de suelos distintos a partir de:
+a) ܰ
+ഥ
+଺଴ para los estratos con suelos granulares
+b) ܵҧ
+௨ para los estratos con suelos cohesivos
+14.6. Los tipos de perﬁ les de suelo son:
+Tabla Nº 2
+Tipos de perﬁ les de suelo
+Perﬁ l Nombre Descripción
+S
+0
+Roca Rocas con diferentes grados de fracturación y las rocas sanas con velocidad de
+propagación de ondas de corte V
+ഥ
+s͵Ͳ mayor o igual que 800 m/s.
+Las mediciones corresponden al sitio del proyecto o a perﬁ les de la misma roca en
+la misma formación con igual o mayor intemperismo o fracturas. Cuando se conoce
+que la roca dura es continua hasta una profundidad de 30 m, las mediciones de la
+velocidad de las ondas de corte superﬁ ciales pueden ser usadas para estimar el
+valor de V
+ഥ
+s͵Ͳ.
+S
+1
+Suelos muy rígidos Suelos muy rígidos con velocidades de propagación de onda de corte V
+ഥ
+s͵Ͳ, mayor
+o igual que 550 m/s y menor que 800 m/s, incluyéndose los casos en los que se
+cimienta sobre:
+- Grava arenosa muy densa con presencia de bolonería.
+- Arena muy densa o grava arenosa densa, con valores de SPT ܰ
+ഥ
+଺଴, mayor que
+50.
+- Arcilla muy compacta (de espesor menor que 20 m), con una resistencia al corte
+en condición no drenada ܵҧ
+௨ mayor que 100 kPa (1kgf/cm2) y con un incremento
+gradual de las propiedades mecánicas con la profundidad.
+11
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Tabla Nº 2
+Tipos de perﬁ les de suelo
+Perﬁ l Nombre Descripción
+S
+2
+Suelos rígidos Suelos rígidos, con velocidades de propagación de onda de corte V
+ഥ
+s͵Ͳ, mayor o igual
+que 350 m/s y menor que 550 m/s, incluyéndose los casos en los que se cimienta
+sobre:
+- Arena densa, gruesa a media, o grava arenosa medianamente densa, con valores
+del SPT ܰ
+ഥ
+଺଴, entre 30 y 50.
+- Arcilla muy compacta (de espesor menor que 20 m), con una resistencia
+al corte en condición no drenada ܵҧ
+௨ entre 80 kPa (0,8 kgf/cm2) y 100 kPa
+(1 kgf/cm2), y con un incremento gradual de las propiedades mecánicas con
+la profundidad.
+S
+3
+Suelos intermedios Suelos ﬂ exibles con velocidades de propagación de onda de corte V
+ഥ
+s͵Ͳ, mayor o igual
+que 200 m/s y menor que 350 m/s, incluyéndose los casos en los que se cimienta
+sobre:
+- Arena media a ﬁ na con valores del SPT ܰ
+ഥ
+଺଴ entre 15 y 30.
+- Suelo cohesivo, con una resistencia al corte en condiciones no drenada ܵҧ
+௨, entre
+50 kPa (0,5 kgf/cm2) y 80 kPa (0,8 kgf/cm2) y con un incremento gradual de las
+propiedades mecánicas con la profundidad.
+S
+4
+Suelos blandos Suelos ﬂ exibles con velocidades de propagación de onda de corte V
+ഥ
+s͵Ͳ, menor que
+200 m/s, incluyéndose los casos en los que se cimienta sobre:
+- Arena media a ﬁ na con valores del SPT ܰ
+ഥ
+଺଴ menor que 15.
+- Suelo cohesivo blando, con una resistencia al corte en condición no drenada ܵҧ
+௨
+, menor a 50 kPa (0,5 kgf/cm2) y con un incremento gradual de las propiedades
+mecánicas con la profundidad.
+- Cualquier perﬁ l que no corresponda al tipo S
+5
+y que tenga más de 3 m de suelo
+con las siguientes características: índice de plasticidad P
+I
+mayor que 20, contenido
+de humedad ω mayor que 40%, resistencia al corte en condición no drenada ܵҧ
+௨
+menor que 25 kPa (0,25 kgf/cm2).
+S
+5
+Suelos
+excepcionales
+Suelos y condiciones:
+- Suelos potencialmente licuables
+- Suelos excepcionalmente ﬂ exibles
+- Suelos susceptibles de densiﬁ cación por vibración
+- Suelos colapsables
+- Suelos orgánicos
+- Turba
+- Suelos ﬁ nos saturados
+- Sitios donde las condiciones geológicas y/o topográﬁ cas son particularmente
+desfavorables
+- Sitios donde pueden existir fenómenos de ampliﬁ cación local
+- Estos casos no están cubiertos en la clasiﬁ cación establecida en la Tabla Nº2 de
+la presente Norma Técnica. Se prohíbe las construcciones apoyadas sobre estos
+perﬁ les, salvo que, se efectúe un estudio especíﬁ co para el sitio, en el cual se
+debe considerar los mejoramientos en el estrato del perﬁ l.
+14.7. La Tabla Nº 3 de la presente Norma Técnica resume los intervalos para los tipos de perﬁ les de suelo.
+Tabla N° 3
+Clasificación de los perfiles de suelo
+Perfil V
+ഥ
+s͵
+͵Ͳ
+ࡺ
+ഥ
+૟૙
+ࡿ
+ഥ
+࢛
+S0
+≥ 800 m/s - -
+S1
+≥ 550 m/s a < 800 m/s > 50 >100 kPa
+S2
+≥ 350 m/s a < 550 m/s 30 a 50 80 kPa - 100 kPa
+S3
+≥ 200 m/s a < 350 m/s 15 a 30 50 kPa - 80 kPa
+S4
+< 200 m/s < 15 < 50 kPa
+14.8. Para clasiﬁ car un perﬁ l de suelo se debe utilizar la Tabla Nº 3 de la presente Norma Técnica. Adicionalmente,
+para el caso de ediﬁ caciones categorías A y B en la Zona 4 (Suelos S
+1
+, S
+2
+, S
+3
+y S
+4
+), se debe veriﬁ car que el periodo
+predominante determinado para el sitio,
+ܶ௦, obtenido mediante el método de razones espectrales H/V, sea menor
+12 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+que el período 0.65
+ܶ௉ de la Tabla Nº5 de la presente Norma Técnica. En el caso que
+ܶ௦ sea mayor que 0.65
+ܶ௉, debe tomarse el perﬁ l del suelo siguiente más desfavorable al obtenido de la Tabla Nº 2 de la presente Norma
+Técnica, con el límite superior de
+ܶ௉ o desarrollar un estudio de sitio especíﬁ co de conformidad al artículo 13 de la
+presente Norma Técnica.
+Artículo 15.- Determinación de los perﬁ les de suelo
+15.1. Las expresiones de los numerales del presente artículo se aplican a los 30 m superiores del perﬁ l de suelo, medidos
+desde el nivel del fondo de cimentación.
+15.2. La velocidad promedio de propagación de las ondas de corte (V
+ഥ
+s͵Ͳ) se determina con la siguiente fórmula:
+ܸ
+ത
+௦ଷ଴
+ൌ
+෍ ݀௜
+௡
+௜ୀଵ
+෍ ൬
+݀௜
+ܸ௦௜
+൰
+௡
+௜ୀଵ
+Donde el subíndice i se reﬁ ere a uno cualquiera de los n estratos con distintas características, d
+i
+es el espesor de
+cada uno de los n estratos y V
+si
+es la correspondiente velocidad de ondas de corte (m/s).
+15.3. El periodo predominante de vibración (
+ܶ௦) del depósito de suelo es estimado a partir de mediciones de vibraciones
+ambientales y la evaluación de la razón espectral Horizontal/Vertical (H/V).
+15.4. La medición de vibraciones ambientales para evaluar la razón espectral Horizontal/Vertical (H/V) requiere un
+mínimo de 3 mediciones de al menos 30 minutos de duración cada una. La interpretación de estas mediciones
+debe seguir los criterios sugeridos en el documento por el proyecto de investigación europeo SESAME (Site eﬀ ects
+assessment using ambient excitations) y se debe seleccionar aquella que resulte en una clasiﬁ cación sísmica más
+conservadora.
+15.5. El promedio ponderado del ensayo estándar de penetración (ܰ
+ഥ
+଺଴) se calcula en función a los estratos con suelos
+granulares en los 30 m superiores del perﬁ l:
+¦
+¦
+¸
+¸
+¹
+·
+¨
+¨
+©
+§
+m
+i i
+i
+m
+i
+i
+N
+d
+d
+N
+1 60
+1
+60
+Donde el subíndice i se reﬁ ere a uno cualquiera de los n estratos con distintas características, m se reﬁ ere al
+número de estratos con suelos granulares, d
+i
+es el espesor de cada uno de los m estratos con suelo granular y ܰ଺଴௜
+es el correspondiente valor corregido del SPT.
+15.6. El promedio ponderado de la resistencia al corte en condición no drenada (ܵҧ
+௨) se calcula en función a los estratos
+con suelos cohesivos en los 30 m superiores del perﬁ l:
+¦
+¦
+¸
+¸
+¹
+·
+¨
+¨
+©
+§
+k
+i i
+u
+i
+k
+i
+i
+u
+s
+d
+d
+s
+1
+1
+Donde el subíndice i se reﬁ ere a uno cualquiera de los n estratos con distintas características, k al número de
+estratos con suelos cohesivos, d
+i
+es el espesor de cada uno de los k estratos con suelo cohesivo y ܵ௨௜ es la
+correspondiente resistencia al corte en condición no drenada (kPa).
+Artículo 16.- Consideraciones geotécnicas adicionales
+16.1. Todo proyecto de ediﬁ cación debe contar con Estudio de Mecánica de Suelos (EMS) o Informe Técnico de
+Suelos (ITS), según sea el caso, conforme a lo indicado en la Norma Técnica E.050 Suelos y Cimentaciones
+del RNE
+16.2. En el caso de estructuras con cimentaciones profundas a base de pilotes, el perﬁ l de suelo es el que corresponda
+a los estratos en los 30 m por debajo del extremo superior de los pilotes.
+13
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+SUBCAPÍTULO 4
+Parámetros sísmicos de sitio
+Artículo 17.- Parámetros de sitio (S, T
+P
+y T
+L
+)
+Se debe seleccionar el tipo de perﬁ l que mejor describa las condiciones locales, utilizando los correspondientes valores
+del factor de ampliﬁ cación del suelo S y de los períodos ܶ௉ y ܶ௅ dados en las Tablas Nº 4 y Nº 5 de la presente Norma
+Técnica:
+Tabla N° 4
+Factor de suelo “S”
+Suelo
+Zona
+ࡿ૙
+ࡿ૚
+ࡿ
+૛
+ሺכሻ ࡿ
+૜
+ሺכሻ ࡿ૝
+Z4
+0,80 1,00 1,00 – 1,10 1,10 – 1,20
+Requiere un análisis
+de respuesta de sitio
+Z3
+0,80 1,00 1,00 – 1,15 1,15 – 1,20 1,30
+Z2
+0,80 1,00 1,00 – 1,30 1,30 – 1,40 1,70
+Z1
+0,80 1,00 1,00 – 1,30 1,30 – 1,60 2,40
+Tabla N° 5
+Períodos “TP” y “TL
+”
+Suelo
+Periodo
+ࡿ૙
+ࡿ૚
+ࡿ
+૛
+ሺכሻ ࡿ
+૜
+ሺכሻ ࡿ૝
+TP
+(s) 0,3 0,4 0,4 – 0,6 0,6 – 0,9 1,2
+TL
+(s) 3,0 2,5 2,5 – 2,0 2,0 – 1,6 1,6
+(*) Los valores de S, T
+P
+y T
+L
+deben deﬁ nirse interpolando linealmente entre los extremos del intervalo en función de las
+velocidades de ondas de corte, señaladas en la Tabla Nº 3 de la presente Norma Técnica. En caso no se disponga
+información relativa a la velocidad de ondas de corte (V
+ഥ
+s͵Ͳ), se debe considerar el mayor valor del intervalo para el
+factor “S”, T
+P
+= 0,6 s y T
+L
+= 2,0 s para suelos S
+2
+y T
+P
+= 0,9 s y T
+L
+= 1,60 s para suelos S
+3
+.
+Artículo 18.- Factor de ampliﬁ cación sísmica (C)
+18.1. De acuerdo a las características de sitio, se determina el factor de ampliﬁ cación sísmica (C) conforme la siguiente
+tabla:
+Tabla N° 6
+Determinación del factor de amplificación sísmica (C)
+Período fundamental
+de la estructura (T)
+Factor de amplificación
+sísmica (C)
+ܶ ൏ Ͳǡʹܶ௉
+ܥ ൌ ͳ ൅ ͹ǡͷ ή ൬
+ܶ
+ܶ௉
+൰
+Ͳǡʹܶ௉
+൑ ܶ ൑ ܶ௉
+ܥ ൌ ʹǡͷ
+ܶ௉
+൏ ܶ ൏ ܶ௅
+ܥ ൌ ʹǡͷ ή ൬
+ܶ௉
+ܶ
+൰
+ܶ ൐ ܶ௅
+ܥ ൌ ʹǡͷ ή൬
+ܶ௉
+ήܶ௅
+ܶଶ
+൰
+18.2. Este coeﬁ ciente “C” se interpreta como el factor de ampliﬁ cación de la aceleración estructural respecto de la
+aceleración en el suelo.
+18.3. Para determinar la fuerza cortante basal del análisis estático, establecido por el artículo 34 de la presente Norma
+Técnica, se debe usar un valor de C igual a 2,5 en todo el rango de Ͳ ൑ ܶ ൑ ܶ௉.
+CAPÍTULO III
+CATEGORÍA, SISTEMA ESTRUCTURAL Y REGULARIDAD
+DE LAS EDIFICACIONES
+Artículo 19.- Categoría de las ediﬁ caciones y factor de uso (U)
+19.1. Cada estructura está clasiﬁ cada conforme a las categorías establecidas en la Tabla Nº 7 de la presente Norma
+Técnica; el factor de uso o importancia (U) se asigna en función de la categoría correspondiente:
+14 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Tabla Nº 7
+Categoría de las ediﬁ caciones y factor “U”
+Categoría Descripción Factor U
+A
+Ediﬁ caciones
+esenciales
+A
+1
+: Establecimientos del sector salud (públicos y privados) del segundo y tercer nivel,
+según lo establecido por el Ministerio de Salud.
+Ver nota
+A
+2
+: Ediﬁ caciones esenciales para el manejo de las emergencias, el funcionamiento del
+gobierno y en general aquellas ediﬁ caciones que puedan servir de refugio después de un
+desastre. Se incluyen las siguientes ediﬁ caciones:
+- Establecimientos de salud no comprendidos en la categoría A
+1
+.
+- Puertos, aeropuertos, estaciones ferroviarias de pasajeros, sistemas masivos de
+transporte, locales municipales, centrales de comunicaciones.
+- Estaciones de bomberos, cuarteles de las fuerzas armadas y policía.
+- Instalaciones de generación y transformación de electricidad, reservorios y plantas de
+tratamiento de agua.
+- Instituciones educativas, institutos superiores tecnológicos y universidades.
+- Ediﬁ caciones cuyo colapso puede representar un riesgo adicional, tales como grandes
+hornos, fábricas y depósitos de materiales inﬂ amables o tóxicos.
+- Ediﬁ cios que almacenen archivos e información esencial del Estado.
+1,5
+B
+Ediﬁ caciones
+importantes
+- Ediﬁ caciones donde se reúnen gran cantidad de personas tales como cines, teatros,
+estadios, coliseos, centros comerciales, terminales de buses de pasajeros, establecimientos
+penitenciarios, o que guardan patrimonios valiosos como museos y bibliotecas.
+- Depósitos de granos y otros almacenes importantes para el abastecimiento.
+1,3
+C
+Ediﬁ caciones
+comunes
+Ediﬁ caciones comunes tales como: viviendas, oﬁ cinas, hoteles, restaurantes, depósitos e
+instalaciones industriales cuya falla no acarree peligros adicionales de incendios o fugas
+de contaminantes.
+1,0
+Nota: Las nuevas ediﬁ caciones de categoría A
+1
+tienen aislamiento sísmico en la base cuando se encuentren en las
+zonas sísmicas 4 y 3, en cuyo caso debe considerarse U = 1. Para los establecimientos de salud del primer nivel
+de atención, la entidad responsable puede decidir el uso de aislamiento sísmico. En las zonas sísmicas 1 y 2, la
+entidad responsable puede decidir si usa o no aislamiento sísmico. Si no se utiliza aislamiento sísmico en las zonas
+sísmicas 1 y 2, el valor de U es como mínimo 1,5.
+19.2. Para ediﬁ caciones con áreas de usos combinados, se debe usar el mayor valor del factor de uso U, siempre que el
+área correspondiente a dicho uso supere el 15% del área total de la ediﬁ cación sin incluir sótanos.
+19.3. Para construcciones provisionales tales como almacenes de obra, módulos de casetas, entre otras de naturaleza
+temporal, la determinación del factor de uso U queda bajo responsabilidad del proyectista, quien debe proveer a
+estas ediﬁ caciones la resistencia y rigidez adecuadas frente a acciones laterales.
+Artículo 20.- Sistemas estructurales
+Los sistemas estructurales según el material estructural se establecen en la siguiente tabla:
+Tabla Nº 8
+Sistemas estructurales
+Material
+estructural
+Descripción Sistema estructural
+Estructuras de
+concreto armado
+Todos los sistemas estructurales
+de concreto armado cumplen con
+lo establecido en la Norma Técnica
+E.060 Concreto Armado del RNE
+Pórticos
+Por lo menos el 80% de la fuerza cortante en la base actúa
+sobre las columnas de los pórticos. En caso se tengan muros
+estructurales, éstos se diseñan para resistir una fracción de
+la acción sísmica total de acuerdo con su rigidez.
+Muros estructurales
+La resistencia sísmica está dada predominantemente por
+muros dúctiles sobre los que actúa por lo menos el 70% de
+la fuerza cortante en la base.
+Dual
+Las acciones sísmicas son resistidas por una combinación
+de pórticos y muros estructurales. La fuerza cortante que
+toman los muros es mayor que 20% y menor que 70% del
+cortante en la base del ediﬁ cio.
+Ediﬁ caciones de muros de ductilidad limitada (EMDL)
+La resistencia sísmica y de cargas de gravedad está dada
+por una alta densidad de muros de concreto armado (mayor
+a 2.5% por piso) de espesores reducidos, como mínimo de
+10 cm, en los que se prescinde de extremos conﬁ nados y
+el refuerzo vertical se dispone en una sola capa. Con este
+sistema se puede construir como máximo cinco (05) pisos.
+15
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Tabla Nº 8
+Sistemas estructurales
+Material
+estructural
+Descripción Sistema estructural
+Estructuras de
+acero
+Todos los sistemas estructurales de
+acero cumplen con lo establecido en
+la Norma Técnica E.090 Estructuras
+Metálicas del RNE
+Pórticos especiales resistentes a momentos (SMF)
+Proveen una alta capacidad de deformación inelástica
+a través de la ﬂ uencia por ﬂ exión de las vigas y limitada
+ﬂ uencia en las zonas de panel de las columnas. Las
+columnas son diseñadas para tener una resistencia mayor
+que las vigas cuando estas incursionan en la zona de
+endurecimiento por deformación.
+Pórticos intermedios resistentes a momentos (IMF)
+Proveen una limitada capacidad de deformación inelástica
+en sus elementos y conexiones.
+Pórticos ordinarios resistentes a momentos (OMF)
+Proveen una mínima capacidad de deformación inelástica
+en sus elementos y conexiones.
+Pórticos especiales concéntricamente arriostrados
+(SCBF)
+Proveen una alta capacidad de deformación inelástica a
+través de la resistencia post-pandeo en los arriostres en
+compresión y ﬂ uencia en los arriostres en tracción.
+Pórticos ordinarios concéntricamente arriostrados
+(OCBF)
+Proveen una limitada capacidad de deformación inelástica
+en sus elementos y conexiones.
+Pórticos excéntricamente arriostrados (EBF)
+Proveen una alta capacidad de deformación inelástica
+principalmente por ﬂ uencia en ﬂ exión o corte en la zona
+entre arriostres.
+Estructuras de
+albañilería
+Sistema estructural cuyos elementos sismorresistentes son muros a base de unidades de
+albañilería de arcilla o concreto, y cumplen con lo establecido en la Norma Técnica E.070
+Albañilería del RNE.
+Para efectos de esta Norma Técnica no se hace diferencia entre estructuras de albañilería conﬁ nada
+o de albañilería armada.
+Estructuras de
+madera
+Sistema estructural cuyos elementos sismorresistentes son principalmente a base de madera, y
+cumplen con lo establecido en la Norma Técnica E.010 Madera del RNE.
+Estructuras de
+tierra
+Sistema estructural cuyos elementos sismorresistentes son muros a base de unidades de albañilería
+de tierra o tierra apisonada in situ, y cumplen con lo previsto en la Norma Técnica E.080 Diseño y
+construcción con tierra reforzada del RNE.
+Artículo 21.- Categoría de las ediﬁ caciones y sistemas estructurales
+21.1. De acuerdo a su categoría y la zona donde se ubique, la ediﬁ cación se proyecta empleando el sistema estructural
+que se indica en la Tabla Nº 8 de la presente Norma Técnica y respetando las restricciones a la irregularidad de la
+Tabla Nº 13 de la presente Norma Técnica, conforme lo establecido en la siguiente tabla:
+Tabla Nº 9
+Categoría y sistema estructural de las ediﬁ caciones
+Categoría de la
+ediﬁ cación
+Zona Sistema estructural
+A
+1
+4 y 3 Aislamiento sísmico con cualquier sistema estructural.
+2 y 1
+Estructuras de acero tipo SCBF y EBF.
+Estructuras de concreto: sistema dual, muros de concreto armado.
+Albañilería armada o conﬁ nada.
+A
+2
+(*)
+4, 3 y 2
+Estructuras de acero tipo SCBF y EBF.
+Estructuras de concreto: sistema dual, muros de concreto armado.
+Albañilería armada o conﬁ nada.
+1 Cualquier sistema.
+16 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Tabla Nº 9
+Categoría y sistema estructural de las ediﬁ caciones
+Categoría de la
+ediﬁ cación
+Zona Sistema estructural
+B
+4, 3 y 2
+Estructuras de acero tipo SMF, IMF, SCBF, OCBF y EBF.
+Estructuras de concreto: Pórticos, sistema dual, muros de concreto armado.
+Albañilería armada o conﬁ nada.
+Estructuras de madera.
+1 Cualquier sistema.
+C 4, 3, 2 y 1 Cualquier sistema.
+(*) Para pequeñas construcciones rurales, como escuelas y postas médicas, se puede usar materiales tradicionales
+siguiendo las disposiciones de las normas correspondientes a dichos materiales.
+21.2. Para ediﬁ caciones con cobertura liviana se permite usar cualquier sistema estructural.
+Artículo 22.- Sistemas estructurales y coeﬁ ciente básico de reducción de las fuerzas sísmicas (R
+0
+)
+22.1. Los sistemas estructurales se clasiﬁ can según los materiales usados y el sistema de estructuración sismorresistente
+en cada dirección de análisis, tal como se indica en la siguiente tabla:
+Tabla Nº 10
+Sistemas estructurales y R
+0
+Sistema Estructural
+Coeﬁ ciente básico de
+reducción R
+0
+(*)
+Acero:
+Pórticos Especiales Resistentes a Momentos (SMF) 8
+Pórticos Intermedios Resistentes a Momentos (IMF) 5
+Pórticos Ordinarios Resistentes a Momentos (OMF) 4
+Pórticos Especiales Concéntricamente Arriostrados (SCBF) 7
+Pórticos Ordinarios Concéntricamente Arriostrados (OCBF) 4
+Pórticos Excéntricamente Arriostrados (EBF) 8
+Concreto Armado:
+Pórticos 8
+Dual 7
+De muros estructurales 6
+Muros de ductilidad limitada 3.5
+Albañilería Armada o Conﬁ nada 3
+Madera 7 (**)
+(*) Estos coeﬁ cientes se aplican únicamente a estructuras en las que los elementos verticales y horizontales permitan
+la disipación de la energía manteniendo la estabilidad de la estructura.
+(**) Para diseño por esfuerzos admisibles.
+22.2. Cuando en la dirección de análisis, la ediﬁ cación presente más de un sistema estructural, se toma el menor
+coeﬁ ciente R
+0
+que corresponda.
+22.3. Para estructuras tipo péndulo invertido, se debe usar un valor de R
+0
+= 2.5.
+22.4. No se permite construcciones de tierra en suelos S
+4
+y S
+5
+.
+Artículo 23.- Regularidad estructural
+23.1. Las estructuras se clasiﬁ can como regulares o irregulares para los ﬁ nes siguientes:
+a) Cumplir las restricciones de la Tabla Nº 13 de la presente Norma Técnica.
+b) Establecer los procedimientos de análisis.
+c) Determinar el coeﬁ ciente R de reducción de fuerzas sísmicas.
+23.2. Las estructuras que en su conﬁ guración resistente a cargas laterales no presentan ninguna de las irregularidades
+indicadas en las Tablas Nº 11 y Nº12 de la presente Norma Técnica, se deben considerar regulares y con valores
+de I
+a
+e I
+p
+iguales a 1,0.
+17
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+23.3. Las estructuras que en su conﬁ guración estructural presenta una o más irregularidades de las indicadas en las
+Tablas Nº 11 y Nº 12 de la presente Norma Técnica, se deben considerar irregulares.
+Artículo 24.- Factores de irregularidad (I
+a
+, I
+p
+)
+24.1. El factor I
+a
+se determina como el menor de los valores de la Tabla Nº 11 de la presente Norma Técnica correspondiente
+a las irregularidades estructurales existentes en altura en las dos direcciones de análisis.
+24.2. El factor I
+p
+se determina como el menor de los valores de la Tabla Nº 12 de la presente Norma Técnica correspondiente
+a las irregularidades estructurales existentes en planta en las dos direcciones de análisis.
+24.3. Si al aplicar las Tablas Nº 11 y Nº 12 de la presente Norma Técnica se obtuvieran valores distintos de los factores
+I
+a
+o I
+p
+para las dos direcciones de análisis, se toma para cada factor el menor valor entre los obtenidos para las dos
+direcciones.
+Tabla Nº 11
+Irregularidades estructurales en altura
+Factor de
+irregularidad I
+a
+Irregularidad de rigidez – Piso blando
+Existe irregularidad de rigidez cuando, en cualquiera de las direcciones de análisis, en un
+entrepiso la rigidez lateral es menor que 70% de la rigidez lateral del entrepiso inmediato superior,
+o es menor que 80% de la rigidez lateral promedio de los tres niveles superiores adyacentes.
+Las rigideces laterales pueden calcularse como la razón entre la fuerza cortante del entrepiso y el
+correspondiente desplazamiento relativo en el centro de masas, ambos evaluados para la misma
+condición de carga.
+Irregularidades de resistencia – Piso débil
+Existe irregularidad de resistencia cuando, en cualquiera de las direcciones de análisis, la
+resistencia de un entrepiso frente a fuerzas cortantes es inferior a 80% de la resistencia del
+entrepiso inmediato superior.
+0,75
+Irregularidad extrema de rigidez (Tabla Nº 13)
+Existe irregularidad extrema de rigidez cuando, en cualquiera de las direcciones de análisis, en un
+entrepiso la rigidez lateral es menor que 60% de la rigidez lateral del entrepiso inmediato superior,
+o es menor que 70% de la rigidez lateral promedio de los tres niveles superiores adyacentes.
+Las rigideces laterales pueden calcularse como la razón entre la fuerza cortante del entrepiso y el
+correspondiente desplazamiento relativo en el centro de masas, ambos evaluados para la misma
+condición de carga.
+Irregularidad extrema de resistencia (Tabla Nº 13)
+Existe irregularidad extrema de resistencia cuando, en cualquiera de las direcciones de análisis,
+la resistencia de un entrepiso frente a fuerzas cortantes es inferior a 65% de la resistencia del
+entrepiso inmediato superior.
+0,50
+Irregularidad de masa o peso
+Se tiene irregularidad de masa (o peso) cuando el peso de un piso, determinado según el artículo
+31 de la presente Norma Técnica, es mayor que 1,5 veces el peso de un piso adyacente. Este
+criterio no se aplica en azoteas ni en sótanos.
+0,90
+Irregularidad geométrica vertical
+La conﬁ guración es irregular cuando, en cualquiera de las direcciones de análisis, la dimensión
+en planta de la estructura resistente a cargas laterales es mayor que 1,3 veces la correspondiente
+dimensión en un piso adyacente. Este criterio no se aplica en azoteas ni en sótanos.
+0,90
+Discontinuidad en los sistemas resistentes
+Se caliﬁ ca a la estructura como irregular cuando en cualquier elemento que resista más de 10% de
+la fuerza cortante se tiene un desalineamiento vertical, tanto por un cambio de orientación, como
+por un desplazamiento del eje de magnitud mayor que 25% de la correspondiente dimensión del
+elemento.
+0,80
+Discontinuidad extrema de los sistemas resistentes (Tabla Nº 13)
+Existe discontinuidad extrema cuando la fuerza cortante que resisten los elementos discontinuos
+según se describen en el ítem anterior, supere el 25% de la fuerza cortante total.
+0,60
+Tabla Nº 12
+Irregularidades estructurales en planta
+Factor de
+irregularidad I
+p
+Irregularidad torsional
+Existe irregularidad torsional cuando, en cualquiera de las direcciones de análisis, el máximo
+desplazamiento relativo de entrepiso en un extremo del ediﬁ cio (Δ
+max
+) en esa dirección, calculado
+incluyendo excentricidad accidental, es mayor que 1,3 veces el desplazamiento relativo promedio
+de los extremos del mismo entrepiso para la misma condición de carga (Δ
+prom
+).
+Este criterio sólo se aplica en ediﬁ cios con diafragmas rígidos y sólo si el máximo desplazamiento
+relativo de entrepiso es mayor que 50% del desplazamiento permisible indicado en la Tabla Nº 14
+de la presente Norma Técnica.
+0,75
+18 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Tabla Nº 12
+Irregularidades estructurales en planta
+Factor de
+irregularidad I
+p
+Irregularidad torsional extrema (Tabla Nº 13)
+Existe irregularidad torsional extrema cuando, en cualquiera de las direcciones de análisis, el
+máximo desplazamiento relativo de entrepiso en un extremo del ediﬁ cio (Δ
+max
+) en esa dirección,
+calculado incluyendo excentricidad accidental, es mayor que 1,5 veces el desplazamiento relativo
+promedio de los extremos del mismo entrepiso para la misma condición de carga (Δ
+prom
+).
+Este criterio sólo se aplica en ediﬁ cios con diafragmas rígidos y sólo si el máximo desplazamiento
+relativo de entrepiso es mayor que 50% del desplazamiento permisible indicado en la Tabla Nº 14
+de la presente Norma Técnica.
+0,60
+Esquinas entrantes
+La estructura se caliﬁ ca como irregular cuando tiene esquinas entrantes cuyas dimensiones en
+ambas direcciones son mayores que 20% de la correspondiente dimensión total en planta.
+0,90
+Discontinuidad del diafragma
+La estructura se caliﬁ ca como irregular cuando los diafragmas tienen discontinuidades abruptas
+o variaciones importantes en rigidez, incluyendo aberturas mayores que 50% del área bruta del
+diafragma.
+También existe irregularidad cuando, en cualquiera de los pisos y para cualquiera de las direcciones
+de análisis, se tiene alguna sección transversal del diafragma con un área neta resistente menor
+que 50 % del área de la sección transversal en la misma dirección calculada con la dimensión total
+en planta.
+0,85
+Sistemas no paralelos
+Existe esta irregularidad cuando en cualquiera de las direcciones de análisis los elementos
+resistentes a fuerzas laterales no son paralelos. No se aplica si los ejes de los pórticos o muros
+forman ángulos menores que 30º ni cuando los elementos no paralelos resisten menos que 10%
+de la fuerza cortante del piso.
+0,90
+Artículo 25.- Restricciones a la irregularidad
+25.1. De acuerdo a su categoría y la zona donde se ubique, la ediﬁ cación se proyecta respetando las restricciones a la
+irregularidad de la siguiente tabla:
+Tabla Nº 13
+Categoría y regularidad de las ediﬁ caciones
+Categoría de la
+ediﬁ cación
+Zona Restricciones
+A
+1
+y A
+2
+4, 3 y 2 No se permiten irregularidades
+1 No se permiten irregularidades extremas
+B
+4, 3 y 2 No se permiten irregularidades extremas
+1 Sin restricciones
+C
+4 y 3 No se permiten irregularidades extremas
+2
+No se permiten irregularidades extremas excepto en ediﬁ cios
+de hasta 2 pisos u 8 m de altura total
+1 Sin restricciones
+25.2. En las zonas sísmicas 4, 3 y 2 no se permiten estructuras con sistema de transferencia en los que más del
+25% de las cargas de gravedad o de las cargas sísmicas en cualquier nivel sean soportadas por elementos
+verticales que no son continuos hasta la cimentación. Esta disposición no se aplica para el último entrepiso de
+las ediﬁ caciones.
+Artículo 26.- Coeﬁ ciente de reducción de las fuerzas sísmicas, R
+El coeﬁ ciente de reducción de las fuerzas sísmicas se determina como el producto del coeﬁ ciente R
+0
+determinado a
+partir de la Tabla Nº 10 de la presente Norma Técnica y de los factores I
+a
+, I
+p
+obtenidos de las Tablas Nº 11 y Nº 12 de la
+presente Norma Técnica.
+R = R
+0
+· I
+a
+· I
+p
+Artículo 27.- Sistemas de aislamiento sísmico y sistemas de disipación de energía
+27.1. Las ediﬁ caciones con sistemas de aislamiento sísmico se rigen por la Norma Técnica E.031 Aislamiento Sísmico
+del RNE.
+27.2. Se permite la utilización de sistemas de disipación de energía en las ediﬁ caciones siempre y cuando se cumplan las
+disposiciones del Capítulo II de esta Norma Técnica y, en cuanto corresponda, los requisitos técnicos establecidos
+en el “Chapter 18 Seismic design requirements for structures with damping systems” del documento “Minimum
+Design Loads and Associated Criteria for Buildings and Other Structures”, ASCE/SEI 7-22, Structural Engineering
+19
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Institute of the American Society of Civil Engineers, Reston, Virginia, USA, u otra norma que brinde un nivel de
+seguridad equivalente o superior a la antes mencionada.
+27.3. La instalación de sistemas de aislamiento sísmico o de sistemas de disipación de energía se somete a una
+supervisión técnica especializada a cargo de un ingeniero civil.
+CAPÍTULO IV
+ANÁLISIS ESTRUCTURAL
+Artículo 28.- Consideraciones generales para el análisis estructural
+28.1. El análisis de las estructuras en cada dirección predominante se realiza por el procedimiento de fuerzas estáticas
+equivalentes o por el procedimiento de combinación modal espectral, con 100% de las solicitaciones en una
+dirección y 30% de las solicitaciones en dirección perpendicular.
+28.2. Para estructuras con sistemas no paralelos en planta, conforme a la Tabla Nº 12 de la presente Norma Técnica, en
+adición, se debe considerar que las acciones sísmicas ocurren en las direcciones de los ejes no paralelos.
+28.3. La excentricidad accidental a la que se reﬁ eren los artículos 37 y 45 de la presente Norma Técnica sólo debe
+aplicarse en dirección perpendicular a aquella dirección en la que se aplica el 100% de la acción sísmica.
+28.4. Se debe considerar las solicitaciones sísmicas verticales en el diseño de los elementos verticales, en elementos
+horizontales de gran luz, en elementos post o pre tensados y en los voladizos o salientes de un ediﬁ cio.
+28.5. La fuerza sísmica vertical actúa en los elementos simultáneamente con las fuerzas sísmicas horizontales y en el
+sentido más desfavorable para el análisis.
+28.6. Al realizar un procedimiento de análisis tiempo historia, se debe considerar la acción simultánea en todas las
+componentes, sin excepción de la conﬁ guración estructural, regular o irregular.
+28.7. Las acciones sísmicas de ediﬁ caciones nuevas son determinadas conforme el procedimiento descrito en el Anexo I
+de la presente Norma Técnica, u otro que determine el proyectista que cumpla con las disposiciones de la presente
+Norma Técnica.
+Artículo 29.- Diseño y veriﬁ cación de esfuerzos admisibles
+Cuando se realicen veriﬁ caciones por esfuerzos admisibles, las fuerzas sísmicas obtenidas con esta Norma Técnica se
+multiplican por 0,8.
+Artículo 30.- Modelos para el análisis
+30.1. El modelo para el análisis considera una distribución espacial de masas y rigideces que sean adecuadas para
+representar los aspectos más signiﬁ cativos del comportamiento dinámico de la estructura.
+30.2. Para el análisis estructural, las estructuras de concreto armado y albañilería deben ser analizadas considerando las
+inercias de las secciones brutas, ignorando la ﬁ suración y el refuerzo.
+30.3. Para ediﬁ cios en los que el proyectista determine que los sistemas de piso funcionan como diafragmas rígidos,
+se puede usar un modelo con masas concentradas y tres grados de libertad por diafragma, asociados a dos
+componentes ortogonales de traslación horizontal y una rotación. En tal caso, las deformaciones de los elementos
+se compatibilizan mediante la condición de diafragma rígido y la distribución en planta de las fuerzas horizontales
+se hace en función a las rigideces de los elementos resistentes.
+30.4. Se debe veriﬁ car que los diafragmas tengan la rigidez, resistencia y conexión adecuada con el sistema estructural
+para asegurar las hipótesis de diafragma rígido; en caso contrario, se debe tomar en cuenta su ﬂ exibilidad para la
+distribución de las fuerzas sísmicas.
+30.5. El modelo estructural debe incluir la tabiquería que no se aísle debidamente de la estructura; en tal caso, los
+requisitos de diseño para el sistema estructural se deben satisfacer considerando los dos escenarios, con la
+tabiquería y sin la tabiquería.
+30.6. Para los pisos que no constituyan diafragmas rígidos, los elementos resistentes son diseñados para las fuerzas
+horizontales que directamente les corresponde.
+30.7. En los ediﬁ cios cuyos elementos estructurales predominantes sean muros, se debe utilizar un modelo que
+tome en cuenta la interacción entre muros en direcciones perpendiculares (muros en H, muros en T y muros
+en L).
+30.8. Para el modelo estructural no se debe incluir la rigidez de las losas de piso fuera de su plano. Las losas se pueden
+modelar como alas de vigas “T” o “L”, en cuyo caso estas alas deben estar conﬁ nadas con estribos y deben tener
+adecuado detallado por resistencia y ductilidad.
+20 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Artículo 31.- Estimación del peso (P)
+El peso (P) se calcula adicionando a la carga permanente y total de la ediﬁ cación un porcentaje de la carga viva o
+sobrecarga que se determina de la siguiente manera:
+a) En ediﬁ caciones de las categorías A y B, se toma el 50% de la carga viva.
+b) En ediﬁ caciones de la categoría C, se toma el 25% de la carga viva.
+c) En depósitos, se toma el 80% del peso total que es posible almacenar.
+d) En azoteas y techos en general se toma el 25% de la carga viva.
+e) En estructuras de tanques, silos y estructuras similares se considera el 100% de la carga que puede contener.
+Artículo 32.- Procedimientos de análisis sísmico
+32.1. Los procedimientos de análisis sísmicos son los siguientes:
+a) Análisis estático o de fuerzas estáticas equivalentes.
+b) Análisis dinámico modal espectral.
+32.2. El análisis sísmico se realiza empleando un modelo de comportamiento lineal y elástico con las solicitaciones
+sísmicas reducidas.
+32.3. El procedimiento de análisis dinámico tiempo - historia, descrito en el Subcapítulo 3 del presente Capítulo, puede
+ser empleado con ﬁ nes de veriﬁ cación, pero no es sustituto de los procedimientos indicados en los Subcapítulos 1
+y 2 del presente Capítulo.
+SUBCAPÍTULO 1
+Análisis estático o de fuerzas equivalentes
+Artículo 33.- Consideraciones básicas para el análisis estático o de fuerzas equivalentes
+33.1. Este método representa las solicitaciones sísmicas mediante un conjunto de fuerzas actuando en el centro de
+masas de cada nivel de la ediﬁ cación.
+33.2. Pueden analizarse mediante este procedimiento todas las estructuras regulares o irregulares ubicadas en la zona
+sísmica 1. En las otras zonas sísmicas puede emplearse este procedimiento para las estructuras clasiﬁ cadas como
+regulares, según el artículo 23 de la presente Norma Técnica, de no más de 30 m de altura, y para las estructuras de
+muros portantes de concreto armado y albañilería armada o conﬁ nada de no más de 15 m de altura, aun cuando sean
+irregulares.
+33.3. Para las estructuras que puedan analizarse con este método de acuerdo al numeral 33.2 del presente artículo, el análisis
+de la estructura en cada dirección predominante se realiza con el 100% de las solicitaciones en una dirección y 30% de
+las solicitaciones en dirección perpendicular, sumando los valores absolutos de los correspondientes resultados.
+Artículo 34.- Fuerza cortante en la base
+34.1. La fuerza cortante total en la base de la estructura, correspondiente a la dirección considerada, se determina por la
+siguiente expresión:
+ܸ ൌ
+ܼ ή ܷ ή ܥ ή ܵ
+ܴ
+ή ܲ
+Cuando el periodo fundamental de la estructura sea menor que T
+P
+, se debe usar un valor de C igual a 2,5.
+34.2. El valor de C/R debe cumplir con:
+ܥ
+ܴ
+൒ Ͳǡͳͳ
+Artículo 35.- Distribución de la fuerza sísmica en altura
+35.1. Las fuerzas sísmicas horizontales en cualquier nivel i, correspondientes a la dirección considerada, se calculan
+mediante:
+F
+i
+= α
+i
+· V
+ 
+ 
+¦
+n
+j
+k
+j
+j
+k
+i
+i
+i
+h
+P
+h
+P
+1
+D
+21
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+35.2. Donde n es el número de pisos del ediﬁ cio, k es un exponente relacionado con el período fundamental de vibración
+de la estructura (T), en la dirección considerada, que se calcula de acuerdo a:
+a) Para T menor o igual a 0,5 segundos: k = 1,0.
+b) Para T mayor que 0,5 segundos: k = (0,75 + 0,5 T) ≤ 2,0.
+Artículo 36.- Período fundamental de vibración
+36.1. El período fundamental de vibración para cada dirección se estima con la siguiente expresión:
+ܶ ൌ
+݄௡
+ܥ்
+Donde:
+C
+T
+= 35 Para ediﬁ cios cuyos elementos resistentes en la dirección considerada sean únicamente:
+a) Pórticos de concreto armado sin muros de corte.
+b) Pórticos dúctiles de acero con uniones resistentes a momentos, sin arriostramiento.
+C
+T
+= 45 Para ediﬁ cios cuyos elementos resistentes en la dirección considerada sean:
+a) Pórticos de concreto armado con muros en las cajas de ascensores y escaleras.
+b) Pórticos de acero arriostrados.
+C
+T
+= 60 Para ediﬁ cios de albañilería y para todos los ediﬁ cios de concreto armado duales, de muros estructurales,
+y muros de ductilidad limitada.
+36.2. Alternativamente, puede usarse la siguiente expresión:
+¸
+¹
+·
+¨
+©
+§
+
+
+¸
+¹
+·
+¨
+©
+§
+
+
+¦
+¦
+n
+i
+i
+i
+n
+i
+i
+i
+d
+f
+g
+d
+P
+T
+1
+1
+2
+2S
+Donde:
+- f
+i
+es la fuerza lateral en el nivel i correspondiente a una distribución en altura semejante a la del primer modo
+en la dirección de análisis.
+- d
+i
+es el desplazamiento lateral del centro de masa del nivel i en traslación pura (restringiendo los giros en
+planta) debido a las fuerzas f
+i
+.
+- Los desplazamientos se calculan suponiendo comportamiento lineal elástico de la estructura y, para el caso
+de estructuras de concreto armado y de albañilería, considerando las secciones sin ﬁ surar.
+36.3. Cuando el análisis no considere la rigidez de los elementos no estructurales que no se aíslen debidamente de la
+estructura, el período fundamental T se toma como 0,85 del valor obtenido con la fórmula precedente.
+Artículo 37.- Excentricidad accidental
+Para estructuras con diafragmas rígidos, se debe considerar que la fuerza en cada nivel (F
+i
+) actúa en el centro de masas
+del nivel respectivo. Además de la excentricidad propia de la estructura se debe calcular el efecto de excentricidades
+accidentales (en cada dirección de análisis) como se indica a continuación:
+a) En el centro de masas de cada nivel, además de la fuerza lateral estática actuante, se aplica un momento torsor
+accidental (M
+ti
+) que se calcula como:
+M
+ti
+=  F
+i
+· e
+i
+Para cada dirección de análisis, la excentricidad accidental en cada nivel (e
+i
+), se considera como 0,05 veces la
+dimensión del ediﬁ cio en la dirección perpendicular a la dirección de análisis.
+b) Se puede suponer que las condiciones más desfavorables se obtienen calculando las excentricidades accidentales
+con el mismo signo en todos los niveles, en donde se toman en cuenta únicamente los incrementos de las fuerzas
+horizontales.
+Artículo 38.- Fuerzas sísmicas verticales
+38.1. La fuerza sísmica vertical se debe considerar como una fracción del peso igual a 2/3 Z · U · S.
+22 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+38.2. En elementos horizontales de grandes luces, incluyendo volados, se requiere un análisis dinámico con los espectros
+establecidos en el artículo 41 de la presente Norma Técnica.
+SUBCAPÍTULO 2
+Análisis dinámico modal espectral
+Artículo 39.- Consideración general para el análisis dinámico modal espectral
+Cualquier estructura puede ser diseñada usando los resultados de los análisis dinámicos por combinación modal
+espectral, según lo establecido en este Subcapítulo.
+Artículo 40.- Modos de vibración
+40.1. Los modos de vibración deben determinarse por un procedimiento de análisis que considere apropiadamente las
+características de rigidez y la distribución de las masas.
+40.2. En cada dirección se consideran aquellos modos de vibración cuya suma de masas efectivas sea por lo menos
+el 90% de la masa total. Se debe tomar como mínimo los tres primeros modos predominantes en la dirección de
+análisis.
+Artículo 41.- Aceleración espectral
+41.1. Para cada una de las direcciones horizontales analizadas se utiliza un espectro inelástico de pseudo-aceleraciones
+determinado por:
+ܵ௔
+ൌ
+ܼ ή ܷ ή ܥ ή ܵ
+ܴ
+ή ݃
+41.2. Para el análisis en la dirección vertical puede usarse un espectro con valores iguales a los 2/3 del espectro empleado
+para las direcciones horizontales.
+Artículo 42.- Criterios de combinación
+42.1. Mediante los criterios de combinación que se indican, se puede obtener la respuesta máxima elástica esperada (r),
+tanto para las fuerzas internas en los elementos componentes de la estructura, como para los parámetros globales
+del ediﬁ cio como fuerza cortante en la base, cortantes de entrepiso, momentos de volteo, desplazamientos totales
+y relativos de entrepiso.
+42.2. La respuesta máxima elástica esperada (r) correspondiente al efecto conjunto de los diferentes modos de vibración
+empleados (r
+i
+) puede determinarse usando la combinación cuadrática completa de los valores calculados para
+cada modo.
+ݎ ൌ ඩ෍ ෍ ݎ௜
+ߩ௜௝
+ݎ
+௝
+௠
+௝ୀଵ
+௠
+௜ୀଵ
+Donde r representa las respuestas modales, desplazamientos o fuerzas, los coeﬁ cientes de correlación son dados
+por:
+ 
+    ω
+ω
+=
+β
++
+β
+=
+ρ
+i
+j
+/
+ij
+O
+O
+O
+O
+O
+O
+2
+2
+2
+2
+2
+3
+2
+1
+4
+1
+1
+8
+
+
+
+β , fracción del amortiguamiento crítico, que se puede suponer constante para todos los modos igual a
+0,05
+ω
+i
+, ω
+j
+son las frecuencias angulares de los modos i, j
+42.3. Alternativamente, la respuesta máxima puede estimarse mediante la siguiente expresión:
+ݎ ൌ Ͳǡʹͷ ή෍ȁݎ௜
+ȁ
+௠
+௜ୀଵ
+൅ Ͳǡ͹ͷ ήඩ෍ ݎ
+௜
+ଶ
+௠
+௜ୀଵ
+Artículo 43.- Criterios de combinación direccional
+La respuesta máxima elástica esperada por efecto de la acción simultánea de las solicitaciones sísmicas con 100% en
+una dirección y 30 % en la dirección perpendicular, tanto para fuerzas internas, como para los parámetros globales del
+ediﬁ cio (fuerza cortante en la base, cortantes de entrepiso, momentos de volteo, desplazamientos totales y relativos de
+23
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+entrepiso) se obtiene como la raíz cuadrada de la suma de los cuadrados de los efectos de las componentes de sismo
+en cada dirección.
+Artículo 44.- Fuerza cortante mínima
+44.1. Para cada una de las direcciones consideradas en el análisis, la fuerza cortante en el primer entrepiso del ediﬁ cio no
+debe ser menor que el 80% del valor calculado, según el artículo 34 de la presente Norma Técnica para estructuras
+regulares, ni menor que el 90% para estructuras irregulares.
+44.2. Si el resultado de la fuerza cortante no cumple con lo establecido en el numeral 44.1 del presente artículo, se
+debe incrementar el cortante escalando proporcionalmente todos los otros resultados obtenidos, excepto los
+desplazamientos.
+Artículo 45.- Excentricidad accidental (Efectos de torsión)
+La incertidumbre en la localización de los centros de masa en cada nivel, se considera mediante una excentricidad
+accidental perpendicular a la dirección del sismo igual a 0,05 veces la dimensión del ediﬁ cio en la dirección perpendicular
+a la dirección de análisis. En cada caso se considera el signo más desfavorable.
+SUBCAPÍTULO 3
+Análisis dinámico tiempo-historia
+Artículo 46.- Consideraciones generales para el análisis dinámico tiempo-historia
+46.1. El análisis dinámico tiempo - historia puede emplearse como un procedimiento complementario a los especiﬁ cados
+en los Subcapítulos 1 y 2 del presente Capítulo.
+46.2. En este tipo de análisis se utiliza un modelo matemático de la estructura que considere directamente el
+comportamiento histerético de los elementos, determinándose la respuesta frente a un conjunto de aceleraciones
+del terreno mediante integración directa de las ecuaciones de equilibrio.
+Artículo 47.- Registros de aceleración
+47.1. Para el análisis se usan como mínimo siete conjuntos de registros de aceleraciones del terreno, cada uno de los
+cuales incluye dos componentes en direcciones ortogonales.
+47.2. Cada conjunto de registros de aceleraciones del terreno contiene un par de componentes de aceleración horizontal,
+elegidas y escaladas de eventos individuales.
+47.3. Las historias de aceleración son obtenidas de eventos cuyas magnitudes, distancia a las fallas, y mecanismos de
+fuente sean consistentes con el máximo sismo considerado. Cuando no se cuente con el número requerido de
+registros apropiados, se pueden usar registros simulados para alcanzar el número total requerido.
+47.4. Para cada par de componentes horizontales de movimiento del suelo, se construye un espectro de pseudo
+aceleraciones tomando la raíz cuadrada de la suma de los cuadrados (SRSS) de los valores espectrales calculados
+para cada componente por separado, con 5% del amortiguamiento crítico.
+47.5. Cuando se utilice escalamiento de amplitudes, se debe usar el mismo factor de escalamiento para ambas
+componentes. Cada par de componentes horizontales de movimiento del suelo debe escalarse de modo que,
+en el rango de períodos comprendido entre 0,2T y 1,5T (siendo T el período fundamental), el promedio de los
+valores espectrales SRSS obtenidos conforme al numeral 47.3 del presente artículo, no sea menor que la ordenada
+correspondiente del espectro de diseño calculada según el artículo 41 de la presente Norma Técnica, con R = 1.
+47.6. Para registros espectro compatibles ambas componentes se modiﬁ can independientemente, pero el promedio de
+los valores espectrales SRSS, para cada período en el rango entre 0,2T y 1,5T, debe ser por lo menos 100% de la
+ordenada correspondiente del espectro de diseño, calculada según el artículo 41 de la presente Norma Técnica,
+con R = 1. Adicionalmente, en cada registro, los valores espectrales en la dirección de análisis no deben ser
+menores que el 90% del correspondiente espectro de diseño.
+Artículo 48.- Modelo para el análisis
+48.1. El modelo matemático representa correctamente la distribución espacial de masas en la estructura.
+48.2. El comportamiento de los elementos es modelado de forma consistente con resultados de ensayos de laboratorio,
+el cual toma en cuenta la ﬂ uencia, la degradación de resistencia, la degradación de rigidez, el estrechamiento de
+los lazos histeréticos, y todos los aspectos relevantes del comportamiento estructural indicado por los ensayos.
+48.3. La resistencia de los elementos es obtenida en base a los valores esperados sobre resistencia del material,
+endurecimiento por deformación y degradación de resistencia por la carga cíclica.
+48.4. Se permite suponer propiedades lineales para aquellos elementos en los que el análisis demuestre que permanecen
+en el rango elástico de respuesta.
+24 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+48.5. Se puede considerar un amortiguamiento viscoso equivalente con un valor máximo del 5% del amortiguamiento
+crítico, además de la disipación resultante del comportamiento histerético de los elementos.
+48.6. Se puede suponer que la estructura está empotrada en la base, o alternativamente considerar la ﬂ exibilidad del
+sistema de cimentación, si fuera pertinente.
+Artículo 49.- Tratamiento de resultados
+49.1. Las fuerzas de diseño, las deformaciones en los elementos y las distorsiones de entrepiso, se evalúan a partir de
+los promedios de los correspondientes resultados máximos obtenidos en los distintos análisis.
+49.2. Las distorsiones máximas de entrepiso no deben exceder 1,25 veces de los valores indicados en la Tabla Nº 14 de
+la presente Norma Técnica.
+49.3. Las deformaciones en los elementos no deben exceder de 2/3 de aquellas para las que perderían la presión
+admisible para cargas verticales o para las que se tendría una pérdida de resistencia en exceso a 30%.
+49.4. Para veriﬁ car la resistencia de los elementos se dividen los resultados del análisis entre R = 2, empleándose las
+Normas Técnicas del RNE aplicables a cada material.
+CAPÍTULO V
+REQUISITOS DE RIGIDEZ Y RESISTENCIA
+Artículo 50.- Determinación de desplazamientos laterales
+50.1. Para estructuras regulares, los desplazamientos laterales se calculan multiplicando por 0,75 R los resultados
+obtenidos del análisis lineal y elástico con las solicitaciones sísmicas reducidas.
+50.2. Para estructuras irregulares, los desplazamientos laterales se calculan multiplicando por 0,85 R los resultados
+obtenidos del análisis lineal elástico.
+50.3. Para el cálculo de los desplazamientos laterales no se consideran los valores mínimos de C/R indicados en el
+artículo 34 de la presente Norma Técnica ni el cortante mínimo en la base, especiﬁ cado en el artículo 44 de la
+presente Norma Técnica.
+Artículo 51.- Desplazamientos laterales relativos admisibles
+El máximo desplazamiento relativo de entrepiso, calculado según el artículo 50 de la presente Norma Técnica, no excede
+la fracción de la altura de entrepiso (distorsión) que se indica en la siguiente tabla:
+Tabla Nº 14
+Límites para la distorsión del entrepiso
+Material Predominante ( Δ
+i
+/ h
+ei
+)
+Concreto armado 0,007
+Acero 0,010
+Albañilería 0,005
+Madera 0,010
+Ediﬁ cios de muros de ductilidad limitada 0,004
+Nota: Los límites de la distorsión (deriva) para estructuras de uso industrial son establecidos por el proyectista, pero en
+ningún caso exceden el doble de los valores de esta Tabla.
+Artículo 52.- Separación entre ediﬁ cios (s)
+52.1. Toda estructura está separada de las estructuras vecinas, desde el nivel del terreno natural, por una distancia
+mínima s para evitar el contacto durante un movimiento sísmico.
+52.2. La distancia mínima s no debe ser menor que los 2/3 de la suma de los desplazamientos máximos de los ediﬁ cios
+adyacentes, ni menor que:
+s = 0,02 · Z · S · h ≥ 0,03 m
+Donde h es la altura medida desde el nivel del terreno natural hasta el nivel considerado para evaluar s.
+52.3. El ediﬁ cio se debe distanciar de los límites de propiedad adyacentes a otros lotes ediﬁ cables, o con ediﬁ caciones,
+en una distancia no menor que 2/3 del desplazamiento máximo calculado según el artículo 50 de la presente Norma
+Técnica; ni menor que s/2 si la ediﬁ cación existente cuenta con una junta sísmica reglamentaria.
+52.4. En caso de que no exista la junta sísmica reglamentaria, el ediﬁ cio se debe separar de la ediﬁ cación existente en
+una distancia que resulte del valor de s/2 que le corresponde, más el valor s/2 de la estructura vecina.
+25
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+Artículo 53.- Redundancia estructural
+Cuando sobre un solo elemento de la estructura, muro o pórtico, actúa una fuerza de 30% o más del total de la fuerza
+cortante horizontal en cualquier entrepiso, dicho elemento se diseña para el 125% de dicha fuerza.
+Artículo 54.- Veriﬁ cación de resistencia última
+En caso se realice un análisis de la resistencia última se puede utilizar las especiﬁ caciones del Standard ASCE/SEI 41-23
+“Seismic Evaluation and Retroﬁ t of Existing Buildings”, o se puede aplicar otra norma que brinde un nivel de seguridad
+equivalente o superior a la antes mencionada.
+CAPÍTULO VI
+ELEMENTOS NO ESTRUCTURALES, APÉNDICES Y EQUIPOS
+Artículo 55.- Elementos no estructurales
+55.1. Los elementos no estructurales que estén unidos al sistema estructural sismorresistente y que acompañen la
+deformación de la estructura, no deben causar daños en caso de falla.
+55.2. Los elementos no estructurales que tienen adecuada resistencia y rigidez para acciones sísmicas incluyen, entre
+otros, los siguientes:
+a) Cercos, tabiques, parapetos, paneles prefabricados.
+b) Elementos arquitectónicos y decorativos entre ellos cielos rasos y enchapes.
+c) Vidrios y muro cortina.
+d) Instalaciones hidráulicas y sanitarias.
+e) Instalaciones eléctricas.
+f) Instalaciones de gas.
+g) Equipos mecánicos.
+h) Mobiliario cuya inestabilidad signiﬁ que un riesgo.
+Artículo 56.- Responsabilidad profesional
+Los profesionales que elaboran los diferentes proyectos son responsables de proveer a los elementos no estructurales
+la adecuada resistencia y rigidez para acciones sísmicas, según lo establecido en la Norma Técnica G.030 Derechos y
+responsabilidades del RNE.
+Artículo 57.- Fuerzas de diseño
+57.1. Los elementos no estructurales, sus anclajes, y sus conexiones se diseñan para resistir una fuerza sísmica
+horizontal en cualquier dirección (F) asociada a su peso (P
+e
+), cuya resultante puede suponerse aplicada en el centro
+de masas del elemento, tal como se indica a continuación:
+ܨ ൌ
+ܽ௜
+݃
+ήܥଵ
+ήܲ௘
+Donde:
+- a
+i
+es la aceleración horizontal en el nivel donde el elemento no estructural está soportado o anclado, al
+sistema estructural de la ediﬁ cación. Esta aceleración depende de las características dinámicas del sistema
+estructural de la ediﬁ cación y se evalúa mediante un análisis dinámico de la estructura.
+57.2. Alternativamente, puede utilizarse la siguiente ecuación:
+ܨ ൌ
+ܨ௜
+ܲ௜
+ήܥଵ
+ήܲ௘
+Donde:
+- F
+i
+es la fuerza lateral en el nivel donde se apoya o se ancla el elemento no estructural, calculada de acuerdo
+al Subcapítulo 1 del Capítulo IV de la presente Norma Técnica y
+- P
+i
+el peso de dicho nivel.
+Los valores de C
+1
+se toman de la siguiente tabla:
+Tabla Nº 15
+Valores de C
+1
+Elementos que fallar puedan precipitarse fuera de la ediﬁ cación y cuya falla entrañe peligro para personas
+u otras estructuras.
+3,0
+Muros y tabiques dentro de una ediﬁ cación. 2,0
+Tanques sobre la azotea, casa de máquinas, pérgolas, parapetos en la azotea. 3,0
+Equipos rígidos conectados rígidamente al piso. 1,5
+26 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+57.3. Para calcular las solicitaciones de diseño en muros, tabiques, parapetos y en general elementos no estructurales
+con masa distribuida, la fuerza F se convierte en una carga uniformemente distribuida por unidad de área.
+57.4. Para muros y tabiques soportados horizontalmente en dos niveles consecutivos, se toma el promedio de las
+aceleraciones de los dos niveles.
+Artículo 58.- Fuerza horizontal mínima
+En ningún nivel del ediﬁ cio la fuerza F calculada con el artículo 57 de la presente Norma Técnica es menor que:
+0,5 · Z · U · S · P
+e
+Artículo 59.- Fuerzas sísmicas verticales
+59.1. La fuerza sísmica vertical se debe considerar como 2/3 de la fuerza horizontal.
+59.2. Para equipos soportados por elementos de grandes luces, incluyendo volados, se requiere un análisis dinámico con
+los espectros deﬁ nidos en el numeral 41.2 del artículo 41 de la presente Norma Técnica.
+Artículo 60.- Elementos no estructurales localizados en la base de la estructura, por debajo de la base y cercos
+Los elementos no estructurales localizados a nivel de la base de la estructura o por debajo de ella (sótanos) y los cercos,
+se diseñan con una fuerza horizontal calculada con:
+F = 0,5 · Z · U · S · P
+e
+Artículo 61.- Otras estructuras
+61.1. Para letreros, chimeneas, torres y antenas de comunicación instaladas en cualquier nivel del ediﬁ cio, la fuerza de
+diseño se establece considerando las propiedades dinámicas del ediﬁ cio y de la estructura a instalar.
+61.2. La fuerza de diseño no debe ser menor que la calculada con la metodología establecida en este Capítulo, con un
+valor de C
+1
+mínimo de 3,0.
+CAPÍTULO VII
+CIMENTACIONES
+Artículo 62.- Cimentación
+62.1. Las suposiciones que se realicen para los apoyos de la estructura son concordantes con las características propias
+del suelo de cimentación, y el tipo de cimentación utilizado.
+62.2. La determinación de las presiones actuantes en el suelo para la veriﬁ cación por esfuerzos admisibles, se calcula
+con las fuerzas obtenidas del análisis sísmico multiplicadas por 0,8 según lo indicado en el artículo 29 de la presente
+Norma Técnica.
+62.3. Para el diseño de las cimentaciones de ediﬁ caciones para evacuación vertical frente a tsunamis, se debe
+cumplir, adicionalmente a lo establecido en la presente Norma Técnica, lo dispuesto en el Capítulo VI Diseño de
+cimentaciones de estructuras resistentes a tsunamis de la Norma “Lineamientos para el diseño de ediﬁ caciones
+para evacuación vertical frente a tsunamis” o norma que la sustituya.
+Artículo 63.- Presión admisible
+63.1. En todo Estudio de Mecánica de Suelos (EMS) se debe considerar los efectos de los sismos para la determinación
+de la presión admisible del suelo de cimentación.
+63.2. En los sitios en que pueda producirse licuación del suelo, se efectúa una investigación geotécnica que evalúe esta
+posibilidad y determine la solución más adecuada.
+Artículo 64.- Momento de volteo
+64.1. Toda estructura y su cimentación deben diseñarse para resistir el momento de volteo que produce un sismo
+calculado mediante: (i) análisis estático o de fuerzas equivalentes; o (ii) análisis dinámico modal espectral.
+64.2. El factor de seguridad calculado con las fuerzas que se obtienen en el análisis estructural, sin considerar la
+reducción establecida en el artículo 29 de la presente Norma Técnica, debe ser mayor o igual que 1,2.
+Artículo 65.- Cimentaciones sobre suelos ﬂ exibles o de baja presión admisible
+65.1. Para zapatas aisladas con o sin pilotes en suelos tipo S
+3
+y S
+4
+, para las Zonas 3 y 4, y en general para suelos con
+una presión admisible menor que 0,10 MPa, se provee elementos de conexión en ambas direcciones, los que se
+diseñan en tracción o compresión, para una fuerza horizontal mínima equivalente al 10% de las cargas verticales
+ampliﬁ cadas que soporta la zapata, adicionalmente a las solicitaciones por ﬂ exión que pudieran existir.
+27
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+65.2. Para el caso de zapatas sobre pilotes, pilares perforados y cajones de cimentación, se debe proveer vigas de conexión
+tomando en cuenta los giros y deformaciones por efecto de la fuerza horizontal diseñando pilotes y zapatas para estas
+solicitaciones. Los pilotes tienen una resistencia en tracción de por lo menos el 15% de la carga vertical que soportan.
+CAPÍTULO VIII
+EVALUACIÓN, REPARACIÓN Y REFORZAMIENTO DE ESTRUCTURAS
+Artículo 66.- Criterios generales para evaluación, reparación y reforzamiento de estructuras
+66.1. Las estructuras dañadas por sismos deben ser evaluadas, reparadas y/o reforzadas de tal manera que se corrijan
+los defectos estructurales que provocaron los daños y recuperen la capacidad de resistir un nuevo evento sísmico,
+acorde con lo dispuesto en artículo 7 de la presente Norma Técnica.
+66.2. En la evaluación y reforzamiento de estructuras existentes, se debe garantizar que recuperen la capacidad de
+resistir un evento sísmico, conforme a lo dispuesto en el artículo 7 de la presente Norma Técnica.
+Artículo 67.- Evaluación de estructuras después de un sismo
+Ocurrido el evento sísmico, la estructura debe ser evaluada por un ingeniero civil, quien determina si la ediﬁ cación
+se encuentra en buen estado o requiere de reforzamiento, reparación o demolición. El estudio debe considerar las
+características geotécnicas del sitio.
+Artículo 68.- Reparación y reforzamiento
+68.1. La reparación o reforzamiento debe dotar a la estructura de una combinación adecuada de rigidez, resistencia y ductilidad
+que garantice su buen comportamiento en eventos futuros, en cumplimiento de las Normas Técnicas del RNE.
+68.2. El proyecto de reparación o reforzamiento debe incluir los detalles, procedimientos y sistemas constructivos a
+seguirse.
+68.3. El proyectista debe sustentar los límites de distorsión considerados, teniendo en cuenta la antigüedad y las
+características de la ediﬁ cación. Las distorsiones en ningún caso deben ser mayores que las establecidas en la
+Tabla Nº 14 de la presente Norma Técnica.
+68.4. Las ediﬁ caciones se pueden intervenir empleando los criterios de reforzamiento sísmico progresivo y en la medida
+que sea aplicable, usando los criterios establecidos en el documento “Engineering Guideline for Incremental Seismic
+Rehabilitation”, FEMA P-420, Risk Management Series, USA, 2009, u otra norma que brinde un nivel de seguridad
+equivalente o superior a la antes mencionada.
+CAPÍTULO IX
+INSTRUMENTACIÓN
+Artículo 69.- Estación acelerométrica
+69.1. La estación acelerométrica debe estar equipada con un sensor acelerométrico triaxial, un registrador, una unidad de
+almacenamiento, dos fuentes de suministro de energía (tensión de suministro de 220V y una batería externa que
+funciona de manera automática ante la falla del suministro normal) y acceso a internet.
+69.2. El acceso a la estación acelerométrica es restringido para su operación y mantenimiento.
+69.3. El ediﬁ cio debe contar con la estación acelerométrica y sus equipos, cuyas especiﬁ caciones técnicas cumplen lo
+dispuesto por el Lineamiento LI Nº 001-2026-IGP “Especiﬁ caciones Técnicas para Registradores Acelerométricos
+y Requisitos Mínimos para su Instalación, Operación y Mantenimiento en el Contexto de la Norma E.030 Diseño
+Sismorresistente” del Instituto Geofísico del Perú (IGP) u otra norma que lo sustituya, deben encontrarse en
+funcionamiento, así como contar con el respectivo protocolo de mantenimiento.
+69.4. El suministro eléctrico para el equipo acelerométrico debe tener los accesorios para garantizar una línea estabilizada
+y evitar el daño del mismo.
+69.5. En el caso de tener más de una estación acelerométrica en el ediﬁ cio se debe garantizar el registro de las vibraciones
+en simultáneo.
+69.6. Para obtener el certiﬁ cado de conformidad de obra y declaratoria de ediﬁ cación, y bajo responsabilidad del funcionario
+que lo suscribe, el propietario debe presentar una constancia de instalación, funcionamiento y accesibilidad a los
+datos de cada estación acelerométrica expedida por el Instituto Geofísico del Perú (IGP).
+Artículo 70.- Estación acelerométrica en ediﬁ caciones
+70.1. Las ediﬁ caciones que, individualmente o en forma conjunta, tengan un área techada igual o mayor que 10 000 m2,
+y en ediﬁ caciones esenciales categoría A
+1
+conforme la Tabla Nº 7 de la presente Norma Técnica, deben contar con
+una estación acelerométrica y su correspondiente equipo acelerométrico, instalados a nivel del terreno natural o en
+la base del ediﬁ cio.
+28 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+70.2. En ediﬁ caciones con más de 20 pisos o en aquellas con dispositivos de disipación sísmica o de aislamiento sísmico
+en la base, de cualquier altura, deben contar con una estación acelerométrica y su correspondiente equipo a nivel
+del terreno natural o en la base del ediﬁ cio, y otra adicional en la azotea.
+Artículo 71.- Ubicación de la estación acelerométrica
+71.1. El lugar donde se ubica la estación acelerométrica debe ser adecuado para protegerla de temperaturas extremas y
+que no sufra daños que afecten su funcionalidad antes y después de la ocurrencia de un sismo intenso.
+71.2. La estación acelerométrica debe contar con un ducto al exterior para el cableado de la antena GPS de control de
+tiempo. La longitud del ducto debe ser tal que la antena GPS de control de tiempo tenga visibilidad sin obstáculos
+en el exterior.
+71.3. La estación acelerométrica debe estar alejada de fuentes de energía como ascensores, generadores y tomas de
+aire y agua.
+71.4. El plano de ubicación y la ﬁ cha técnica del equipo acelerométrico deben estar disponibles en el lugar de la estación
+acelerométrica.
+Artículo 72.- Instalación de la estación acelerométrica
+72.1. Los canales del sensor acelerométrico triaxial deben estar orientados a los siguientes ejes principales ortogonales
+del ediﬁ cio:
+a) El primer canal NS debe estar alineado con la dirección longitudinal (lado de mayor longitud) de la ediﬁ cación.
+b) El segundo canal EO debe estar orientado en la dirección transversal (de menor longitud) de la ediﬁ cación.
+72.2. En caso que la estación acelerométrica es instalado en la base del ediﬁ cio:
+a) El sensor acelerométrico debe estar instalado sobre un dado de concreto simple, dispuesto para este ﬁ n y
+con las siguientes dimensiones: largo 60 cm, ancho 60 cm y profundidad 100 cm; este dado de concreto debe
+sobresalir sobre la superﬁ cie 10 cm de altura manteniendo las dimensiones del largo y ancho, conforme lo
+señalado en la siguiente ﬁ gura:
+Figura Nº 2. Disposición del equipo acelerométrico en la base (acelerómetro para el suelo)
+b) El dado de concreto debe quedar empotrado dentro del suelo natural y no sobre el material de relleno
+superﬁ cial que pueda existir. Asimismo, el concreto debe tener como mínimo una resistencia a la comprensión
+݂௖
+ᇱ
+de 17,5 MPa (175 kgf/cm2).
+c) Para la instalación en la base del ediﬁ cio, el equipo acelerométrico debe quedar ﬁ jado al dado de concreto por
+un mecanismo de tornillo de ﬁ jación que garantice el acoplamiento del equipo a la base durante un sismo.
+29
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+72.3. En el caso que la estación acelerométrica y su equipo se encuentren en la azotea del ediﬁ cio:
+a) El sensor acelerométrico debe ser instalado directamente en la losa de concreto armado o sobre una caja de
+acero adosada al fondo de la losa.
+b) La losa, la caja de acero y el mecanismo de tornillo de ﬁ jación deben ser diseñados para garantizar que las
+aceleraciones de la losa y la caja de acero sean iguales durante un sismo, de acuerdo a lo señalado en el
+Anexo IV de la presente Norma Técnica.
+Artículo 73.- Mantenimiento
+El Instituto Geofísico del Perú (IGP) monitorea el mantenimiento operativo de la estación acelerométrica y su equipo, el
+cual es provisto por el propietario o junta de propietarios del ediﬁ cio.
+Artículo 74.- Disponibilidad de datos
+La ubicación de las estaciones acelerométricas y la información registrada por los equipos acelerométricos es integrada
+por el Instituto Geofísico del Perú (IGP) a la base de datos de la Red Geofísica Nacional (Redgen), quien debe ponerla
+a disposición del público en general.
+ANEXO I
+PROCEDIMIENTO OPCIONAL PARA LA DETERMINACIÓN DE LAS ACCIONES SÍSMICAS
+Las acciones sísmicas para el diseño estructural dependen de la zona sísmica (Z), del perﬁ l de suelo (S, T
+P
+, T
+L
+), del uso de
+la ediﬁ cación (U), del sistema sismorresistente (R) y las características dinámicas de la ediﬁ cación (T, C) y de su peso (P).
+ETAPA 1: PELIGRO SÍSMICO (Capítulo II)
+Los pasos de esta etapa dependen solamente del lugar y las características del terreno de fundación del proyecto. No
+dependen de las características del ediﬁ cio.
+Paso 1 Factor de zona Z (Artículo 11)
+Determinar la zona sísmica donde se encuentra el proyecto en base al mapa de zoniﬁ cación sísmica (Figura Nº1) o a la
+Tabla de provincias y distritos del Anexo II.
+Determinar el factor de zona (Z) de acuerdo a la Tabla Nº 1.
+Paso 2 Perﬁ l de suelo (Subcapítulo 3 del Capítulo II)
+De acuerdo a los resultados del Estudio de Mecánica de Suelos (EMS) se determina el tipo de perﬁ l de suelo según el
+artículo 14 donde se deﬁ nen 5 perﬁ les de suelo. La clasiﬁ cación se hace en base a los parámetros indicados en la Tabla
+Nº 3, considerando promedios para los estratos de los primeros 30 m bajo el nivel de cimentación.
+Cuando no se conozcan las propiedades del suelo hasta la profundidad de 30 m, el profesional responsable del EMS
+determina el tipo de perﬁ l de suelo sobre la base de las condiciones geotécnicas conocidas.
+Paso 3 Parámetros de sitio S, T
+P
+y T
+L
+(Subcapítulo 4 del Capítulo II)
+El factor de ampliﬁ cación del suelo se obtiene de la Tabla Nº 4 y depende de la zona sísmica y el tipo de perﬁ l de suelo.
+Los períodos T
+P
+y T
+L
+se obtienen de la Tabla Nº 5 y solo dependen del tipo de perﬁ l de suelo.
+Paso 4 Construir la función factor de ampliﬁ cación sísmica C versus período T (Artículo 18)
+Depende de los parámetros de sitio T
+P
+y T
+L
+. Se deﬁ nen tres tramos, períodos cortos, intermedios y largos, y se aplica para
+cada tramo las expresiones de este numeral.
+ETAPA 2: CARACTERIZACIÓN DEL EDIFICIO (Capítulo III)
+Los pasos de esta etapa dependen de las características de la ediﬁ cación, como son su categoría, sistema estructural y
+conﬁ guración regular o irregular.
+Paso 5 Categoría de la ediﬁ cación y el factor de uso U (Artículo 19)
+La categoría de la ediﬁ cación y el factor de uso (U) se obtienen de la Tabla Nº 7.
+Paso 6 Sistema estructural (Artículos del 20 y 21)
+Se determina el sistema estructural de acuerdo a las deﬁ niciones que aparecen en el artículo 20.
+En la Tabla Nº 9 (artículo 21) se deﬁ nen los sistemas estructurales permitidos de acuerdo a la categoría de la ediﬁ cación
+y a la zona sísmica en la que se encuentra.
+Paso 7 Coeﬁ ciente básico de reducción de fuerzas sísmicas, R
+0
+(Artículo 22)
+De la Tabla Nº 10 se obtiene el valor del coeﬁ ciente R
+0
+, que depende únicamente del sistema estructural.
+30 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+Paso 8 Factores de irregularidad I
+a
+, I
+p
+(Artículo 24)
+El factor I
+a
+se determina como el menor de los valores de la Tabla Nº 11 correspondiente a las irregularidades existentes
+en altura. El factor I
+p
+se determina como el menor de los valores de la Tabla Nº 12 correspondiente a las irregularidades
+existentes en planta.
+En la mayoría de los casos se puede determinar si una estructura es regular o irregular a partir de su conﬁ guración
+estructural, pero en los casos de Irregularidad de Rigidez e Irregularidad Torsional se comprueba con los resultados del
+análisis sísmico según se indica en la descripción de dichas irregularidades.
+Paso 9 Restricciones a la irregularidad (Artículo 25)
+Veriﬁ car las restricciones a la irregularidad de acuerdo a la categoría y zona de la ediﬁ cación en la Tabla Nº 13. Modiﬁ car
+la estructuración en caso que no se cumplan las restricciones de esta Tabla.
+Paso 10 Coeﬁ ciente de reducción de la fuerza sísmica R (Artículo 26)
+Se determina R = R
+0
+· I
+a
+· I
+p
+.
+ETAPA 3: ANÁLISIS ESTRUCTURAL (Capítulo IV)
+En esta etapa se desarrolla el análisis estructural. Se sugieren criterios para la elaboración del modelo matemático de la
+estructura, se indica cómo se calcula el peso de la ediﬁ cación y se deﬁ nen los procedimientos de análisis.
+Paso 11 Modelos de análisis (Artículo 30)
+Desarrollar el modelo matemático de la estructura. Para estructuras de concreto armado y albañilería se deben considerar
+las propiedades de las secciones brutas ignorando la ﬁ suración y el refuerzo.
+Paso 12 Estimación del peso P (Artículo 31)
+Se determina el peso (P) para el cálculo de la fuerza sísmica adicionando a la carga permanente total un porcentaje de
+la carga viva que depende del uso y la categoría de la ediﬁ cación, deﬁ nido de acuerdo a lo indicado en este numeral.
+Paso 13 Procedimientos de análisis sísmico (Artículos 32 al 49)
+Se deﬁ nen los procedimientos de análisis establecidos en esta Norma Técnica, que son análisis estático (artículos 33 al
+38) y análisis dinámico modal espectral (del artículo 39 al 45).
+Paso 13A Análisis estático (Artículos 33 al 38)
+Este procedimiento solo es aplicable a las estructuras que cumplen lo indicado en el artículo 37.
+El análisis estático tiene los siguientes pasos:
+- Calcular la fuerza cortante en la base para cada dirección de análisis (artículo 34):
+ܸ ൌ
+ܼ ൉ ܷ ൉ ܥ ൉ ܵ
+ܴ
+൉ ܲ
+- Para determinar el valor de C (paso 4 o artículo 18) se estima el período fundamental de vibración de la estructura
+(T) en cada dirección (artículo 36).
+- Determinar la distribución en la altura de la fuerza sísmica de cada dirección (artículo 38).
+- Aplicar las fuerzas obtenidas en el centro de masas de cada piso. Además, se debe considerar el momento torsor
+accidental (artículo 41).
+- Se debe considerar las fuerzas sísmicas verticales (artículo 42) para los elementos en los que sea necesario.
+Paso 13B Análisis dinámico (Artículos 39 al 44)
+Si se elige o es un requerimiento desarrollar un análisis dinámico modal espectral se debe:
+- Determinar los modos de vibración y sus correspondientes períodos naturales y masas participantes mediante
+análisis dinámico del modelo matemático (artículo 40).
+- Calcular el espectro inelástico de pseudo aceleraciones para cada dirección de análisis (artículo 41):
+ܵ௔
+ൌ
+ܼ ൉ ܷ ൉ ܥ ൉ ܵ
+ܴ
+൉ ݃
+- Considerar excentricidad accidental (artículo 45).
+- Determinar todos los resultados de fuerzas y desplazamientos para cada modo de vibración.
+- Determinar la respuesta máxima esperada correspondiente al efecto conjunto de los modos calculados (artículo 42).
+- Se escalan todos los resultados obtenidos para fuerzas (artículo 44) considerando un cortante mínimo en el primer
+entrepiso que es un porcentaje del cortante calculado para el método estático (artículo 35). No se escalan los
+resultados para desplazamientos.
+31
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+- Considerar fuerzas sísmicas verticales (artículo 41) usando un espectro con valores iguales a 2/3 del espectro más
+crítico para las direcciones horizontales, para los elementos que sea necesario.
+ETAPA 4: VALIDACIÓN DE LA ESTRUCTURA
+De acuerdo a los resultados del análisis, se determina si la estructura planteada es válida, para lo cual cumple con los
+requisitos de regularidad y rigidez indicados en este Capítulo.
+Paso 14 Revisión de las hipótesis del análisis
+Con los resultados de los análisis se revisan los factores de irregularidad aplicados en el paso 8. En base a éstos se
+veriﬁ ca si los valores de R se mantienen o son modiﬁ cados. En caso de haberse empleado el procedimiento de análisis
+estático se veriﬁ ca lo señalado en el artículo 33.
+Paso 15 Restricciones a la irregularidad (Artículo 25)
+Veriﬁ car las restricciones a la irregularidad de acuerdo a la categoría y zona de la ediﬁ cación en la Tabla Nº 13. De existir
+irregularidades o irregularidades extremas en ediﬁ caciones en las que no están permitidas según esa Tabla, se modiﬁ ca
+la estructuración y repite el análisis hasta lograr un resultado satisfactorio.
+Paso 16 Determinación de desplazamientos laterales (Artículo 50)
+Se calculan los desplazamientos laterales de acuerdo a las indicaciones de este numeral.
+Paso 17 Distorsión admisible (Artículo 51)
+Veriﬁ car que la distorsión máxima de entrepiso que se obtiene en la estructura con los desplazamientos calculados en el
+paso anterior sea menor que lo indicado en la Tabla Nº 14. De no cumplir se revisa la estructuración y repite el análisis
+hasta cumplir con el requerimiento.
+Paso 18 Separación entre ediﬁ cios (Artículo 52)
+Determinar la separación mínima a otras ediﬁ caciones o al límite de propiedad de acuerdo a las indicaciones de este numeral.
+ANEXO II
+ZONIFICACIÓN SÍSMICA
+Las zonas sísmicas en las que se divide el territorio peruano, para ﬁ nes de esta Norma Técnica se muestran en la Figura 1.
+A continuación, se especiﬁ can las provincias y distritos de cada zona.
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AMAZONAS
+CHACHAPOYAS
+ASUNCIÓN
+2 TODOS LOS
+DISTRITOS
+BALSAS
+CHACHAPOYAS
+CHETO
+CHILIQUÍN
+CHUQUIBAMBA
+GRANADA
+HUANCAS
+LA JALCA
+LEIMEBAMBA
+LEVANTO
+MAGDALENA
+MARISCAL CASTILLA
+MOLINOPAMPA
+MONTEVIDEO
+OLLEROS
+QUINJALCA
+SAN FRANCISCO DE DAGUAS
+SAN ISIDRO DE MAINO
+SOLOCO
+SONCHE
+BAGUA
+ARAMANGO
+2 TODOS LOS
+DISTRITOS
+BAGUA
+COPALLÍN
+EL PARCO
+IMAZA
+LA PECA
+32 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AMAZONAS
+BONGARÁ
+CHISQUILLA
+2 TODOS LOS
+DISTRITOS
+CHURUJA
+COROSHA
+CUISPES
+FLORIDA
+JAZÁN
+JUMBILLA
+RECTA
+SAN CARLOS
+SHIPASBAMBA
+VALERA
+YAMBRASBAMBA
+CONDORCANQUI
+EL CENEPA
+2 TODOS LOS
+DISTRITOS
+NIEVA
+RÍO SANTIAGO
+LUYA
+CAMPORREDONDO
+2 TODOS LOS
+DISTRITOS
+COCABAMBA
+COLCAMAR
+CONILA
+INGUILPATA
+LÁMUD
+LONGUITA
+LONYA CHICO
+LUYA
+LUYA VIEJO
+MARÍA
+OCALLI
+OCUMAL
+PISUQUIA
+PROVIDENCIA
+SAN CRISTÓBAL
+SAN FRANCISCO DEL YESO
+SAN JERÓNIMO
+SAN JUAN DE LOPECANCHA
+SANTA CATALINA
+SANTO TOMÁS
+TINGO
+TRITA
+UTCUBAMBA
+BAGUA GRANDE
+2 TODOS LOS
+DISTRITOS
+CAJARURO
+CUMBA
+EL MILAGRO
+JAMALCA
+LONYA GRANDE
+YAMÓN
+RODRÍGUEZ DE
+MENDOZA
+CHIRIMOTO
+2 ONCE
+DISTRITOS
+COCHAMAL
+HUAMBO
+LIMABAMBA
+LONGAR
+MARISCAL BENAVIDES
+MILPUC
+OMIA
+SAN NICOLÁS
+SANTA ROSA
+TOTORA
+VISTA ALEGRE 3 UN DISTRITO
+33
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+ÁNCASH
+ANTONIO RAYMONDI
+CHACCHO
+2 TRES
+DISTRITOS
+CHINGAS
+LLAMELLÍN
+ACZO
+3 TRES
+DISTRITOS
+MIRGAS
+SAN JUAN DE RONTOY
+HUARI
+ANRA
+2 SEIS
+DISTRITOS
+HUACACHI
+HUACCHIS
+PAUCAS
+RAPAYAN
+UCO
+CAJAY
+3 DIEZ
+DISTRITOS
+CHAVÍN DE HUÁNTAR
+HUACHIS
+HUÁNTAR
+HUARI
+MASÍN
+PONTO
+RAHUAPAMPA
+SAN MARCOS
+SAN PEDRO DE CHANA
+ASUNCIÓN
+ACOCHACA
+3 TODOS LOS
+DISTRITOS
+CHACAS
+CARHUAZ
+ACOPAMPA
+3 TODOS LOS
+DISTRITOS
+AMASHCA
+ANTA
+ATAQUERO
+CARHUAZ
+MARCARÁ
+PARIAHUANCA
+SAN MIGUEL DE ACO
+SHILLA
+TINCO
+YUNGAR
+CARLOS FERMIN
+FITZCARRALD
+SAN LUIS
+3 TODOS LOS
+DISTRITOS
+SAN NICOLÁS
+YAUYA
+CORONGO
+ACO
+3 TODOS LOS
+DISTRITOS
+BAMBAS
+CORONGO
+CUSCA
+LA PAMPA
+YÁNAC
+YUPÁN
+MARISCAL LUZURIAGA
+CASCA
+3 TODOS LOS
+DISTRITOS
+ELEAZAR GUZMÁN BARRÓN
+FIDEL OLIVAS ESCUDERO
+LLAMA
+LLUMPA
+LUCMA
+MUSGA
+PISCOBAMBA
+34 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+ÁNCASH
+PALLASCA
+BOLOGNESI
+3 TODOS LOS
+DISTRITOS
+CABANA
+CONCHUCOS
+HUACASCHUQUE
+HUANDOVAL
+LACABAMBA
+LLAPO
+PALLASCA
+PAMPAS
+SANTA ROSA
+TAUCA
+POMABAMBA
+HUAYLLÁN
+3 TODOS LOS
+DISTRITOS
+PAROBAMBA
+POMABAMBA
+QUINUABAMBA
+SIHUAS
+ACOBAMBA
+3 TODOS LOS
+DISTRITOS
+ALFONSO UGARTE
+CASHAPAMPA
+CHINGALPO
+HUAYLLABAMBA
+QUICHES
+RAGASH
+SAN JUAN
+SICSIBAMBA
+SIHUAS
+HUAYLAS
+CARAZ
+3 TODOS LOS
+DISTRITOS
+HUALLANCA
+HUATA
+HUAYLAS
+MATO
+PAMPAROMÁS
+PUEBLO LIBRE
+SANTA CRUZ
+SANTO TORIBIO
+YURACMARCA
+YUNGAY
+CASCAPARA
+3 TODOS LOS
+DISTRITOS
+MANCOS
+MATACOTO
+QUILLO
+RANRAHIRCA
+SHUPLUY
+YANAMA
+YUNGAY
+HUARAZ
+COCHABAMBA
+3 TODOS LOS
+DISTRITOS
+COLCABAMBA
+HUANCHAY
+HUARAZ
+INDEPENDENCIA
+JANGAS
+LA LIBERTAD
+OLLEROS
+PAMPAS GRANDE
+PARIACOTO
+PIRA
+TARICA
+35
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+ÁNCASH
+BOLOGNESI
+ABELARDO PARDO LEZAMETA
+3 TODOS LOS
+DISTRITOS
+ANTONIO RAYMONDI
+AQUIA
+CAJACAY
+CANIS
+CHIQUIÁN
+COLQUIOC
+HUALLANCA
+HUASTA
+HUAYLLACAYÁN
+LA PRIMAVERA
+MANGAS
+PACLLÓN
+SAN MIGUEL DE CORPANQUI
+TICLLOS
+RECUAY
+CÁTAC
+3 TODOS LOS
+DISTRITOS
+COTAPARACO
+HUAYLLAPAMPA
+LLACLLIN
+MARCA
+PAMPAS CHICO
+PARARÍN
+RECUAY
+TAPACOCHA
+TICAPAMPA
+AIJA
+AIJA
+3
+TODOS LOS
+DISTRITOS
+CORIS
+LA MERCED
+HUACLLÁN
+SUCCHA
+OCROS
+ACAS
+3 OCHO
+DISTRITOS
+CAJAMARQUILLA
+CARHUAPAMPA
+CONGAS
+LLIPA
+OCROS
+SAN CRISTÓBAL DE RAJÁN
+SANTIAGO DE CHILCAS
+COCHAS
+4 DOS
+DISTRITOS
+SAN PEDRO
+HUARMEY
+COCHAPETI
+3 TRES
+DISTRITOS
+HUAYÁN
+MALVAS
+CULEBRAS
+4 DOS
+DISTRITOS
+HUARMEY
+SANTA
+CÁCERES DEL PERÚ
+3 TRES
+DISTRITOS
+MACATE
+MORO
+CHIMBOTE
+4 SEIS
+DISTRITOS
+COISHCO
+NEPEÑA
+NUEVO CHIMBOTE
+SAMANCO
+SANTA
+CASMA
+BUENA VISTA ALTA
+4 TODOS LOS
+DISTRITOS
+CASMA
+COMANDANTE NOÉL
+YAUTÁN
+36 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+APURÍMAC
+COTABAMBAS
+CHALLHUAHUACHO
+2 TODOS LOS
+DISTRITOS
+COTABAMBAS
+COYLLURQUI
+HAQUIRA
+MARA
+TAMBOBAMBA
+GRAU
+CHUQUIBAMBILLA
+2 TODOS LOS
+DISTRITOS
+CURASCO
+CURPAHUASI
+GAMARRA
+HUAYLLATI
+MAMARA
+MICAELA BASTIDAS
+PATAYPAMPA
+PROGRESO
+SAN ANTONIO
+SANTA ROSA
+TURPAY
+VILCABAMBA
+VIRUNDO
+ABANCAY
+ABANCAY
+2 TODOS LOS
+DISTRITOS
+CHACOCHE
+CIRCA
+CURAHUASI
+HUANIPACA
+LAMBRAMA
+PICHIRHUA
+SAN PEDRO DE CACHORA
+TAMBURCO
+CHINCHEROS
+ANCO-HUALLO
+2 TODOS LOS
+DISTRITOS
+CHINCHEROS
+COCHARCAS
+HUACCANA
+OCOBAMBA
+ONGOY
+RANRACANCHA
+URANMARCA
+EL PORVENIR
+LOS CHANKAS
+ROCCHACC
+AHUAYRO
+ANDAHUAYLAS
+ANDAHUAYLAS
+2 CATORCE
+DISTRITOS
+ANDARAPA
+HUANCARAMA
+HUANCARAY
+KAQUIABAMBA
+KISHUARA
+PACOBAMBA
+PACUCHA
+SAN ANTONIO DE CACHI
+SAN JERÓNIMO
+SANTA MARÍA DE CHICMO
+TALAVERA
+TURPO
+JOSÉ MARÍA ARGUEDAS
+37
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+APURÍMAC
+ANDAHUAYLAS
+CHIARA
+3 SEIS
+DISTRITOS
+HUAYANA
+PAMPACHIRI
+POMACOCHA
+SAN MIGUEL DE CHACCRAMPA
+TUMAY HUARACA
+AYMARAES
+CHAPIMARCA
+2 CINCO
+DISTRITOS
+COLCABAMBA
+LUCRE
+SAN JUAN DE CHACÑA
+TINTAY
+CAPAYA
+3 DOCE
+DISTRITOS
+CARAYBAMBA
+CHALHUANCA
+COTARUSE
+IHUAYLLO
+JUSTO APU SAHUARAURA
+POCOHUANCA
+SAÑAYCA
+SORAYA
+TAPAIRIHUA
+TORAYA
+YANACA
+ANTABAMBA
+ANTABAMBA
+3 TODOS LOS
+DISTRITOS
+EL ORO
+HUAQUIRCA
+JUAN ESPINOZA MEDRANO
+OROPESA
+PACHACONAS
+SABAINO
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AREQUIPA
+LA UNIÓN
+ALCA
+3 TODOS LOS
+DISTRITOS
+CHARCANA
+COTAHUASI
+HUAYNACOTAS
+PAMPAMARCA
+PUYCA
+QUECHUALLA
+SAYLA
+TAURIA
+TOMEPAMPA
+TORO
+CAYLLOMA
+ACHOMA
+3 DIECINUEVE
+DISTRITOS
+CABANACONDE
+CALLALLI
+CAYLLOMA
+CHIVAY
+COPORAQUE
+HUAMBO
+HUANCA
+ICHUPAMPA
+LARI
+LLUTA
+MACA
+MADRIGAL
+SAN ANTONIO DE CHUCA
+SIBAYO
+38 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AREQUIPA
+CAYLLOMA
+TAPAY
+3 DIECINUEVE
+DISTRITOS
+TISCO
+TUTI
+YANQUE
+MAJES 4 UN DISTRITO
+CASTILLA
+ANDAGUA
+3 ONCE
+DISTRITOS
+AYO
+CHACHAS
+CHILCAYMARCA
+CHOCO
+MACHAGUAY
+ORCOPAMPA
+PAMPACOLCA
+TIPÁN
+UÑÓN
+VIRACO
+APLAO
+4 TRES
+DISTRITOS
+HUANCARQUI
+URACA
+AREQUIPA
+ALTO SELVA ALEGRE
+3 VEINTIUN
+DISTRITOS
+AREQUIPA
+CAYMA
+CERRO COLORADO
+CHARACATO
+CHIGUATA
+JACOBO HUNTER
+JOSÉ LUIS BUSTAMANTE Y
+RIVERO
+MARIANO MELGAR
+MIRAFLORES
+MOLLEBAYA
+PAUCARPATA
+POCSI
+QUEQUEÑA
+SABANDIA
+SACHACA
+SAN JUAN DE TARUCANI
+SOCABAYA
+TIABAYA
+YANAHUARA
+YURA
+LA JOYA
+4 OCHO
+DISTRITOS
+POLOBAYA
+SAN JUAN DE SIGUAS
+SANTA ISABEL DE SIGUAS
+SANTA RITA DE SIGUAS
+UCHUMAYO
+VITOR
+YARABAMBA
+CONDESUYOS
+CAYARANI
+3 TRES
+DISTRITOS
+CHICHAS
+SALAMANCA
+ANDARAY
+4 CINCO
+DISTRITOS
+CHUQUIBAMBA
+IRAY
+RÍO GRANDE
+YANAQUIHUA
+39
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AREQUIPA
+ISLAY
+COCACHACRA
+4 TODOS LOS
+DISTRITOS
+DEAN VALDIVIA
+ISLAY
+MEJÍA
+MOLLENDO
+PUNTA DE BOMBÓN
+CAMANÁ
+CAMANÁ
+4 TODOS LOS
+DISTRITOS
+JOSÉ MARÍA QUIMPER
+MARIANO NICOLÁS VALCÁRCEL
+MARISCAL CÁCERES
+NICOLÁS DE PIÉROLA
+OCOÑA
+QUILCA
+SAMUEL PASTOR
+CARAVELÍ
+ACARI
+4 TODOS LOS
+DISTRITOS
+ATICO
+ATIQUIPA
+BELLA UNIÓN
+CAHUACHO
+CARAVELÍ
+CHALA
+CHAPARRA
+HUANUHUANU
+JAQUI
+LOMAS
+QUICACHA
+YAUCA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AYACUCHO
+HUANTA
+AYAHUANCO
+2 TODOS LOS
+DISTRITOS
+IGUAIN
+HUAMANGUILLA
+HUANTA
+LLOCHEGUA
+LURICOCHA
+SANTILLANA
+SIVIA
+CHACA
+PUCACOLPA
+UCHURACCAY
+CANAYRE
+PUTIS
+LA MAR
+ANCO
+2 TODOS LOS
+DISTRITOS
+AYNA
+CHILCAS
+CHUNGUI
+LUIS CARRANZA
+SAN MIGUEL
+SANTA ROSA
+TAMBO
+ORONCCOY
+ANCHIHUAY
+SAMUGARI
+UNION PROGRESO
+RIO MAGDALENA
+NINABAMBA
+PATIBAMBA
+40 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AYACUCHO
+HUAMANGA
+ACOCRO
+2 ONCE
+DISTRITOS
+ACOS VINCHOS
+AYACUCHO
+ANDRÉS AVELINO CÁCERES
+DORREGARAY
+JESÚS NAZARENO
+OCROS
+PACAYCASA
+QUINUA
+SAN JOSÉ DE TICLLAS
+SANTIAGO DE PISCHA
+TAMBILLO
+CARMEN ALTO
+3 CINCO
+DISTRITOS
+CHIARA
+SAN JUAN BAUTISTA
+SOCOS
+VINCHOS
+VILCASHUAMÁN
+CONCEPCIÓN 2 UN DISTRITO
+ACCOMARCA
+3 SIETE
+DISTRITOS
+CARHUANCA
+HUAMBALPA
+INDEPENDENCIA
+SAURAMA
+VILCAS HUAMÁN
+VISCHONGO
+HUANCASANCOS
+CARAPO
+3 TODOS LOS
+DISTRITOS
+SACSAMARCA
+SANCOS
+SANTIAGO DE LUCANAMARCA
+CANGALLO
+CANGALLO
+3 TODOS LOS
+DISTRITOS
+CHUSCHI
+LOS MOROCHUCOS
+MARÍA PARADO DE BELLIDO
+PARAS
+TOTOS
+PÁUCAR DEL SARA SARA
+COLTA
+3 TODOS LOS
+DISTRITOS
+CORCULLA
+LAMPA
+MARCABAMBA
+OYOLO
+PARARCA
+PAUSA
+SAN JAVIER DE ALPABAMBA
+SAN JOSÉ DE USHUA
+SARA SARA
+SUCRE
+BELÉN
+3 TODOS LOS
+DISTRITOS
+CHALCOS
+CHILCAYOC
+HUACAÑA
+MORCOLLA
+PAICO
+QUEROBAMBA
+SAN PEDRO DE LARCAY
+SAN SALVADOR DE QUIJE
+SANTIAGO DE PAUCARAY
+SORAS
+41
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+AYACUCHO
+VÍCTOR FAJARDO
+ALCAMENCA
+3 TODOS LOS
+DISTRITOS
+APONGO
+ASQUIPATA
+CANARIA
+CAYARA
+COLCA
+HUAMANQUIQUIA
+HUANCAPI
+HUANCARAYLLA
+HUALLA
+SARHUA
+VILCANCHOS
+PARINACOCHAS
+CHUMPI
+3 SEIS
+DISTRITOS
+CORACORA
+CORONEL CASTAÑEDA
+PACAPAUSA
+SAN FRANCISCO DE
+RIVACAYCO
+UPAHUACHO
+PULLO
+4 DOS
+DISTRITOS
+PUYUSCA
+LUCANAS
+AUCARA
+3 DIEZ
+DISTRITOS
+CABANA
+CARMEN SALCEDO
+CHAVIÑA
+CHIPAO
+LUCANAS
+PUQUIO
+SAN JUAN
+SAN PEDRO DE PALCO
+SANTA ANA DE
+HUAYCAHUACHO
+HUAC-HUAS
+4 ONCE
+DISTRITOS
+LARAMATE
+LEONCIO PRADO
+LLAUTA
+OCAÑA
+OTOCA
+SAISA
+SAN CRISTÓBAL
+SAN PEDRO
+SANCOS
+SANTA LUCIA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CAJAMARCA
+HUALGAYOC
+BAMBAMARCA
+2 TODOS LOS
+DISTRITOS
+CHUGUR
+HUALGAYOC
+SAN IGNACIO
+CHIRINOS
+2 CINCO
+DISTRITOS
+HUARANGO
+LA COIPA
+NAMBALLE
+SAN IGNACIO
+SAN JOSÉ DE LOURDES
+2 DOS
+DISTRITOS
+TABACONAS
+42 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CAJAMARCA
+CELENDÍN
+CELENDÍN
+2 TODOS LOS
+DISTRITOS
+CHUMUCH
+CORTEGANA
+HUASMÍN
+JORGE CHÁVEZ
+JOSÉ GÁLVEZ
+LA LIBERTAD DE PALLÁN
+MIGUEL IGLESIAS
+OXAMARCA
+SOROCHUCO
+SUCRE
+UTCO
+CUTERVO
+CALLAYUC
+2 CATORCE
+DISTRITOS
+CHOROS
+CUJILLO
+CUTERVO
+LA RAMADA
+PIMPINGOS
+SAN ANDRÉS DE CUTERVO
+SAN JUAN DE CUTERVO
+SAN LUIS DE LUCMA
+SANTA CRUZ
+SANTO DOMINGO DE LA
+CAPILLA
+SANTO TOMÁS
+SOCOTA
+TORIBIO CASANOVA
+QUEROCOTILLO 3 UN DISTRITO
+JAÉN
+BELLAVISTA
+2 OCHO
+DISTRITOS
+CHONTALI
+COLASAY
+HUABAL
+JAÉN
+LAS PIRIAS
+SAN JOSÉ DEL ALTO
+SANTA ROSA
+POMAHUACA
+3 CUATRO
+DISTRITOS
+PUCARÁ
+SALLIQUE
+SAN FELIPE
+SAN MARCOS
+GREGORIO PITA
+2 CUATRO
+DISTRITOS
+ICHOCÁN
+JOSÉ MANUEL QUIROZ
+JOSÉ SABOGAL
+CHANCAY
+3 TRES
+DISTRITOS
+EDUARDO VILLANUEVA
+PEDRO GÁLVEZ
+CHOTA
+ANGUIA
+2 DOCE
+DISTRITOS
+CHADIN
+CHALAMARCA
+CHIGUIRIP
+CHIMBÁN
+CHOROPAMPA
+CHOTA
+CONCHÁN
+LAJAS
+PACCHA
+PIÓN
+TACABAMBA
+43
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CAJAMARCA
+CHOTA
+COCHABAMBA
+3 SIETE
+DISTRITOS
+HUAMBOS
+LLAMA
+MIRACOSTA
+QUEROCOTO
+SAN JUAN DE LICUPIS
+TOCMOCHE
+CAJABAMBA
+SITACOCHA 2 UN DISTRITO
+CACHACHI
+3 TRES
+DISTRITOS
+CAJABAMBA
+CONDEBAMBA
+CAJAMARCA
+ENCAÑADA 2 UN DISTRITO
+ASUNCIÓN
+3 ONCE
+DISTRITOS
+CAJAMARCA
+CHETILLA
+COSPÁN
+JESÚS
+LLACANORA
+LOS BAÑOS DEL INCA
+MAGDALENA
+MATARA
+NAMORA
+SAN JUAN
+CONTUMAZÁ
+CHILETE
+3 TODOS LOS
+DISTRITOS
+CONTUMAZÁ
+CUPISNIQUE
+GUZMANGO
+SAN BENITO
+SANTA CRUZ DE TOLEDO
+TANTARICA
+YONÁN
+SAN MIGUEL
+BOLÍVAR
+3 TODOS LOS
+DISTRITOS
+CALQUIS
+CATILLUC
+EL PRADO
+LA FLORIDA
+LLAPA
+NANCHOC
+NIEPOS
+SAN GREGORIO
+SAN MIGUEL
+SAN SILVESTRE DE COCHÁN
+TONGOD
+UNIÓN AGUA BLANCA
+SAN PABLO
+SAN BERNARDINO
+2 TODOS LOS
+DISTRITOS
+SAN LUIS
+SAN PABLO
+TUMBADÉN
+SANTA CRUZ
+ANDABAMBA
+2 TODOS LOS
+DISTRITOS
+CATACHE
+CHANCAYBAÑOS
+LA ESPERANZA
+NINABAMBA
+PULÁN
+SANTA CRUZ
+SAUCEPAMPA
+SEXI
+UTICYACU
+YAUYUCÁN
+44 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+PROVINCIA
+CONSTITUCIONAL
+PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CALLAO CALLAO
+BELLAVISTA
+4 TODOS LOS
+DISTRITOS
+CALLAO
+CARMEN DE LA LEGUA REYNOSO
+LA PERLA
+LA PUNTA
+VENTANILLA
+MI PERÚ
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CUSCO
+CALCA
+CALCA
+2 TODOS LOS
+DISTRITOS
+COYA
+LAMAY
+LARES
+PISAC
+SAN SALVADOR
+TARAY
+YANATILE
+URUBAMBA
+CHINCHERO
+2 TODOS LOS
+DISTRITOS
+HUAYLLABAMBA
+MACHUPICCHU
+MARAS
+OLLANTAYTAMBO
+URUBAMBA
+YUCAY
+PAUCARTAMBO
+CAICAY
+2 TODOS LOS
+DISTRITOS
+CHALLABAMBA
+COLQUEPATA
+HUANCARANI
+KOSÑIPATA
+PAUCARTAMBO
+ANTA
+ANCAHUASI
+2 TODOS LOS
+DISTRITOS
+ANTA
+CACHIMAYO
+CHINCHAYPUJIO
+HUAROCONDO
+LIMATAMBO
+MOLLEPATA
+PUCYURA
+ZURITE
+QUISPICANCHIS
+ANDAHUAYLILLAS
+2 TODOS LOS
+DISTRITOS
+CAMANTI
+CCARHUAYO
+CCATCA
+CUSIPATA
+HUARO
+LUCRE
+MARCAPATA
+OCONGATE
+OROPESA
+QUIQUIJANA
+URCOS
+PARURO
+ACCHA
+2 TODOS LOS
+DISTRITOS
+CCAPI
+COLCHA
+HUANOQUITE
+OMACHA
+PACCARITAMBO
+PARURO
+PILLPINTO
+YAURISQUE
+45
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CUSCO
+CANCHIS
+SICUANI
+2 TODOS LOS
+DISTRITOS
+COMBAPATA
+MARANGANI
+PITUMARCA
+SAN PABLO
+SAN PEDRO
+CHECACUPE
+TINTA
+CANAS
+CHECCA
+2 TODOS LOS
+DISTRITOS
+KUNTURKANKI
+LANGUI
+LAYO
+PAMPAMARCA
+QUEHUE
+TÚPAC AMARU
+YANAOCA
+ACOMAYO
+ACOMAYO
+2 TODOS LOS
+DISTRITOS
+ACOPIA
+ACOS
+MOSOC LLACTA
+POMACANCHI
+RONDOCÁN
+SANGARARA
+CUSCO
+CCORCA
+2 TODOS LOS
+DISTRITOS
+CUSCO
+POROY
+SAN JERÓNIMO
+SAN SEBASTIÁN
+SANTIAGO
+SAYLLA
+WANCHAQ
+LA CONVENCIÓN
+ECHARATE
+2 TODOS LOS
+DISTRITOS
+HUAYOPATA
+MARANURA
+OCOBAMBA
+PICHARI
+QUELLOUNO
+KIMBIRI
+SANTA ANA
+SANTA TERESA
+VILCABAMBA
+MEGANTONI
+VILLA KINTIARINA
+VILLA VIRGEN
+INKAWASI
+KUMPIRUSHIATO
+CIELO PUNCO
+MANITEA
+UNIÓN ASHANINKA
+CHUMBIVILCAS
+CAPACMARCA
+2 CUATRO
+DISTRITOS
+CHAMACA
+COLQUEMARCA
+LIVITACA
+LLUSCO
+3 CUATRO
+DISTRITOS
+QUIÑOTA
+SANTO TOMÁS
+VELILLE
+46 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+CUSCO ESPINAR
+CONDOROMA
+3 TODOS LOS
+DISTRITOS
+COPORAQUE
+ESPINAR
+OCORURO
+PALLPATA
+PICHIGUA
+SUYCKUTAMBO
+ALTO PICHIGUA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+HUANCAVELICA
+CHURCAMPA
+ANCO
+2 TODOS LOS
+DISTRITOS
+CHINCHIHUASI
+CHURCAMPA
+COSME
+EL CARMEN
+LA MERCED
+LOCROJA
+PACHAMARCA
+PAUCARBAMBA
+SAN MIGUEL DE MAYOCC
+SAN PEDRO DE CORIS
+ACOBAMBA
+ACOBAMBA
+2 TODOS LOS
+DISTRITOS
+ANDABAMBA
+ANTA
+CAJA
+MARCAS
+PAUCARA
+POMACOCHA
+ROSARIO
+TAYACAJA
+COLCABAMBA
+2 DIECISÉIS
+DISTRITOS
+QUICHUAS
+DANIEL HERNÁNDEZ
+HUACHOCOLPA
+HUARIBAMBA
+QUISHUAR
+SALCABAMBA
+SAN MARCOS DE ROCCHAC
+SALCAHUASI
+SURCUBAMBA
+TINTAY PUNCU
+PICHOS
+ROBLE
+ANDAYMARCA
+LAMBRAS
+COCHABAMBA
+ACOSTAMBO
+3 OCHO
+DISTRITOS
+ACRAQUIA
+AHUAYCHA
+HUANDO
+ÑAHUIMPUQUIO
+PAMPAS
+PAZOS
+SANTIAGO DE TUCUMA
+47
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+HUANCAVELICA
+ANGARAES
+CHINCHO 2 UN DISTRITO
+ANCHONGA
+3 ONCE
+DISTRITOS
+CALLANMARCA
+CCOCHACCASA
+CONGALLA
+HUANCA-HUANCA
+HUAYLLAY GRANDE
+JULCAMARCA
+LIRCAY
+SAN ANTONIO DE ANTAPARCO
+SECCLLA
+SANTO TOMÁS DE PATA
+HUANCAVELICA
+ACOBAMBILLA
+3 TODOS LOS
+DISTRITOS
+ACORIA
+ASCENSIÓN
+CONAYCA
+CUENCA
+HUACHOCOLPA
+HUANCAVELICA
+HUAYLLAHUARA
+IZCUCHACA
+LARIA
+MANTA
+MARISCAL CÁCERES
+MOYA
+NUEVO OCCORO
+PALCA
+PILCHACA
+VILCA
+YAULI
+CASTROVIRREYNA
+ARMA
+3 ONCE
+DISTRITOS
+AURAHUA
+CASTROVIRREYNA
+CHUPAMARCA
+COCAS
+HUACHOS
+HUAMATAMBO
+MOLLEPAMPA
+SANTA ANA
+TANTARA
+TICRAPO
+CAPILLAS
+4 DOS
+DISTRITOS
+SAN JUAN
+HUAYTARÁ
+SAN ANTONIO DE CUSICANCHA
+3 TRES
+DISTRITOS
+PILPICHACA
+QUERCO
+AYAVI
+4 TRECE
+DISTRITOS
+CÓRDOVA
+HUAYACUNDO ARMA
+HUAYTARÁ
+LARAMARCA
+OCOYO
+QUITO-ARMA
+SAN FRANCISCO DE
+SANGAYAICO
+SAN ISIDRO
+SANTIAGO DE CHOCORVOS
+SANTIAGO DE QUIRAHUARA
+SANTO DOMINGO DE CAPILLAS
+TAMBO
+48 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+HUÁNUCO
+HUÁNUCO
+HUÁNUCO
+2 TODOS LOS
+DISTRITOS
+AMARILIS
+CHINCHAO
+CHURUBAMBA
+MARGOS
+PILLCO MARCA
+QUISQUI
+SAN FRANCISCO DE CAYRÁN
+SAN PEDRO DE CHAULAN
+SANTA MARÍA DEL VALLE
+YARUMAYO
+YACUS
+SAN PABLO DE PILLAO
+HUACAYBAMBA
+HUACAYBAMBA
+2 TODOS LOS
+DISTRITOS
+CANCHABAMBA
+COCHABAMBA
+PINRA
+LEONCIO PRADO
+RUPA-RUPA
+2 TODOS LOS
+DISTRITOS
+JOSÉ CRESPO Y CASTILLO
+MARIANO DAMASO BERAÚN
+DANIEL ALOMIA ROBLES
+LUYANDO
+HERMILIO VALDIZÁN
+CASTILLO GRANDE
+PUCAYACU
+SANTO DOMINGO DE ANDA
+PUEBLO NUEVO
+MARAÑÓN
+HUACRACHUCO
+2 TODOS LOS
+DISTRITOS
+CHOLÓN
+SAN BUENAVENTURA
+LA MORADA
+SANTA ROSA DE ALTO
+YANAJANCA
+PUERTO INCA
+PUERTO INCA
+2 TODOS LOS
+DISTRITOS
+CODO DEL POZUZO
+HONORIA
+TOURNAVISTA
+YUYAPICHIS
+YAROWILCA
+CHAVINILLO
+2 TODOS LOS
+DISTRITOS
+CAHUAC
+CHACABAMBA
+APARICIO POMARES
+JACAS CHICO
+OBAS
+PAMPAMARCA
+CHORAS
+PACHITEA
+PANAO
+2 TODOS LOS
+DISTRITOS
+CHAGLLA
+MOLINO
+UMARI
+AMBO
+AMBO
+2 TODOS LOS
+DISTRITOS
+CAYNA
+COLPAS
+CONCHAMARCA
+HUACAR
+SAN FRANCISCO
+SAN RAFAEL
+TOMAY KICHWA
+49
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+HUÁNUCO
+HUAMALÍES
+ARANCAY
+2 OCHO
+DISTRITOS
+CHAVÍN DE PARIARCA
+JACAS GRANDE
+JIRCAN
+MONZÓN
+PUNCHAO
+SINGA
+TANTAMAYO
+LLATA
+3 TRES
+DISTRITOS
+MIRAFLORES
+PUÑOS
+DOS DE MAYO
+CHUQUIS
+2 TRES
+DISTRITOS
+MARÍAS
+QUIVILLA
+LA UNIÓN
+3 SEIS
+DISTRITOS
+PACHAS
+RIPAN
+SHUNQUI
+SILLAPATA
+YANAS
+LAURICOCHA
+BAÑOS
+3 TODOS LOS
+DISTRITOS
+JESÚS
+JIVIA
+QUEROPALCA
+RONDOS
+SAN FRANCISCO DE ASIS
+SAN MIGUEL DE CAURI
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+ICA
+CHINCHA
+SAN PEDRO DE HUACARPANA 3 UN DISTRITO
+ALTO LARAN
+4 DIEZ
+DISTRITOS
+CHAVÍN
+CHINCHA ALTA
+CHINCHA BAJA
+EL CARMEN
+GROCIO PRADO
+PUEBLO NUEVO
+SAN JUAN DE YÁNAC
+SUNAMPE
+TAMBO DE MORA
+PALPA
+LLIPATA
+4 TODOS LOS
+DISTRITOS
+PALPA
+RÍO GRANDE
+SANTA CRUZ
+TIBILLO
+ICA
+ICA
+4 TODOS LOS
+DISTRITOS
+LA TINGUIÑA
+LOS AQUIJES
+OCUCAJE
+PACHACÚTEC
+PARCONA
+PUEBLO NUEVO
+SALAS
+SAN JOSÉ DE LOS MOLINOS
+SAN JUAN BAUTISTA
+SANTIAGO
+SUBTANJALLA
+TATE
+YAUCA DEL ROSARIO
+50 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+ICA
+NAZCA
+CHANGUILLO
+4 TODOS LOS
+DISTRITOS
+EL INGENIO
+MARCONA
+NASCA
+VISTA ALEGRE
+PISCO
+HUANCANO
+4 TODOS LOS
+DISTRITOS
+HUMAY
+INDEPENDENCIA
+PARACAS
+PISCO
+SAN ANDRÉS
+SAN CLEMENTE
+TÚPAC AMARU INCA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+JUNÍN
+CHANCHAMAYO
+CHANCHAMAYO
+2 TODOS LOS
+DISTRITOS
+PERENÉ
+PICHANAQUI
+SAN LUIS DE SHUARO
+SAN RAMÓN
+VITOC
+SATIPO
+COVIRIALI
+2 TODOS LOS
+DISTRITOS
+LLAYLLA
+MAZAMARI
+PAMPA HERMOSA
+PANGOA
+RÍO NEGRO
+RÍO TAMBO
+SATIPO
+VIZCATÁN DEL ENE
+TARMA
+ACOBAMBA
+2 SEIS
+DISTRITOS
+HUASAHUASI
+PALCA
+PALCAMAYO
+SAN PEDRO DE CAJAS
+TAPO
+HUARICOLCA
+3 TRES
+DISTRITOS
+LA UNIÓN
+TARMA
+CONCEPCIÓN
+ANDAMARCA
+2 CUATRO
+DISTRITOS
+COCHAS
+COMAS
+MARISCAL CASTILLA
+ACO
+3 ONCE
+DISTRITOS
+CHAMBARÁ
+CONCEPCIÓN
+HEROÍNAS TOLEDO
+MANZANARES
+MATAHUASI
+MITO
+NUEVE DE JULIO
+ORCOTUNA
+SAN JOSÉ DE QUERO
+SANTA ROSA DE OCOPA
+51
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+JUNÍN
+CHUPACA
+AHUAC
+3 TODOS LOS
+DISTRITOS
+CHONGOS BAJO
+CHUPACA
+HUÁCHAC
+HUAMANCACA CHICO
+SAN JUAN DE JARPA
+SAN JUAN DE ISCOS
+TRES DE DICIEMBRE
+YANACANCHA
+HUANCAYO
+PARIAHUANCA
+2 DOS
+DISTRITOS
+SANTO DOMINGO DE
+ACOBAMBA
+CARHUACALLANGA
+3 VEINTISEIS
+DISTRITOS
+CHACAPAMPA
+CHICCHE
+CHILCA
+CHONGOS ALTO
+CHUPURO
+COLCA
+CULLHUAS
+EL TAMBO
+HUACRAPUQUIO
+HUALHUAS
+HUANCÁN
+HUANCAYO
+HUASICANCHA
+HUAYUCACHI
+INGENIO
+PILCOMAYO
+PUCARÁ
+QUICHUAY
+QUILCAS
+SAN AGUSTÍN
+SAN JERÓNIMO DE TUNÁN
+SAÑO
+SAPALLANGA
+SICAYA
+VIQUES
+JAUJA
+APATA
+2 CUATRO
+DISTRITOS
+MOLINOS
+MONOBAMBA
+RICRÁN
+ACOLLA
+3 TREINTA
+DISTRITOS
+ATAURA
+CANCHAYLLO
+CURICACA
+EL MANTARO
+HUAMALÍ
+HUARIPAMPA
+HUERTAS
+JANJAILLO
+JAUJA
+JULCÁN
+LEONOR ORDÓÑEZ
+LLOCLLAPAMPA
+MARCO
+MASMA
+MASMA CHICCHE
+MUQUI
+52 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+JUNÍN
+JAUJA
+MUQUIYAUYO
+3 TREINTA
+DISTRITOS
+PACA
+PACCHA
+PANCÁN
+PARCO
+POMACANCHA
+SAN LORENZO
+SAN PEDRO DE CHUNÁN
+SAUSA
+SINCOS
+TUNAN MARCA
+YAULI
+YAUYOS
+JUNÍN
+CARHUAMAYO
+2 DOS
+DISTRITOS
+ULCUMAYO
+JUNÍN
+3 DOS
+DISTRITOS
+ONDORES
+YAULI
+CHACAPALPA
+3 TODOS LOS
+DISTRITOS
+HUAY-HUAY
+LA OROYA
+MARCAPOMACOCHA
+MOROCOCHA
+PACCHA
+SANTA BÁRBARA DE
+CARHUACAYÁN
+SANTA ROSA DE SACCO
+SUITUCANCHA
+YAULI
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LA LIBERTAD
+BOLÍVAR
+BAMBAMARCA
+2 TODOS LOS
+DISTRITOS
+BOLÍVAR
+CONDORMARCA
+LONGOTEA
+UCHUMARCA
+UCUNCHA
+PATAZ
+BULDIBUYO
+2 TODOS LOS
+DISTRITOS
+CHILLIA
+HUANCASPATA
+HUAYLILLAS
+HUAYO
+ONGON
+PARCOY
+PATAZ
+PIAS
+SANTIAGO DE CHALLAS
+TAURIJA
+TAYABAMBA
+URPAY
+SÁNCHEZ CARRIÓN
+COCHORCO
+2 DOS
+DISTRITOS
+SARTIMBAMBA
+CHUGAY
+3 SEIS
+DISTRITOS
+CURGOS
+HUAMACHUCO
+MARCABAL
+SANAGORAN
+SARÍN
+53
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LA LIBERTAD
+SANTIAGO DE CHUCO
+ANGASMARCA
+3 TODOS LOS
+DISTRITOS
+CACHICADAN
+MOLLEBAMBA
+MOLLEPATA
+QUIRUVILCA
+SANTA CRUZ DE CHUCA
+SANTIAGO DE CHUCO
+SITABAMBA
+GRAN CHIMÚ
+CASCAS
+3 TODOS LOS
+DISTRITOS
+LUCMA
+MARMOT
+SAYAPULLO
+JULCÁN
+CALAMARCA
+3 TODOS LOS
+DISTRITOS
+CARABAMBA
+HUASO
+JULCÁN
+OTUZCO
+AGALLPAMPA
+3 TODOS LOS
+DISTRITOS
+CHARAT
+HUARANCHAL
+LA CUESTA
+MACHE
+OTUZCO
+PARANDAY
+SALPO
+SINSICAP
+USQUIL
+CHEPÉN
+CHEPÉN
+4 TODOS LOS
+DISTRITOS
+PACANGA
+PUEBLO NUEVO
+ASCOPE
+ASCOPE
+4 TODOS LOS
+DISTRITOS
+CASA GRANDE
+CHICAMA
+CHOCOPE
+MAGDALENA DE CAO
+PAIJÁN
+RÁZURI
+SANTIAGO DE CAO
+PACASMAYO
+GUADALUPE
+4 TODOS LOS
+DISTRITOS
+JEQUETEPEQUE
+PACASMAYO
+SAN JOSÉ
+SAN PEDRO DE LLOC
+TRUJILLO
+EL PORVENIR
+4 TODOS LOS
+DISTRITOS
+FLORENCIA DE MORA
+HUANCHACO
+LA ESPERANZA
+LAREDO
+MOCHE
+POROTO
+SALAVERRY
+SIMBAL
+TRUJILLO
+VÍCTOR LARCO HERRERA
+ALTO TRUJILLO
+54 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+VIRÚ
+CHAO
+4 TODOS LOS
+DISTRITOS
+LA LIBERTAD GUADALUPITO
+VIRÚ
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LAMBAYEQUE
+FERREÑAFE
+CAÑARIS
+3 DOS
+DISTRITOS
+INCAHUASI
+FERREÑAFE
+4 CUATRO
+DISTRITOS
+MANUEL ANTONIO MESONES
+MURO
+PITIPO
+PUEBLO NUEVO
+LAMBAYEQUE
+SALAS 3 UN DISTRITO
+CHOCHOPE
+4 ONCE
+DISTRITOS
+ILLIMO
+JAYANCA
+LAMBAYEQUE
+MOCHUMI
+MÓRROPE
+MOTUPE
+OLMOS
+PACORA
+SAN JOSÉ
+TUCUME
+CHICLAYO
+CAYALTÍ
+4 TODOS LOS
+DISTRITOS
+CHICLAYO
+CHONGOYAPE
+ETÉN
+ETÉN PUERTO
+JOSÉ LEONARDO ORTIZ
+LA VICTORIA
+LAGUNAS
+MONSEFÚ
+NUEVA ARICA
+OYOTUN
+PATAPO
+PICSI
+PIMENTEL
+POMALCA
+PUCALA
+REQUE
+SANTA ROSA
+SAÑA
+TUMÁN
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LIMA CAJATAMBO
+CAJATAMBO
+3 CINCO
+DISTRITOS
+COPA
+GORGOR
+HUANCAPÓN
+MANAS
+55
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LIMA
+OYÓN
+ANDAJES
+3 TODOS LOS
+DISTRITOS
+CAUJUL
+COCHAMARCA
+NAVÁN
+OYÓN
+PACHANGARA
+YAUYOS
+ALIS
+3 VEINTINUEVE
+DISTRITOS
+ALLAUCA
+AYAVIRI
+AZÁNGARO
+CACRA
+CARANIA
+CATAHUASI
+CHOCOS
+COCHAS
+COLONIA
+HONGOS
+HUAMPARA
+HUANCAYA
+HUANGASCAR
+HUANTAN
+HUAÑEC
+LARAOS
+LINCHA
+MADEAN
+MIRAFLORES
+QUINCHES
+SAN JOAQUÍN
+PUTINZA
+SAN PEDRO DE PILAS
+TANTA
+TOMÁS
+TUPE
+VIÑAC
+VITIS
+YAUYOS
+OMAS
+4 TRES
+DISTRITOS
+QUINOCAY
+TAURIPAMPA
+HUAROCHIRÍ
+CALLAHUANCA
+3 VEINTICINCO
+DISTRITOS
+CARAMPOMA
+CHICLA
+HUACHUPAMPA
+HUANZA
+HUAROCHIRÍ
+LAHUAYTAMBO
+LANGA
+SAN PEDRO DE LARAOS
+MATUCANA
+SAN ANDRÉS DE TUPICOCHA
+SAN BARTOLOMÉ
+SAN DAMIAN
+56 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LIMA
+HUAROCHIRÍ
+SURCO
+3 VEINTICINCO
+DISTRITOS
+SAN JUAN DE IRIS
+SAN JUAN DE TANTARANCHE
+SAN LORENZO DE QUINTI
+SAN MATEO
+SAN MATEO DE OTAO
+SAN PEDRO DE CASTA
+SAN PEDRO DE HUANCAYRE
+SANGALLAYA
+SANTA CRUZ DE COCACHACRA
+SANTIAGO DE ANCHUCAYA
+SANTIAGO DE TUNA
+ANTIOQUÍA
+4 SIETE
+DISTRITOS
+CUENCA
+MARIATANA
+RICARDO PALMA
+SAN ANTONIO
+SANTA EULALIA
+SANTO DOMINGO DE LOS
+OLLEROS
+CANTA
+CANTA
+3 CUATRO
+DISTRITOS
+HUAROS
+LACHAQUI
+SAN BUENAVENTURA
+ARAHUAY
+4 TRES
+DISTRITOS
+HUAMANTANGA
+SANTA ROSA DE QUIVES
+HUARAL
+ATAVILLOS ALTO
+3 NUEVE
+DISTRITOS
+ATAVILLOS BAJO
+IHUARI
+LAMPIÁN
+PACARAOS
+SAN MIGUEL DE ACOS
+SANTA CRUZ DE ANDAMARCA
+SUMBILCA
+VEINTISIETE DE NOVIEMBRE
+AUCALLAMA
+4 TRES
+DISTRITOS
+CHANCAY
+HUARAL
+HUAURA
+CHECRAS
+3 CUATRO
+DISTRITOS
+LEONCIO PRADO
+PACCHO
+SANTA LEONOR
+AMBAR
+4 OCHO
+DISTRITOS
+CALETA DE CARQUÍN
+HUACHO
+HUALMAY
+HUAURA
+SANTA MARÍA
+SAYÁN
+VEGUETA
+57
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LIMA
+CAÑETE
+ZUÑIGA 3 UN DISTRITO
+ASIA
+4 QUINCE
+DISTRITOS
+CALANGO
+CERRO AZUL
+CHILCA
+COAYLLO
+IMPERIAL
+LUNAHUANA
+MALA
+NUEVO IMPERIAL
+PACARÁN
+QUILMANA
+SAN ANTONIO
+SAN LUIS
+SAN VICENTE DE CAÑETE
+SANTA CRUZ DE FLORES
+BARRANCA
+BARRANCA
+4 TODOS LOS
+DISTRITOS
+PARAMONGA
+PATIVILCA
+SUPE
+SUPE PUERTO
+LIMA
+ANCÓN
+4 TODOS LOS
+DISTRITOS
+ATE
+BARRANCO
+BREÑA
+CARABAYLLO
+CHACLACAYO
+CHORRILLOS
+CIENEGUILLA
+COMAS
+EL AGUSTINO
+INDEPENDENCIA
+JESÚS MARÍA
+LA MOLINA
+LA VICTORIA
+LIMA
+LINCE
+LOS OLIVOS
+LURIGANCHO
+LURÍN
+MAGDALENA DEL MAR
+MIRAFLORES
+PACHACÁMAC
+PUCUSANA
+PUEBLO LIBRE
+PUENTE PIEDRA
+PUNTA HERMOSA
+PUNTA NEGRA
+RÍMAC
+SAN BARTOLO
+SAN BORJA
+SAN ISIDRO
+SAN JUAN DE LURIGANCHO
+58 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LIMA LIMA
+SAN JUAN DE MIRAFLORES
+4 TODOS LOS
+DISTRITOS
+SAN LUIS
+SAN MARTIN DE PORRES
+SAN MIGUEL
+SANTA ANITA
+SANTA MARÍA DEL MAR
+SANTA ROSA
+SANTIAGO DE SURCO
+SURQUILLO
+VILLA EL SALVADOR
+VILLA MARÍA DEL TRIUNFO
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LORETO
+MARISCAL
+RAMÓN
+CASTILLA
+RAMÓN CASTILLA
+1 TODOS LOS
+DISTRITOS
+PEBAS
+SAN PABLO
+YAVARI
+SANTA ROSA
+MAYNAS
+ALTO NANAY
+1 TODOS LOS
+DISTRITOS
+BELÉN
+FERNANDO LORES
+INDIANA
+IQUITOS
+LAS AMAZONAS
+MAZAN
+NAPO
+PUNCHANA
+SAN JUAN BAUTISTA
+TORRES CAUSANA
+REQUENA
+SAQUENA 1 UN DISTRITO
+REQUENA
+2 DIEZ
+DISTRITOS
+CAPELO
+SOPLIN
+TAPICHE
+JENARO HERRERA
+YAQUERANA
+ALTO TAPICHE
+EMILIO SAN MARTÍN
+MAQUIA
+PUINAHUA
+LORETO
+NAUTA
+2 TODOS LOS
+DISTRITOS
+PARINARI
+TIGRE
+TROMPETEROS
+URARINAS
+ALTO
+AMAZONAS
+LAGUNAS 2 UN DISTRITO
+YURIMAGUAS
+3 CINCO
+DISTRITOS
+BALSAPUERTO
+JEBEROS
+SANTA CRUZ
+TENIENTE CÉSAR LÓPEZ
+ROJAS
+59
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+LORETO
+PUTUMAYO
+TENIENTE MANUEL CLAVERO
+1 TODOS LOS
+DISTRITOS
+ROSA PANDURO
+PUTUMAYO
+YAGUAS
+UCAYALI
+CONTAMANA
+2 TODOS LOS
+DISTRITOS
+INAHUAYA
+PADRE MÁRQUEZ
+PAMPA HERMOSA
+SARAYACU
+VARGAS GUERRA
+DATEM DEL MARAÑÓN
+MANSERICHE
+2 CUATRO
+DISTRITOS
+MORONA
+PASTAZA
+ANDOAS
+BARRANCA
+3 DOS
+CAHUAPANAS
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+MADRE DE DIOS
+TAMBOPATA
+INAMBARI
+1 TODOS LOS
+DISTRITOS
+LABERINTO
+LAS PIEDRAS
+TAMBOPATA
+TAHUAMANU
+IBERIA
+1 TODOS LOS
+DISTRITOS
+IÑAPARI
+TAHUAMANU
+MANU
+FITZCARRALD
+2 TODOS LOS
+DISTRITOS
+HUEPETUHE
+MADRE DE DIOS
+MANU
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+MOQUEGUA
+GENERAL SÁNCHEZ CERRO
+CHOJATA
+3 DIEZ
+DISTRITOS
+COALAQUE
+ICHUÑA
+LLOQUE
+MATALAQUE
+OMATE
+PUQUINA
+QUINISTAQUILLAS
+UBINAS
+YUNGA
+LA CAPILLA 4 UN DISTRITO
+MARISCAL NIETO
+CARUMAS
+3 CINCO
+DISTRITOS
+CUCHUMBAYA
+SAMEGUA
+SAN CRISTÓBAL
+TORATA
+MOQUEGUA
+4 DOS
+DISTRITOS
+SAN ANTONIO
+ILO
+EL ALGARROBAL
+4 TODOS LOS
+DISTRITOS
+PACOCHA
+ILO
+60 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PASCO
+OXAPAMPA
+OXAPAMPA
+2 TODOS LOS
+DISTRITOS
+CHONTABAMBA
+HUANCABAMBA
+PALCAZU
+POZUZO
+PUERTO BERMÚDEZ
+VILLA RICA
+CONSTITUCIÓN
+PASCO
+HUACHÓN
+2 OCHO
+DISTRITOS
+HUARIACA
+NINACACA
+PALLANCHACRA
+PAUCARTAMBO
+SAN FRANCISCO DE ASÍS DE
+YARUSYACÁN
+TICLACAYAN
+YANACANCHA
+CHAUPIMARCA
+3 CINCO
+DISTRITOS
+HUAYLLAY
+SIMÓN BOLÍVAR
+TINYAHUARCO
+VICCO
+DANIEL A. CARRIÓN
+YANAHUANCA
+3 TODOS LOS
+DISTRITOS
+CHACAYAN
+GOYLLARISQUIZGA
+PAUCAR
+SAN PEDRO DE PILLAO
+SANTA ANA DE TUSI
+TAPUC
+VILCABAMBA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PIURA
+HUANCABAMBA
+CANCHAQUE
+3 TODOS LOS
+DISTRITOS
+EL CARMEN DE LA FRONTERA
+HUANCABAMBA
+HUARMACA
+LALAQUIZ
+SAN MIGUEL DE EL FAIQUE
+SONDOR
+SONDORILLO
+AYABACA
+AYABACA
+3 SEIS
+DISTRITOS
+JILILI
+LAGUNAS
+MONTERO
+PACAIPAMPA
+SICCHEZ
+FRÍAS
+4 CUATRO
+DISTRITOS
+PAIMAS
+SAPILLICA
+SUYO
+61
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PIURA
+MORROPÓN
+BUENOS AIRES
+3 SEIS
+DISTRITOS
+CHALACO
+SALITRAL
+SAN JUAN DE BIGOTE
+SANTA CATALINA DE MOSSA
+YAMANGO
+CHULUCANAS
+4 CUATRO
+DISTRITOS
+LA MATANZA
+MORROPÓN
+SANTO DOMINGO
+PIURA
+CASTILLA
+4 TODOS LOS
+DISTRITOS
+CATACAOS
+CURA MORI
+EL TALLÁN
+LA ARENA
+LA UNIÓN
+LAS LOMAS
+PIURA
+TAMBO GRANDE
+VEINTISÉIS DE OCTUBRE
+PAITA
+AMOTAPE
+4 TODOS LOS
+DISTRITOS
+ARENAL
+COLAN
+LA HUACA
+PAITA
+TAMARINDO
+VICHAYAL
+SECHURA
+BELLAVISTA DE LA UNIÓN
+4 TODOS LOS
+DISTRITOS
+BERNAL
+CRISTO NOS VALGA
+RINCONADA LLICUAR
+SECHURA
+VICE
+SULLANA
+BELLAVISTA
+4 TODOS LOS
+DISTRITOS
+IGNACIO ESCUDERO
+LANCONES
+MARCAVELICA
+MIGUEL CHECA
+QUERECOTILLO
+SALITRAL
+SULLANA
+TALARA
+EL ALTO
+4 TODOS LOS
+DISTRITOS
+LA BREA
+LOBITOS
+LOS ÓRGANOS
+MÁNCORA
+PARIÑAS
+62 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PUNO
+SANDIA
+ALTO INAMBARI
+1 TRES
+DISTRITOS
+SAN JUAN DEL ORO
+YANAHUAYA
+CUYOCUYO
+2 SIETE
+DISTRITOS
+LIMBANI
+PATAMBUCO
+PHARA
+QUIACA
+SAN PEDRO DE PUTINA PUNCO
+SANDIA
+SAN ANTONIO
+DE PUTINA
+ANANEA
+2 TODOS LOS
+DISTRITOS
+QUILCAPUNCU
+SINA
+PEDRO VILCA APAZA
+PUTINA
+CARABAYA
+AYAPATA
+2 TODOS LOS
+DISTRITOS
+COASA
+CRUCERO
+ITUATA
+SAN GABÁN
+USICAYOS
+AJOYANI
+CORANI
+MACUSANI
+OLLACHEA
+HUANCANÉ
+COJATA
+2 TODOS LOS
+DISTRITOS
+HUANCANÉ
+HUATASANI
+INCHUPALLA
+PUSI
+ROSASPATA
+TARACO
+VILQUE CHICO
+MOHO
+HUAYRAPATA
+2 TODOS LOS
+DISTRITOS
+MOHO
+CONIMA
+TILALI
+PUNO
+COATA
+2 TRES
+DISTRITOS
+CAPACHICA
+AMANTANI
+ACORA
+3 DOCE
+DISTRITOS
+ATUNCOLLA
+CHUCUITO
+HUATA
+MAÑAZO
+PAUCARCOLLA
+PICHACANI
+PLATERÍA
+PUNO
+SAN ANTONIO
+TIQUILLACA
+VILQUE
+63
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PUNO
+AZÁNGARO
+AZÁNGARO
+2 TODOS LOS
+DISTRITOS
+ACHAYA
+ARAPA
+ASILLO
+CAMINACA
+CHUPA
+JOSÉ DOMINGO
+CHOQUEHUANCA
+MUÑANI
+POTONI
+SAMAN
+SAN ANTÓN
+SAN JOSÉ
+SAN JUAN DE SALINAS
+SANTIAGO DE PUPUJA
+TIRAPATA
+CHUCUITO
+DESAGUADERO
+3 TODOS LOS
+DISTRITOS
+HUACULLANI
+JULI
+KELLUYO
+PISACOMA
+POMATA
+ZEPITA
+EL COLLAO
+CAPAZO
+3 TODOS LOS
+DISTRITOS
+CONDURIRI
+ILAVE
+PILCUYO
+SANTA ROSA
+LAMPA
+CALAPUJA
+2 TRES
+DISTRITOS
+NICASIO
+PUCARÁ
+CABANILLA
+3 SIETE
+DISTRITOS
+LAMPA
+OCUVIRI
+PALCA
+PARATIA
+SANTA LUCÍA
+VILAVILA
+MELGAR
+ANTAUTA
+2 TODOS LOS
+DISTRITOS
+AYAVIRI
+CUPI
+LLALLI
+MACARI
+NUÑOA
+ORURILLO
+SANTA ROSA
+UMACHIRI
+SAN ROMÁN
+JULIACA
+3 TODOS LOS
+DISTRITOS
+CABANA
+CABANILLAS
+CARACOTO
+SAN MIGUEL
+64 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+PUNO YUNGUYO
+YUNGUYO
+3 TODOS LOS
+DISTRITOS
+ANAPIA
+COPANI
+CUTURAPI
+OLLARAYA
+TINICACHI
+UNICACHI
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+SAN MARTÍN
+BELLAVISTA
+BELLAVISTA
+2 TODOS LOS
+DISTRITOS
+ALTO BIAVO
+BAJO BIAVO
+HUALLAGA
+SAN PABLO
+SAN RAFAEL
+HUALLAGA
+SAPOSOA
+2 TODOS LOS
+DISTRITOS
+EL ESLABÓN
+PISCOYACU
+SACANCHE
+TINGO DE SAPOSOA
+ALTO SAPOSOA
+LAMAS
+LAMAS
+3 TODOS LOS
+DISTRITOS
+ALONSO DE ALVARADO
+BARRANQUITA
+CAYNARACHI
+CUÑUMBUQUI
+PINTO RECODO
+RUMISAPA
+SAN ROQUE DE CUMBAZA
+SHANAO
+TABALOSOS
+ZAPATERO
+MARISCAL CÁCERES
+JUANJUÍ
+2 TODOS LOS
+DISTRITOS
+CAMPANILLA
+HUICUNGO
+PACHIZA
+PAJARILLO
+PICOTA
+PICOTA
+2 TODOS LOS
+DISTRITOS
+BUENOS AIRES
+CASPISAPA
+PILLUANA
+PUCACACA
+SAN CRISTÓBAL
+SAN HILARIÓN
+SHAMBOYACU
+TINGO DE PONASA
+TRES UNIDOS
+MOYOBAMBA
+MOYOBAMBA
+3 TODOS LOS
+DISTRITOS
+CALZADA
+HABANA
+JEPELACIO
+SORITOR
+YANTALO
+65
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+SAN MARTÍN
+RIOJA
+RIOJA
+3 TODOS LOS
+DISTRITOS
+AWAJUN
+ELIAS SOPLÍN VARGAS
+NUEVA CAJAMARCA
+PARDO MIGUEL
+POSIC
+SAN FERNANDO
+YORONGOS
+YURACYACU
+SAN MARTÍN
+CHIPURANA
+2 CUATRO
+DISTRITOS
+EL PORVENIR
+HUIMBAYOC
+PAPAPLAYA
+TARAPOTO
+3 DIEZ
+DISTRITOS
+ALBERTO LEVEAU
+CACATACHI
+CHAZUTA
+JUAN GUERRA
+LA BANDA DE SHILCAYO
+MORALES
+SAN ANTONIO
+SAUCE
+SHAPAJA
+TOCACHE
+TOCACHE
+2 TODOS LOS
+DISTRITOS
+NUEVO PROGRESO
+PÓLVORA
+SHUNTE
+UCHIZA
+SANTA LUCIA
+EL DORADO
+SAN JOSÉ DE SISA
+3 TODOS LOS
+DISTRITOS
+AGUA BLANCA
+SAN MARTÍN
+SANTA ROSA
+SHATOJA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+TACNA
+TARATA
+HÉROES ALBARRACÍN
+3 TODOS LOS
+DISTRITOS
+ESTIQUE
+ESTIQUE-PAMPA
+SITAJARA
+SUSAPAYA
+TARATA
+TARUCACHI
+TICACO
+CANDARAVE
+CAIRANI
+3 TODOS LOS
+DISTRITOS
+CAMILACA
+CANDARAVE
+CURIBAYA
+HUANUARA
+QUILAHUANI
+JORGE BASADRE
+ILABAYA
+4 TODOS LOS
+DISTRITOS
+ITE
+LOCUMBA
+66 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+TACNA TACNA
+PALCA 3 UN DISTRITO
+ALTO DE LA ALIANZA
+4 DIEZ
+DISTRITOS
+CALANA
+CIUDAD NUEVA
+INCLÁN
+PACHIA
+POCOLLAY
+SAMA
+TACNA
+LA YARADA LOS PALOS
+CORONEL GREGORIO
+ALBARRACIN LANCHIPA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+TUMBES
+CONTRALMIRANTE VILLAR
+CASITAS
+4 TODOS LOS
+DISTRITOS
+ZORRITOS
+CANOAS DE PUNTA SAL
+TUMBES
+CORRALES
+4 TODOS LOS
+DISTRITOS
+LA CRUZ
+PAMPAS DE HOSPITAL
+SAN JACINTO
+SAN JUAN DE LA VIRGEN
+TUMBES
+ZARUMILLA
+AGUAS VERDES
+4 TODOS LOS
+DISTRITOS
+MATAPALO
+PAPAYAL
+ZARUMILLA
+DEPARTAMENTO PROVINCIA DISTRITO ZONA SÍSMICA ÁMBITO
+UCAYALI
+PURÚS PURÚS 1 ÚNICO
+DISTRITO
+ATALAYA
+RAIMONDI
+2 TODOS LOS
+DISTRITOS
+SEPAHUA
+TAHUANIA
+YURUA
+PADRE ABAD
+CURIMANÁ
+2 TODOS LOS
+DISTRITOS
+IRAZOLA
+PADRE ABAD
+ALEXANDER VON HUMBOLDT
+NESHUYA
+HUIPOCA
+BOQUERON
+CORONEL PORTILLO
+CALLERIA
+2 TODOS LOS
+DISTRITOS
+CAMPOVERDE
+IPARIA
+MANANTAY
+MASISEA
+NUEVA REQUENA
+YARINACOCHA
+67
+NORMAS LEGALES
+Domingo 3 de mayo de 2026
+El Peruano /
+ANEXO III
+CONTENIDO MÍNIMO PARA LA EJECUCIÓN DE ESTUDIOS DE MICROZONIFICACIÓN SÍSMICA
+1. Área de ámbito urbano (Escala de trabajo)
+- 1 a 10 hectáreas (1/1,000-1/2,000)
+- 10 a 50 hectáreas (1/2,000 – 1/5,000)
+- 50 a 500 hectáreas (1/5,000 – 1/10,000)
+- Más de 500 hectáreas (1/10,000-1/25,000)
+2. Número mínimo de puntos de exploración:
+- Exploración directa (calicata, trinchera, perforación con ensayo SPT, etc.) 1 punto por cada km2.
+- Medición de microtrepidaciones: 2 puntos por cada km2.
+- Ensayos MASW (análisis multicanal de ondas superﬁ ciales) 1 punto por cada 2 km2.
+- Ensayos de refracción sísmica 1 línea cada 2 km2.
+- Los puntos de exploración pueden ser ejecutados o recopilados, siempre y cuando éstos últimos provengan de
+fuentes conﬁ ables y sean rigurosamente validados técnicamente por el especialista profesional responsable
+del estudio.
+3. Contenido de los estudios
+a) Antecedentes
+- Ubicación del área de estudio
+b) Evaluación del peligro sísmico
+- Análisis de peligro sísmico probabilístico.
+- Mapa de isoaceleraciones máximas a nivel de roca o suelo ﬁ rme (V
+ഥ
+s͵Ͳ ≥ 800 m/s) y periodo de retorno de
+475 años.
+c) Características geológicas y geomorfológicas del área de estudio
+- Geología y geomorfología regional.
+- Geología local.
+- Mapa de peligros geológicos.
+d) Características mecánicas del suelo
+- Información geotécnica.
+• Exploración geotécnica.
+• Ensayos de laboratorio.
+- Perﬁ l estratigráﬁ co.
+- Capacidad de carga de cimentaciones típicas.
+- Mapa de microzoniﬁ cación geotécnica.
+e) Características dinámicas del suelo
+- Determinación del periodo predominante del suelo.
+- Determinación del perﬁ l de velocidades de ondas de compresión.
+- Determinación del perﬁ l de velocidades de ondas de corte.
+- Mapa de zonas de periodos predominantes.
+f) Evaluación de la amenaza por tsunami (en zonas costeras)
+- Propagación de las ondas del tsunami y tiempo de llegada.
+- Mapa de áreas de inundación.
+g) Microzoniﬁ cación Sísmica
+- Delimitación de las microzonas sísmicas.
+- Mapa de microzoniﬁ cación sísmica en el ámbito urbano.
+- Mapa de aceleraciones a nivel de superﬁ cie del terreno para un periodo de retorno de 475 años.
+68 NORMAS LEGALES Domingo 3 de mayo de 2026 El Peruano
+/
+ANEXO IV
+DISPOSICIÓN DE LOS EQUIPOS ACELEROMÉTRICOS EN LA EDIFICACIÓN
+(ACELERÓMETROS PARA LA ESTRUCTURA)
+2511258-1
+

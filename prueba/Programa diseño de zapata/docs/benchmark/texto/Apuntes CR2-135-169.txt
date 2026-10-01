@@ -1,0 +1,900 @@
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+CAPITULO 4 MUROS DE CONCRETO
+4.1.- MUROS DE SOSTENIMIENTO
+Los muros de sostenimiento son estructuras que sirven para proporcionar soporte lateral a una
+masa de material. En la mayoria de los casos este material es suelo.
+Figura 91.
+4.2.- TIPOS DE FALLA EN MUROS DE CONTENCION
+1.- Deslizamiento horizontal del muro en el plano de contacto entre el suelo y la base del muro.
+2.- Volteo del muro alrededor de la arista delantera de la base.
+3.- Presiones excesivas en el suelo.
+4.- Falla generalizada del suelo. Esta falla puede producirse cuando el talud es importante.
+4.3.- DETERMINACION DE LAS FUERZAS DE EMPUJE DEL SUELO: TEORIA DE RANKINE
+La teoría de Rankine asume que las presiones del suelo varían linealmente con la profundidad.
+De acuerdo con esta misma teoría, las fuerzas de empuje del suelo se calculan de la siguiente
+forma:
+NPT 1
+NPT 2
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+4.4.- EMPUJE ACTIVO
+Figura 92.
+pa = Presión debida al empuje activo.
+Ka = Coeficiente de empuje activo.
+ɣ = Peso específico del material.
+Y = Profundidad a partir del extremo superior.
+Ǿ = Angulo de fricción interna.
+ϴ = Angulo del talud respecto de la horizontal.
+pa = Ka ɣ y
+Ea = ½ pa y = ½ Ka ɣ 𝑦2
+Donde:
+𝐾𝑎
+= 𝑐𝑜𝑠𝜃
+𝑐𝑜𝑠𝜃 − √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+𝑐𝑜𝑠𝜃 + √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+Si ϴ = 0 → 𝐾𝑎
+= 𝑡𝑔2(45 − ∅
+2
+⁄ )
+4.5.- EMPUJE PASIVO
+Figura 93.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+pp = Kp ɣ y
+Ep = ½ pp y = ½ Kp ɣ 𝑦2
+Donde:
+𝐾𝑝
+= 𝑐𝑜𝑠𝜃
+𝑐𝑜𝑠𝜃 + √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+𝑐𝑜𝑠𝜃 − √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+Si ϴ = 0 → 𝐾𝑝
+= 𝑡𝑔2(45 + ∅
+2
+⁄ )
+4.6.- TIPOS DE MUROS DE CONTENCION
+1.- Muros de contención de gravedad.
+2.- Muros de contención en volado.
+3.- Muros de contención con contrafuertes.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+pp = Kp ɣ y
+Ep = ½ pp y = ½ Kp ɣ 𝑦2
+Donde:
+𝐾𝑝
+= 𝑐𝑜𝑠𝜃
+𝑐𝑜𝑠𝜃 + √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+𝑐𝑜𝑠𝜃 − √𝑐𝑜𝑠2𝜃 − 𝑐𝑜𝑠2∅
+Si ϴ = 0 → 𝐾𝑝
+= 𝑡𝑔2(45 + ∅
+2
+⁄ )
+4.6.- TIPOS DE MUROS DE CONTENCION
+1.- Muros de contención de gravedad.
+2.- Muros de contención en volado.
+3.- Muros de contención con contrafuertes.
+4.7.- MURO DE CONTENCION DE GRAVEDAD
+4.7.a.- FORMAS USUALES DE LOS MUROS DE GRAVEDAD
+Figura 94.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+4.7.b.- PREDIMENSIONAMIENTO DE LOS MUROS DE GRAVEDAD
+Figura 95.
+4.7.c.- PROCEDIMIENTO A SEGUIR PARA EL DISEÑO
+1.- Predimensionamiento.
+2.- Estudio de la estabilidad del muro:
+2.1.- Determinación de los empujes: activo y pasivo.
+2.2.- Determinación del peso propio del muro.
+2.3.- Verificación de la estabilidad al deslizamiento: Factor de Seguridad >= 1.5.
+2.4.- Verificación de la estabilidad al volteo: Factor de Seguridad >= 1.5.
+2.5.- Verificación de los esfuerzos en el suelo.
+3.- Determinación de los esfuerzos internos en el muro: DMF y DFC.
+4.- Diseño.
+EJEMPLO
+Se tiene un desnivel de 2.50m. Se pide diseñar el muro de gravedad correspondiente:
+Ǿ = 30°.
+B=0.5H@0.7H
+D=H/8 @ H/6
+H
+H/8 @ H/6 > 0.35
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+ɣ = 1.9 ton/m3.
+σ admisible = 1.5 kg/cm2.
+μ= 0.5.
+SOLUCION:
+a) Predimensionamiento
+Figura 96.
+b) Determinación de los empujes
+Ka = 𝑡𝑔2 (45 − 30
+2
+).
+Ka = 0.33
+pa = Ka ɣ y
+pa = 0.333*1.9*2.8
+pa = 1.77 ton/m2.
+Si consideramos un muro de longitud unitaria: 1.00 m:
+Ea = [(pa*y)/2]*1
+Ea = 2.5 ton.
+1.70
+0.55
+0.55
+2.50
+0.30
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Figura 97.
+c) Estudiamos la estabilidad al volteo:
+Figura 98.
+Momento de volteo = 2.5*(2.8/3) = 2.33 ton-m
+Momento de equilibrio = (2.06*1.7/2) + (2.72*0.55/2) + (2.85*(0.55+(1.15/3))) = 5.16 ton-m
+Factor de Seguridad al volteo= Momento de volteo/ Momento de equilibrio
+= 5.16/2.33 = 2.2 → Ok
+1.70
+0.55
+0.30
+2.50
+0.55
+Ea=2.5 ton
+pa = 1.77 ton/m
+1.70
+0.55
+0.30
+2.50
+0.55
+Ea=2.5 ton
+pa = 1.77 ton/m
+W3=2.85 ton
+W1=2.06 ton
+W2=2.72 ton
+A
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+d) Estudiamos la estabilidad al deslizamiento:
+Deslizamiento actuante = 2.5 ton.
+Deslizamiento resistente = μN = 0.5*(2.06+2.72+2.85) = 3.8
+Factor de seguridad al deslizamiento = Deslizamiento Resistente/ Deslizamiento actuante
+= 3.8/2.5 = 1.52 → Ok.
+e) Esfuerzos en el suelo
+Figura 99.
+Debemos reducir el sistema de fuerzas de la figura N° 98 a un sistema como el mostrado en la
+figura N° 99. Para ello aplicamos el teorema de Varignon (tomando momentos con respecto a la
+arista A de la figura N° 98):
+(2.5*2.8/3) – (2.06*1.7/2) – (2.72*0.55/2) – (2.85*(0.55+1.15/3))= [(2.06+2.72+2.85)*X]
+X= -0.37 m.
+P= 7.63 ton.
+M = 7.63*((1.7/2)-0.37) = 3.66 ton-m
+σ= P/A +/- ((MY)/I)
+σ+ = (7.63/(1.7*1)) + ((3.66*0.85)/0.409) = 4.49 + 7.6 = 12.09 ton/m2 → Ok
+σ- = (7.63/(1.7*1)) - ((3.66*0.85)/0.409) = 4.49 - 7.6 = -3.11 ton/m2 → Tracción en el suelo
+σ = 2P/(3(L/2-e)) = (2*7.63)/(3*((1.7/2)-0.48))= 13.75 ton/m2 < σ admisible → Ok.
+Las dimensiones asumidas son adecuadas.
+P
+M
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+4.8.- MURO DE CONTENCION EN VOLADO
+4.8.a.- PARTES DE UN MUROS DE CONTENCION EN VOLADO
+Figura 100.
+4.8.b.- PREDIMENSIONAMIENTO DE LOS MUROS EN VOLADO
+Figura 101.
+4.8.c.- PROCEDIMIENTO A SEGUIR PARA EL DISEÑO
+1.- Predimensionamiento.
+2.- Estudio de la estabilidad del muro:
+2.1.- Determinación de los empujes: activo y pasivo.
+2.2.- Determinación del peso propio del muro.
+H
+0.5H @ 0.8H
+0.1 H
+>=0.20
+Punta Talon
+Pantalla
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+2.3.- Verificación de la estabilidad al deslizamiento: Factor de Seguridad >= 1.5.
+2.4.- Verificación de la estabilidad al volteo: Factor de Seguridad >= 1.5.
+2.5.- Verificación de los esfuerzos en el suelo.
+3.- Determinación de los esfuerzos internos en el muro: DMF y DFC.
+4.- Diseño.
+EJEMPLO
+Hay un desnivel de 6.20m. Se pide diseñar un muro de contención:
+σt = 3.15 kg/cm2.
+ɣ = 1.75 ton/m3.
+Ǿ = 30°.
+μ= tg (2/3 Ǿ)
+S/C= 1.5 ton/m2 (en una longitud de 2.80m, perpendicular al plano de la pantalla). Luego la
+sobrecarga es de 3 ton/m2.
+SOLUCION
+1.- Predimensionamiento:
+Figura 102.
+2.- Calculo de empujes:
+2.1.- Empuje activo:
+S/C 1=1.5 ton/m2
+S/C 2= 3 ton/m2
+7.10
+6.20
+4.40
+2.80 0.60 1.00
+0.25
+0.60
+0.30
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+2.1.a.- Empuje activo del suelo:
+Ka = 𝑡𝑔2 (45 − 30
+2
+).
+Ka = 0.333.
+pa = Ka ɣ y
+pa = 0.333*1.75*6.5
+pa = 3.75 ton/m2.
+Si consideramos un muro de longitud unitaria: 1.00 m:
+Ea = [(pa*y)/2]*1
+Ea = 12.2 ton.
+2.1.b.- Empuje activo de la sobrecarga:
+S/C 1 = 1.5 ton/m2 S/C 2= 3 ton/m2
+Ea s/c 1 = Ka*1.5*6.5 Ea s/c 2 = Ka*3*6.5
+Ea s/c 1= 3.25 ton. Ea s/c 2 = 6.5 ton.
+TOTAL EMPUJE S/C = 9.75 ton.
+2.2.- Empuje pasivo:
+Kp = 𝑡𝑔2 (45 + 30
+2
+).
+Kp = 3.
+pp = Kp ɣ y
+pp = 3*1.75*0.6
+pp = 3.15 ton/m2.
+Si consideramos un muro de longitud unitaria: 1.00 m:
+Ea = [(pp*y)/2]*1
+Ea = 0.95 ton.
+Figura 103.
+4.40
+2.80 1.00
+0.60
+6.20
+7.10
+0.60
+0.30
+S/C = 1.5 ton/m2
+0.25
+Ea1=12.2 ton
+Ep=0.95 ton
+Ea2=9.75 ton
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+2.- Estudio de la estabilidad al volteo:
+Figura 104.
+Momento de volteo = 12.2*([6.5/3]+0.6) + 9.75*([6.5/2]+0.6) = 71.3 ton-m
+Momento de equilibrio=(3.9*1.125)+(2.73*0.366)+(2*0.483)+(6.34*2.2)+(31.85*3)+(4.73*2.8)
+= 129.1 ton-m.
+Factor de Seguridad al volteo = 129.1/71.3 = 1.81 Ok
+3.- Estudio de la estabilidad al deslizamiento:
+Deslizamiento activo = 12.2 + 9.75 = 21.95 ton.
+Deslizamiento resistente = μ N + Ep = (tg (2/3*30)*(3.9+2.73+2+6.34+31.85+4.73) + 0.95
+= 19.7 ton
+Deslizamiento activo > Deslizamiento resistente → Colocamos dentellón.
+Factor de seguridad = 1.5 = Deslizamiento resistente/Deslizamiento activo
+Deslizamiento resistente (requerido) = 1.5*21.95 = 32.9 ton.
+Por lo tanto, el dentellón debe generar un empuje pasivo=32.9 – μ N=32.9 – 18.75 = 14.15 ton.
+La altura del dentellón debe ser:
+W4= 6.34 ton
+W5= 31.85 ton
+W1= 3.9 ton
+W2= 2.73 ton
+W3= 2.0 ton
+W6= 4.73 ton
+Ea1= 12.2 ton
+Ep= 0.95 ton
+Ea2= 9.75 ton
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Figura 105.
+(𝐾𝑝
+𝛾 𝐻2)/2= 14.15 ton → H = 2.32 m.
+Altura dentellón = H’ = 2.32 - 0.60 = 1.72 ≈1.75 m
+4.- Presiones sobre el suelo
+Debemos transformar el sistema de cargas de la figura N° 104, en un sistema igual al siguiente:
+Figura 106.
+Aplicamos el teorema de Varignon para calcular la posición de la resultante:
+(3.9*1.125)+(2.73*0.366)+(2*0.483)+(6.34*2.2)+(31.85*3)+(4.73*2.8)- (12.2*([6.5/3]+0.6)-
+(9.75*([6.5/2]+0.6)) = X(51.55)
+P
+M
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+X= 1.12 m.
+P= 51.55
+M= 51.55*(4.4/2 – 1.12)
+M= 55.7 ton-m
+σ+ = (51.55/4.4) + ((55.7*2.2)/7.1) = 11.7 + 17.26 = 28.96 ton/m2.
+σ- = (51.55/4.4) - ((55.7*2.2)/7.1) = 11.7 - 17.26 = -5.56 ton/m2.→ Tracción en el suelo.
+σ = 2P/(3(L/2-e)) = (2*51.55)/(3*((2.2-1.08))= 30.7 ton/m2 < σ admisible → Ok.
+5.- Calculo de esfuerzos internos:
+Figura 107.
+30.7 ton/m2
+Ea1= 12.2 ton
+Ea2= 9.75 ton
+Ep=14.15 ton
+12.88 ton/m
+3.36 m
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+4.9.- MURO DE CONTENCION CON CONTRAFUERTES
+Los contrafuertes permiten que la pantalla y el talón (o la punta) no trabajen en volado sino
+apoyados en ellos.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Figura 108.
+Predimensionamiento:
+Figura 109.
+Contrafuertes
+0.5H @ 0.8H
+H
+>=0.20
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Espaciamiento de los contrafuertes: H/3 @ 2H/3.
+Según Yamashiro:
+L = 2.5 m → Relleno de suelo.
+L = 3.0 m → Silo de granos.
+Para el diseño de la pantalla, usar los siguientes momentos:
+Figura 110.
+EJEMPLO.
+Diseñar el muro anterior pero con contrafuertes.
+SOLUCION
+1.- Predimensionamiento
+El predimensionamiento es el mismo determinado para el muro sin contrafuertes.
+Lo que si se debe definir es el espesor de la pantalla y el espaciamiento y dimensiones de los
+contrafuertes:
+Asumiremos un espesor de 25 cm para la pantalla y los contrafuertes estarán espaciados cada
+3.00 m.
+2.- Calculo de empujes.
+Los empujes son los mismos calculados en el diseño anterior.
+3.- Verificación de la estabilidad del muro.
+La verificación de la estabilidad del muro es exactamente la misma realizada en el diseño
+anterior.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+4.- Diseño de la pantalla.
+Asumimos que la pantalla se encuentra apoyada sobre los contrafuertes. Para su diseño
+dividiremos la pantalla en franjas horizontales de ancho 1.50 m.
+Figura 111.
+4.12 ton/m
+5.29 ton/m
+9.41 ton/m
+2
+2
+1.50
+1.50
+1.50
+2.00
+0.40
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+5.- Diseño talón.
+Asumimos que el talón se encuentra apoyado sobre los contrafuertes. Para su diseño
+dividiremos el talón en franjas horizontales de ancho 1.00 m:
+Figura 112.
+30.7 ton/m2
+F = 38.64 ton
+3.36 m
+12.88 ton/m
+1.00
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+6.- Diseño contrafuerte.
+Geometría del contrafuerte:
+Momento flector en la base del contrafuerte:
+Figura 113.
+7.10
+0.40
+0.60
+3.40
+AREA TRIBUTARIA
+CORRESPONDIENTE A 1 CONTRAFUERTE
+PLANTA
+Ea1= 12.2 ton
+Ea2= 9.75 ton
+2.17
+3.25
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Mu = (12.2*2.17)+(9.75*3.25)*Ancho tributario*Factor de carga
+Mu = (12.2*2.17)+(9.75*3.25)*3*1.7
+Mu = 296.6 ton-m
+Figura 114.
+Mu = cosϴ Tu jd
+Jd = d – t/2 = 330 – 25/2 = 317.5 cm
+Tu = Mu / (cosϴ jd) = 29660000/ (cos 24.8° * 317.5)
+Tu = 102907.7 kg
+Tu = As fy
+As = 24.5 cm2.
+Fuerza cortante en el contrafuerte:
+Calculamos el cortante a una distancia 0.15H de la base (donde H es la altura del contrafuerte):
+0.15H = 0.15*6.5 = 0.975
+Vu = [((0.29𝑦2 + 1.5𝑦)*ancho tributario)- senϴ Tu]*Factor de carga
+y = 6.5 – 0.975 = 5.525 m.
+Vu = 40.9 ton
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+𝑉
+𝑐
+= 0.85 ∗ 0.53 ∗ √210 ∗ 35 ∗ 250 = 57.1 𝑡𝑜𝑛
+Vu < Vc → Ok.
+Calculo del refuerzo horizontal del contrafuerte debido a la tracción que ejerce la pantalla
+sobre éste:
+Calculamos la fuerza de desgarre horizontal para una franja de 1 m de alto:
+Figura 115.
+PLANTA
+Contrafuerte
+Refuerzo horizontal
+Pantalla
+1.00
+5.28 ton/m
+4.7 ton/m
+F= 14.97 ton
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+F = [((4.7+5.28)/2)*1]*ancho tributario = 14.97 ton.
+Fu = 1.7*F
+Fu = 1.7*14.97 = 25.45 ton
+Fu = Ash fy
+Ash = Fu/fy = 25450/4200
+Ash = 6 cm2 → 2Ǿ 3/8 @ 0.225.
+Calculo del refuerzo vertical del contrafuerte debido a la tracción que ejerce el talón sobre éste:
+Calculamos la fuerza de desgarre vertical para una franja de 1 m de ancho:
+Figura 116.
+F = 12.88*1*ancho tributario = 38.64 ton.
+Fu = 1.7*F
+Fu 1.7*38.64 = 65.7 ton.
+Fu = Asv fy
+Asv = Fu/fy = 65700/4200
+Asv = 15.64 cm2 → 2Ǿ ½ @ 0.15
+1.00
+31.2 ton/m2
+F = 38.64 ton
+3.27 m
+12.88 ton/m
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Figura 117.
+4.10.- MUROS DE CORTE (PLACAS)
+Figura 118.
+0.60
+0.40
+7.10
+3.40
+VISTA LATERAL
+Refuerzo vetical
+PLANTA
+Distribucion del refuerzo en el contrafuerte
+2Ø3/8"@0.225
+2Ø3/8"@0.10
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Desde hace tiempo, se reconoce que el daño estructural en los edificios debido a acciones
+sísmicas puede controlarse con “rigidez lateral”. A mayor rigidez lateral menores serán los
+desplazamientos laterales y consecuentemente los daños sísmicos serán menores.
+Los muros de corte, o placas, son elementos estructurales que proporcionan a las edificaciones
+importante rigidez lateral; de allí el hecho que en el Perú, como medida sismorresistente, se
+utilice generalizadamente las placas como elementos rigidizadores de edificios de concreto
+armado.
+Toda placa debe ser diseñada por:
+1.- Flexo-compresión.
+2.- Cortante.
+3.- Deslizamiento.
+Por otro lado, las placas se clasifican en:
+a) Placas cortas → H/L ≤ 1.
+b) Placas esbeltas → H/l ≥ 1.
+4.10.a.- PLACAS CORTAS
+Por sus dimensiones, los esfuerzos de corte tienen predominio sobre los esfuerzos de flexión y
+por lo tanto se produce alabeo en la sección transversal, motivo por el que ya no es válida la
+hipótesis de Navier.
+El área de refuerzo en los extremos de las placas cortas se puede obtener a través de la
+aplicación de la siguiente expresión:
+𝑀𝑢
+= ∅ 𝐴𝑠
+𝑓𝑦
+𝑍
+Donde:
+𝑍 = 0.4𝐿 [1 +
+𝐻
+𝐿
+] 𝑠𝑖 0.5 <
+𝐻
+𝐿
+< 1
+𝑍 = 1.2𝐻 𝑠𝑖
+𝐻
+𝐿
+≤ 0.5
+4.10.b.- PLACAS ESBELTAS
+En las placas esbeltas, por sus dimensiones, es posible aceptar la vigencia de la hipótesis de
+Navier para el diseño en flexo-compresión.
+4.10.1.- PROCEDIMIENTO PARA EL DISEÑO DE MUROS ESTRUCTURALES DE CONCRETO
+ARMADO
+Tal como se indicó en la parte introductoria, los muros estructurales deben diseñarse,
+independientemente, para resistir tres acciones: flexo-compresión, cortante y deslizamiento. El
+orden de la secuencia de diseño debe ser ésta.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+El objetivo del diseño es permitir que la placa pueda desarrollar una rotula plástica en su base,
+a través de la cual se liberara energía, ya que, como es sabido, los edificios ubicados en zonas
+sísmicas, se diseñan con una resistencia elástica inferior a la demanda por el sismo de diseño.
+Por lo tanto, la conformación de rotulas plásticas y su conservación durante la duración del
+sismo, es fundamental para la supervivencia de las edificaciones. Sin la conformación y
+conservación de las rotulas plásticas, se pierden los medios de disipación de energía y la
+estructura colapsara o se dañara más allá de lo aceptable. Para la conformación de una rotula
+plástica, deben darse, simultáneamente, varias condiciones:
+ La falla debe ser por flexión, en ambos sentidos de la sección.
+ La integridad de la rótula plástica debe conservarse durante todos los ciclos de carga y
+descarga generados por el sismo; para ello debe asegurarse que las secciones
+plastificadas tengan suficiente ductilidad de tal manera que las deformaciones en las
+fibras más comprimidas del concreto no excedan su deformación de rotura (ξu); y que
+las barras longitudinales no pandeen.
+ No debe surgir ninguna acción, distinta a la flexión, que restrinja o anule el
+funcionamiento de la rótula plástica.
+Por lo tanto, para lograr que estas condiciones se den de manera simultánea; se deberá realizar
+un “diseño por capacidad”. Y es exactamente este tipo de diseño que la Norma Concreto Armado
+E060 prescribe para los Muros Estructurales.
+4.10.2.- DISEÑO EN FLEXO-COMPRESION
+El diseño en flexo-compresión de una placa se hace a través de la elaboración de un “diagrama
+de interacción”. Para ello hay que plantear una distribución del refuerzo y verificar si la
+resistencia requerida está dentro de dicho diagrama de interacción.
+Sera necesario verificar el esfuerzo en la fibra extrema en tracción; así:
+𝜎𝑢
+=
+𝑀𝑢
+𝑦
+𝐼𝑔
+−
+𝑃𝑢
+𝐴𝑔
+Si 𝜎𝑢
+< 2√𝑓𝑐
+′ → Debe proveerse como mínimo un momento igual a:
+𝑀𝑐𝑟
+= 𝐼𝑔
+(2√𝑓𝑐
+′ +
+𝑃𝑢
+𝐴𝑔
+)/𝑦𝑡
+Si 𝜎𝑢
+> 2√𝑓𝑐
+′ → Deberá proveerse el momento actuante.
+4.10.3.- DETERMINACION DE LA NECESIDAD DE CONFINAR LOS ELEMENTOS DE BORDE DE UN
+MURO
+Los elementos de borde de una placa deberán ser confinados cuando la deformación de la fibra
+más comprimida, de las secciones plastificadas, es mayor a la deformación última del concreto.
+La norma E060 evalúa esta condición a partir de la deformación lateral última de la placa. A
+continuación desarrollaremos la ecuación prescrita por nuestra norma para decidir si los
+elementos de borde deben ser confinados o no.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Figura 119.
+Figura 120.
+Escriba aquí la ecuación.
+Op
+du
+A
+B
+t
+lw
+hw
+du
+Mp
+lp=lw/2
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+δu
+= θp
+hω
+(1)
+La rotación de A con respecto a B es igual a ϴp (ver figura N° 119). De acuerdo con el Teorema
+del Area de Momentos:
+𝜃𝑝
+=
+𝑀𝑝
+𝐸𝑖
+𝑙𝑝
+=
+𝑀𝑝
+𝐸𝐼
+𝑙𝜔
+2
+(2)
+Sabemos que:
+𝑀𝑝
+𝐸𝐼
+=
+1
+𝜌
+(3) 𝑦
+𝜃𝑝
+=
+1
+𝜌
+𝑑𝑥 (4)
+En el siguiente grafico se muestra la curvatura en la longitud de rotula plástica:
+Figura 121.
+cu
+dO
+dX dO
+dO
+P
+d
+d'
+ξ
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+En la figura N° 121 podemos establecer las siguientes relaciones:
+𝑑𝑥 = 𝑑𝜃 𝜌 𝑦 𝑙𝑝
+= 𝜃𝑝
+𝜌
+Por lo tanto:
+𝜃𝑝
+=
+1
+𝜌
+𝑙𝑝
+(5)
+En la misma figura N° 121 podemos establecer la siguiente relacion:
+𝑑 𝑑′ = 𝑐 𝑑𝜃
+Por lo tanto:
+𝜀𝑐𝑢
+=
+𝑐𝑑𝜃𝑝
+𝑑𝑥
+Integrando la última ecuación:
+𝜀𝑐𝑢
+=
+𝑐𝜃𝑝
+𝑙𝑝
+De esta última ecuación despejamos ϴp:
+𝜃𝑝
+=
+𝜀𝑐𝑢
+𝑙𝑝
+𝐶
+(6)
+Igualando (5) y (6):
+1
+𝜌
+𝑙𝑝
+=
+𝜀𝑐𝑢
+𝑙𝑝
+𝐶
+De esta última ecuación despejamos 1/р:
+1
+𝜌
+=
+𝜀𝑐𝑢
+𝐶
+(7)
+Reemplazamos (7) en (3):
+𝑀𝑝
+𝐸𝐼
+=
+1
+𝜌
+→
+𝑀𝑝
+𝐸𝐼
+=
+𝜀𝑐𝑢
+𝐶
+(8)
+Reemplazamos (8) en (2):
+𝜃𝑝
+=
+𝑀𝑝
+𝐸𝐼
+𝑙𝑝
+→ 𝜃𝑝
+=
+𝜀𝑐𝑢
+𝐶
+𝑙𝑝
+(𝑙𝑝
+=
+𝑙𝜔
+2
+)
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+𝜃𝑝
+=
+𝜀𝑐𝑢
+𝐶
+𝑙𝜔
+2
+(9)
+Reemplazando (9) en (1):
+𝛿𝑢
+=
+𝜀𝑐𝑢
+𝐶
+𝑙𝜔
+2
+ℎ𝜔
+De esta ecuación despejamos el valor de C:
+𝐶 =
+𝜀𝑐𝑢
+𝑙𝜔
+ℎ𝜔
+2𝛿𝑢
+Asumiendo para ξcu un valor de 0.0033. Reemplazando este valor en la última ecuación:
+𝐶 =
+𝑙𝜔
+600(
+𝛿𝑢
+ℎ𝜔
+)
+(10)
+La ecuación (10) da el máximo valor de C que permite tener una deformación unitaria máxima,
+en la fibra más comprimida de la sección, igual a la deformación de rotura del concreto; en
+consecuencia, para valores de C menores al obtenido con la ecuación (10), no se necesita
+confinar los elementos de borde de la placa. Para valores de C iguales o mayores al definido por
+la ecuación (10), los elementos de borde de las placas deben ser confinados.
+4.10.4.- DISEÑO POR CORTE
+Se considera que Vc = 0 en los siguientes casos:
+a) Cuando el muro está sujeto a tracción.
+b) Cuando los esfuerzos de compresión sean:
+𝑁𝑢
+𝐴𝑔
+< 0.1𝑓𝑐
+′
+Las secciones localizadas entre la base y una altura de L/2 o H/2, la menor; podrá diseñarse con
+el mismo cortante calculado para las secciones de L/2 o H/2.
+La distancia “d” de la fibra extrema en compresión al centroide de las fuerzas de tracción del
+refuerzo, se calcularan con un análisis basado en compatibilidad de deformaciones. En caso
+contrario, se puede tomar 0.8L.
+La fuerza cortante de diseño es:
+𝑉
+𝑢
+≥ 𝑉
+𝑢𝑎
+(
+𝑀𝑢𝑟
+𝑀𝑢𝑎
+)
+El valor de 𝑀𝑢𝑟
+𝑀𝑢𝑎
+no será mayor a “R”. Esta disposición se limita a una altura de muro, medida
+desde su base hasta: lm, Mu/(4Vu) o 2 pisos, la mayor.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Si Vu excede el valor de ǾVc; debe colocarse refuerzo horizontal por corte:
+𝑉
+𝑠
+=
+𝐴𝑣
+𝑓𝑦
+𝑑
+𝑆
+De lo contrario deber colocarse refuerzo mínimo, tanto horizontal como vertical:
+𝜌ℎ
+≥ 0.0025
+𝜌𝑣
+≥ 0.0025
+Si Vu es menor igual a 0.5ǾVc; las cuantías mínimas pueden reducirse a:
+𝜌ℎ
+≥ 0.0020
+𝜌𝑣
+≥ 0.0015
+4.10.5.- DISEÑO POR DESLIZAMIENTO
+En toda junta debe verificarse que se cumpla:
+𝑉
+𝑢
+= ∅ 𝐴𝑣𝑓
+𝜇 𝑓𝑦
+Para concretos vaciados sobre concreto endurecido con superficie intencionalmente rugosa
+hasta 6 mm de profundidad, μ = 1.0.
+Para concretos vaciados sobre concreto endurecida con superficies no intencionalmente rugosa,
+μ = 0.60.
+4.10.6.- DISPOSICIONES REGLAMENTERIAS PARA EL DISEÑO DE PLACAS
+A continuación enumeramos las disposiciones dadas por la Norma ACI 318RS-14 para el diseño
+de Muros de Corte:
+1.- La cuantía mínima, tanto para el refuerzo longitudinal como transversal del alma, es de
+0.0025. Salvo si Vu no excede de 0.27 ∗ 𝐴𝑐𝑣
+∗ 𝜆 ∗ √𝑓𝑐
+′; en cuyo caso 𝜌𝑙
+𝑦 𝜌𝑡
+pueden reducirse a
+0.0012 y 0.002 respectivamente.
+2.- El espaciamiento del refuerzo en el alma, tanto horizontal como vertical, no debe exceder 40
+cm.
+3.- Debe usarse al menos dos capas de refuerzo cuando 𝑉
+𝑢
+> 0.53 ∗ 𝐴𝑐𝑣
+∗ 𝜆 ∗ √𝑓𝑐
+′ 𝑜
+ℎ𝑤
+𝑙𝑤
+⁄ ≥
+2.0, donde hw y lw son la altura y la longitud total del muro.
+4.- El refuerzo en muros estructurales debe desarrollarse o empalmarse para fy en tracción:
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+a) El refuerzo longitudinal debe extenderse al menos una distancia 0.8 lw más allá del
+punto en donde deja de ser necesario.
+b) En lugares donde es probable que se produzca fluencia del refuerzo longitudinal, como
+resultado de los desplazamientos laterales, las longitudes de desarrollo del refuerzo
+longitudinal debe ser 1.25 veces los valores calculados para fy en tracción.
+5.- El cortante Vu de los muros estructurales no deben exceder de:
+𝑉
+𝑛
+= 𝐴𝑐𝑣
+(𝛼𝑐
+𝜆√𝑓𝑐
+′ + 𝜌𝑡
+𝑓
+𝑦
+)
+Donde αc es 0.25 para hw/lw ≤ 1.5, 0.17 para hw/lw ≥ 2.0 y varía linealmente entre 0.12 y 0.17
+para hw/lw entre 1.5 y 2.0.
+Para muros con varios segmentos, la relación hw/lw empleada para determinar Vn, será la
+mayor entre la relación del segmento y la relación para todo el muro.
+Para muros donde hw/lw ≤ 2.0, la cuantía ρl debe ser al menos la cuantía ρt.
+Para muros con aberturas, los que se forman varios segmentos de muro, se tiene:
+La fuerza cortante común Vn que comparten estos segmentos, no debe ser mayor a
+2.12𝐴𝑐𝑣
+√𝑓
+𝑐
+′. Para cada uno de los segmentos individuales, Vn no debe ser mayor a 2.65𝐴𝑐𝑤
+√𝑓
+𝑐
+′.
+DISEÑO POR FLEXO-COMPRESION:
+1.- A menos que se realice un análisis más detallado, el ancho efectivo del ala, en secciones con
+alas, debe extenderse desde la cara del alma una distancia igual al mayor valor entre la mitad
+de la distancia al alma de un muro adyacente y el 25% de la altura del muro.
+2.- Elementos de borde:
+Los muros con hw/lw ≥ 2.0 deben cumplir con (a) y (b) o alternativamente deben ser diseñados
+con 18.10.6.3.
+a) Las zonas en compresión deben ser reforzadas con elementos especiales cuando:
+𝐶 ≥
+𝑙𝑤
+600(1.5
+𝛿𝑢
+ℎ𝑤
+⁄ )
+Donde:
+C= Profundidad del eje neutro.
+b) Donde se requiera elementos especiales de borde, según (a), el refuerzo del elemento
+especial de borde debe extenderse sobre y debajo de la sección crítica, al menos una
+distancia igual a la mayor entre lw o Mu/4Vu.
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+18.10.6.3. Los muros estructurales que no se diseñen de acuerdo con el punto anterior, deben
+tener elementos especiales de borde, en los bordes y alrededor de las aberturas, cuando el
+esfuerzo a compresión máximo de la fibra extrema correspondiente a las combinaciones de
+carga que incluyan fuerzas de sismo, sobrepasen 0.2 f’c. Los elementos de borde pueden ser
+discontinuos donde los esfuerzos máximos de compresión en la fibra más comprimida sean
+menores a 0.15f’c.
+Cuando se requiera elementos especiales de borde, estos deben cumplir con lo estipulado de
+(a) a (h):
+(a) El elemento de borde se debe extender horizontalmente desde la fibra extrema en
+compresión hasta una distancia al menos igual al mayor de los siguientes valores:
+c-0.1 lw y c/2.
+(b) El ancho de la zona de compresión por flexión “b”, dentro de la distancia horizontal
+calculada por medio de (a), incluyendo el ala, si existe; debe ser al menos hu/16.
+(c) Para muros con hw/lw ≥ 2.0, donde c/lw ≥ 3/8, el ancho de la zona en compresión por
+flexión “b”, dentro de la distancia horizontal dada por el punto (a) debe ser mayor o
+igual a 30 cm.
+(d) En secciones con alas, los elementos de borde deben incluir el ancho efectivo de las alas
+en compresión y deben extenderse, por lo menos, 30 cm dentro del alma.
+(e) El refuerzo transversal de los elementos de borde deben cumplir con los requisitos
+18.7.5.2(a) hasta (e), y 18.7.5.3.
+(f) La cantidad de refuerzo transversal debe cumplir con la tabla 18.10.6.4 (f).
+(g) Cuando la sección critica está localizada en la base del muro, el refuerzo transversal del
+elemento de borde en la base del muro debe extenderse, dentro de los núcleos, por lo
+menos ld (de acuerdo con 18.10.2.3) del refuerzo longitudinal de mayor diámetro del
+elemento de borde.
+(h) El refuerzo horizontal debe extenderse, dentro del elemento de borde, hasta una
+distancia menor o igual a 15 cm del extremo libre:
+Figura 122.
+3.- El espesor mínimo de los muros estructurales es:
+a) 1/25 de la altura entre los elementos que proporcionan apoyo lateral.
+b) O 15 cm.
+>= ldh o ldt
+<=15 cm
+CONCRETO ARMADO 2 Profesor: JOHN P. ARAGON BROUSSET
+Salvo el caso de edificios de MDL.
+4.-Debera proveerse un refuerzo longitudinal necesario para asegurar un momento resistente
+por lo menos igual al momento de agrietamiento. Esta disposición está limitada a secciones de
+muro en la que los esfuerzos máximos de compresión, en la fibra extrema, excede 0.2 √𝑓𝑐
+′.
+DISEÑO POR CORTE:
+V𝒖
+≥ V𝒖𝒂
+(
+𝑀𝑛
+M𝒖𝒂
+)
+Esta disposición podrá limitarse a una altura de muro, medida desde la base, equivalente a lm,
+Mu/4Vu o la altura de los 2 primeros pisos, la mayor.
+Toda junta de construcción debe cumplir:
+𝜙V𝑛
+= 𝜙𝜇(𝑁𝑢
++ 𝐴𝑣
+𝑓𝑦
+)
+Ǿ= 0.85
+Nu= 0.9 CM.
+μ:
+Para concreto colocado contra concreto endurecido, con la superficie intencionalmente rugosa
+μ=1λ.
+Para concreto colocado contra concreto endurecido sin superficie de contacto intencionalmente
+rugosa μ=0.6λ.
+
